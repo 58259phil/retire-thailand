@@ -1,4 +1,5 @@
 import { Playfair_Display, DM_Sans } from 'next/font/google';
+import Nav from '@/components/Nav';
 import './globals.css';
 
 const playfair = Playfair_Display({
@@ -15,16 +16,8 @@ const dmSans = DM_Sans({
 
 export const metadata = {
   title: 'Retire Thailand | Australian Pension Stretcher',
-  description:
-    'Find out exactly how far your Australian Age Pension goes in Thailand. Compare cities, calculate your weekly budget, and plan your retirement in the Land of Smiles.',
-  keywords: [
-    'retire Thailand',
-    'Australian pension Thailand',
-    'cost of living Thailand',
-    'Hua Hin retire',
-    'Khon Kaen expat',
-    'age pension overseas',
-  ],
+  description: 'Find out exactly how far your Australian Age Pension goes in Thailand. Compare cities, calculate your weekly budget, and plan your retirement in the Land of Smiles.',
+  keywords: ['retire Thailand', 'Australian pension Thailand', 'cost of living Thailand', 'Hua Hin retire', 'Khon Kaen expat', 'age pension overseas'],
   openGraph: {
     title: 'Retire Thailand | Australian Pension Stretcher',
     description: 'See exactly how far your Australian pension goes in Thailand.',
@@ -35,7 +28,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">
+        <Nav />
+        <div className="pt-16">{children}</div>
+      </body>
     </html>
   );
 }
