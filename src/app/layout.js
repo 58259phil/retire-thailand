@@ -18,6 +18,9 @@ export const metadata = {
   title: 'Retire Thailand | Australian Pension Stretcher',
   description: 'Find out exactly how far your Australian Age Pension goes in Thailand. Compare cities, calculate your weekly budget, and plan your retirement in the Land of Smiles.',
   keywords: ['retire Thailand', 'Australian pension Thailand', 'cost of living Thailand', 'Hua Hin retire', 'Khon Kaen expat', 'age pension overseas'],
+  verification: {
+    google: 'EzauudxQMjfrH3l9X0ysEyLAcnDCaiY0ZM7dFa0mijQ',
+  },
   openGraph: {
     title: 'Retire Thailand | Australian Pension Stretcher',
     description: 'See exactly how far your Australian pension goes in Thailand.',
