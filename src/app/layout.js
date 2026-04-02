@@ -1,4 +1,5 @@
 import { Playfair_Display, DM_Sans } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import Nav from '@/components/Nav';
 import './globals.css';
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <Nav />
         <div className="pt-16">{children}</div>
       </body>
+      <GoogleAnalytics gaId="G-2BPTPK7M66" />
     </html>
   );
 }
