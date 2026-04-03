@@ -32,7 +32,7 @@ const affiliateLinks = [
     category: 'Currency Transfer',
     description: 'Send your pension to Thailand with the best exchange rate. Save hundreds per year vs. your bank.',
     providers: [
-      { name: 'Wise', url: 'https://wise.com', badge: 'Best Rates', note: 'Mid-market rate, low fees' },
+      { name: 'Wise', url: 'https://wise.prf.hn/click/camref:1011l5FiPJ', badge: 'Best Rates', note: 'Mid-market rate, low fees' },
       { name: 'OFX', url: 'https://ofx.com', badge: 'No Transfer Fee', note: 'Great for regular transfers' },
     ],
   },
