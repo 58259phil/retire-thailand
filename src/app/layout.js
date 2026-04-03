@@ -35,6 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
+      <head>
+        <meta name="fo-verify" content="7c1ac4ae-195f-45dc-bf35-31d0a8d11f3f" />
+      </head>
       <body className="font-body antialiased">
         <Nav />
         <div className="pt-16">{children}</div>
