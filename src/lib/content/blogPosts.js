@@ -293,7 +293,7 @@ Centrelink can pay directly into your Thai bank account. Simple, automatic, but 
 **Convenience:** Very high — fully automatic
 
 ### Option 2 — Into Australian Account, Then Transfer via Wise
-Keep your Australian bank account, have Centrelink pay there, then manually transfer to Thailand using Wise.
+Keep your Australian bank account, have Centrelink pay there, then manually transfer to Thailand using [Wise](https://wise.prf.hn/click/camref:1011l5FiPJ).
 
 **Cost:** Wise typically charges 0.4–0.6% with the mid-market exchange rate
 **Convenience:** Takes 5 minutes every fortnight (or set up recurring transfers)
@@ -309,7 +309,7 @@ Similar to Wise but OFX specialises in larger transfers and has no transfer fees
 
 For most retirees transferring their fortnightly pension:
 
-**Wise is the best option** for regular small-to-medium transfers. The exchange rate is consistently close to the mid-market rate and the app makes it easy to set up recurring transfers.
+**[Wise](https://wise.prf.hn/click/camref:1011l5FiPJ) is the best option** for regular small-to-medium transfers. The exchange rate is consistently close to the mid-market rate and the app makes it easy to set up recurring transfers.
 
 **OFX is better** if you're making a large one-off transfer (moving your super or savings to Thailand) as they have specialists who can time the transfer for a good rate.
 
@@ -317,7 +317,7 @@ For most retirees transferring their fortnightly pension:
 
 ## Setting Up Wise for Your Pension
 
-1. Create a free account at wise.com
+1. Create a free account at [Wise](https://wise.prf.hn/click/camref:1011l5FiPJ)
 2. Verify your identity (Australian passport or driver's licence)
 3. Set up a recurring transfer — match it to your Centrelink payment schedule
 4. Enter your Thai bank account details (you'll need your account number and the bank's SWIFT code)
@@ -332,7 +332,7 @@ Make sure your Thai account is a standard savings account — some account types
 
 ## The Bottom Line
 
-Switching from your Australian bank to Wise for your fortnightly pension transfer takes about 20 minutes to set up and can save you $600–$900 per year. Over a 10-year retirement, that's potentially **$6,000–$9,000 staying in your pocket**.
+Switching from your Australian bank to [Wise](https://wise.prf.hn/click/camref:1011l5FiPJ) for your fortnightly pension transfer takes about 20 minutes to set up and can save you $600–$900 per year.
 
 Use our [pension calculator](/) to see how these savings affect your weekly budget in each Thai city.
     `
