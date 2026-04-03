@@ -21,6 +21,9 @@ export const metadata = {
   keywords: ['retire Thailand', 'Australian pension Thailand', 'cost of living Thailand', 'Hua Hin retire', 'Khon Kaen expat', 'age pension overseas'],
   verification: {
     google: 'EzauudxQMjfrH3l9X0ysEyLAcnDCaiY0ZM7dFa0mijQ',
+    other: {
+      'fo-verify': '7c1ac4ae-195f-45dc-bf35-31d0a8d11f3f',
+    },
   },
   openGraph: {
     title: 'Retire Thailand | Australian Pension Stretcher',
