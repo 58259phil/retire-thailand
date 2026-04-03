@@ -41,7 +41,7 @@ const affiliateLinks = [
     description: 'Required for your retirement visa. Compare plans from top Thai insurers before you move.',
     providers: [
       { name: 'Pacific Prime', url: 'https://www.pacificprime.com', badge: 'Most Popular', note: 'Compare 50,000+ plans' },
-      { name: 'Cigna Global', url: 'https://www.cigna.com', badge: 'International Cover', note: 'Covers you globally' },
+      { name: 'SafetyWing', url: 'https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador', badge: 'Popular with Expats', note: 'Affordable long-term cover' },
     ],
   },
 ];

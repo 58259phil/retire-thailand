@@ -95,7 +95,7 @@ This is the go-to visa for most Australian retirees. Here's what you need to kno
 - A **monthly income of ฿65,000** (~$2,950 AUD/month) — your Australian pension qualifies here, though it falls slightly short at current rates, so the bank deposit route is often easier
 - A combination of both
 
-**Health insurance:** Mandatory for the O-A visa. You need cover with at least ฿40,000 outpatient and ฿400,000 inpatient coverage. Several Thai insurers offer plans specifically designed for this visa.
+**Health insurance:** Mandatory for the O-A visa. [SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is a popular and affordable option with many expats in Thailand.
 
 **Duration:** Valid for 1 year, renewable annually inside Thailand.
 
