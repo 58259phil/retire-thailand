@@ -20,6 +20,7 @@ export default function Nav() {
           <Link href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Calculator</Link>
           <Link href="/cities" className="text-sm text-gray-300 hover:text-white transition-colors">City Guides</Link>
           <Link href="/blog" className="text-sm text-gray-300 hover:text-white transition-colors">Blog</Link>
+          <Link href="/faq" className="text-sm text-gray-300 hover:text-white transition-colors">FAQ</Link>
           <Link href="/#calculator" className="btn-primary text-sm py-2 px-5">
             Get Started
           </Link>
@@ -42,6 +43,7 @@ export default function Nav() {
           <Link href="/" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>Calculator</Link>
           <Link href="/cities" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>City Guides</Link>
           <Link href="/blog" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>Blog</Link>
+          <Link href="/faq" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>FAQ</Link>
         </div>
       )}
     </nav>

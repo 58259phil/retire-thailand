@@ -19,6 +19,13 @@ export default function sitemap() {
       priority: 0.8,
     },
 
+    {
+      url: 'https://retire-thailand.vercel.app/faq',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+
     // ── Blog Articles ──
     {
       url: 'https://retire-thailand.vercel.app/blog/australian-pension-thailand',
