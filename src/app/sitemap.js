@@ -18,7 +18,6 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
-
     {
       url: 'https://retire-thailand.vercel.app/faq',
       lastModified: new Date(),
@@ -110,6 +109,48 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/phuket-retirement-guide-australians',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/things-to-do-thailand-retirement',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/flights-australia-thailand-retirees',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/thailand-internet-connectivity-expats',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/getting-around-thailand-retirees',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/australia-thailand-tax-retirees',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/preparing-to-move-thailand-checklist',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
     },
 
     // ── City Guides ──
