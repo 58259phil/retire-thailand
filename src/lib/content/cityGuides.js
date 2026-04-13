@@ -332,23 +332,17 @@ On the Australian pension of around $540–$560/week, a comfortable Pattaya life
 
 Pattaya's biggest practical advantage over Hua Hin or Phuket is proximity to Bangkok. At 150km and around 90 minutes by road, Bangkok's international airport, world-class hospitals, and major shopping are genuinely accessible for day trips.
 
-Flights home to Australia typically go through Bangkok — which means you're not adding an extra domestic flight to an already long journey.
-
 ## Getting Around
 
-Pattaya has an excellent baht bus (songthaew) network — fixed-route shared trucks that cost ฿10 per trip around the main areas. It's one of the cheapest and most convenient local transport systems in Thailand. Grab is also widely available.
-
-Most expats eventually get a motorbike or car for flexibility, but it's genuinely possible to live car-free in the central areas.
+Pattaya has an excellent baht bus (songthaew) network — fixed-route shared trucks that cost ฿10 per trip around the main areas. Grab is also widely available.
 
 ## The Social Scene
 
-The expat community in Pattaya is massive — and not just the party crowd. The Pattaya Expats Club is one of Thailand's most active, with weekly events and a genuine community feel. Golf is huge, with multiple courses within easy reach. There are cycling groups, tennis clubs, photography groups and dozens of activity-based social options.
-
-For Australians who want a large, active English-speaking social life alongside a beach lifestyle and affordable costs — Pattaya is genuinely hard to beat.
+The expat community in Pattaya is massive — and not just the party crowd. The Pattaya Expats Club is one of Thailand's most active, with weekly events and a genuine community feel. Golf is huge, with multiple courses within easy reach.
 
 ## Is Your Australian Pension Enough?
 
-Yes — on a comfortable lifestyle in Jomtien or East Pattaya. It's tighter than Khon Kaen but works as a beach retirement option. The key is choosing the right neighbourhood and not getting drawn into expensive Western dining every night.
+Yes — on a comfortable lifestyle in Jomtien or East Pattaya. It's tighter than Khon Kaen but works as a beach retirement option.
 
 Use our [pension calculator](/) to see your specific weekly numbers.
     `,
@@ -415,49 +409,252 @@ Bangkok is one of the great cities of the world. It's chaotic and efficient at t
 
 It's also the most expensive place to live in Thailand — though expensive is relative. A comfortable lifestyle in Bangkok costs roughly what a very modest lifestyle in Sydney costs.
 
-For Australians used to Australian city prices, Bangkok still feels remarkably affordable. For Australians planning to live entirely on the Age Pension, it requires careful budgeting or a super top-up.
-
 ## The BTS and MRT — Bangkok's Game Changer
 
 Bangkok's Skytrain (BTS) and subway (MRT) networks are the key to living well here. If you choose an apartment near a station, you can get around the entire city cheaply and efficiently without a car or taxi.
 
-Fares run ฿16–฿60 per trip depending on distance. A monthly pass costs around ฿1,400. This makes inner Bangkok surprisingly affordable for daily transport — far cheaper than running a car in Australia.
+Fares run ฿16–฿60 per trip depending on distance. A monthly pass costs around ฿1,400. This makes inner Bangkok surprisingly affordable for daily transport.
 
-The trick is choosing your neighbourhood based on BTS/MRT access first, price second. A ฿15,000/month condo walking distance to a BTS station is more liveable than a ฿10,000 condo requiring a taxi for every trip.
+The trick is choosing your neighbourhood based on BTS/MRT access first, price second.
 
 ## The Healthcare Reason to Choose Bangkok
 
-Many retirees with existing health conditions choose Bangkok specifically because of Bumrungrad International and Bangkok Hospital. These are genuinely world-class facilities — better equipped than most Australian hospitals for complex procedures, with specialists who trained at top international institutions.
+Many retirees with existing health conditions choose Bangkok specifically because of Bumrungrad International and Bangkok Hospital. These are genuinely world-class facilities — better equipped than most Australian hospitals for complex procedures.
 
-If you have heart conditions, cancer history, or other complex health needs, being 20 minutes from Bumrungrad rather than 2.5 hours is a meaningful quality-of-life consideration that may outweigh the higher cost of living.
-
-## The Food
-
-Bangkok's food scene is extraordinary and remarkably affordable. Street food from ฿60 per meal. Mid-range Thai restaurants ฿150–฿300. International cuisine at every level from cheap to Michelin-starred.
-
-If food is important to you — and it should be in retirement — Bangkok offers more choice than anywhere else in Thailand.
+If you have heart conditions, cancer history, or other complex health needs, being 20 minutes from Bumrungrad rather than 2.5 hours is a meaningful quality-of-life consideration.
 
 ## Cost Reality for Australian Retirees
 
 A comfortable lifestyle near the BTS in Bangkok costs **฿55,000–฿65,000 per month** ($2,500–$2,955 AUD) — roughly $577–$682 per week. That exceeds the overseas pension of around $540–$560/week.
 
-Bangkok on the pension alone is tight to the point of being stressful unless you choose cheaper neighbourhoods carefully. Adding $200–$300/week from super makes Bangkok genuinely comfortable.
-
-For retirees with a combined pension and super income of $800–$1,000+/week, Bangkok offers extraordinary value and an exceptional lifestyle.
-
-## Bangkok as a Base
-
-One approach many expats use: Bangkok as a base with regular escapes. Spend the hot season (March–May) in Chiang Mai or by the beach. Return to Bangkok for the cool season (November–February) when the city is at its best.
-
-The low cost of domestic flights and trains makes this kind of flexible lifestyle genuinely affordable — and Bangkok's international airport makes regional travel easy.
+Bangkok on the pension alone is tight. Adding $200–$300/week from super makes Bangkok genuinely comfortable.
 
 ## Our Verdict
 
-Bangkok is best for retirees who genuinely want city life — the buzz, the food, the culture, the convenience — and who have either a super top-up or are comfortable with a tighter budget in exchange for world-class urban living.
-
-If you're a beach or nature person, or if you're on the pension alone without super, other cities will serve you better financially. But if Bangkok excites you, the lifestyle on offer is genuinely remarkable.
+Bangkok is best for retirees who genuinely want city life and who have either a super top-up or are comfortable with a tighter budget in exchange for world-class urban living.
 
 Check your Bangkok budget with our [pension calculator](/).
+    `,
+  },
+  {
+    slug: "phuket",
+    name: "Phuket",
+    tagline: "World-Famous Beaches With a Premium Price Tag",
+    metaDescription: "Retiring in Phuket as an Australian in 2026. Real costs, best neighbourhoods for retirees, healthcare, the wet season reality and whether your pension covers it.",
+    heroEmoji: "🌴",
+    region: "Andaman Coast, southern Thailand",
+    population: "~400,000 (swells significantly with tourists)",
+    climate: "Stunning dry season November–April. Wet season May–October with heavy rain and rough seas. Year-round warm (28–35°C).",
+    highlights: ["World-class beaches", "Large international expat community", "Direct flights from Australia", "Excellent international restaurants", "Strong healthcare", "Island lifestyle"],
+    lowlights: ["Most expensive Thai city after Bangkok", "Wet season is genuinely difficult", "Very touristy in high season", "Traffic can be bad", "Pension alone won't cover it comfortably"],
+    verdict: "Phuket is stunning and the lifestyle is excellent — but it's the most expensive beach option in Thailand. Works well with a pension plus super top-up. Tight on pension alone.",
+    neighbourhoods: [
+      {
+        name: "Rawai and Nai Harn (South)",
+        description: "Favourite area for long-term expat retirees. Quieter, authentic local market, beautiful beaches nearby. The best balance of lifestyle and value in Phuket.",
+        rentRange: "฿15,000–฿25,000/month for 1-bed",
+      },
+      {
+        name: "Chalong",
+        description: "Central, convenient, less touristy. Good access to the whole island. Popular with Australian and European retirees.",
+        rentRange: "฿12,000–฿20,000/month for 1-bed",
+      },
+      {
+        name: "Kathu / Thalang (Inland)",
+        description: "Inland, cheaper, suburban feel. Good for golfers — several courses nearby. Not beach lifestyle but very affordable by Phuket standards.",
+        rentRange: "฿9,000–฿15,000/month for 1-bed",
+      },
+      {
+        name: "Patong",
+        description: "Avoid for long-term living. Loud, touristy, expensive. Most long-term expats avoid it entirely.",
+        rentRange: "฿18,000–฿35,000/month for 1-bed",
+      },
+    ],
+    healthcare: {
+      summary: "Very good for a regional city. Two strong private hospitals, medical tourism has driven investment in quality.",
+      hospitals: [
+        { name: "Bangkok Hospital Phuket", type: "Private", notes: "Best on the island. International standard, English-speaking, part of the Bangkok Hospital network." },
+        { name: "Vachira Phuket Hospital", type: "Public", notes: "Large public hospital. Affordable, adequate for most needs, long waits." },
+        { name: "Mission Hospital Phuket", type: "Private", notes: "Good reputation, popular with expats, competitive pricing." },
+      ],
+      tip: "For anything complex, Bangkok is a 90-minute flight away. Phuket's hospitals handle most day-to-day and moderate needs very well.",
+    },
+    expat: {
+      size: "Very large and highly international",
+      nationalities: "Extremely diverse — British, Australian, Scandinavian, American, German and many others",
+      clubs: ["Phuket Expats Club", "Multiple golf clubs", "Hash House Harriers", "Various beach and water sports clubs"],
+      facebook: "Search 'Phuket Expats' on Facebook — very active community groups",
+    },
+    monthlyBudget: {
+      budget: 42000,
+      comfortable: 65000,
+      luxury: 110000,
+    },
+    content: `
+## The Phuket Appeal Is Real
+
+White sand beaches, crystal clear Andaman water, world-class resorts, excellent international restaurants, direct flights from Brisbane and Melbourne — Phuket ticks boxes that other Thai cities simply cannot match.
+
+If you've always dreamed of living by a truly beautiful tropical beach, Phuket delivers. The question is whether your budget can support it.
+
+## The Honest Cost Reality
+
+Phuket is Thailand's most expensive beach retirement destination — significantly pricier than Chiang Mai, Khon Kaen and even Hua Hin.
+
+A decent one-bedroom condo in a good expat area runs **฿15,000–฿25,000/month** ($682–$1,136 AUD). Beachfront or sea-view adds a significant premium. Cheaper options exist in areas further from the coast.
+
+Food, entertainment and transport also cost more here than inland cities — the tourist economy pushes prices up across the board.
+
+A comfortable all-in monthly budget in Phuket runs **฿65,000–฿80,000** ($2,955–$3,640 AUD) — roughly **$682–$840 per week**.
+
+## The Pension Reality
+
+The Australian overseas pension of around $540–$560/week does not comfortably cover Phuket. You would need a super top-up of at least $150–$300/week to live well.
+
+That doesn't mean Phuket is off-limits. It means going in with a realistic financial plan that includes super drawdown alongside your pension.
+
+## Choosing the Right Area
+
+**Rawai and Nai Harn** in the south are where most serious long-term expat retirees end up. It's quieter than the tourist north, has a genuine local market, good restaurants that aren't all tourist-priced, and is close to some of Phuket's most beautiful and less crowded beaches.
+
+**Chalong** is central and practical — a good base for exploring the whole island without paying Patong prices.
+
+**Avoid Patong** for long-term living. It's designed for tourists, not residents. Expensive, loud and not designed for the lifestyle most retirees are looking for.
+
+## The Wet Season Question
+
+Phuket's wet season (May–October) is a genuine consideration for year-round living. The southwest monsoon brings heavy rain, rough seas and grey skies for extended periods.
+
+This doesn't mean rain every day — typically heavy afternoon or evening downpours with clear mornings. But the beaches are less usable and the island feels different to the sparkling dry season version.
+
+Many Phuket expats handle this by spending the wet season elsewhere — Chiang Mai, Hua Hin, or back in Australia — and returning for the spectacular November–April dry season. The low cost of living in Thailand makes this kind of seasonal lifestyle financially feasible.
+
+## Healthcare in Phuket
+
+Bangkok Hospital Phuket is genuinely excellent — part of Thailand's leading hospital network and experienced with international patients. For anything extremely complex, Bangkok is a 90-minute flight away.
+
+For most retirees' day-to-day and moderate healthcare needs, Phuket is well covered.
+
+## The Direct Flight Advantage
+
+Phuket has direct or near-direct flights to several Australian cities, including Perth and Melbourne. This is a meaningful quality-of-life advantage over cities like Chiang Mai or Khon Kaen that require a Bangkok connection — particularly as you get older and long journeys become more tiring.
+
+## Is Phuket Worth the Premium?
+
+For Australians with a combined pension-plus-super income of $800–$1,000+/week, Phuket offers an extraordinary lifestyle. The beaches are world-class, the food and dining scene is excellent, the expat community is enormous and active.
+
+For pension-only retirees, the numbers are difficult. Hua Hin, Pattaya, Chiang Mai or Khon Kaen all offer better value and more comfortable financial breathing room.
+
+Use our [pension calculator](/) to see exactly how your numbers stack up.
+    `,
+  },
+  {
+    slug: "chiang-rai",
+    name: "Chiang Rai",
+    tagline: "Thailand's Undiscovered North — Peaceful, Cheap and Beautiful",
+    metaDescription: "Retiring in Chiang Rai as an Australian in 2026. Why this overlooked northern city is becoming a favourite for budget-conscious retirees who want nature, culture and very low costs.",
+    heroEmoji: "🌿",
+    region: "Far Northern Thailand, 180km north of Chiang Mai",
+    population: "~70,000 city area",
+    climate: "Best climate in Thailand. Genuinely cool November–February (12–25°C). Hot March–May. Rainy June–October. Smoke season similar to Chiang Mai (Feb–April).",
+    highlights: ["Cheapest major northern city", "Stunning natural scenery", "Cool climate in winter", "Very low tourist numbers", "Genuine small-city charm", "Close to Myanmar and Laos borders"],
+    lowlights: ["Small expat community", "Limited English outside tourist areas", "No direct international flights", "Less developed than Chiang Mai", "Smoke season Feb–April"],
+    verdict: "Chiang Rai is for retirees who want a slower, more authentic Thai life at very low cost. Stunning setting, friendly locals, cheap to live in. Requires more self-sufficiency than larger cities.",
+    neighbourhoods: [
+      {
+        name: "City Centre",
+        description: "Walking distance to the night bazaar, markets and main amenities. Most convenient for car-free living.",
+        rentRange: "฿5,000–฿9,000/month for 1-bed",
+      },
+      {
+        name: "Rimkok (North of city)",
+        description: "Quieter residential area along the Kok River. Popular with long-term expats. Peaceful with good access to nature.",
+        rentRange: "฿6,000–฿12,000/month for 1-bed",
+      },
+      {
+        name: "Countryside / villages",
+        description: "Many expats rent houses in surrounding villages for very low cost. Need a vehicle. Beautiful rural setting.",
+        rentRange: "฿4,000–฿8,000/month for house",
+      },
+    ],
+    healthcare: {
+      summary: "Adequate for a small city but limited compared to Chiang Mai. Serious medical issues require a trip to Chiang Mai (1.5–2 hours).",
+      hospitals: [
+        { name: "Overbrook Hospital", type: "Private", notes: "Best private option in Chiang Rai. Good English, adequate for most needs." },
+        { name: "Chiang Rai Prachanukroh Hospital", type: "Public", notes: "Large public hospital. Very affordable, variable quality." },
+        { name: "Mae Fah Luang University Hospital", type: "University", notes: "Newer university hospital, improving quality." },
+      ],
+      tip: "For anything beyond routine care, plan to go to Chiang Mai. The 1.5-hour drive or flight is the main healthcare limitation of living in Chiang Rai.",
+    },
+    expat: {
+      size: "Small — much smaller than Chiang Mai but a dedicated, friendly community",
+      nationalities: "Mixed — Americans, Europeans, Australians, many with Thai partners",
+      clubs: ["Chiang Rai Expats Facebook Group", "Some golf groups", "Small social scene"],
+      facebook: "Search 'Chiang Rai Expats' on Facebook — small but welcoming community",
+    },
+    monthlyBudget: {
+      budget: 20000,
+      comfortable: 32000,
+      luxury: 52000,
+    },
+    content: `
+## Chiang Rai's Secret
+
+Chiang Rai is the city that experienced Thailand expats mention quietly, almost like they don't want it to get too popular. It has the northern Thailand charm that made Chiang Mai famous — cool season climate, mountain scenery, temples, friendly locals, excellent food — without the traffic, tourist crowds, or rising prices that have changed Chiang Mai over the past decade.
+
+It's also remarkably affordable. A comfortable lifestyle in Chiang Rai costs around **฿32,000 per month** ($1,455 AUD) — roughly $336 per week. On the Australian pension of around $550/week, that leaves a surplus of **$200+ per week**. That's the best financial buffer of any city in Thailand.
+
+## What Chiang Rai Actually Looks Like
+
+Chiang Rai is a small city of around 70,000 people. It's compact, walkable in the centre, surrounded by mountains and rice paddies, and dotted with temples including the famous White Temple (Wat Rong Khun) and Blue Temple.
+
+The pace of life is slower than Chiang Mai — noticeably slower. There are fewer restaurants, fewer activities, fewer Western amenities. Whether that's a positive or negative depends entirely on what you're looking for.
+
+Retirees who thrive in Chiang Rai are those who genuinely want a quiet, nature-oriented life — walks in the hills, days at local markets, learning to cook Thai food, exploring the surrounding countryside.
+
+## The Climate — Thailand's Best
+
+Chiang Rai sits at a higher elevation than most Thai cities and has arguably the best climate in Thailand. In December and January, nights can drop to 12–15°C — cold enough for a light jumper. Days are clear, blue-skied and around 22–26°C. It's genuinely beautiful.
+
+The smoke season caveat applies here as it does to Chiang Mai — February to April sees burning season air quality deterioration. This is probably the most significant quality-of-life issue for long-term residents.
+
+## Getting There and Around
+
+Chiang Rai has its own airport with regular flights to Bangkok (1.5 hours, often under ฿1,000 one way). There are no direct international flights — you connect through Bangkok or Chiang Mai for overseas travel.
+
+Within the city, a motorbike or car gives you real freedom to explore. The surrounding region — the Golden Triangle, border areas with Myanmar and Laos, hill tribe villages, national parks — is extraordinary to explore at your own pace.
+
+## The Healthcare Limitation
+
+This is Chiang Rai's main practical limitation. While Overbrook Hospital handles most routine needs well, for anything serious you're looking at a 1.5–2 hour drive or short flight to Chiang Mai.
+
+For retirees in good general health, this is manageable. For those with complex ongoing medical needs requiring frequent specialist access, Chiang Rai may not be the right choice — Chiang Mai gives you the same northern Thailand lifestyle with better medical access.
+
+## The Expat Community — Small but Real
+
+Chiang Rai's expat community is small — maybe a few hundred long-term foreigners — but it's a genuine community. The Facebook group is active, people look out for each other, and newcomers are genuinely welcomed.
+
+What Chiang Rai doesn't have is the vast social infrastructure of Chiang Mai — no large expats clubs, fewer organised activities, fewer English-speaking businesses. You make more of your own entertainment here.
+
+## The Budget Advantage
+
+Chiang Rai is where the Australian pension goes furthest of any city in Thailand. With weekly costs around $300–$350 for a comfortable lifestyle, a $200+ weekly surplus gives you genuine financial freedom — money for travel, flights home, unexpected costs, or simply saved for the future.
+
+For pension-only retirees who want to live well, save a little, and don't need the amenities of a larger city — Chiang Rai is genuinely worth serious consideration.
+
+## Is Chiang Rai Right for You?
+
+Chiang Rai suits retirees who:
+- Want maximum value for their pension
+- Prefer a quiet, nature-oriented lifestyle over city amenities
+- Are genuinely curious about Thai culture and happy to integrate
+- Don't have complex ongoing medical needs
+- Are comfortable with less English around them day-to-day
+- Love mountains, countryside and cooler weather
+
+It's not right for those who need a large English-speaking social scene, Western amenities on tap, or regular access to specialist medical care.
+
+Check your Chiang Rai budget with our [pension calculator](/).
     `,
   },
 ];
