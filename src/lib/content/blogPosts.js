@@ -1,5 +1,6 @@
 // Pre-written SEO-optimised blog articles
 // Target audience: Australians aged 55-70 planning to retire in Thailand
+// CORRECTED: Pension portability rules updated for accuracy throughout
 
 export const blogPosts = [
   {
@@ -41,24 +42,28 @@ Before you pack your bags, there are important rules to understand:
 
 **Age requirement:** You must be 67 to claim the Age Pension (as of 2026).
 
-**Claim in Australia:** You must be physically in Australia on the day you claim.
+**Claim in Australia:** You must be physically in Australia on the day you lodge your claim.
 
-**Two-year residency rule:** After being granted the pension, you must live in Australia for two years before taking it overseas permanently. This is the "portability" requirement.
+**Residency requirement:** You need to have lived in Australia for at least 10 years total, with at least 5 of those years being continuous.
 
-**The 35-year rule:** To receive the full pension overseas, you generally need 35 years of Australian residency between ages 16 and 67. Fewer years means a proportionally reduced payment.
+**Moving overseas after claiming:** For most Australians who have been living and working in Australia leading up to retirement, you can move to Thailand after claiming without any mandatory waiting period. Simply notify Centrelink of your move.
+
+**The 35-year rule:** To receive the full pension overseas, you generally need 35 or more years of Australian residency between ages 16 and 67. Fewer years means a proportionally reduced payment. If you spent time living overseas during your working life, count your total Australian years carefully.
 
 **What you lose overseas:** After 6 weeks abroad, you lose the energy supplement. The pension supplement drops to the basic rate. After 26 weeks, your payment may be recalculated based on your years of Australian residency.
+
+**Important:** Everyone's situation is different. Contact Centrelink International Services on 131 673 before you move to confirm your specific entitlements.
 
 ## The Practical Path for Most Australians
 
 The most common path looks like this:
 
 1. Work in Australia until age 67
-2. Claim the Age Pension while in Australia
-3. Live in Australia for 2 years on the pension
-4. Move to Thailand at around age 69 with full portability
+2. Claim the Age Pension while physically in Australia
+3. Notify Centrelink of your intention to move overseas
+4. Move to Thailand when you're ready
 
-During those 2 years in Australia, use the time to research cities, visit Thailand on holiday, sort your health insurance, and set up a Thai bank account.
+During the period before you leave, use the time to research cities, visit Thailand on holiday, sort your health insurance, open a Thai bank account, and get your financial affairs in order.
 
 ## What About Superannuation?
 
@@ -321,6 +326,12 @@ You can access your superannuation from age 60 in Australia once you've met a "c
 
 Once you leave Australia permanently, you lose access to Medicare for most purposes. For a healthy 60-year-old, Thai expat health insurance costs roughly $2,000–$3,500 AUD per year. Get cover before you leave — it's much harder to get comprehensive cover once conditions are on your medical record.
 
+## Claiming the Pension at 67
+
+When you turn 67, you will need to return to Australia to claim the pension — you must be physically present on the day you lodge your claim. Plan a trip home around your 67th birthday to get this sorted. Once granted, you can return to Thailand and the pension will be paid to you there.
+
+Your eligibility will depend on your total years of Australian residency between ages 16 and 67. Make sure you have at least 10 years total (with 5 continuous) — most Australians easily meet this. If your total Australian years are fewer than 35, your overseas pension rate will be proportionally reduced.
+
 ## The Bottom Line
 
 Retiring in Thailand at 60 is absolutely doable for Australians with a reasonable super balance. The payoff is seven extra years of a lifestyle that costs half what Australia does.
@@ -400,9 +411,17 @@ Living on $2,000 AUD/month from age 60–67: needs a starting super balance of a
 
 Living on $2,500 AUD/month: needs around **$350,000–$400,000**.
 
+When you turn 67, you'll need to return to Australia briefly to claim the pension in person. Once granted, you return to Thailand and the pension is paid there.
+
 ## Scenario 3 — Pension Plus Healthy Super Balance
 
 With $300,000+ in super at age 67, drawing down $500/week on top of your pension gives you $1,000–$1,100/week combined. In Thailand that is a genuinely excellent lifestyle — golf whenever you want, regular travel, nice restaurants, no financial stress.
+
+## The 35-Year Rule — Does It Affect You?
+
+To receive the full pension rate overseas, you need 35 or more years of Australian residency between ages 16 and 67. If you spent time living overseas during your working life, your AWLR (Australian Working Life Residency) may be less than 35 years, which proportionally reduces your overseas rate.
+
+For example, if you have 28 years of Australian residency, your overseas pension would be roughly 28/35ths of the full rate — around $440/week instead of $550/week. Super becomes even more important in this scenario to bridge the gap.
 
 ## The Simple Rule of Thumb
 
@@ -726,45 +745,33 @@ If you've always dreamed of living by a tropical beach, Phuket is genuinely beau
 
 Phuket is Thailand's most expensive retirement destination — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
 
-**Rent:** A decent one-bedroom condo in a good area runs ฿18,000–฿30,000/month ($820–$1,365 AUD). Beachfront or sea-view adds a significant premium. Cheaper options exist in areas further from the main tourist strips.
+**Rent:** A decent one-bedroom condo in a good area runs ฿18,000–฿30,000/month ($820–$1,365 AUD). Beachfront or sea-view adds a significant premium.
 
-**Food:** Street food is cheap as always, but the tourist-area restaurants that most expats frequent are noticeably pricier than inland cities. Budget ฿12,000–฿18,000/month for a comfortable mix of dining.
+**Food:** Budget ฿12,000–฿18,000/month for a comfortable mix of dining.
 
-**Transport:** Phuket has limited public transport. Most expats need a motorbike or car, adding ฿3,000–฿6,000/month.
+**Transport:** Most expats need a motorbike or car, adding ฿3,000–฿6,000/month.
 
-A comfortable all-in monthly budget in Phuket runs **฿60,000–฿80,000** ($2,730–$3,640 AUD) — or roughly **$630–$840 per week**.
+A comfortable all-in monthly budget in Phuket runs **฿60,000–฿80,000** ($2,730–$3,640 AUD) — roughly **$630–$840 per week**.
 
 ## The Pension Reality
 
-The Australian overseas pension of ~$540–$560/week does not cover a comfortable Phuket lifestyle. You would need a super top-up of at least $100–$300/week to live comfortably — more if you want beachfront living or a car.
-
-That doesn't mean Phuket is off-limits. It means you need to go in with realistic expectations and a financial plan that includes super drawdown.
+The Australian overseas pension of ~$540–$560/week does not cover a comfortable Phuket lifestyle. You would need a super top-up of at least $100–$300/week to live comfortably.
 
 ## The Best Areas for Retirees
 
-**Rawai and Nai Harn (South)** — The favourite area for long-term expat retirees. Quieter than the tourist north, genuine local market, good restaurants, access to quieter beaches. Much more liveable than Patong.
+**Rawai and Nai Harn (South)** — The favourite area for long-term expat retirees. Quieter, genuine local market, beautiful beaches nearby.
 
-**Chalong** — Central, convenient, less touristy. Good access to the whole island. Popular with Australian and European retirees.
+**Chalong** — Central, convenient, less touristy. Good access to the whole island.
 
-**Kathu / Thalang** — Inland, cheaper, suburban feel. Good for golfers (several courses nearby). Not beach lifestyle but very affordable by Phuket standards.
-
-**Avoid for long-term living:** Patong. It's loud, touristy, expensive and not designed for retirees. Most long-term expats avoid it entirely.
-
-## Healthcare in Phuket
-
-Phuket has very good private healthcare for a relatively small city. Bangkok Hospital Phuket and Vachira Phuket Hospital are both solid. For complex procedures, Bangkok is a 90-minute flight away.
+**Avoid Patong** for long-term living. It's loud, touristy, expensive and not designed for retirees.
 
 ## The Seasonal Question
 
-Phuket's Andaman coast gets the full force of the southwest monsoon from May to October. Rain, rough seas, and grey skies for weeks at a time. The high season (November–April) is genuinely spectacular, but the low season is a real consideration for year-round living.
-
-Many expats in Phuket spend the wet season elsewhere — Chiang Mai, Hua Hin, or back in Australia — and return for the dry season. The low cost of living makes this kind of seasonal lifestyle genuinely affordable.
+Phuket's Andaman coast gets the full force of the southwest monsoon from May to October. Many expats spend the wet season elsewhere — Chiang Mai, Hua Hin, or back in Australia — and return for the spectacular November–April dry season.
 
 ## Is Phuket Worth It?
 
-For Australians who genuinely love beach living and have a combined pension-plus-super income of $800–$1,000/week or more, Phuket offers an extraordinary lifestyle. The beaches are world-class, the food and dining scene is excellent, and the expat community is enormous.
-
-For pension-only retirees, it's a stretch. The budget works better in Hua Hin, Pattaya, Chiang Mai or Khon Kaen.
+For Australians with a combined pension-plus-super income of $800–$1,000/week or more, Phuket offers an extraordinary lifestyle. For pension-only retirees, the budget works better in Hua Hin, Pattaya, Chiang Mai or Khon Kaen.
 
 Use our [pension calculator](/) to see exactly how your numbers stack up.
     `
@@ -782,57 +789,27 @@ Use our [pension calculator](/) to see exactly how your numbers stack up.
 
 Most people spend a lot of time thinking about the financial side of retiring to Thailand — the pension, the visa, the costs. Fewer spend enough time thinking about what they'll actually do every day.
 
-This matters more than most people realise. Unstructured time sounds wonderful before you have it. After a few months of unstructured time, many retirees start to feel adrift. The key is building a life with some shape to it — not a schedule, just enough structure to make the days feel meaningful.
+This matters more than most people realise. Unstructured time sounds wonderful before you have it. After a few months of unstructured time, many retirees start to feel adrift.
 
 ## Golf — The Retirement Activity That Thailand Does Best
 
-Thailand has hundreds of golf courses and some of the best value golf in the world. Green fees that would cost $150–$250 in Australia cost ฿1,500–฿3,500 ($68–$160 AUD) in Thailand. Caddies are included at many courses for a small additional fee.
-
-Hua Hin has 12 courses within easy reach. Pattaya has even more. Chiang Mai, Phuket and Khon Kaen all have quality courses.
-
-For golfers, Thailand is genuinely paradise. It's not uncommon for retired golfers to play 3–4 times per week — something that would be financially impossible in Australia.
+Thailand has hundreds of golf courses and some of the best value golf in the world. Green fees that would cost $150–$250 in Australia cost ฿1,500–฿3,500 ($68–$160 AUD) in Thailand. It's not uncommon for retired golfers to play 3–4 times per week — something that would be financially impossible in Australia.
 
 ## The Food Adventure Never Ends
 
-Thailand has one of the world's great food cultures and eating is genuinely a daily activity rather than just fuel. Exploring different local restaurants, learning to cook Thai food, finding the best noodle stall in your neighbourhood, visiting weekend night markets — food provides endless low-cost entertainment.
-
-Cooking classes are popular with expats — you can learn to make authentic Thai dishes for ฿1,000–฿1,500 per class ($45–$68 AUD).
+Thailand has one of the world's great food cultures. Exploring different local restaurants, learning to cook Thai food, finding the best noodle stall in your neighbourhood, visiting weekend night markets — food provides endless low-cost entertainment.
 
 ## Temples and Culture
 
-Thailand has over 40,000 Buddhist temples and many are genuinely extraordinary. Visiting temples, learning about Buddhism, attending local festivals and ceremonies — there's a rich cultural world to explore if you're curious about it.
-
-Many expats find a growing interest in Thai culture and Buddhism develops naturally over time. Meditation retreats are available everywhere from basic to serious — some are free at local temples.
+Thailand has over 40,000 Buddhist temples. Visiting temples, learning about Buddhism, attending local festivals and ceremonies — there's a rich cultural world to explore if you're curious about it.
 
 ## Day Trips and Travel
 
-The low cost of living means the cost of travel is much more manageable than in Australia. A return flight from Chiang Mai to Bangkok is often ฿1,000–฿2,000 ($45–$90 AUD). A train or bus between cities is even cheaper.
-
-Thailand itself offers enormous variety — beach islands, mountain trekking, ancient ruins, river towns, national parks. Many retirees spend their first few years systematically exploring the country.
-
-Regional travel is also very affordable. Vietnam, Cambodia, Laos, Malaysia and Japan are all within a few hours. Many retirees use Thailand as a base for broader Southeast Asian travel in a way that simply wasn't affordable when living in Australia.
-
-## Learning and Classes
-
-Thai language lessons — even casual once-a-week sessions — give you a project, a regular social interaction, and genuinely improve your life in Thailand. Most cities have language schools with flexible schedules.
-
-Other popular learning activities: Thai cooking, traditional Thai massage, watercolour painting, photography, Thai boxing observation classes, yoga, pottery.
-
-## Volunteering
-
-Many expats find volunteering provides purpose and social connection that pure leisure doesn't. Options include English teaching at local schools, animal shelters, environmental projects, community gardens, and working with elderly or disabled Thais.
-
-The sense of contribution to the community you live in makes a real difference to wellbeing for many long-term expats.
-
-## Sports and Fitness
-
-Swimming — most condos have pools and many expats swim daily. Running — hash house harriers and running groups in every city. Cycling — road and mountain biking groups are active in Chiang Mai, Hua Hin and elsewhere. Badminton — enormous in Thailand, very affordable and sociable. Tennis and table tennis.
+The low cost of living means travel is much more manageable than in Australia. A return flight from Chiang Mai to Bangkok is often ฿1,000–฿2,000 ($45–$90 AUD). Many retirees use Thailand as a base for broader Southeast Asian travel in a way that simply wasn't affordable when living in Australia.
 
 ## The Honest Reality
 
-The retirees who thrive in Thailand long-term are those who build a life with some structure — regular activities, social commitments, hobbies that engage them. Those who arrive without a plan and expect Thailand to entertain them often feel flat after the initial excitement fades.
-
-Think about what you actually love doing before you go. Make a loose plan for how you'll fill your weeks. Thailand can support almost any interest or hobby — you just need to go looking for it.
+The retirees who thrive in Thailand long-term are those who build a life with some structure — regular activities, social commitments, hobbies that engage them. Think about what you actually love doing before you go and make a loose plan for how you'll fill your weeks.
     `
   },
   {
@@ -848,63 +825,36 @@ Think about what you actually love doing before you go. Make a loose plan for ho
 
 Most Australian expats in Thailand visit home once or twice a year — typically for family occasions, medical appointments, financial admin, and to maintain their Australian ties.
 
-Some visit more frequently, particularly in the first year or two. Others find that after settling in, once a year is plenty.
-
-The good news: flights between Australia and Thailand are affordable by international standards, particularly compared to what Australian flights used to cost before budget carriers expanded.
-
 ## The Routes
 
-**Bangkok (Suvarnabhumi or Don Mueang) to Australian cities** — The most options and usually the cheapest fares. Bangkok is well served from Sydney, Melbourne, Brisbane, Perth and Adelaide.
+**Bangkok to Australian cities** — The most options and usually the cheapest fares. Bangkok is well served from Sydney, Melbourne, Brisbane, Perth and Adelaide.
 
-**Chiang Mai to Australia** — No direct flights. You connect through Bangkok (1 hour), typically adding 3–4 hours to your journey. Most Chiang Mai expats accept this as the cost of living in the north.
+**Chiang Mai to Australia** — No direct flights. You connect through Bangkok (1 hour), typically adding 3–4 hours to your journey.
 
-**Phuket to Australia** — Some direct or near-direct options to Perth and Melbourne. Phuket is well connected internationally.
+**Phuket to Australia** — Some direct or near-direct options to Perth and Melbourne.
 
-**Khon Kaen to Australia** — Connect through Bangkok (1 hour). Very manageable.
-
-**Hua Hin to Australia** — No commercial airport. Transfer to Bangkok by road (2.5 hours) or connect from Hua Hin's small airport to Bangkok first.
+**Hua Hin to Australia** — Transfer to Bangkok by road (2.5 hours) first.
 
 ## Airlines Worth Knowing
 
-**Thai Airways** — Full service, good reputation, flies direct Bangkok to major Australian cities. More expensive but comfortable.
+**Thai Airways** — Full service, good reputation, flies direct Bangkok to major Australian cities.
 
-**Qantas** — Reliable, good service, premium pricing. Code shares with various partners.
+**AirAsia** — Budget carrier, excellent value if you book early. Bangkok Don Mueang to Australian cities via Kuala Lumpur.
 
-**AirAsia** — Budget carrier, excellent value if you book early and travel light. Bangkok Don Mueang to Australian cities via Kuala Lumpur. Very affordable but less comfortable for long hauls.
+**Malaysia Airlines** — Good value full service via Kuala Lumpur. Popular choice among Australian expats.
 
-**Malaysia Airlines** — Good value full service via Kuala Lumpur. Popular choice among Australian expats for the balance of price and comfort.
+**Singapore Airlines** — Premium product via Singapore. Often worth the extra cost for older travellers who value comfort.
 
-**Singapore Airlines** — Premium product via Singapore. Often worth the extra cost for older travellers who value comfort on long flights.
+## Tips for Long-Haul Comfort
 
-## Tips for Making Long-Haul Flights More Comfortable
-
-At 65–75 years old, 9–11 hour flights need a bit more thought than they did at 40.
-
-**Compression socks** — genuinely important for circulation on long flights. Worth wearing.
-
-**Move regularly** — get up and walk the aisle every 2 hours. Set a reminder on your phone if needed.
-
-**Hydrate** — the cabin air is extremely dry. Drink water consistently throughout the flight, avoid too much alcohol.
-
-**Choose your seat carefully** — aisle seats give you freedom to move without disturbing others. Seats near the front of economy board and deplane faster.
-
-**Consider premium economy** — the extra legroom and recline makes a real difference on overnight flights. Often a 30–40% premium over economy but significantly more comfortable for older travellers.
-
-## Timing Your Return Visits
-
-Many Australian expats in Thailand time their home visits strategically:
-
-**March–May** — Thailand's brutal hot season. A good time to escape to Australia's autumn.
-
-**July–August** — School holidays in Australia, good for seeing grandchildren.
-
-**December–January** — Australian summer, Thailand's best weather. A hard time to leave Thailand but good for Australian family gatherings.
+- **Compression socks** — genuinely important for circulation on long flights
+- **Move regularly** — get up and walk the aisle every 2 hours
+- **Hydrate** — the cabin air is extremely dry
+- **Consider premium economy** — the extra legroom makes a real difference on overnight flights
 
 ## The Financial Reality
 
-A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD depending on season, airline and how far in advance you book. Booking 2–3 months ahead and being flexible on dates can reduce costs significantly.
-
-Budget ฿60,000–฿130,000 ($2,700–$5,900 AUD) per year for two return flights home. This is a real cost to factor into your annual budget — see our [pension calculator](/) to make sure it fits your numbers.
+A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD. Budget ฿60,000–฿130,000 ($2,700–$5,900 AUD) per year for two return flights home. See our [pension calculator](/) to make sure it fits your numbers.
     `
   },
   {
@@ -920,53 +870,27 @@ Budget ฿60,000–฿130,000 ($2,700–$5,900 AUD) per year for two return flig
 
 Thailand has surprisingly good internet infrastructure — particularly in cities. Fibre broadband is widely available in urban areas, 4G mobile coverage is extensive, and costs are very reasonable by Australian standards.
 
-For most retirees, staying connected with family in Australia via video calls, messaging and social media works very well from Thailand.
-
 ## Home Internet
 
 **Fibre broadband** is available in most Thai cities through providers AIS Fibre, True Move and 3BB. Speeds of 100–300 Mbps are standard for residential plans.
 
-**Cost:** ฿500–฿800/month ($23–$36 AUD) for a solid fibre plan. Faster plans up to 1 Gbps are available for ฿1,000–฿1,500/month.
-
-This is dramatically cheaper than Australian NBN plans and generally more reliable in city areas.
-
-**Installation:** Usually requires a Thai ID or passport, rental contract, and sometimes a deposit. Takes 3–7 days after application.
+**Cost:** ฿500–฿800/month ($23–$36 AUD) for a solid fibre plan — dramatically cheaper than Australian NBN plans.
 
 ## Mobile Data
 
-Thai mobile plans offer exceptional value. A SIM with unlimited data (throttled after a cap) typically costs ฿300–฿600/month ($14–$27 AUD).
-
-The three main carriers — **AIS, True Move and DTAC** — all have good 4G coverage in cities and main tourist areas. Coverage in rural areas varies.
-
-**Tip:** Buy a tourist SIM at the airport when you arrive (costs ฿300–฿500 for 30 days with generous data). Once you have an address and bank account, switch to a monthly residential plan for better value.
+Thai mobile plans offer exceptional value. A SIM with generous data typically costs ฿300–฿600/month ($14–$27 AUD). The three main carriers — AIS, True Move and DTAC — all have good 4G coverage in cities.
 
 ## Calling Australia
 
-The cheapest ways to call family in Australia:
-
 **WhatsApp, FaceTime, Messenger** — Free over WiFi or data. The most popular option among expats. Video call quality is good on a decent internet connection.
-
-**Line** — Hugely popular messaging app in Thailand. Many Thai contacts will use Line rather than WhatsApp.
-
-**Google Voice or Skype** — Good for calling Australian landlines or mobiles when the person you're calling doesn't have a smartphone app.
-
-Standard international calling rates from a Thai SIM to Australia are around ฿6–฿9 per minute — fine for occasional calls but expensive for long conversations.
 
 ## Keeping Your Australian Number
 
-Many expats keep an Australian mobile number active for banking, Centrelink, and family contacts. The cheapest way is to port your number to a budget Australian provider (Boost, Aldi Mobile) on a low monthly plan of $10–$15/month and keep the SIM in an old phone or use it as a secondary SIM.
-
-This means your family can still call your Australian number and it forwards or you can roam occasionally.
-
-## Streaming and Entertainment
-
-Australian streaming services (Netflix, Stan, Disney+) are accessible in Thailand with some caveats. Netflix works but shows Australian content or Thai content — the library differs from Australia. A VPN can restore access to Australian content, though this is a grey area in terms of terms of service.
-
-The ABC iView app and SBS On Demand generally don't work outside Australia without a VPN.
+Many expats keep an Australian mobile number active for banking, Centrelink, and family contacts. The cheapest way is a budget Australian provider (Boost, Aldi Mobile) on a low monthly plan of $10–$15/month.
 
 ## The Practical Summary
 
-For most retirees, staying connected in Thailand is simple and cheap. The combination of home fibre broadband (฿600/month), a Thai SIM for mobile data (฿400/month), and free video calling apps means you're well connected for under $50 AUD/month — a fraction of Australian telco costs.
+The combination of home fibre broadband (฿600/month), a Thai SIM for mobile data (฿400/month), and free video calling apps means you're well connected for under $50 AUD/month — a fraction of Australian telco costs.
     `
   },
   {
@@ -978,72 +902,35 @@ For most retirees, staying connected in Thailand is simple and cheap. The combin
     category: "Practical Guides",
     excerpt: "Getting around Thailand is cheap and generally straightforward — but the options vary a lot by city. Here's what actually works for retirees, including the honest safety conversation about motorbikes.",
     content: `
-## The Transport Landscape in Thailand
-
-Thailand doesn't have one transport system — it has many, varying enormously by city and area. Bangkok has a world-class BTS Skytrain and MRT subway. Hua Hin has almost no public transport worth mentioning. Chiang Mai sits somewhere in between.
-
-Understanding what's available in your chosen city is important before you arrive.
-
 ## Grab — Your Best Friend in Any City
 
 Grab (the Southeast Asian equivalent of Uber) operates in most Thai cities and is the single most useful transport app for expats. You book a car or motorbike taxi from your phone, you see the price before you commit, and you don't need to negotiate or speak Thai.
 
-**Cost:** Typically ฿50–฿150 for short to medium city trips. Very affordable.
-
-**Availability:** Excellent in Bangkok, Chiang Mai, Phuket and Pattaya. Good in Hua Hin and Khon Kaen. More limited in smaller towns.
-
-For most daily errands — supermarket, restaurant, hospital appointment — Grab handles it comfortably without needing your own vehicle.
+**Cost:** Typically ฿50–฿150 for short to medium city trips.
 
 ## Songthaews — Cheap Local Transport
 
-Songthaews are shared pickup trucks or minivans that run fixed routes at very low prices (฿10–฿30 per trip). They're the main local transport in Chiang Mai, Pattaya and some other cities.
-
-They're very cheap but require knowing the routes and some patience. Most long-term expats figure out the useful routes in their area within the first few weeks.
+Songthaews are shared pickup trucks that run fixed routes at very low prices (฿10–฿30 per trip). They're the main local transport in Chiang Mai, Pattaya and some other cities.
 
 ## Motorbikes — Freedom vs Risk
 
-The motorbike is the default personal transport for millions of Thais and a significant portion of expats. They're cheap to rent (฿2,500–฿4,000/month for a basic scooter), easy to park, and get you anywhere.
+The honest safety conversation: motorbike accidents are the leading cause of serious injury and death among foreign expats in Thailand. Many older retirees decide the convenience isn't worth the risk — particularly those with any balance issues or slower reaction times.
 
-The honest safety conversation: motorbike accidents are the leading cause of serious injury and death among foreign expats in Thailand. Thai roads require constant attention — unpredictable driving, poor road surfaces in places, and traffic that doesn't always follow Western conventions.
-
-Many older retirees decide the convenience isn't worth the risk — particularly those with any balance issues, slower reaction times, or who've been off a bike for many years.
-
-If you haven't ridden a motorbike in decades, think carefully before getting back on one in a country where traffic behaves differently from Australia.
-
-For those who do ride — wear a helmet always, stick to quiet roads until you're confident, and never ride after drinking.
+If you do ride — wear a helmet always, stick to quiet roads until you're confident, and never ride after drinking.
 
 ## Cars
 
-Renting or buying a car gives you maximum comfort and safety, particularly for day trips and travel between cities.
+Renting or buying a car gives you maximum comfort and safety. **Renting:** ฿8,000–฿15,000/month ($365–$680 AUD). Driving in Thailand is on the left (same as Australia).
 
-**Renting:** ฿8,000–฿15,000/month ($365–$680 AUD) for a basic car. More expensive in tourist areas.
-
-**Buying:** Second-hand cars are available from ฿100,000–฿300,000 ($4,500–$13,600 AUD) for a reasonable used vehicle.
-
-You need a Thai driving licence for long-term residence (your Australian licence works for 90 days). Getting a Thai licence involves a medical certificate, vision test, and written test in English — straightforward for most people.
-
-**Driving in Thailand:** Traffic drives on the left (same as Australia). Main highways are good quality. City traffic in Bangkok is notoriously challenging. Rural roads vary from excellent to rough.
-
-## Trains and Long-Distance Buses
-
-**Trains:** Thailand has an extensive rail network connecting major cities. Air-conditioned second class is comfortable and affordable (Bangkok to Chiang Mai ฿600–฿1,200). Trains are slower than flying but scenic and relaxed.
-
-**Buses:** Long-distance VIP buses are excellent — air-conditioned, comfortable seats, often overnight options with a meal. Bangkok to Hua Hin is ฿200–฿350 and takes 2.5 hours.
-
-**Flights:** Domestic flights are cheap if booked in advance. Bangkok to Chiang Mai is often ฿800–฿1,500 one way. AirAsia and Nok Air cover most routes.
-
-## The Practical Recommendation for Retirees
+## The Practical Recommendation
 
 For most retirees in a city like Chiang Mai, Hua Hin or Pattaya:
 
 - **Daily errands:** Grab
 - **Regular local trips:** Songthaew or motorbike taxi (not your own bike)
 - **More independence:** Rent a car for a few months and see if you want to commit
-- **Day trips and travel:** Hire car with driver (very affordable in Thailand) or long-distance bus/train
 
-You can live comfortably in most Thai cities without owning any vehicle at all — particularly if you choose a condo in a central location close to markets, restaurants and services.
-
-Use our [city guides](/cities) to see which cities are most manageable without a vehicle.
+You can live comfortably in most Thai cities without owning any vehicle at all — particularly if you choose a condo in a central location.
     `
   },
   {
@@ -1059,29 +946,21 @@ Use our [city guides](/cities) to see which cities are most manageable without a
 
 Tax law is complex, changes regularly, and your specific situation matters enormously. This article gives you a general overview — not financial or tax advice. Before making any decisions, speak with an Australian accountant who has experience with expats, and ideally a Thai tax adviser too.
 
-That said — here's what you genuinely need to understand.
-
 ## Australian Tax Obligations
 
 ### Do You Still Pay Australian Tax After Moving to Thailand?
 
-It depends on whether you remain an Australian tax resident. This is determined by the ATO based on factors including where you intend to live long-term, where your family is, where your assets are, and your ties to Australia.
+It depends on whether you remain an Australian tax resident. Most Australians who move to Thailand permanently will eventually be classified as non-residents for Australian tax purposes.
 
-Most Australians who move to Thailand permanently will eventually be classified as non-residents for Australian tax purposes. This changes how your income is taxed in Australia:
-
-- As a **non-resident**, you pay no Australian tax on foreign income (like the Thai pension you receive in Thailand)
-- As a **non-resident**, you do pay Australian tax on Australian-sourced income (like interest from an Australian bank account, Australian rental income, or superannuation)
-- The non-resident tax rates are different from resident rates and there is no tax-free threshold
+As a **non-resident**, you pay no Australian tax on foreign income but do pay Australian tax on Australian-sourced income (bank interest, rental income, superannuation in some cases).
 
 ### The Age Pension and Australian Tax
 
 The Age Pension is technically taxable Australian income. However, most retirees receiving only the pension have little or no actual tax liability because the pension amount is low and senior tax offsets apply.
 
-If you're a non-resident, the tax treatment changes — consult an accountant about your specific situation.
-
 ### Superannuation
 
-Super income streams are generally tax-free for Australians over 60. However, as a non-resident, some super payments may be subject to withholding tax. The rules are complex and worth professional advice if your super balance is significant.
+Super income streams are generally tax-free for Australians over 60. However, as a non-resident, some super payments may be subject to withholding tax. Worth professional advice if your super balance is significant.
 
 ## Thai Tax Obligations
 
@@ -1091,44 +970,22 @@ Thailand changed its tax rules in 2024. The key change: foreign income brought i
 
 This affects retirees who transfer money from Australia to Thailand — including pension payments.
 
-In practice, enforcement is still developing and the rules contain exemptions and grey areas. Many Australian retirees are in a wait-and-see position. However, it's no longer accurate to say Thailand is definitely tax-free for foreign income.
-
-### What This Means Practically
-
-If you transfer your Australian pension to Thailand regularly:
-
-- You may technically be required to file a Thai tax return
-- Your pension income may be assessable under Thai tax rules
-- Thailand's tax rates are progressive — lower incomes face lower rates
-- Thailand has a standard personal allowance and various deductions
-
-For most Australian retirees on the pension alone, the Thai tax liability may be modest or zero after allowances. But it's worth getting proper advice rather than assuming.
+In practice, enforcement is still developing and the rules contain exemptions and grey areas. However, it's no longer accurate to say Thailand is definitely tax-free for foreign income.
 
 ### Getting Thai Tax Advice
 
-A Thai accountant familiar with expat tax issues can file a Thai return for ฿3,000–฿8,000 ($135–$365 AUD) — a reasonable cost for peace of mind. Look for accountants in expat Facebook groups for your chosen city — recommendations from others in a similar situation are valuable.
-
-## The Double Taxation Question
-
-Australia and Thailand do not have a comprehensive double tax agreement (DTA). This means there's no formal treaty preventing you from potentially being taxed on the same income in both countries.
-
-In practice, most Australian retirees in Thailand don't end up paying significant tax in both countries simultaneously — but the theoretical risk exists for those with complex financial situations.
+A Thai accountant familiar with expat tax issues can file a Thai return for ฿3,000–฿8,000 ($135–$365 AUD). Look for recommendations in expat Facebook groups for your chosen city.
 
 ## Practical Steps Before You Leave Australia
 
-**1. Get advice from an Australian expat tax accountant** — before you leave, understand your tax residency status and obligations.
-
-**2. Understand your super situation** — particularly if you have a significant super balance or are drawing an income stream.
-
-**3. Keep records** — document when you transferred money to Thailand and where it came from. This is helpful if you ever need to demonstrate what was and wasn't assessable income.
-
-**4. Don't ignore Thai tax** — the 2024 rule change means this is no longer something you can safely ignore. Get advice early.
+1. Get advice from an Australian expat tax accountant before you leave
+2. Understand your super situation if you have a significant balance
+3. Keep records of when you transferred money to Thailand and where it came from
+4. Don't ignore Thai tax — the 2024 rule change means this needs attention
 
 ## The Bottom Line
 
-For most Australian retirees in Thailand on the pension with modest super, the tax situation is manageable — but it requires more attention than it did before 2024. Getting proper advice before you leave Australia, and finding a good Thai accountant once you arrive, is genuinely worthwhile.
-
-The cost of good advice is small compared to the potential cost of getting it wrong.
+For most Australian retirees in Thailand on the pension with modest super, the tax situation is manageable — but it requires more attention than it did before 2024. Getting proper advice before you leave Australia is genuinely worthwhile.
     `
   },
   {
@@ -1142,130 +999,70 @@ The cost of good advice is small compared to the potential cost of getting it wr
     content: `
 ## Before You Leave Australia
 
-### Financial
+### Financial and Centrelink
 
-**Centrelink / Services Australia**
 - Notify Centrelink of your intention to move overseas
-- Confirm your pension portability status and expected overseas payment amount
+- Confirm your pension entitlement — contact Centrelink International Services on 131 673 to get your specific payment rate based on your Australian Working Life Residency
 - Set up myGov online access (you'll need this from Thailand)
-- Arrange for your pension to be paid into your Australian bank account (you'll transfer to Thailand yourself using Wise)
-- If applicable, notify Centrelink of any assets or income changes
-
-**Banking**
-- Keep at least one Australian bank account active — you'll need it for pension deposits, Centrelink dealings and Australian financial transactions
+- Arrange for your pension to be paid into your Australian bank account
+- Keep at least one Australian bank account active
 - Set up online banking access and confirm it works from overseas
-- Get a debit card that works internationally with low fees (ING Orange Everyday or Wise debit card are popular with expats)
 - Consider opening a Wise multi-currency account before you go
-
-**Superannuation**
 - Speak with a financial adviser about your super drawdown strategy
-- Ensure you have online access to your super fund
-- Update your address and contact details with your super fund
-
-**Tax**
-- Speak with an accountant about your Australian tax residency status after moving overseas
-- Understand your obligations for the financial year of departure
-- Consider whether you need to lodge a tax return as a non-resident
+- Speak with an accountant about your Australian tax residency status after moving
 
 ### Legal and Documents
 
-**Passport**
-- Ensure your Australian passport has at least 18 months remaining — ideally 2+ years
-- Renew before you go if needed (renewals from Thailand are possible but more complex)
-
-**Thai Retirement Visa**
-- Apply at the Thai Embassy in Canberra or Thai Consulate before departure (for Non-OA visa)
-- Alternatively, enter on a tourist visa and convert to a retirement extension in Thailand
-
-**Documents to bring originals of:**
-- Australian passport
-- Birth certificate
-- Marriage certificate (if applicable)
-- Any relevant medical records and vaccination history
-- Prescription list from your doctor
-- Police clearance certificate (needed for retirement visa)
-- Medical certificate from a registered doctor (needed for retirement visa)
-
-**Documents to have certified copies of:**
-- All of the above
-- Keep digital scans of everything in a secure cloud service (Google Drive, iCloud)
+- Ensure your Australian passport has at least 18 months remaining
+- Apply for Thai retirement visa at the Thai Embassy in Canberra (if doing Non-OA route)
+- Gather originals of: passport, birth certificate, marriage certificate (if applicable)
+- Get a police clearance certificate from the Australian Federal Police
+- Get a medical certificate from a registered doctor
+- Scan everything digitally and store in cloud storage
+- Update your will
+- Consider power of attorney for a trusted person in Australia
 
 ### Health
 
-**Before Your Last Australian Medicare Visit:**
-- Full general health check — blood tests, blood pressure, anything outstanding
-- Dental check and treatment — Thai dental care is good but start fresh
-- Eye check — glasses or contact lens prescription current
-- Skin check — important given Thailand's sun exposure
+- Full general health check while Medicare still covers you
+- Dental check and treatment
+- Eye check — get current prescription
+- Skin check
 - Discuss all current medications with your GP — get scripts and a full medication list
-- Ask about vaccinations — Hepatitis A, Hepatitis B, and typhoid are often recommended for Thailand
+- Research and purchase Thai health insurance before leaving Australia
+- Bring 3–6 months supply of any regular medications
 
-**Health Insurance**
-- Research and purchase Thai health insurance before leaving Australia — pre-existing conditions are excluded from new policies after diagnosis
-- Ensure your policy meets the Thai retirement visa requirements (฿40,000 outpatient / ฿400,000 inpatient minimum)
-- [SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is one popular option among expats
+### Practical
 
-**Medications**
-- Bring a generous supply of any regular medications (3–6 months)
-- Most common medications are available in Thailand but brand names differ
-- Some medications require a prescription in Thailand that are over-the-counter in Australia (and vice versa)
-
-### Personal and Practical
-
-**Australian Address**
-- You'll need an Australian address for official correspondence — use a trusted family member's address or a mail forwarding service
-
-**Power of Attorney**
-- Consider giving power of attorney to a trusted person in Australia to handle financial or legal matters on your behalf if needed
-
-**Will**
-- Ensure your Australian will is current
-- Consider whether you need a Thai will for any assets you acquire in Thailand
-
-**Phone and SIM**
-- Check whether your Australian phone is unlocked (can accept foreign SIMs)
-- You'll buy a Thai SIM on arrival — no preparation needed
+- Keep an Australian address for official correspondence (family member or mail forwarding)
+- Notify Australian Electoral Commission of overseas status
+- Cancel unnecessary Australian subscriptions
+- Check whether your phone is unlocked for foreign SIMs
 
 ## On Arrival in Thailand
 
 ### First Week
-
 - Buy a Thai tourist SIM at the airport (฿300–฿500 for 30 days data)
-- Find temporary accommodation (hotel or serviced apartment) — don't commit to a long-term rental until you've had time to explore
+- Find temporary accommodation — don't commit to a long-term rental until you've explored
 - Download and set up Grab on your phone
 - Download Google Translate with Thai offline pack
-- Start exploring your chosen city — visit different neighbourhoods
 
 ### First Month
-
-- Open a Thai bank account (Bangkok Bank or KBank recommended — ask in local expat Facebook groups for the easiest branch)
-- Start the process of depositing ฿800,000 for your retirement visa (remember the seasoning requirement — it needs time in the account)
+- Open a Thai bank account (Bangkok Bank or KBank recommended)
+- Start depositing ฿800,000 for your retirement visa (remember the seasoning requirement)
 - Find a longer-term rental after getting to know the city
-- Register your address with your landlord (TM30 form — your landlord's responsibility)
 - Find a local GP and private hospital you're comfortable with
-- Connect with the local expat community — find the relevant Facebook groups, attend an expat club event
+- Connect with the local expat community
 
 ### First Three Months
-
-- Apply for your retirement visa extension (if you arrived on a tourist visa or visa exemption)
+- Apply for your retirement visa extension if needed
 - Get a Thai driving licence if you plan to drive
-- Set up home internet with AIS, True or 3BB
-- Establish your regular routines — favourite local restaurants, market, gym, coffee shop
-- Start learning basic Thai phrases
-
-## Things People Commonly Forget
-
-- Notifying Australian electoral roll of overseas status
-- Cancelling unnecessary Australian subscriptions (gym, clubs, services you won't use)
-- Forwarding mail or notifying important contacts of address change
-- Checking whether any Australian memberships or services can continue overseas
-- Bringing enough of a favourite product that's hard to find in Thailand (Vegemite, specific medications, particular brands)
+- Set up home internet (AIS, True or 3BB)
+- Establish your regular routines
 
 ## The Bottom Line
 
-Moving to Thailand is a big logistical exercise, but thousands of Australians do it every year. The most common issues come from not notifying Centrelink properly, leaving health insurance too late, or not having enough documentation for the visa process.
-
-Start the checklist 3–6 months before your planned departure date. The preparation time is well spent.
+Moving to Thailand is a big logistical exercise, but thousands of Australians do it every year. Start the checklist 3–6 months before your planned departure date.
 
 Use our [pension calculator](/) to confirm your financial numbers are solid before you start booking flights.
     `

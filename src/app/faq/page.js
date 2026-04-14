@@ -11,7 +11,7 @@ const faqs = [
     questions: [
       {
         q: "Can I receive the Australian Age Pension while living in Thailand?",
-        a: "Yes — but with conditions. You must first claim the pension while physically in Australia, then live in Australia for two years after being granted it. After that two-year period, your pension becomes 'portable' and can be paid to you anywhere in the world, including Thailand. Once overseas for more than 26 weeks, your payment is calculated based on how many years you lived in Australia between ages 16 and 67.",
+        a: "Yes. You must claim the pension while physically in Australia — you need to be present on the day you lodge your claim. Once granted, for most long-term Australians there is no mandatory waiting period before you can move overseas. Your pension is paid to you in Thailand indefinitely. After 6 weeks abroad your supplements reduce slightly, and after 26 weeks your rate may be recalculated based on your years of Australian residency. Always confirm your specific situation with Centrelink International Services on 131 673 before making plans.",
       },
       {
         q: "What is the current Australian Age Pension rate in 2026?",
@@ -22,16 +22,20 @@ const faqs = [
         a: "The current Age Pension age is 67 for both men and women born after 1 January 1957. If you were born before that date, the qualifying age may be slightly lower. You cannot claim the pension before reaching this age regardless of where you live.",
       },
       {
-        q: "What is the two-year portability rule?",
-        a: "Once you are granted the Age Pension, you must live in Australia for two continuous years before the pension becomes portable overseas. This rule exists to prevent people from briefly visiting Australia just to claim the pension and immediately taking it overseas. During those two years you can take short trips abroad, but Australia must remain your home base.",
+        q: "What are the residency requirements to claim the Age Pension?",
+        a: "You must be physically present in Australia on the day you lodge your claim. You also need to have lived in Australia for at least 10 years total, with at least 5 of those years being continuous. For most Australians who have lived and worked here most of their lives, this is easily met. If you have lived overseas for a period, count up your total Australian residency — as long as it adds up to 10 years with a 5-year continuous stretch, you qualify.",
+      },
+      {
+        q: "What is the two-year portability rule and does it apply to me?",
+        a: "The two-year rule is often misunderstood. It only applies to former residents — people who lived overseas for an extended period, returned to Australia specifically to claim the pension, and then want to immediately leave again. It does not apply to Australians who have been living and working in Australia leading up to their retirement. If you have been residing in Australia for many years before claiming, you can move to Thailand after claiming without any mandatory waiting period. If you are unsure whether this rule applies to your situation, contact Centrelink International Services on 131 673.",
       },
       {
         q: "Will I get the full pension in Thailand or a reduced amount?",
-        a: "It depends on how long you lived in Australia between ages 16 and 67. If you lived in Australia for 35 or more years during that period, you generally receive the full rate. If fewer than 35 years, your pension is calculated proportionally. For example, 28 years of Australian residency means you receive roughly 28/35ths of the full rate. Contact Centrelink International Services (phone 131 673 from overseas) to get an estimate based on your specific history.",
+        a: "It depends on your Australian Working Life Residency (AWLR) — the number of years you lived in Australia between ages 16 and 67. If you have 35 or more years, you generally receive the full overseas rate. If fewer than 35 years, your pension is calculated proportionally. For example, 28 years of Australian residency means you receive roughly 28/35ths of the full rate. If you spent time living overseas during your working life, add up your total Australian years carefully. Contact Centrelink International Services (phone 131 673 from overseas) to get an estimate based on your specific history.",
       },
       {
         q: "What do I lose when I take my pension overseas?",
-        a: "After 6 weeks outside Australia, you lose the energy supplement. After 6 weeks, the pension supplement drops to the basic rate only. You also lose access to the Pensioner Concession Card benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
+        a: "After 6 weeks outside Australia, you lose the energy supplement. The pension supplement drops to the basic rate only. You also lose access to the Pensioner Concession Card benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
       },
       {
         q: "Can Centrelink pay my pension directly into a Thai bank account?",
@@ -68,7 +72,7 @@ const faqs = [
       },
       {
         q: "What happens if I visit Australia during my retirement in Thailand?",
-        a: "Short visits to Australia are no problem — your Thai visa allows multiple re-entries. For your pension, visiting Australia resets no timers negatively. However, if you are within your two-year portability qualifying period, returning to live in Australia (not just visiting) resets that clock. For established retirees already receiving the portable pension, regular visits home are completely fine.",
+        a: "Short visits to Australia are no problem — your Thai visa allows multiple re-entries. For your pension, visiting Australia has no negative effect on your payments. Regular trips home to see family, attend medical appointments, or handle financial matters are completely compatible with living on the pension in Thailand.",
       },
     ],
   },
@@ -123,11 +127,11 @@ const faqs = [
       },
       {
         q: "Is Thailand safe for retirees?",
-        a: "Thailand is generally very safe for foreign retirees. Violent crime against foreigners is rare. The main risks are everyday ones — motorbike accidents (a genuine concern, take care on roads), petty theft in tourist areas, and scams targeting tourists. Retirees who settle into a city and live like locals rather than tourists generally have very few safety concerns. Political instability has occurred periodically in Thailand's history but rarely affects daily expat life.",
+        a: "Thailand is generally very safe for foreign retirees. Violent crime against foreigners is rare. The main risks are everyday ones — motorbike accidents (a genuine concern, take care on roads), petty theft in tourist areas, and scams targeting tourists. Retirees who settle into a city and live like locals rather than tourists generally have very few safety concerns.",
       },
       {
         q: "Can I drive in Thailand on my Australian licence?",
-        a: "You can drive in Thailand on your Australian licence for up to 90 days. For longer-term residence, you should get a Thai driving licence. The process involves a medical certificate, vision test, and written test (available in English) at your local Land Transport Office. Many expats find it straightforward. An International Driving Permit from an Australian motoring club can also be useful during the transition period.",
+        a: "You can drive in Thailand on your Australian licence for up to 90 days. For longer-term residence, you should get a Thai driving licence. The process involves a medical certificate, vision test, and written test (available in English) at your local Land Transport Office. Many expats find it straightforward.",
       },
       {
         q: "What is the cost of living in Thailand compared to Australia?",
@@ -235,7 +239,9 @@ export default function FAQPage() {
           <strong>Disclaimer:</strong> The information on this page is general in nature and does not
           constitute financial, legal or tax advice. Pension rules, visa requirements and tax laws
           change regularly. Always verify current information with Centrelink (servicesaustralia.gov.au),
-          the Thai Embassy, and a qualified adviser before making decisions.
+          the Thai Embassy, and a qualified adviser before making decisions. Every person's residency
+          history is different — contact Centrelink International Services on 131 673 to confirm
+          your specific entitlements.
         </div>
 
         {/* CTA */}
