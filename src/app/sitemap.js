@@ -152,6 +152,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    {
+      url: 'https://retire-thailand.vercel.app/blog/retiring-in-thailand-from-australia',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1.0,
+    },
 
     // ── City Guides ──
     {
