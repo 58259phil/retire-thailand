@@ -79,81 +79,168 @@ The key is choosing the right city for your budget, understanding the portabilit
   {
     slug: "thai-retirement-visa-australians",
     title: "Thai Retirement Visa Guide for Australians (2026)",
-    metaDescription: "Complete guide to getting a Thai retirement visa as an Australian. Covers the Non-OA visa, financial requirements, health insurance, and step-by-step application process.",
-    date: "2026-03-10",
-    readTime: "10 min read",
+    metaDescription: "Complete guide to getting a Thai retirement visa as an Australian in 2026. Covers the Non-OA and Non-O visa options, financial requirements, health insurance rules, re-entry permits and step-by-step application.",
+    date: "2026-04-14",
+    readTime: "14 min read",
     category: "Visa & Legal",
-    excerpt: "Everything Australians need to know about the Thai retirement visa in 2026 — financial requirements, health insurance, the application process and common mistakes to avoid.",
+    excerpt: "Everything Australians need to know about the Thai retirement visa in 2026 — two visa pathways, financial requirements, health insurance, re-entry permits and the mistakes that catch people out.",
     content: `
-## Your Options for Staying in Thailand Long-Term
+## What's Changed for 2026
 
-As an Australian retiree, you have several visa options for living in Thailand. The most common is the **Non-Immigrant O-A Visa** — commonly called the retirement visa.
+The core structure of the Thai retirement visa hasn't changed dramatically in 2026, but there are some important details that have tightened since the system was introduced. Health insurance minimums increased significantly in October 2021 and remain at the higher level. Banks have become more selective about opening accounts for foreigners. Compliance checks at immigration offices have become stricter. None of this makes retiring in Thailand harder — it just rewards those who prepare properly.
 
-## The Non-Immigrant O-A Visa
+## Your Two Visa Pathway Options
 
-This is the go-to visa for most Australian retirees. Here's what you need to know:
+Most guides talk about one visa. There are actually two practical pathways for Australian retirees, and the right one depends on your situation.
 
-**Age requirement:** You must be at least 50 years old.
+### Pathway 1 — Non-Immigrant O-A Visa (Applied from Australia)
 
-**Financial requirement:** You must show either:
-- **฿800,000** (~$36,000 AUD) deposited in a Thai bank account, OR
-- A **monthly income of ฿65,000** (~$2,950 AUD/month) — your Australian pension qualifies here, though it falls slightly short at current rates, so the bank deposit route is often easier
-- A combination of both
+This is the classic route. You apply at the Thai Embassy in Canberra (or Consulates in Sydney or Melbourne) before leaving Australia.
 
-**Health insurance:** Mandatory for the O-A visa. You need cover with at least ฿40,000 outpatient and ฿400,000 inpatient coverage. [SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is a popular and affordable option with many expats in Thailand.
+**What you get:** A 1-year visa stamped in your passport, valid from the date you enter Thailand. You must enter within 90 days of the visa being issued.
 
-**Duration:** Valid for 1 year, renewable annually inside Thailand.
+**Requirements:**
+- Age 50 or over
+- Proof of funds: ฿800,000 (~$36,000 AUD) in a Thai bank account, OR monthly income of ฿65,000 (~$2,950 AUD/month)
+- Health insurance meeting Thai government minimums (see below)
+- Police clearance certificate from the Australian Federal Police
+- Medical certificate from a registered doctor
+- Valid passport with at least 18 months remaining
 
-## Step-by-Step Application Process for Australians
+**Health insurance requirement (O-A visa):** Since October 2021, the minimum coverage is **฿3,000,000 total** (~$136,000 AUD) per policy year. This replaced the older ฿40,000/฿400,000 outpatient/inpatient split. The policy must cover you for the full duration of your stay in Thailand.
 
-### Step 1 — Apply at the Thai Embassy in Canberra
-The Royal Thai Embassy in Australia is located in Canberra. You can also apply at the Thai Consulate in Sydney or Melbourne.
+### Pathway 2 — Non-Immigrant O Visa (Applied in Thailand)
 
-**Documents you'll need:**
-- Valid Australian passport (at least 18 months remaining)
-- Completed application form
-- Passport photos
-- Proof of funds (bank statement showing ฿800,000 or income evidence)
-- Health insurance certificate meeting the requirements
-- Police clearance certificate (from Australian Federal Police)
-- Medical certificate (signed by a registered doctor)
+This is a popular alternative that many Australians prefer because it does not require health insurance to obtain initially, and gives you time to set up your bank account before needing to show funds.
+
+**How it works:**
+1. Enter Thailand on a tourist visa or visa exemption entry
+2. Apply for a Non-Immigrant O visa at an immigration office in Thailand
+3. Open a Thai bank account and deposit ฿800,000
+4. After the funds have seasoned for the required period, apply for a 1-year retirement extension
+
+**Key advantage:** Health insurance is NOT required for the initial Non-O visa. It may be required for some annual extensions depending on the immigration office — requirements vary, so check with your local office.
+
+**Key consideration:** You need an existing Thai bank account to do this. Many banks now won't open accounts for foreigners on tourist entries, so timing and having the right documents matters. Bangkok Bank and Kasikorn Bank are the most foreigner-friendly.
+
+## Step-by-Step: Pathway 1 (From Australia)
+
+### Step 1 — Gather Your Documents
+- Valid Australian passport (18+ months remaining)
+- Completed visa application form (download from Thai Embassy website)
+- Passport photos (4x6cm, white background)
+- Bank statement or letter showing ฿800,000 in a Thai bank, OR income evidence showing ฿65,000/month
+- Health insurance certificate meeting ฿3,000,000 minimum coverage
+- Police clearance from Australian Federal Police (allow 2–4 weeks to obtain)
+- Medical certificate signed by a registered Australian doctor
 - Application fee
 
-### Step 2 — Enter Thailand
-Once granted, your O-A visa lets you stay for up to 1 year. You must enter within 90 days of the visa being issued.
+### Step 2 — Apply at the Thai Embassy or Consulate
+- **Canberra:** Royal Thai Embassy — the main option for most Australians
+- **Sydney:** Royal Thai Consulate-General
+- **Melbourne:** Royal Thai Consulate-General
 
-### Step 3 — Open a Thai Bank Account
-Do this as soon as you arrive. Bangkok Bank and Kasikorn Bank are the most foreigner-friendly. You'll need your passport and visa — some branches are easier than others, so ask in expat forums for the best branch in your city.
+Processing time is typically 3–5 business days. You can apply in person or by post depending on the consulate.
 
-### Step 4 — Report to Immigration Every 90 Days
-While living in Thailand on a retirement visa, you must report to your local immigration office every 90 days to confirm your address. Many areas now allow this online or via post.
+### Step 3 — Enter Thailand
+Your O-A visa is valid for 1 year from the date of entry. You must enter Thailand within 90 days of the visa being issued. Keep your TM6 arrival card — you will need it.
 
-### Step 5 — Annual Renewal
-Each year, renew your visa extension at your local immigration office. You'll need to show your bank balance still meets the requirement.
+### Step 4 — Open a Thai Bank Account
+Do this within the first week of arriving. Bangkok Bank and Kasikorn Bank are the most experienced with foreign customers. You'll need your passport, visa, and proof of address (rental contract or hotel letter). Ask in local expat Facebook groups for which branch is easiest in your city — this genuinely varies.
 
-## Health Insurance for the Retirement Visa
+### Step 5 — Report to Immigration Every 90 Days
+You must report your address to Thai Immigration every 90 days using the TM47 form. This can be done online at imm.immigration.go.th, by post, or in person. Missing the deadline incurs a fine of ฿2,000 (~$90 AUD).
 
-Health insurance is compulsory for the O-A visa. The good news is Thai-based insurers offer plans specifically designed for this requirement at reasonable prices.
+### Step 6 — Get a Re-Entry Permit Before Travelling
+This is the mistake that catches most new retirees out. **If you leave Thailand without a re-entry permit, your visa extension is automatically cancelled when you depart.** You would need to apply for a new visa from scratch.
 
-For someone aged 62–70, expect to pay roughly **฿50,000–฿90,000 per year** ($2,300–$4,100 AUD) for a plan that meets the visa requirements.
+Before any trip out of Thailand — including back to Australia — you must obtain a re-entry permit from your local immigration office or at an international airport before you leave.
 
-**Tip:** Buy insurance before you have any new health conditions diagnosed. Pre-existing conditions are typically excluded from new policies, so locking in cover while healthy gets you the best protection.
+- **Single re-entry permit:** ฿1,000 (~$45 AUD)
+- **Multiple re-entry permit:** ฿3,800 (~$173 AUD)
+
+The multiple re-entry permit is strongly recommended if you plan to travel at all during the year.
+
+### Step 7 — Annual Renewal
+Each year, renew your extension at your local immigration office. You'll need to show your bank balance still meets the ฿800,000 requirement — and it must have been at that level for at least 3 months before your renewal application. After renewal, the balance must remain above ฿400,000 for at least 3 months.
+
+## Health Insurance in Detail
+
+For the O-A visa, health insurance is non-negotiable. The current minimum:
+
+**฿3,000,000 total coverage per policy year** (approximately $136,000 AUD)
+
+The policy can be from a Thai or foreign insurance company, but must meet the Thai government's requirements. Thai-based policies specifically designed for the retirement visa are generally cheaper and more straightforward.
+
+For an Australian aged 60–70, expect to pay:
+- **Basic plan meeting visa requirements:** ฿20,000–฿50,000/year ($910–$2,270 AUD)
+- **More comprehensive cover:** ฿50,000–฿100,000/year ($2,270–$4,545 AUD)
+
+**Important tip:** Buy insurance before leaving Australia — before any new health conditions are diagnosed. Pre-existing conditions are typically excluded from new Thai policies, so locking in cover while healthy gets you the best protection. [SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is one option popular with expats.
+
+## Financial Requirements in Detail
+
+### The ฿800,000 Bank Deposit Method
+
+This is the most commonly used approach. Key rules:
+
+- The money must be in a **Thai bank account** (not an Australian account)
+- It must be deposited for at least **2 months** before your initial application
+- After renewal, it must stay above **฿800,000 for 3 months**, then must not drop below **฿400,000** for the rest of the year
+- Keep it as a dedicated "visa fund" — treat it as untouchable
+
+### The ฿65,000/Month Income Method
+
+Your Australian Age Pension may qualify here — the full overseas pension rate is approximately ฿52,000–฿55,000/month at current exchange rates, which falls slightly short of ฿65,000. A combination of pension plus a small super drawdown could bridge this gap.
+
+Income documentation requirements: You need to show consistent income for the prior 12 months. Pension statements and bank statements showing regular deposits are typically accepted.
+
+### The Combination Method
+
+You can combine both — for example, ฿400,000 in a Thai bank account plus ฿45,000/month income. The combined method works well for Australians whose pension falls short of ฿65,000.
+
+## What You Can and Cannot Do on a Retirement Visa
+
+**You can:**
+- Live in Thailand year-round
+- Leave and return freely (with re-entry permit)
+- Rent property
+- Open bank accounts
+- Own a condominium
+
+**You cannot:**
+- Work for a Thai or foreign employer
+- Work remotely for income (technically — though enforcement varies)
+- Vote in Thai elections
+
+## Stricter Compliance in 2026
+
+Immigration officers have increased compliance checks in 2026. Things being monitored more carefully include:
+
+- Verifying bank balances are genuinely maintained (not just deposited before renewal then withdrawn)
+- Ensuring health insurance is current and valid throughout the stay
+- Checking 90-day reports are being filed
+- Random address verification visits in some areas
+
+None of this is alarming for retirees following the rules properly. It's mainly targeted at people gaming the system. If you maintain your bank balance, keep your insurance current, and file your 90-day reports — you will have no issues.
 
 ## Common Mistakes to Avoid
 
-**Don't let your 90-day report lapse.** Missing it can result in fines or visa cancellation.
+**Leaving Thailand without a re-entry permit.** Your visa is cancelled the moment you depart without one. Get a multiple re-entry permit as soon as your extension is granted.
 
-**Don't dip below the ฿800,000 threshold.** Your bank balance must maintain this level. Many retirees keep it as a dedicated "visa fund" they don't touch.
+**Letting your bank balance drop below the required level.** Immigration checks balances at renewal. Dipping below ฿800,000 during the first 3 months or below ฿400,000 during the rest of the year can jeopardise your renewal.
 
-**Don't rely on tourist visa extensions.** While possible short-term, constantly renewing tourist visas is stressful and frowned upon by immigration.
+**Using an insurance policy that doesn't meet the current ฿3,000,000 minimum.** The old ฿40,000/฿400,000 figure is outdated. Make sure your policy explicitly meets the current requirements.
 
-**Do keep photocopies of everything.** Passport, visa, insurance certificate, TM30 (address registration) — keep digital and physical copies.
+**Letting your 90-day report lapse.** Set a phone reminder 2 weeks before each deadline.
+
+**Waiting too long to open a Thai bank account.** Banks are becoming more selective. Get your account open in the first week after arrival while you have all your documents fresh.
 
 ## The Bottom Line
 
-The Thai retirement visa is very manageable for Australians. The financial requirements are straightforward, the annual renewal process is simple once you've done it once, and Thailand's immigration system is well set up for retirees.
+The Thai retirement visa is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
 
-Use our [cost calculator](/) to plan your budget before you apply.
+Use our [cost calculator](/) to plan your budget, and our [FAQ page](/faq) for answers to common pension and visa questions.
     `
   },
   {
