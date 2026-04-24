@@ -11,12 +11,18 @@ export async function POST(request) {
       );
     }
 
+    const audienceId = process.env.RESEND_AUDIENCE_ID;
+    const apiKey = process.env.RESEND_API_KEY;
+
+    console.log('Audience ID:', audienceId);
+    console.log('API Key exists:', !!apiKey);
+
     const response = await fetch(
-      `https://api.resend.com/audiences/${process.env.RESEND_AUDIENCE_ID}/contacts`,
+      `https://api.resend.com/audiences/${audienceId}/contacts`,
       {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+          'Authorization': `Bearer ${apiKey}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
@@ -27,11 +33,13 @@ export async function POST(request) {
       }
     );
 
+    const responseData = await response.json();
+    console.log('Resend response status:', response.status);
+    console.log('Resend response data:', JSON.stringify(responseData));
+
     if (!response.ok) {
-      const error = await response.json();
-      console.error('Resend error:', error);
       return NextResponse.json(
-        { error: 'Failed to subscribe' },
+        { error: responseData.message || 'Failed to subscribe' },
         { status: 500 }
       );
     }
