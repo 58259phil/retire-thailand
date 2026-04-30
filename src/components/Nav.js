@@ -2,9 +2,21 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleCalculator = () => {
+    setOpen(false);
+    if (pathname === '/') {
+      document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      router.push('/#calculator');
+    }
+  };
 
   return (
     <nav style={{
@@ -31,20 +43,17 @@ export default function Nav() {
 
         {/* Desktop links */}
         <div className="hidden md:flex" style={{ gap: '32px', alignItems: 'center' }}>
-          {[
-            { href: '/', label: 'Calculator' },
-            { href: '/cities', label: 'City Guides' },
-            { href: '/blog', label: 'Blog' },
-            { href: '/faq', label: 'FAQ' },
-          ].map(({ href, label }) => (
-            <Link key={href} href={href} style={{
-              fontSize: '12px', letterSpacing: '0.12em',
-              textTransform: 'uppercase', color: '#A08060',
-              textDecoration: 'none',
-            }}>
-              {label}
-            </Link>
-          ))}
+          <button onClick={handleCalculator} style={{
+            background: 'none', border: 'none', cursor: 'pointer',
+            fontSize: '12px', letterSpacing: '0.12em',
+            textTransform: 'uppercase', color: '#A08060',
+            fontFamily: 'inherit', padding: 0,
+          }}>
+            Calculator
+          </button>
+          <Link href="/cities" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>City Guides</Link>
+          <Link href="/blog" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>Blog</Link>
+          <Link href="/faq" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>FAQ</Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -70,18 +79,16 @@ export default function Nav() {
           padding: '16px 40px',
           display: 'flex', flexDirection: 'column', gap: '16px',
         }}>
-          {[
-            { href: '/', label: 'Calculator' },
-            { href: '/cities', label: 'City Guides' },
-            { href: '/blog', label: 'Blog' },
-            { href: '/faq', label: 'FAQ' },
-          ].map(({ href, label }) => (
-            <Link key={href} href={href}
-              onClick={() => setOpen(false)}
-              style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>
-              {label}
-            </Link>
-          ))}
+          <button onClick={handleCalculator} style={{
+            background: 'none', border: 'none', cursor: 'pointer',
+            color: '#A08060', textDecoration: 'none', fontSize: '14px',
+            textAlign: 'left', fontFamily: 'inherit', padding: 0,
+          }}>
+            Calculator
+          </button>
+          <Link href="/cities" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>City Guides</Link>
+          <Link href="/blog" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>Blog</Link>
+          <Link href="/faq" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>FAQ</Link>
         </div>
       )}
     </nav>
