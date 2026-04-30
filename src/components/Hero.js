@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Hero section */}
       <section style={{
         display: 'flex',
-        minHeight: '480px',
+        height: '480px',
         position: 'relative',
         overflow: 'hidden',
         background: '#0F0A04',
@@ -40,6 +40,7 @@ export default function Hero() {
           justifyContent: 'center',
           position: 'relative',
           zIndex: 3,
+          height: '480px',
         }}>
 
           {/* Eyebrow */}
@@ -121,10 +122,11 @@ export default function Hero() {
 
         {/* Right — temple photo */}
         <div style={{
-          width: '45%',
+          width: '420px',
           flexShrink: 0,
           position: 'relative',
           overflow: 'hidden',
+          height: '480px',
         }}>
           <img
             src="/temple.jpg"
@@ -133,9 +135,8 @@ export default function Hero() {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              objectPosition: 'center 20%',
+              objectPosition: 'center 30%',
               display: 'block',
-              minHeight: '480px',
             }}
           />
           {/* Dark overlay */}
