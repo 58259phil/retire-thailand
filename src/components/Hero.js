@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Hero section */}
       <section style={{
         background: '#0F0A04',
-        height: '480px',
+        height: '560px',
         position: 'relative',
         overflow: 'hidden',
       }}>
@@ -28,7 +28,7 @@ export default function Hero() {
           maxWidth: '1200px',
           margin: '0 auto',
           padding: '0 5%',
-          height: '100%',
+          height: '560px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -85,18 +85,8 @@ export default function Hero() {
                   border: 'none', cursor: 'pointer', fontFamily: 'inherit', lineHeight: 1,
                 }}
               >
-                Calculate My Numbers →
+                Calculate My Budget ↓
               </button>
-              <Link href="/cities" style={{
-                background: 'transparent', color: '#C9963A',
-                fontSize: '14px', fontWeight: 500,
-                padding: '13px 24px', borderRadius: '3px',
-                border: '1px solid #C9963A', cursor: 'pointer',
-                fontFamily: 'inherit', lineHeight: 1, textDecoration: 'none',
-                display: 'inline-block',
-              }}>
-                See City Guides
-              </Link>
             </div>
           </div>
 
