@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 export default function Hero() {
   const scrollToCalculator = () => {
     document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' });
@@ -18,27 +16,33 @@ export default function Hero() {
       {/* Hero section */}
       <section style={{
         background: '#0F0A04',
-        height: '520px',
         position: 'relative',
         overflow: 'hidden',
       }}>
 
-        {/* Centred content container — same max-width as rest of site */}
+        {/* Subtle radial glow */}
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: 'radial-gradient(ellipse at 25% 60%, rgba(201,150,58,0.07) 0%, transparent 50%)',
+          zIndex: 1, pointerEvents: 'none',
+        }} />
+
+        {/* Inner container */}
         <div style={{
           maxWidth: '1200px',
           margin: '0 auto',
           padding: '0 5%',
-          height: '520px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
           gap: '60px',
           position: 'relative',
           zIndex: 3,
+          minHeight: '520px',
         }}>
 
           {/* Left — text */}
-          <div style={{ flex: 1, maxWidth: '520px' }}>
+          <div style={{ flex: 1, maxWidth: '520px', padding: '60px 0' }}>
 
             {/* Eyebrow */}
             <div style={{
@@ -54,7 +58,7 @@ export default function Hero() {
             {/* Headline */}
             <h1 style={{
               fontFamily: 'var(--font-display), Georgia, serif',
-              fontSize: 'clamp(32px, 3.5vw, 44px)',
+              fontSize: 'clamp(28px, 3.5vw, 44px)',
               fontWeight: 700,
               lineHeight: 1.12,
               color: '#F5EDD8',
@@ -74,24 +78,22 @@ export default function Hero() {
               honest city-by-city cost breakdowns and everything you need to plan your move.
             </p>
 
-            {/* Buttons */}
-            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'center' }}>
-              <button
-                onClick={scrollToCalculator}
-                style={{
-                  background: '#C9963A', color: '#0F0A04',
-                  fontSize: '14px', fontWeight: 600, letterSpacing: '0.04em',
-                  padding: '14px 28px', borderRadius: '3px',
-                  border: 'none', cursor: 'pointer', fontFamily: 'inherit', lineHeight: 1,
-                }}
-              >
-                Calculate My Budget ↓
-              </button>
-            </div>
+            {/* Button */}
+            <button
+              onClick={scrollToCalculator}
+              style={{
+                background: '#C9963A', color: '#0F0A04',
+                fontSize: '14px', fontWeight: 600, letterSpacing: '0.04em',
+                padding: '14px 28px', borderRadius: '3px',
+                border: 'none', cursor: 'pointer', fontFamily: 'inherit', lineHeight: 1,
+              }}
+            >
+              Calculate My Budget ↓
+            </button>
           </div>
 
-          {/* Right — temple photo */}
-          <div style={{
+          {/* Right — temple photo — hidden on mobile */}
+          <div className="hidden md:block" style={{
             width: '340px',
             height: '460px',
             flexShrink: 0,
@@ -116,7 +118,7 @@ export default function Hero() {
               background: 'rgba(8,4,0,0.2)',
               zIndex: 1,
             }} />
-            {/* Left fade into background */}
+            {/* Left fade */}
             <div style={{
               position: 'absolute', top: 0, left: 0,
               width: '80px', height: '100%',
@@ -126,14 +128,6 @@ export default function Hero() {
           </div>
 
         </div>
-
-        {/* Subtle radial glow behind text */}
-        <div style={{
-          position: 'absolute', inset: 0,
-          background: 'radial-gradient(ellipse at 25% 60%, rgba(201,150,58,0.07) 0%, transparent 50%)',
-          zIndex: 1, pointerEvents: 'none',
-        }} />
-
       </section>
 
       {/* Tick strip */}
@@ -141,8 +135,8 @@ export default function Hero() {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: '40px',
-        padding: '14px 40px',
+        gap: '32px',
+        padding: '14px 24px',
         background: '#130C04',
         borderTop: '1px solid rgba(201,150,58,0.12)',
         borderBottom: '1px solid rgba(201,150,58,0.12)',
@@ -155,8 +149,9 @@ export default function Hero() {
           'Free, no signup needed',
         ].map((item) => (
           <div key={item} style={{
-            display: 'flex', alignItems: 'center', gap: '8px',
+            display: 'flex', alignItems: 'center', gap: '6px',
             fontSize: '13px', color: '#A08060',
+            whiteSpace: 'nowrap',
           }}>
             <span style={{ color: '#C9963A', fontWeight: 600 }}>✓</span>
             {item}
