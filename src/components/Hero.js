@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Left content */}
         <div style={{
           flex: 1,
-          padding: '64px 48px 64px 40px',
+          padding: '64px 40px 64px 5%',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
@@ -121,7 +121,7 @@ export default function Hero() {
 
         {/* Right — temple photo */}
         <div style={{
-          width: '380px',
+          width: '45%',
           flexShrink: 0,
           position: 'relative',
           overflow: 'hidden',
