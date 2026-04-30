@@ -199,16 +199,17 @@ export default function Calculator() {
               </div>
 
               {useCustomAmount ? (
-                <div className="relative">
-                  <span className="absolute left-4 top-1/2 -translate-y-1/2 font-bold text-gray-400">A$</span>
+                <div className="flex items-center gap-2">
+                  <span className="font-bold text-sm flex-shrink-0" style={{ color: 'var(--color-ink-soft)' }}>A$</span>
                   <input
                     type="number"
-                    className="input-field pl-10"
-                    placeholder="e.g. 650"
+                    className="input-field flex-1"
+                    placeholder="650"
                     value={customAmount}
                     onChange={e => setCustomAmount(e.target.value)}
                     min="0"
                   />
+                  <span className="text-sm flex-shrink-0" style={{ color: 'var(--color-ink-soft)' }}>/week</span>
                 </div>
               ) : (
                 <div className="p-3 rounded-lg bg-amber-50 border border-amber-100">
