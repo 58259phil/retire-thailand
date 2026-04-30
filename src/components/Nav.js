@@ -7,27 +7,52 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10" style={{ background: 'rgba(26,18,9,0.95)', backdropFilter: 'blur(12px)' }}>
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+    <nav style={{
+      position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
+      background: 'rgba(15,10,4,0.97)',
+      borderBottom: '1px solid rgba(201,150,58,0.15)',
+      backdropFilter: 'blur(12px)',
+    }}>
+      <div style={{
+        maxWidth: '1200px', margin: '0 auto',
+        padding: '0 40px', height: '64px',
+        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+      }}>
 
         {/* Logo */}
-        <Link href="/" className="font-display text-xl text-white hover:text-yellow-400 transition-colors">
-          Retire <span style={{ color: 'var(--color-gold)' }}>Thailand</span>
+        <Link href="/" style={{ textDecoration: 'none' }}>
+          <span style={{
+            fontFamily: 'var(--font-display), Georgia, serif',
+            fontSize: '20px', color: '#F5EDD8',
+          }}>
+            Retire <em style={{ color: '#C9963A', fontStyle: 'normal' }}>Thailand</em>
+          </span>
         </Link>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
-          <Link href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Calculator</Link>
-          <Link href="/cities" className="text-sm text-gray-300 hover:text-white transition-colors">City Guides</Link>
-          <Link href="/blog" className="text-sm text-gray-300 hover:text-white transition-colors">Blog</Link>
-          <Link href="/faq" className="text-sm text-gray-300 hover:text-white transition-colors">FAQ</Link>
-          <Link href="/#calculator" className="btn-primary text-sm py-2 px-5">
-            Get Started
-          </Link>
+        <div className="hidden md:flex" style={{ gap: '32px', alignItems: 'center' }}>
+          {[
+            { href: '/', label: 'Calculator' },
+            { href: '/cities', label: 'City Guides' },
+            { href: '/blog', label: 'Blog' },
+            { href: '/faq', label: 'FAQ' },
+          ].map(({ href, label }) => (
+            <Link key={href} href={href} style={{
+              fontSize: '12px', letterSpacing: '0.12em',
+              textTransform: 'uppercase', color: '#A08060',
+              textDecoration: 'none',
+            }}>
+              {label}
+            </Link>
+          ))}
         </div>
 
         {/* Mobile hamburger */}
-        <button className="md:hidden text-white p-2" onClick={() => setOpen(!open)}>
+        <button
+          className="md:hidden"
+          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '8px', color: '#F5EDD8' }}
+          onClick={() => setOpen(!open)}
+        >
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             {open
               ? <path d="M18 6L6 18M6 6l12 12"/>
@@ -39,11 +64,24 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-white/10 px-4 py-4 space-y-3" style={{ background: 'rgba(26,18,9,0.98)' }}>
-          <Link href="/" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>Calculator</Link>
-          <Link href="/cities" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>City Guides</Link>
-          <Link href="/blog" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>Blog</Link>
-          <Link href="/faq" className="block text-gray-300 py-2" onClick={() => setOpen(false)}>FAQ</Link>
+        <div style={{
+          background: 'rgba(15,10,4,0.99)',
+          borderTop: '1px solid rgba(201,150,58,0.1)',
+          padding: '16px 40px',
+          display: 'flex', flexDirection: 'column', gap: '16px',
+        }}>
+          {[
+            { href: '/', label: 'Calculator' },
+            { href: '/cities', label: 'City Guides' },
+            { href: '/blog', label: 'Blog' },
+            { href: '/faq', label: 'FAQ' },
+          ].map(({ href, label }) => (
+            <Link key={href} href={href}
+              onClick={() => setOpen(false)}
+              style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>
+              {label}
+            </Link>
+          ))}
         </div>
       )}
     </nav>
