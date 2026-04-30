@@ -122,7 +122,7 @@ export default function Hero() {
 
         {/* Right — temple photo */}
         <div style={{
-          width: '420px',
+          width: '360px',
           flexShrink: 0,
           position: 'relative',
           overflow: 'hidden',
@@ -148,8 +148,8 @@ export default function Hero() {
           {/* Left fade */}
           <div style={{
             position: 'absolute', top: 0, left: 0,
-            width: '220px', height: '100%',
-            background: 'linear-gradient(90deg, #0F0A04 0%, rgba(15,10,4,0.97) 35%, rgba(15,10,4,0.65) 65%, transparent 100%)',
+            width: '120px', height: '100%',
+            background: 'linear-gradient(90deg, #0F0A04 0%, rgba(15,10,4,0.9) 40%, transparent 100%)',
             zIndex: 2,
           }} />
         </div>
