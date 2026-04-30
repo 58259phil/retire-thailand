@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Hero section */}
       <section style={{
         background: '#0F0A04',
-        height: '560px',
+        height: '520px',
         position: 'relative',
         overflow: 'hidden',
       }}>
@@ -28,7 +28,7 @@ export default function Hero() {
           maxWidth: '1200px',
           margin: '0 auto',
           padding: '0 5%',
-          height: '560px',
+          height: '520px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -93,7 +93,7 @@ export default function Hero() {
           {/* Right — temple photo */}
           <div style={{
             width: '340px',
-            height: '380px',
+            height: '460px',
             flexShrink: 0,
             position: 'relative',
             overflow: 'hidden',
