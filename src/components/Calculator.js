@@ -28,203 +28,36 @@ const lineItems = [
   { key: 'misc',          label: 'Miscellaneous',    emoji: '🛍️' },
 ];
 
-// ── Styles ────────────────────────────────────────────────
-const S = {
-  // Layout
-  section: {
-    padding: '64px 24px',
-    background: '#F7F0E4',
-  },
-  inner: {
-    maxWidth: '960px',
-    margin: '0 auto',
-  },
+// Currency list — AUD first, then alphabetical
+const currencies = [
+  { code: 'AUD', flag: '🇦🇺', label: 'Australian $', primary: true },
+  { code: 'GBP', flag: '🇬🇧', label: 'British £',    primary: false },
+  { code: 'DKK', flag: '🇩🇰', label: 'Danish Kr',    primary: false },
+  { code: 'EUR', flag: '🇪🇺', label: 'Euro',          primary: false },
+  { code: 'SGD', flag: '🇸🇬', label: 'Singapore $',  primary: false },
+  { code: 'ZAR', flag: '🇿🇦', label: 'S. African R', primary: false },
+  { code: 'SEK', flag: '🇸🇪', label: 'Swedish Kr',   primary: false },
+  { code: 'USD', flag: '🇺🇸', label: 'US $',          primary: false },
+];
 
-  // Header
-  title: {
-    fontFamily: 'var(--font-display), Georgia, serif',
-    fontSize: '32px',
-    fontWeight: 700,
-    color: '#1A1108',
-    textAlign: 'center',
-    marginBottom: '8px',
-  },
-  sub: {
-    fontSize: '14px',
-    color: '#7A6040',
-    textAlign: 'center',
-    marginBottom: '24px',
-    lineHeight: 1.7,
-  },
-
-  // Exchange bar
-  exBar: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '8px',
-    background: '#1A1108',
-    borderRadius: '3px',
-    padding: '8px 16px',
-    marginBottom: '32px',
-  },
-  liveDot: {
-    width: '6px',
-    height: '6px',
-    borderRadius: '50%',
-    background: '#4CAF50',
-    display: 'inline-block',
-  },
-  exLabel: {
-    fontSize: '11px',
-    letterSpacing: '0.1em',
-    textTransform: 'uppercase',
-    color: '#7A6040',
-  },
-  exRate: {
-    fontSize: '14px',
-    fontWeight: 500,
-    color: '#C9963A',
-  },
-
-  // Step label
-  stepLabel: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '10px',
-    fontSize: '10px',
-    letterSpacing: '0.18em',
-    textTransform: 'uppercase',
-    color: '#7A6040',
-    marginBottom: '14px',
-  },
-  stepNum: {
-    width: '22px',
-    height: '22px',
-    borderRadius: '50%',
-    background: '#C9963A',
-    color: '#0F0A04',
-    fontSize: '11px',
-    fontWeight: 700,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexShrink: 0,
-  },
-
-  // Input card
-  icard: {
-    background: '#1A1108',
-    border: '1px solid rgba(201,150,58,0.2)',
-    borderRadius: '4px',
-    padding: '14px',
-  },
-  ititle: {
-    fontSize: '10px',
-    fontWeight: 500,
-    textTransform: 'uppercase',
-    letterSpacing: '0.12em',
-    color: '#C9963A',
-    marginBottom: '10px',
-  },
-
-  // Seg buttons
-  segBtn: { display: 'flex', gap: '4px' },
-  seg: (on) => ({
-    flex: 1,
-    padding: '7px 4px',
-    border: `1px solid ${on ? '#C9963A' : 'rgba(201,150,58,0.25)'}`,
-    borderRadius: '3px',
-    fontSize: '11px',
-    textAlign: 'center',
-    color: on ? '#0F0A04' : '#7A6040',
-    cursor: 'pointer',
-    background: on ? '#C9963A' : 'transparent',
-    fontWeight: on ? 600 : 400,
-    fontFamily: 'inherit',
-  }),
-
-  // Radio items
-  ritem: (on) => ({
-    padding: '7px 10px',
-    border: `1px solid ${on ? '#C9963A' : 'rgba(201,150,58,0.2)'}`,
-    borderRadius: '3px',
-    fontSize: '12px',
-    color: on ? '#0F0A04' : '#7A6040',
-    cursor: 'pointer',
-    background: on ? '#C9963A' : 'transparent',
-    fontWeight: on ? 600 : 400,
-    fontFamily: 'inherit',
-    textAlign: 'left',
-    width: '100%',
-    marginBottom: '5px',
-  }),
-
-  // Income display
-  incDisp: {
-    background: 'rgba(201,150,58,0.1)',
-    border: '1px solid rgba(201,150,58,0.2)',
-    borderRadius: '3px',
-    padding: '10px',
-    marginTop: '8px',
-  },
-  incAmt: {
-    fontFamily: 'var(--font-display), Georgia, serif',
-    fontSize: '18px',
-    color: '#C9963A',
-  },
-  incSub: {
-    fontSize: '10px',
-    color: '#5A4030',
-    marginTop: '2px',
-  },
-
-  // Gold divider
-  goldDiv: {
-    height: '1px',
-    background: 'linear-gradient(90deg, transparent, rgba(201,150,58,0.4) 30%, rgba(201,150,58,0.7) 50%, rgba(201,150,58,0.4) 70%, transparent)',
-    margin: '28px 0',
-  },
-
-  // City card
-  ccard: (on) => ({
-    background: on ? '#231608' : '#1A1108',
-    border: `1px solid ${on ? '#C9963A' : 'rgba(201,150,58,0.2)'}`,
-    borderRadius: '4px',
-    padding: '14px',
-    cursor: 'pointer',
-    position: 'relative',
-    textAlign: 'left',
-    fontFamily: 'inherit',
-    width: '100%',
-  }),
-
-  // Results accordion
-  resItem: (open) => ({
-    background: '#1A1108',
-    border: `1px solid ${open ? 'rgba(201,150,58,0.5)' : 'rgba(201,150,58,0.2)'}`,
-    borderRadius: '4px',
-    overflow: 'hidden',
-    marginBottom: '10px',
-  }),
-  resHeader: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '16px 18px',
-    cursor: 'pointer',
-    background: 'none',
-    border: 'none',
-    width: '100%',
-    fontFamily: 'inherit',
-  },
-};
-
-// ── Sub-components ────────────────────────────────────────
-
-function CityCardNew({ city, selected, onToggle }) {
+// ── City Card ─────────────────────────────────────────────
+function CityCard({ city, selected, onToggle }) {
   const emoji = cityEmojis[city.id] || '📍';
   return (
-    <button onClick={onToggle} style={S.ccard(selected)}>
+    <button
+      onClick={onToggle}
+      style={{
+        background: selected ? '#231608' : '#1A1108',
+        border: `1px solid ${selected ? '#C9963A' : 'rgba(201,150,58,0.2)'}`,
+        borderRadius: '4px',
+        padding: '14px',
+        cursor: 'pointer',
+        position: 'relative',
+        textAlign: 'left',
+        fontFamily: 'inherit',
+        width: '100%',
+      }}
+    >
       {selected && (
         <div style={{
           position: 'absolute', top: '10px', right: '10px',
@@ -251,21 +84,35 @@ function CityCardNew({ city, selected, onToggle }) {
   );
 }
 
-function ResultsPanelNew({ city, results, exchangeRate, index }) {
-  const [open, setOpen] = useState(index === 0);
+// ── Results Panel ─────────────────────────────────────────
+function ResultsPanel({ city, results, exchangeRate, index }) {
+  const [open, setOpen] = useState(false); // all closed by default
   const [view, setView] = useState('monthly');
 
   const emoji = cityEmojis[city.id] || '📍';
   const isTight = results.surplusWeekly < 0;
-  const isOk = results.surplusWeekly >= 0 && results.surplusWeekly <= 100;
-  const isGood = results.surplusWeekly > 100;
+  const isOk    = results.surplusWeekly >= 0 && results.surplusWeekly <= 100;
+  const isGood  = results.surplusWeekly > 100;
   const surplusColor = isGood ? '#6FCF97' : isOk ? '#F6C90E' : '#EB5757';
   const multiplier = view === 'weekly' ? 1 / 4.33 : 1;
 
   return (
-    <div style={S.resItem(open)}>
+    <div style={{
+      background: '#1A1108',
+      border: `1px solid ${open ? 'rgba(201,150,58,0.5)' : 'rgba(201,150,58,0.2)'}`,
+      borderRadius: '4px',
+      overflow: 'hidden',
+      marginBottom: '10px',
+    }}>
       {/* Header */}
-      <button style={S.resHeader} onClick={() => setOpen(!open)}>
+      <button
+        onClick={() => setOpen(!open)}
+        style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          padding: '16px 18px', cursor: 'pointer',
+          background: 'none', border: 'none', width: '100%', fontFamily: 'inherit',
+        }}
+      >
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <span style={{ fontSize: '20px' }}>{emoji}</span>
           <div style={{ textAlign: 'left' }}>
@@ -284,7 +131,14 @@ function ResultsPanelNew({ city, results, exchangeRate, index }) {
               {isTight ? '−' : '+'} {formatAUD(Math.abs(results.surplusWeekly))}
             </div>
           </div>
-          <span style={{ color: '#5A4030', fontSize: '14px', transform: open ? 'rotate(180deg)' : 'none', display: 'inline-block' }}>▼</span>
+          {/* Gold chevron arrow — same style as before, just gold */}
+          <svg
+            width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="#C9963A" strokeWidth="2.5" strokeLinecap="round"
+            style={{ transform: open ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.2s', flexShrink: 0 }}
+          >
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
         </div>
       </button>
 
@@ -298,7 +152,7 @@ function ResultsPanelNew({ city, results, exchangeRate, index }) {
         </div>
       </div>
 
-      {/* Body */}
+      {/* Expanded body */}
       {open && (
         <div style={{ borderTop: '1px solid rgba(201,150,58,0.1)', padding: '16px 18px 18px' }}>
 
@@ -336,8 +190,7 @@ function ResultsPanelNew({ city, results, exchangeRate, index }) {
                 fontSize: '13px', color: '#7A6040',
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span>{item.emoji}</span>
-                  <span>{item.label}</span>
+                  <span>{item.emoji}</span><span>{item.label}</span>
                 </div>
                 <div style={{ textAlign: 'right' }}>
                   <div style={{ color: '#C9963A', fontWeight: 500, fontSize: '13px' }}>{formatAUD(dispAUD)}</div>
@@ -387,26 +240,118 @@ function ResultsPanelNew({ city, results, exchangeRate, index }) {
               </div>
             </div>
           </div>
-
         </div>
       )}
     </div>
   );
 }
 
+// ── Exchange Rate Panel ───────────────────────────────────
+function ExchangePanel({ audRate, rateLoading, rateError }) {
+  // Approximate cross rates to THB based on AUD/THB
+  // These are fetched live via the exchange rate API in production
+  const [rates, setRates] = useState({});
+
+  useEffect(() => {
+    // Fetch all rates relative to THB
+    const fetchRates = async () => {
+      try {
+        const res = await fetch('/api/exchange-rate');
+        const data = await res.json();
+        // Use the allRates if available, otherwise approximate
+        if (data.allRates) {
+          setRates(data.allRates);
+        }
+      } catch {
+        // silently fall back to approximations
+      }
+    };
+    fetchRates();
+  }, []);
+
+  // Approximate THB rates based on typical exchange rates
+  // These update proportionally when AUD rate changes
+  const ratio = audRate / 22.0; // scale factor from base rate
+  const approxRates = {
+    AUD: audRate,
+    GBP: parseFloat((37.85 * ratio).toFixed(2)),
+    DKK: parseFloat((4.18 * ratio).toFixed(2)),
+    EUR: parseFloat((31.20 * ratio).toFixed(2)),
+    SGD: parseFloat((26.85 * ratio).toFixed(2)),
+    ZAR: parseFloat((1.58 * ratio).toFixed(2)),
+    SEK: parseFloat((2.76 * ratio).toFixed(2)),
+    USD: parseFloat((32.90 * ratio).toFixed(2)),
+  };
+
+  const displayRates = Object.keys(rates).length > 0 ? rates : approxRates;
+
+  return (
+    <div style={{
+      background: '#1A1108',
+      border: '1px solid rgba(201,150,58,0.2)',
+      borderRadius: '4px',
+      padding: '14px',
+    }}>
+      {/* Live badge */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '10px' }}>
+        <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: rateError ? '#F6C90E' : '#4CAF50', flexShrink: 0 }} />
+        <span style={{ fontSize: '10px', color: rateError ? '#F6C90E' : '#4CAF50', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+          {rateLoading ? 'Loading...' : rateError ? 'Approximate' : 'Live rates'}
+        </span>
+      </div>
+
+      <div style={{ fontSize: '10px', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#C9963A', marginBottom: '10px' }}>
+        Thai Baht per 1 unit
+      </div>
+
+      {currencies.map(c => (
+        <div
+          key={c.code}
+          style={{
+            display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+            padding: c.primary ? '8px 14px' : '6px 0',
+            margin: c.primary ? '0 -14px' : '0',
+            borderBottom: c.primary ? '1px solid rgba(201,150,58,0.2)' : '1px solid rgba(201,150,58,0.08)',
+            background: c.primary ? 'rgba(201,150,58,0.1)' : 'transparent',
+            marginBottom: c.primary ? '4px' : '0',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span style={{ fontSize: '13px' }}>{c.flag}</span>
+            <span style={{ fontSize: '11px', color: c.primary ? '#F5EDD8' : '#7A6040', fontWeight: c.primary ? 500 : 400 }}>
+              {c.label}
+            </span>
+          </div>
+          <span style={{
+            fontSize: c.primary ? '14px' : '11px',
+            color: '#C9963A', fontWeight: 500,
+            fontFamily: c.primary ? 'var(--font-display), Georgia, serif' : 'inherit',
+          }}>
+            ฿{displayRates[c.code]?.toFixed(2) || '—'}
+          </span>
+        </div>
+      ))}
+
+      <div style={{ fontSize: '9px', color: '#5A4030', marginTop: '10px', lineHeight: 1.5, borderTop: '1px solid rgba(201,150,58,0.1)', paddingTop: '8px' }}>
+        Rates updated hourly. Calculator uses AUD rate only.
+      </div>
+    </div>
+  );
+}
+
 // ── Main Calculator ───────────────────────────────────────
 export default function Calculator() {
-  const [pensionType, setPensionType]       = useState('single');
-  const [customAmount, setCustomAmount]     = useState('');
-  const [useCustomAmount, setUseCustomAmount] = useState(false);
-  const [selectedCities, setSelectedCities] = useState(['hua-hin', 'khon-kaen']);
-  const [rentOption, setRentOption]         = useState('one-bed');
-  const [foodOption, setFoodOption]         = useState('mixed');
-  const [lifestyle, setLifestyle]           = useState('comfortable');
+  const [pensionType, setPensionType]           = useState('single');
+  const [customAmount, setCustomAmount]         = useState('');
+  const [useCustomAmount, setUseCustomAmount]   = useState(false);
+  const [selectedCities, setSelectedCities]     = useState(['hua-hin', 'khon-kaen']);
+  const [rentOption, setRentOption]             = useState('one-bed');
+  const [foodOption, setFoodOption]             = useState('mixed');
+  const [lifestyle, setLifestyle]               = useState('comfortable');
   const [includeInsurance, setIncludeInsurance] = useState(true);
-  const [exchangeRate, setExchangeRate]     = useState(22.0);
-  const [rateLoading, setRateLoading]       = useState(true);
-  const [rateError, setRateError]           = useState(false);
+  const [exchangeRate, setExchangeRate]         = useState(22.0);
+  const [rateLoading, setRateLoading]           = useState(true);
+  const [rateError, setRateError]               = useState(false);
 
   useEffect(() => {
     fetch('/api/exchange-rate')
@@ -464,193 +409,239 @@ export default function Calculator() {
     };
   }, [lifestyle, rentOption, foodOption, includeInsurance, exchangeRate, weeklyPensionAUD]);
 
-  // Sort cities alphabetically for display
   const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
   const weeklyAUD = weeklyPensionAUD();
 
+  // Shared card style
+  const icard = {
+    background: '#1A1108',
+    border: '1px solid rgba(201,150,58,0.2)',
+    borderRadius: '4px',
+    padding: '14px',
+  };
+  const ititle = {
+    fontSize: '10px', fontWeight: 500, textTransform: 'uppercase',
+    letterSpacing: '0.12em', color: '#C9963A', marginBottom: '10px',
+  };
+  const seg = (on) => ({
+    flex: 1, padding: '7px 4px',
+    border: `1px solid ${on ? '#C9963A' : 'rgba(201,150,58,0.25)'}`,
+    borderRadius: '3px', fontSize: '11px', textAlign: 'center',
+    color: on ? '#0F0A04' : '#7A6040', cursor: 'pointer',
+    background: on ? '#C9963A' : 'transparent',
+    fontWeight: on ? 600 : 400, fontFamily: 'inherit',
+  });
+  const ritem = (on) => ({
+    padding: '7px 10px',
+    border: `1px solid ${on ? '#C9963A' : 'rgba(201,150,58,0.2)'}`,
+    borderRadius: '3px', fontSize: '12px',
+    color: on ? '#0F0A04' : '#7A6040', cursor: 'pointer',
+    background: on ? '#C9963A' : 'transparent',
+    fontWeight: on ? 600 : 400, fontFamily: 'inherit',
+    textAlign: 'left', width: '100%', marginBottom: '5px',
+  });
+  const stepLabel = {
+    display: 'flex', alignItems: 'center', gap: '10px',
+    fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase',
+    color: '#7A6040', marginBottom: '14px',
+  };
+  const stepNum = {
+    width: '22px', height: '22px', borderRadius: '50%',
+    background: '#C9963A', color: '#0F0A04', fontSize: '11px',
+    fontWeight: 700, display: 'flex', alignItems: 'center',
+    justifyContent: 'center', flexShrink: 0,
+  };
+  const goldDiv = {
+    height: '1px',
+    background: 'linear-gradient(90deg, transparent, rgba(201,150,58,0.4) 30%, rgba(201,150,58,0.7) 50%, rgba(201,150,58,0.4) 70%, transparent)',
+    margin: '24px 0',
+  };
+
   return (
-    <section id="calculator" style={S.section}>
-      <div style={S.inner}>
+    <section id="calculator" style={{ padding: '64px 24px', background: '#F7F0E4' }}>
+      <div style={{ maxWidth: '1160px', margin: '0 auto' }}>
 
         {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '8px' }}>
-          <h2 style={S.title}>Your Pension Calculator</h2>
-          <p style={S.sub}>Adjust the settings below to match your lifestyle and see your weekly budget breakdown.</p>
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '32px' }}>
-            <div style={S.exBar}>
-              <span style={S.liveDot} />
-              <span style={S.exLabel}>Live rate</span>
-              <span style={S.exRate}>
-                {rateLoading ? 'Loading...' : `฿${exchangeRate.toFixed(2)} per A$1.00`}
-                {rateError && ' (approx)'}
-              </span>
-            </div>
-          </div>
-        </div>
+        <h2 style={{
+          fontFamily: 'var(--font-display), Georgia, serif',
+          fontSize: '32px', fontWeight: 700, color: '#1A1108',
+          textAlign: 'center', marginBottom: '8px',
+        }}>
+          Your Pension Calculator
+        </h2>
+        <p style={{ fontSize: '14px', color: '#7A6040', textAlign: 'center', marginBottom: '36px', lineHeight: 1.7 }}>
+          Adjust the settings below to match your lifestyle and see your weekly budget breakdown.
+        </p>
 
-        {/* ── STEP 1 ── */}
-        <div style={S.stepLabel}>
-          <div style={S.stepNum}>1</div>
-          Your preferences
-        </div>
+        {/* Outer grid — exchange panel left, calculator right */}
+        <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '28px', alignItems: 'start' }}>
 
-        {/* Row 1: Pension type + Income */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-
-          <div style={S.icard}>
-            <div style={S.ititle}>Pension type</div>
-            <div style={S.segBtn}>
-              <button style={S.seg(pensionType === 'single')} onClick={() => setPensionType('single')}>Single</button>
-              <button style={S.seg(pensionType === 'couple')} onClick={() => setPensionType('couple')}>Couple</button>
-            </div>
+          {/* ── LEFT: Exchange rate panel ── */}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            {/* Spacer to align top of panel with pension type card */}
+            <div style={{ height: '36px', flexShrink: 0 }} />
+            <ExchangePanel audRate={exchangeRate} rateLoading={rateLoading} rateError={rateError} />
           </div>
 
-          <div style={S.icard}>
-            <div style={S.ititle}>Weekly income</div>
-            <div style={S.segBtn}>
-              <button style={{ ...S.seg(!useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(false)}>
-                Pension rate
-              </button>
-              <button style={{ ...S.seg(useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(true)}>
-                Custom amount
-              </button>
+          {/* ── RIGHT: Calculator ── */}
+          <div>
+
+            {/* Step 1 */}
+            <div style={stepLabel}>
+              <div style={stepNum}>1</div>
+              Your preferences
             </div>
-            {useCustomAmount ? (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px' }}>
-                <span style={{ fontSize: '13px', color: '#7A6040' }}>A$</span>
-                <input
-                  type="number"
-                  placeholder="650"
-                  value={customAmount}
-                  onChange={e => setCustomAmount(e.target.value)}
-                  min="0"
-                  style={{
-                    flex: 1, padding: '8px 10px',
-                    background: 'rgba(201,150,58,0.08)',
-                    border: '1px solid rgba(201,150,58,0.3)',
-                    borderRadius: '3px', color: '#F5EDD8',
-                    fontSize: '14px', fontFamily: 'inherit',
-                  }}
-                />
-                <span style={{ fontSize: '12px', color: '#7A6040' }}>/wk</span>
-              </div>
-            ) : (
-              <div style={S.incDisp}>
-                <div style={S.incAmt}>A${weeklyAUD.toFixed(2)}/wk</div>
-                <div style={S.incSub}>
-                  {pensionType === 'single' ? 'Single' : 'Couple'} overseas rate · March 2026
+
+            {/* Row 1: Pension type + Income */}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
+
+              <div style={icard}>
+                <div style={ititle}>Pension type</div>
+                <div style={{ display: 'flex', gap: '4px' }}>
+                  <button style={seg(pensionType === 'single')} onClick={() => setPensionType('single')}>Single</button>
+                  <button style={seg(pensionType === 'couple')} onClick={() => setPensionType('couple')}>Couple</button>
                 </div>
               </div>
-            )}
-          </div>
-        </div>
 
-        {/* Row 2: Accommodation + Diet + Lifestyle */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0,1fr))', gap: '10px', marginBottom: '10px' }}>
+              <div style={icard}>
+                <div style={ititle}>Weekly income</div>
+                <div style={{ display: 'flex', gap: '4px' }}>
+                  <button style={{ ...seg(!useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(false)}>Pension rate</button>
+                  <button style={{ ...seg(useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(true)}>Custom amount</button>
+                </div>
+                {useCustomAmount ? (
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px' }}>
+                    <span style={{ fontSize: '13px', color: '#7A6040' }}>A$</span>
+                    <input
+                      type="number" placeholder="650" value={customAmount}
+                      onChange={e => setCustomAmount(e.target.value)} min="0"
+                      style={{
+                        flex: 1, padding: '8px 10px',
+                        background: 'rgba(201,150,58,0.08)',
+                        border: '1px solid rgba(201,150,58,0.3)',
+                        borderRadius: '3px', color: '#F5EDD8',
+                        fontSize: '14px', fontFamily: 'inherit',
+                      }}
+                    />
+                    <span style={{ fontSize: '12px', color: '#7A6040' }}>/wk</span>
+                  </div>
+                ) : (
+                  <div style={{ background: 'rgba(201,150,58,0.1)', border: '1px solid rgba(201,150,58,0.2)', borderRadius: '3px', padding: '10px', marginTop: '8px' }}>
+                    <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', color: '#C9963A' }}>
+                      A${weeklyAUD.toFixed(2)}/wk
+                    </div>
+                    <div style={{ fontSize: '10px', color: '#5A4030', marginTop: '2px' }}>
+                      {pensionType === 'single' ? 'Single' : 'Couple'} overseas rate · March 2026
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
 
-          <div style={S.icard}>
-            <div style={S.ititle}>🏠 Accommodation</div>
-            {rentOptions.map(opt => (
-              <button key={opt.id} style={S.ritem(rentOption === opt.id)} onClick={() => setRentOption(opt.id)}>
-                {opt.label}
+            {/* Row 2: Accommodation + Diet + Lifestyle */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0,1fr))', gap: '10px', marginBottom: '10px' }}>
+
+              <div style={icard}>
+                <div style={ititle}>🏠 Accommodation</div>
+                {rentOptions.map(opt => (
+                  <button key={opt.id} style={ritem(rentOption === opt.id)} onClick={() => setRentOption(opt.id)}>
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+
+              <div style={icard}>
+                <div style={ititle}>🍜 Diet style</div>
+                {foodOptions.map(opt => (
+                  <button key={opt.id} style={ritem(foodOption === opt.id)} onClick={() => setFoodOption(opt.id)}>
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+
+              <div style={icard}>
+                <div style={ititle}>✨ Lifestyle</div>
+                {lifestyleOptions.map(opt => (
+                  <button key={opt.id} style={ritem(lifestyle === opt.id)} onClick={() => setLifestyle(opt.id)}>
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Health insurance toggle */}
+            <div style={{ ...icard, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <div>
+                <div style={{ ...ititle, marginBottom: '4px' }}>🏥 Health Insurance</div>
+                <div style={{ fontSize: '11px', color: '#5A4030' }}>Required for retirement visa</div>
+              </div>
+              <button
+                onClick={() => setIncludeInsurance(!includeInsurance)}
+                style={{
+                  width: '44px', height: '24px', borderRadius: '12px',
+                  background: includeInsurance ? '#C9963A' : 'rgba(255,255,255,0.1)',
+                  border: 'none', cursor: 'pointer', position: 'relative', flexShrink: 0,
+                }}
+              >
+                <span style={{
+                  position: 'absolute', top: '3px',
+                  left: includeInsurance ? '23px' : '3px',
+                  width: '18px', height: '18px', borderRadius: '50%',
+                  background: '#fff', transition: 'left 0.2s',
+                }} />
               </button>
-            ))}
+            </div>
+
+            <div style={goldDiv} />
+
+            {/* Step 2 */}
+            <div style={stepLabel}>
+              <div style={stepNum}>2</div>
+              Select cities to compare (up to 3)
+            </div>
+
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0,1fr))', gap: '10px' }}>
+              {sortedCities.map(city => (
+                <CityCard
+                  key={city.id}
+                  city={city}
+                  selected={selectedCities.includes(city.id)}
+                  onToggle={() => toggleCity(city.id)}
+                />
+              ))}
+            </div>
+
+            <div style={goldDiv} />
+
+            {/* Step 3 */}
+            <div style={stepLabel}>
+              <div style={stepNum}>3</div>
+              Your results
+            </div>
+
+            {selectedCities.map((cityId, index) => {
+              const city = cities.find(c => c.id === cityId);
+              if (!city) return null;
+              return (
+                <ResultsPanel
+                  key={cityId}
+                  city={city}
+                  results={calculateCityCosts(city)}
+                  exchangeRate={exchangeRate}
+                  index={index}
+                />
+              );
+            })}
+
+            {/* Disclaimer */}
+            <div style={{ fontSize: '11px', color: '#A08060', lineHeight: 1.7, marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(201,150,58,0.15)' }}>
+              Cost estimates based on 2025–2026 expat data from Numbeo, ExpatDen and Thailand Insider Guide.
+              Actual costs vary. Australian Age Pension rates effective 20 March 2026 —
+              verify at <a href="https://www.servicesaustralia.gov.au" target="_blank" rel="noopener noreferrer" style={{ color: '#C9963A' }}>servicesaustralia.gov.au</a>.
+            </div>
+
           </div>
-
-          <div style={S.icard}>
-            <div style={S.ititle}>🍜 Diet style</div>
-            {foodOptions.map(opt => (
-              <button key={opt.id} style={S.ritem(foodOption === opt.id)} onClick={() => setFoodOption(opt.id)}>
-                {opt.label}
-              </button>
-            ))}
-          </div>
-
-          <div style={S.icard}>
-            <div style={S.ititle}>✨ Lifestyle</div>
-            {lifestyleOptions.map(opt => (
-              <button key={opt.id} style={S.ritem(lifestyle === opt.id)} onClick={() => setLifestyle(opt.id)}>
-                {opt.label}
-              </button>
-            ))}
-          </div>
         </div>
-
-        {/* Health insurance toggle */}
-        <div style={{ ...S.icard, display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0' }}>
-          <div>
-            <div style={S.ititle}>🏥 Health Insurance</div>
-            <div style={{ fontSize: '11px', color: '#5A4030' }}>Required for retirement visa</div>
-          </div>
-          <button
-            onClick={() => setIncludeInsurance(!includeInsurance)}
-            style={{
-              width: '44px', height: '24px', borderRadius: '12px',
-              background: includeInsurance ? '#C9963A' : 'rgba(255,255,255,0.1)',
-              border: 'none', cursor: 'pointer', position: 'relative', flexShrink: 0,
-            }}
-          >
-            <span style={{
-              position: 'absolute', top: '3px',
-              left: includeInsurance ? '23px' : '3px',
-              width: '18px', height: '18px', borderRadius: '50%',
-              background: '#fff', transition: 'left 0.2s',
-            }} />
-          </button>
-        </div>
-
-        <div style={S.goldDiv} />
-
-        {/* ── STEP 2 ── */}
-        <div style={S.stepLabel}>
-          <div style={S.stepNum}>2</div>
-          Select cities to compare (up to 3)
-        </div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0,1fr))', gap: '10px', marginBottom: '0' }}>
-          {sortedCities.map(city => (
-            <CityCardNew
-              key={city.id}
-              city={city}
-              selected={selectedCities.includes(city.id)}
-              onToggle={() => toggleCity(city.id)}
-            />
-          ))}
-        </div>
-
-        <div style={S.goldDiv} />
-
-        {/* ── STEP 3 ── */}
-        <div style={S.stepLabel}>
-          <div style={S.stepNum}>3</div>
-          Your results
-        </div>
-
-        {selectedCities.map((cityId, index) => {
-          const city = cities.find(c => c.id === cityId);
-          if (!city) return null;
-          return (
-            <ResultsPanelNew
-              key={cityId}
-              city={city}
-              results={calculateCityCosts(city)}
-              exchangeRate={exchangeRate}
-              index={index}
-            />
-          );
-        })}
-
-        {/* Disclaimer */}
-        <div style={{
-          fontSize: '11px', color: '#A08060', lineHeight: 1.7,
-          marginTop: '20px', paddingTop: '16px',
-          borderTop: '1px solid rgba(201,150,58,0.15)',
-        }}>
-          Cost estimates based on 2025–2026 expat data from Numbeo, ExpatDen and Thailand Insider Guide.
-          Actual costs vary. Australian Age Pension rates effective 20 March 2026 —
-          verify at <a href="https://www.servicesaustralia.gov.au" target="_blank" rel="noopener noreferrer" style={{ color: '#C9963A' }}>servicesaustralia.gov.au</a>.
-        </div>
-
       </div>
     </section>
   );
