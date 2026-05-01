@@ -9,18 +9,12 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Claim & live 2 years in Australia',
-    body: 'After being granted the pension, you must live in Australia for 2 years before taking it overseas (portability requirement).',
-    icon: '📋',
-  },
-  {
-    number: '03',
     title: 'Apply for Thai Retirement Visa',
     body: "The Non-Immigrant O-A visa requires 800,000 THB in a Thai bank OR 65,000 THB/month income. You'll also need health insurance.",
     icon: '🛂',
   },
   {
-    number: '04',
+    number: '03',
     title: 'Move to Thailand',
     body: "Your pension is paid every 4 weeks into your nominated bank account. You'll receive the base rate — supplements stop after 6 weeks abroad.",
     icon: '✈️',
@@ -87,7 +81,7 @@ export default function InfoSection() {
             </div>
 
             {/* Steps grid */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
               {steps.map((step, i) => (
                 <div key={i} style={{
                   background: '#160E05',
