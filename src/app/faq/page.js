@@ -150,125 +150,142 @@ const faqs = [
   },
 ];
 
+
+const card = { background: 'rgba(20,13,4,0.82)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '4px', backdropFilter: 'blur(6px)' };
+
+const DiamondDivider = () => (
+  <div style={{ background: '#0F0A04', overflow: 'hidden' }}>
+    <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="680" height="24" fill="#0F0A04"/>
+      <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+      <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+      <g fill="#C9963A" opacity="0.4">
+        {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
+          <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
+        ))}
+      </g>
+    </svg>
+  </div>
+);
+
 export default function FAQPage() {
   return (
-    <main style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
+    <main style={{
+      position: 'relative', minHeight: '100vh',
+      backgroundImage: 'url(/temple.jpg)',
+      backgroundSize: '120%', backgroundPosition: 'center 20%', backgroundAttachment: 'fixed',
+    }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)', zIndex: 0 }} />
 
-      {/* Header */}
-      <div className="bg-thai-pattern py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full border border-yellow-600/30 bg-yellow-600/10">
-            <span className="text-yellow-400 text-sm font-semibold tracking-widest uppercase">
-              Common Questions
-            </span>
+      <div style={{ position: 'relative', zIndex: 1 }}>
+
+        {/* Gold bar */}
+        <div style={{ height: '3px', background: 'linear-gradient(90deg, #0F0A04 0%, #C9963A 20%, #FFD87A 50%, #C9963A 80%, #0F0A04 100%)' }} />
+
+        {/* Dark header */}
+        <div style={{ background: '#0F0A04', padding: '72px 40px 48px', textAlign: 'center', borderBottom: '1px solid rgba(201,150,58,0.15)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '16px' }}>
+            <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
+            <span style={{ fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C9963A' }}>Questions & Answers</span>
+            <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
           </div>
-          <h1 className="font-display text-4xl md:text-5xl text-white mb-4">
-            Retiring in Thailand — FAQ
+          <h1 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 700, color: '#F5EDD8', marginBottom: '14px', lineHeight: 1.15 }}>
+            Frequently Asked Questions
           </h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Plain English answers to the questions Australians ask most about
-            retiring in Thailand. No jargon, no spin.
+          <p style={{ fontSize: '15px', color: '#7A6040', maxWidth: '520px', margin: '0 auto', lineHeight: 1.75 }}>
+            Plain English answers to the most common questions about retiring in Thailand as an Australian.
           </p>
         </div>
-      </div>
 
-      {/* FAQ Content */}
-      <div className="max-w-4xl mx-auto px-4 py-16">
+        <DiamondDivider />
 
-        {/* Jump links */}
-        <div className="card p-6 mb-10">
-          <h2 className="font-bold text-sm uppercase tracking-widest mb-4" style={{ color: 'var(--color-ink-soft)' }}>
-            Jump to a section
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {faqs.map((section) => (
-              <a
-                key={section.category}
-                href={`#${section.category.toLowerCase().replace(/ /g, '-')}`}
-                className="text-sm px-3 py-1.5 rounded-full border transition-all hover:border-yellow-600 hover:text-yellow-700"
-                style={{ borderColor: 'var(--color-border)', color: 'var(--color-ink-soft)' }}
-              >
-                {section.category}
-              </a>
-            ))}
-          </div>
-        </div>
+        {/* Content */}
+        <div style={{ maxWidth: '860px', margin: '0 auto', padding: '40px 40px 48px' }}>
 
-        {/* FAQ Sections */}
-        {faqs.map((section) => (
-          <div
-            key={section.category}
-            id={section.category.toLowerCase().replace(/ /g, '-')}
-            className="mb-12"
-          >
-            <h2 className="font-display text-2xl md:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>
-              {section.category}
-            </h2>
-
-            <div className="space-y-4">
-              {section.questions.map((item, i) => (
-                <details
-                  key={i}
-                  className="card overflow-hidden group"
-                >
-                  <summary
-                    className="flex items-center justify-between p-5 cursor-pointer list-none"
-                    style={{ color: 'var(--color-ink)' }}
-                  >
-                    <span className="font-semibold text-base pr-4">{item.q}</span>
-                    <span
-                      className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold transition-all"
-                      style={{ background: 'var(--color-cream)', color: 'var(--color-gold-dark)' }}
-                    >
-                      +
-                    </span>
-                  </summary>
-                  <div
-                    className="px-5 pb-5 text-base leading-relaxed border-t"
-                    style={{ color: 'var(--color-ink-soft)', borderColor: 'var(--color-border)' }}
-                  >
-                    <p className="pt-4">{item.a}</p>
-                  </div>
-                </details>
+          {/* Jump links */}
+          <div style={{ ...card, padding: '20px 24px', marginBottom: '24px' }}>
+            <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '14px' }}>Jump to a section</div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {faqs.map((section) => (
+                <a key={section.category} href={`#${section.category.toLowerCase().replace(/ /g, '-')}`} style={{
+                  fontSize: '12px', padding: '5px 14px',
+                  border: '1px solid rgba(201,150,58,0.25)',
+                  borderRadius: '2px', color: '#7A6040',
+                  textDecoration: 'none',
+                }}>
+                  {section.category}
+                </a>
               ))}
             </div>
           </div>
-        ))}
 
-        {/* Newsletter */}
-        <NewsletterSignup variant="inline" />
+          {/* FAQ Sections */}
+          {faqs.map((section) => (
+            <div key={section.category} id={section.category.toLowerCase().replace(/ /g, '-')} style={{ marginBottom: '40px' }}>
+              <h2 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', fontWeight: 700, color: '#F5EDD8', marginBottom: '16px' }}>
+                {section.category}
+              </h2>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                {section.questions.map((item, i) => (
+                  <details key={i} style={{ ...card, overflow: 'hidden' }}>
+                    <summary style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      padding: '16px 20px', cursor: 'pointer', listStyle: 'none',
+                      color: '#F5EDD8', fontSize: '14px', fontWeight: 500,
+                    }}>
+                      <span style={{ paddingRight: '16px' }}>{item.q}</span>
+                      <span style={{
+                        flexShrink: 0, width: '22px', height: '22px', borderRadius: '50%',
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        background: 'rgba(201,150,58,0.15)', color: '#C9963A',
+                        fontSize: '16px', fontWeight: 400, border: '1px solid rgba(201,150,58,0.3)',
+                      }}>+</span>
+                    </summary>
+                    <div style={{ padding: '0 20px 16px', fontSize: '14px', lineHeight: 1.75, color: '#7A6040', borderTop: '1px solid rgba(201,150,58,0.12)', paddingTop: '14px', marginTop: '0' }}>
+                      <p style={{ paddingTop: '14px' }}>{item.a}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          ))}
 
-        {/* Disclaimer */}
-        <div className="p-5 rounded-xl border border-amber-100 bg-amber-50 text-sm text-amber-800 leading-relaxed mb-10">
-          <strong>Disclaimer:</strong> The information on this page is general in nature and does not
-          constitute financial, legal or tax advice. Pension rules, visa requirements and tax laws
-          change regularly. Always verify current information with Centrelink (servicesaustralia.gov.au),
-          the Thai Embassy, and a qualified adviser before making decisions. Every person's residency
-          history is different — contact Centrelink International Services on 131 673 to confirm
-          your specific entitlements.
+          {/* Newsletter */}
+          <NewsletterSignup variant="inline" />
+
+          {/* Disclaimer */}
+          <div style={{ ...card, padding: '18px 22px', marginTop: '16px', borderLeft: '3px solid rgba(201,150,58,0.4)', borderRadius: '0 4px 4px 0', fontSize: '13px', color: '#5A4030', lineHeight: 1.7 }}>
+            <strong style={{ color: '#7A6040' }}>Disclaimer:</strong> The information on this page is general in nature and does not constitute financial, legal or tax advice. Pension rules, visa requirements and tax laws change regularly. Always verify current information with Centrelink (servicesaustralia.gov.au), the Thai Embassy, and a qualified adviser before making decisions. Contact Centrelink International Services on 131 673 to confirm your specific entitlements.
+          </div>
+
+          {/* CTA cards */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px', marginTop: '24px' }}>
+            <Link href="/" style={{ textDecoration: 'none' }}>
+              <div style={{ ...card, padding: '24px', textAlign: 'center' }}>
+                <div style={{ fontSize: '28px', marginBottom: '8px' }}>🧮</div>
+                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', color: '#F5EDD8', marginBottom: '6px' }}>Pension Calculator</div>
+                <div style={{ fontSize: '13px', color: '#7A6040' }}>See exactly how far your pension goes in each Thai city</div>
+              </div>
+            </Link>
+            <Link href="/blog" style={{ textDecoration: 'none' }}>
+              <div style={{ ...card, padding: '24px', textAlign: 'center' }}>
+                <div style={{ fontSize: '28px', marginBottom: '8px' }}>📖</div>
+                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', color: '#F5EDD8', marginBottom: '6px' }}>Retirement Guides</div>
+                <div style={{ fontSize: '13px', color: '#7A6040' }}>In-depth articles on visas, money, healthcare and daily life</div>
+              </div>
+            </Link>
+          </div>
+
         </div>
 
-        {/* CTA */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/" className="card p-6 text-center hover:border-yellow-600 transition-all group">
-            <div className="text-3xl mb-2">🧮</div>
-            <div className="font-display text-xl mb-1 group-hover:text-yellow-700 transition-colors" style={{ color: 'var(--color-ink)' }}>
-              Pension Calculator
-            </div>
-            <div className="text-sm" style={{ color: 'var(--color-ink-soft)' }}>
-              See exactly how far your pension goes in each Thai city
-            </div>
-          </Link>
-          <Link href="/blog" className="card p-6 text-center hover:border-yellow-600 transition-all group">
-            <div className="text-3xl mb-2">📖</div>
-            <div className="font-display text-xl mb-1 group-hover:text-yellow-700 transition-colors" style={{ color: 'var(--color-ink)' }}>
-              Retirement Guides
-            </div>
-            <div className="text-sm" style={{ color: 'var(--color-ink-soft)' }}>
-              In-depth articles on visas, money, healthcare and daily life
-            </div>
+        <DiamondDivider />
+        <div style={{ background: '#0F0A04', textAlign: 'center', padding: '48px 40px' }}>
+          <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#C9963A', color: '#0F0A04', fontSize: '14px', fontWeight: 600, padding: '13px 28px', borderRadius: '3px', textDecoration: 'none' }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F0A04" strokeWidth="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            Back to Pension Calculator
           </Link>
         </div>
+
       </div>
     </main>
   );
