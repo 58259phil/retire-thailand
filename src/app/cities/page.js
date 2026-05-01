@@ -54,9 +54,10 @@ export default function CitiesPage() {
           </p>
         </div>
 
-        {/* Diamond divider */}
-        <div style={{ overflow: 'hidden' }}>
+        {/* Diamond divider — dark background */}
+        <div style={{ background: '#0F0A04', overflow: 'hidden' }}>
           <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="680" height="24" fill="#0F0A04"/>
             <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
             <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
             <g fill="#C9963A" opacity="0.4">
@@ -68,7 +69,7 @@ export default function CitiesPage() {
         </div>
 
         {/* City cards */}
-        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '48px 40px 80px' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '48px 40px 48px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             {cityGuides.map((city) => (
               <Link key={city.slug} href={`/cities/${city.slug}`} style={{ textDecoration: 'none' }}>
@@ -97,30 +98,24 @@ export default function CitiesPage() {
                       </h2>
                       <span style={{ fontSize: '12px', color: '#5A4030', letterSpacing: '0.06em' }}>{city.region}</span>
                     </div>
-
                     <p style={{ fontSize: '13px', fontWeight: 600, color: '#C9963A', marginBottom: '10px' }}>
                       {city.tagline}
                     </p>
                     <p style={{ fontSize: '14px', color: '#7A6040', lineHeight: 1.7, marginBottom: '16px' }}>
                       {city.verdict}
                     </p>
-
-                    {/* Highlights */}
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '16px' }}>
                       {city.highlights.slice(0, 4).map(h => (
                         <span key={h} style={{
                           fontSize: '11px', padding: '3px 10px',
                           background: 'rgba(201,150,58,0.1)',
                           border: '1px solid rgba(201,150,58,0.25)',
-                          borderRadius: '2px', color: '#C9963A',
-                          fontWeight: 500,
+                          borderRadius: '2px', color: '#C9963A', fontWeight: 500,
                         }}>
                           ✓ {h}
                         </span>
                       ))}
                     </div>
-
-                    {/* Budget + CTA row */}
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
                       <div style={{ display: 'flex', gap: '20px', fontSize: '13px' }}>
                         <div>
@@ -144,42 +139,36 @@ export default function CitiesPage() {
               </Link>
             ))}
           </div>
+        </div>
 
-          {/* Diamond divider */}
-          <div style={{ overflow: 'hidden', margin: '48px 0 0' }}>
-            <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
-              <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
-              <g fill="#C9963A" opacity="0.4">
-                {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
-                  <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
-                ))}
-              </g>
-            </svg>
-          </div>
+        {/* Diamond divider — dark background, full width */}
+        <div style={{ background: '#0F0A04', overflow: 'hidden' }}>
+          <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="680" height="24" fill="#0F0A04"/>
+            <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+            <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+            <g fill="#C9963A" opacity="0.4">
+              {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
+                <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
+              ))}
+            </g>
+          </svg>
+        </div>
 
-          {/* Dark footer CTA */}
-          <div style={{
-            background: '#0F0A04',
-            textAlign: 'center',
-            padding: '48px 40px',
-            marginLeft: '-40px',
-            marginRight: '-40px',
-            marginBottom: '-80px',
+        {/* Dark footer — full width */}
+        <div style={{ background: '#0F0A04', textAlign: 'center', padding: '48px 40px' }}>
+          <Link href="/" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '8px',
+            background: '#C9963A', color: '#0F0A04',
+            fontSize: '14px', fontWeight: 600,
+            padding: '13px 28px', borderRadius: '3px',
+            textDecoration: 'none',
           }}>
-            <Link href="/" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: '#C9963A', color: '#0F0A04',
-              fontSize: '14px', fontWeight: 600,
-              padding: '13px 28px', borderRadius: '3px',
-              textDecoration: 'none',
-            }}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F0A04" strokeWidth="2.5">
-                <path d="M19 12H5M12 19l-7-7 7-7"/>
-              </svg>
-              Compare Cities in the Calculator
-            </Link>
-          </div>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F0A04" strokeWidth="2.5">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Compare Cities in the Calculator
+          </Link>
         </div>
 
       </div>
