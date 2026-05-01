@@ -462,7 +462,7 @@ export default function Calculator() {
   return (
     <section id="calculator" style={{ paddingTop: '64px', paddingBottom: '0', position: 'relative', backgroundImage: 'url(/temple.jpg)', backgroundSize: 'cover', backgroundPosition: 'center 30%', backgroundAttachment: 'fixed' }}>
       {/* Dark overlay */}
-      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.90) 0%, rgba(15,10,4,0.82) 50%, rgba(10,6,2,0.90) 100%)', zIndex: 0 }} />
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.72) 0%, rgba(15,10,4,0.65) 50%, rgba(10,6,2,0.72) 100%)', zIndex: 0 }} />
 
       <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 24px 64px', position: 'relative', zIndex: 1 }}>
 
