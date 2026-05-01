@@ -648,19 +648,6 @@ export default function Calculator() {
           </div>
         </div>
       </div>
-      {/* Thai diamond pattern divider */}
-      <div style={{ overflow: 'hidden', background: '#160E05', marginTop: '0' }}>
-        <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="680" height="24" fill="#160E05"/>
-          <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
-          <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
-          <g fill="#C9963A" opacity="0.45">
-            {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
-              <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
-            ))}
-          </g>
-        </svg>
-      </div>
     </section>
   );
 }
