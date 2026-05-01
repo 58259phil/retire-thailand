@@ -47,7 +47,7 @@ function CityCard({ city, selected, onToggle }) {
     <button
       onClick={onToggle}
       style={{
-        background: selected ? '#231608' : '#1A1108',
+        background: selected ? 'rgba(35,22,5,0.9)' : 'rgba(20,13,4,0.82)',
         border: `1px solid ${selected ? '#C9963A' : 'rgba(201,150,58,0.2)'}`,
         borderRadius: '4px',
         padding: '14px',
@@ -56,6 +56,7 @@ function CityCard({ city, selected, onToggle }) {
         textAlign: 'left',
         fontFamily: 'inherit',
         width: '100%',
+        backdropFilter: 'blur(6px)',
       }}
     >
       {selected && (
@@ -98,7 +99,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
 
   return (
     <div style={{
-      background: '#1A1108',
+      background: 'rgba(20,13,4,0.85)',
       border: `1px solid ${open ? 'rgba(201,150,58,0.5)' : 'rgba(201,150,58,0.2)'}`,
       borderRadius: '4px',
       overflow: 'hidden',
@@ -287,7 +288,7 @@ function ExchangePanel({ audRate, rateLoading, rateError }) {
 
   return (
     <div style={{
-      background: '#1A1108',
+      background: 'rgba(20,13,4,0.82)',
       border: '1px solid rgba(201,150,58,0.2)',
       borderRadius: '4px',
       padding: '14px',
@@ -412,12 +413,13 @@ export default function Calculator() {
   const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
   const weeklyAUD = weeklyPensionAUD();
 
-  // Shared card style
+  // Shared card style — semi-transparent for photo background
   const icard = {
-    background: '#1A1108',
-    border: '1px solid rgba(201,150,58,0.2)',
+    background: 'rgba(20,13,4,0.82)',
+    border: '1px solid rgba(201,150,58,0.25)',
     borderRadius: '4px',
     padding: '14px',
+    backdropFilter: 'blur(6px)',
   };
   const ititle = {
     fontSize: '10px', fontWeight: 500, textTransform: 'uppercase',
@@ -443,7 +445,7 @@ export default function Calculator() {
   const stepLabel = {
     display: 'flex', alignItems: 'center', gap: '10px',
     fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase',
-    color: '#7A6040', marginBottom: '14px',
+    color: '#A08060', marginBottom: '14px',
   };
   const stepNum = {
     width: '22px', height: '22px', borderRadius: '50%',
@@ -458,13 +460,16 @@ export default function Calculator() {
   };
 
   return (
-    <section id="calculator" style={{ paddingTop: '64px', paddingBottom: '0', background: '#F7F0E4' }}>
-      <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 24px 64px' }}>
+    <section id="calculator" style={{ paddingTop: '64px', paddingBottom: '0', position: 'relative', backgroundImage: 'url(/temple.jpg)', backgroundSize: 'cover', backgroundPosition: 'center 30%', backgroundAttachment: 'fixed' }}>
+      {/* Dark overlay */}
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.90) 0%, rgba(15,10,4,0.82) 50%, rgba(10,6,2,0.90) 100%)', zIndex: 0 }} />
+
+      <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 24px 64px', position: 'relative', zIndex: 1 }}>
 
         {/* Header */}
         <h2 style={{
           fontFamily: 'var(--font-display), Georgia, serif',
-          fontSize: '32px', fontWeight: 700, color: '#1A1108',
+          fontSize: '32px', fontWeight: 700, color: '#F5EDD8',
           textAlign: 'center', marginBottom: '8px',
         }}>
           Your Pension Calculator
@@ -476,36 +481,11 @@ export default function Calculator() {
         {/* Outer grid — exchange panel left, calculator right */}
         <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '28px', alignItems: 'start' }}>
 
-          {/* ── LEFT: Exchange rate panel + photo below ── */}
+          {/* ── LEFT: Exchange rate panel ── */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             {/* Spacer to align top of panel with pension type card */}
             <div style={{ height: '36px', flexShrink: 0 }} />
             <ExchangePanel audRate={exchangeRate} rateLoading={rateLoading} rateError={rateError} />
-            {/* Temple photo below exchange panel */}
-            <div style={{
-              marginTop: '10px',
-              borderRadius: '4px',
-              overflow: 'hidden',
-              flexShrink: 0,
-            }}>
-              <img
-                src="/temple.jpg"
-                alt="Thai temple"
-                style={{
-                  width: '100%',
-                  height: '260px',
-                  objectFit: 'cover',
-                  objectPosition: 'center 40%',
-                  display: 'block',
-                }}
-              />
-              <div style={{
-                position: 'relative',
-                marginTop: '-260px',
-                height: '260px',
-                background: 'linear-gradient(180deg, rgba(15,10,4,0.1) 0%, rgba(15,10,4,0.5) 100%)',
-              }} />
-            </div>
           </div>
 
           {/* ── RIGHT: Calculator ── */}
