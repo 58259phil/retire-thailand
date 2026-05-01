@@ -289,7 +289,8 @@ function ExchangePanel({ audRate, rateLoading, rateError }) {
     <div style={{
       background: '#1A1108',
       border: '1px solid rgba(201,150,58,0.2)',
-      borderRadius: '4px',
+      borderRadius: '0 0 4px 4px',
+      borderTop: 'none',
       padding: '14px',
     }}>
       {/* Live badge */}
@@ -477,9 +478,40 @@ export default function Calculator() {
         <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '28px', alignItems: 'start' }}>
 
           {/* ── LEFT: Exchange rate panel ── */}
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            {/* Spacer to align top of panel with pension type card */}
-            <div style={{ height: '36px', flexShrink: 0 }} />
+          <div style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
+            {/* Temple photo fills the space above the exchange panel */}
+            <div style={{
+              height: '36px',
+              flexShrink: 0,
+              overflow: 'hidden',
+              borderRadius: '4px 4px 0 0',
+            }} />
+            {/* Temple photo behind — sits in the gap area */}
+            <div style={{
+              position: 'relative',
+              borderRadius: '4px',
+              overflow: 'hidden',
+              marginBottom: '0',
+            }}>
+              {/* Photo fills top portion above exchange panel */}
+              <img
+                src="/temple.jpg"
+                alt="Thai temple"
+                style={{
+                  width: '100%',
+                  height: '220px',
+                  objectFit: 'cover',
+                  objectPosition: 'center 30%',
+                  display: 'block',
+                  borderRadius: '4px 4px 0 0',
+                }}
+              />
+              {/* Dark overlay on photo */}
+              <div style={{
+                position: 'absolute', inset: 0,
+                background: 'linear-gradient(180deg, rgba(15,10,4,0.2) 0%, rgba(15,10,4,0.5) 100%)',
+              }} />
+            </div>
             <ExchangePanel audRate={exchangeRate} rateLoading={rateLoading} rateError={rateError} />
           </div>
 
