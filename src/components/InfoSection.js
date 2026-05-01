@@ -1,26 +1,5 @@
 'use client';
 
-const steps = [
-  {
-    number: '01',
-    title: 'Work until 67 in Australia',
-    body: 'Keep building your super. The pension age is 67. You must be physically in Australia to claim.',
-    icon: '🇦🇺',
-  },
-  {
-    number: '02',
-    title: 'Apply for Thai Retirement Visa',
-    body: "The Non-Immigrant O-A visa requires 800,000 THB in a Thai bank OR 65,000 THB/month income. You'll also need health insurance.",
-    icon: '🛂',
-  },
-  {
-    number: '03',
-    title: 'Move to Thailand',
-    body: "Your pension is paid every 4 weeks into your nominated bank account. You'll receive the base rate — supplements stop after 6 weeks abroad.",
-    icon: '✈️',
-  },
-];
-
 const affiliateLinks = [
   {
     category: 'Currency Transfer',
@@ -61,56 +40,6 @@ export default function InfoSection() {
       <DiamondDivider />
       <section style={{ background: '#0F0A04', padding: '72px 40px' }}>
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-
-          {/* How it works */}
-          <div style={{ marginBottom: '72px' }}>
-
-            {/* Section header */}
-            <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '16px' }}>
-                <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
-                <span style={{ fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C9963A' }}>Step by step</span>
-                <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
-              </div>
-              <h2 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '32px', fontWeight: 700, color: '#F5EDD8', marginBottom: '10px' }}>
-                How to Make It Happen
-              </h2>
-              <p style={{ fontSize: '14px', color: '#7A6040', maxWidth: '480px', margin: '0 auto', lineHeight: 1.7 }}>
-                The path from working in Australia to retiring in Thailand — step by step.
-              </p>
-            </div>
-
-            {/* Steps grid — 4 col grid with half-col offset each side to centre 3 cards */}
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}>
-              {steps.map((step, i) => (
-                <div key={i} style={{
-                  background: '#160E05',
-                  border: '1px solid rgba(201,150,58,0.18)',
-                  borderRadius: '4px',
-                  padding: '24px',
-                  position: 'relative',
-                  flex: '0 0 calc(25% - 12px)',
-                  maxWidth: 'calc(25% - 12px)',
-                }}>
-                  <div style={{
-                    fontFamily: 'var(--font-display), Georgia, serif',
-                    fontSize: '56px', fontWeight: 700,
-                    color: '#C9963A', opacity: 0.12,
-                    position: 'absolute', top: '12px', right: '16px',
-                    lineHeight: 1,
-                  }}>{step.number}</div>
-                  <div style={{ fontSize: '32px', marginBottom: '16px' }}>{step.icon}</div>
-                  <h3 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '16px', fontWeight: 700, color: '#F5EDD8', marginBottom: '10px', lineHeight: 1.3 }}>
-                    {step.title}
-                  </h3>
-                  <p style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.7 }}>{step.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Gold divider */}
-          <div style={{ height: '1px', background: 'linear-gradient(90deg, transparent, rgba(201,150,58,0.4) 30%, rgba(201,150,58,0.7) 50%, rgba(201,150,58,0.4) 70%, transparent)', marginBottom: '72px' }} />
 
           {/* Tools section */}
           <div>
