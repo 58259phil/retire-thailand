@@ -458,8 +458,8 @@ export default function Calculator() {
   };
 
   return (
-    <section id="calculator" style={{ padding: '64px 24px', background: '#F7F0E4' }}>
-      <div style={{ maxWidth: '1160px', margin: '0 auto' }}>
+    <section id="calculator" style={{ paddingTop: '64px', paddingBottom: '0', background: '#F7F0E4' }}>
+      <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 24px 64px' }}>
 
         {/* Header */}
         <h2 style={{
@@ -642,6 +642,19 @@ export default function Calculator() {
 
           </div>
         </div>
+      </div>
+      {/* Thai diamond pattern divider */}
+      <div style={{ overflow: 'hidden', background: '#160E05', marginTop: '0' }}>
+        <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="680" height="24" fill="#160E05"/>
+          <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+          <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+          <g fill="#C9963A" opacity="0.45">
+            {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
+              <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
+            ))}
+          </g>
+        </svg>
       </div>
     </section>
   );
