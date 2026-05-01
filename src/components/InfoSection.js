@@ -80,8 +80,8 @@ export default function InfoSection() {
               </p>
             </div>
 
-            {/* Steps grid */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
+            {/* Steps grid — 4 col grid with half-col offset each side to centre 3 cards */}
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}>
               {steps.map((step, i) => (
                 <div key={i} style={{
                   background: '#160E05',
@@ -89,8 +89,9 @@ export default function InfoSection() {
                   borderRadius: '4px',
                   padding: '24px',
                   position: 'relative',
+                  flex: '0 0 calc(25% - 12px)',
+                  maxWidth: 'calc(25% - 12px)',
                 }}>
-                  {/* Step number watermark */}
                   <div style={{
                     fontFamily: 'var(--font-display), Georgia, serif',
                     fontSize: '56px', fontWeight: 700,
