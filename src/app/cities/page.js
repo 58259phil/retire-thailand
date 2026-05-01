@@ -17,9 +17,9 @@ export default function CitiesPage() {
       backgroundAttachment: 'fixed',
     }}>
 
-      {/* Dark overlay */}
+      {/* Dark overlay — only over the photo area below header */}
       <div style={{
-        position: 'fixed', inset: 0,
+        position: 'absolute', inset: 0,
         background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)',
         zIndex: 0,
       }} />
@@ -30,8 +30,13 @@ export default function CitiesPage() {
         {/* Gold bar top */}
         <div style={{ height: '3px', background: 'linear-gradient(90deg, #0F0A04 0%, #C9963A 20%, #FFD87A 50%, #C9963A 80%, #0F0A04 100%)' }} />
 
-        {/* Header */}
-        <div style={{ padding: '72px 40px 48px', textAlign: 'center' }}>
+        {/* Header — solid dark background matching hero */}
+        <div style={{
+          background: '#0F0A04',
+          padding: '72px 40px 48px',
+          textAlign: 'center',
+          borderBottom: '1px solid rgba(201,150,58,0.15)',
+        }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '16px' }}>
             <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
             <span style={{ fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C9963A' }}>City Guides</span>
@@ -140,8 +145,28 @@ export default function CitiesPage() {
             ))}
           </div>
 
-          {/* CTA */}
-          <div style={{ textAlign: 'center', marginTop: '48px' }}>
+          {/* Diamond divider */}
+          <div style={{ overflow: 'hidden', margin: '48px 0 0' }}>
+            <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+              <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+              <g fill="#C9963A" opacity="0.4">
+                {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
+                  <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
+                ))}
+              </g>
+            </svg>
+          </div>
+
+          {/* Dark footer CTA */}
+          <div style={{
+            background: '#0F0A04',
+            textAlign: 'center',
+            padding: '48px 40px',
+            marginLeft: '-40px',
+            marginRight: '-40px',
+            marginBottom: '-80px',
+          }}>
             <Link href="/" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#C9963A', color: '#0F0A04',
