@@ -8,92 +8,155 @@ export const metadata = {
 
 export default function CitiesPage() {
   return (
-    <main style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
+    <main style={{
+      position: 'relative',
+      minHeight: '100vh',
+      backgroundImage: 'url(/temple.jpg)',
+      backgroundSize: '120%',
+      backgroundPosition: 'center 20%',
+      backgroundAttachment: 'fixed',
+    }}>
 
-      {/* Header */}
-      <div className="bg-thai-pattern py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full border border-yellow-600/30 bg-yellow-600/10">
-            <span className="text-yellow-400 text-sm font-semibold tracking-widest uppercase">City Guides</span>
+      {/* Dark overlay */}
+      <div style={{
+        position: 'fixed', inset: 0,
+        background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)',
+        zIndex: 0,
+      }} />
+
+      {/* Content */}
+      <div style={{ position: 'relative', zIndex: 1 }}>
+
+        {/* Gold bar top */}
+        <div style={{ height: '3px', background: 'linear-gradient(90deg, #0F0A04 0%, #C9963A 20%, #FFD87A 50%, #C9963A 80%, #0F0A04 100%)' }} />
+
+        {/* Header */}
+        <div style={{ padding: '72px 40px 48px', textAlign: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '16px' }}>
+            <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
+            <span style={{ fontSize: '10px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C9963A' }}>City Guides</span>
+            <div style={{ width: '40px', height: '1px', background: '#C9963A', opacity: 0.5 }} />
           </div>
-          <h1 className="font-display text-4xl md:text-5xl text-white mb-4">
+          <h1 style={{
+            fontFamily: 'var(--font-display), Georgia, serif',
+            fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 700,
+            color: '#F5EDD8', marginBottom: '14px', lineHeight: 1.15,
+          }}>
             Where Should You Retire in Thailand?
           </h1>
-          <p className="text-gray-300 text-lg max-w-xl mx-auto">
+          <p style={{ fontSize: '15px', color: '#7A6040', maxWidth: '520px', margin: '0 auto', lineHeight: 1.75 }}>
             Honest, detailed guides to Thailand's top retirement cities — written for Australians living on a pension.
           </p>
         </div>
-      </div>
 
-      {/* City cards */}
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="space-y-8">
-          {cityGuides.map((city) => (
-            <Link key={city.slug} href={`/cities/${city.slug}`}>
-              <article className="card p-6 md:p-8 cursor-pointer group">
-                <div className="flex items-start gap-4 md:gap-6">
-                  <div className="text-5xl flex-shrink-0">{city.heroEmoji}</div>
-                  <div className="flex-1">
-                    <div className="flex flex-wrap items-center gap-3 mb-2">
-                      <h2 className="font-display text-2xl md:text-3xl group-hover:text-yellow-700 transition-colors" style={{ color: 'var(--color-ink)' }}>
+        {/* Diamond divider */}
+        <div style={{ overflow: 'hidden' }}>
+          <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="3" x2="680" y2="3" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+            <line x1="0" y1="21" x2="680" y2="21" stroke="#C9963A" strokeWidth="0.5" opacity="0.25"/>
+            <g fill="#C9963A" opacity="0.4">
+              {[20,58,96,134,172,210,248,286,324,362,400,438,476,514,552,590,628,666].map(x => (
+                <polygon key={x} points={`${x},12 ${x+7},6 ${x+14},12 ${x+7},18`}/>
+              ))}
+            </g>
+          </svg>
+        </div>
+
+        {/* City cards */}
+        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '48px 40px 80px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {cityGuides.map((city) => (
+              <Link key={city.slug} href={`/cities/${city.slug}`} style={{ textDecoration: 'none' }}>
+                <article style={{
+                  background: 'rgba(20,13,4,0.82)',
+                  border: '1px solid rgba(201,150,58,0.25)',
+                  borderRadius: '4px',
+                  padding: '28px 32px',
+                  backdropFilter: 'blur(6px)',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'flex-start',
+                  gap: '24px',
+                }}>
+                  {/* Emoji */}
+                  <div style={{ fontSize: '44px', flexShrink: 0, lineHeight: 1 }}>{city.heroEmoji}</div>
+
+                  {/* Content */}
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '12px', marginBottom: '6px' }}>
+                      <h2 style={{
+                        fontFamily: 'var(--font-display), Georgia, serif',
+                        fontSize: '24px', fontWeight: 700, color: '#F5EDD8', margin: 0,
+                      }}>
                         {city.name}
                       </h2>
-                      <span className="text-sm text-gray-400">{city.region}</span>
+                      <span style={{ fontSize: '12px', color: '#5A4030', letterSpacing: '0.06em' }}>{city.region}</span>
                     </div>
-                    <p className="text-base font-semibold mb-3" style={{ color: 'var(--color-gold-dark)' }}>
+
+                    <p style={{ fontSize: '13px', fontWeight: 600, color: '#C9963A', marginBottom: '10px' }}>
                       {city.tagline}
                     </p>
-                    <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-soft)' }}>
+                    <p style={{ fontSize: '14px', color: '#7A6040', lineHeight: 1.7, marginBottom: '16px' }}>
                       {city.verdict}
                     </p>
 
                     {/* Highlights */}
-                    <div className="flex flex-wrap gap-2 mb-4">
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '16px' }}>
                       {city.highlights.slice(0, 4).map(h => (
-                        <span key={h} className="text-xs px-2.5 py-1 rounded-full bg-green-50 text-green-700 font-medium">
+                        <span key={h} style={{
+                          fontSize: '11px', padding: '3px 10px',
+                          background: 'rgba(201,150,58,0.1)',
+                          border: '1px solid rgba(201,150,58,0.25)',
+                          borderRadius: '2px', color: '#C9963A',
+                          fontWeight: 500,
+                        }}>
                           ✓ {h}
                         </span>
                       ))}
                     </div>
 
-                    {/* Budget summary */}
-                    <div className="flex flex-wrap gap-4 text-sm">
-                      <div>
-                        <span className="text-gray-400">Budget: </span>
-                        <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>
-                          ฿{city.monthlyBudget.budget.toLocaleString()}/mo
-                        </span>
+                    {/* Budget + CTA row */}
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
+                      <div style={{ display: 'flex', gap: '20px', fontSize: '13px' }}>
+                        <div>
+                          <span style={{ color: '#5A4030' }}>Budget: </span>
+                          <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.budget.toLocaleString()}/mo</span>
+                        </div>
+                        <div>
+                          <span style={{ color: '#5A4030' }}>Comfortable: </span>
+                          <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.comfortable.toLocaleString()}/mo</span>
+                        </div>
                       </div>
-                      <div>
-                        <span className="text-gray-400">Comfortable: </span>
-                        <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>
-                          ฿{city.monthlyBudget.comfortable.toLocaleString()}/mo
-                        </span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: 600, color: '#C9963A' }}>
+                        Read full guide
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C9963A" strokeWidth="2.5">
+                          <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
                       </div>
-                    </div>
-
-                    <div className="flex items-center gap-2 font-semibold text-sm mt-4" style={{ color: 'var(--color-gold-dark)' }}>
-                      Read full guide
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                      </svg>
                     </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </Link>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <div style={{ textAlign: 'center', marginTop: '48px' }}>
+            <Link href="/" style={{
+              display: 'inline-flex', alignItems: 'center', gap: '8px',
+              background: '#C9963A', color: '#0F0A04',
+              fontSize: '14px', fontWeight: 600,
+              padding: '13px 28px', borderRadius: '3px',
+              textDecoration: 'none',
+            }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F0A04" strokeWidth="2.5">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Compare Cities in the Calculator
             </Link>
-          ))}
+          </div>
         </div>
 
-        {/* CTA */}
-        <div className="mt-12 text-center">
-          <Link href="/" className="inline-flex items-center gap-2 btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <path d="M19 12H5M12 19l-7-7 7-7"/>
-            </svg>
-            Compare Cities in the Calculator
-          </Link>
-        </div>
       </div>
     </main>
   );
