@@ -57,7 +57,7 @@ export default function InfoSection() {
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }} className="affiliate-grid">
               {affiliateLinks.map((section, i) => (
                 <div key={i} style={{
                   background: '#160E05',

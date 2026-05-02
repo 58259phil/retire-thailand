@@ -285,3 +285,12 @@ input[type="range"]::-webkit-slider-thumb:hover {
   [style*="padding: '48px 40px'"] { padding: 32px 20px !important; }
   [style*="padding: '40px 40px'"] { padding: 24px 20px !important; }
 }
+
+/* Affiliate grid and other 2-col grids — stack on mobile */
+@media (max-width: 640px) {
+  .affiliate-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Prevent any element from overflowing viewport */
+body { overflow-x: hidden; }
+* { max-width: 100%; }
