@@ -205,3 +205,83 @@ input[type="range"]::-webkit-slider-thumb:hover {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
+/* ── Mobile Responsive Fixes ────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Calculator — stack exchange panel below calculator on mobile */
+  #calculator .outer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Calculator — stack row1 on mobile */
+  #calculator .row1-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Calculator — stack row2 on mobile */
+  #calculator .row2-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* City cards — 2 columns on mobile */
+  #calculator .city-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Hero — hide photo on mobile */
+  .hero-photo {
+    display: none !important;
+  }
+
+  /* Pages — reduce padding on mobile */
+  section, main > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* City guide sidebar — stack on mobile */
+  .city-guide-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Blog/FAQ — reduce heading size */
+  h1 {
+    font-size: 28px !important;
+  }
+
+  /* Nav — reduce padding */
+  nav > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Calculator outer grid — stack on mobile */
+@media (max-width: 640px) {
+  .calc-outer-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* City guide grid — stack on mobile */
+@media (max-width: 768px) {
+  .city-guide-content-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Calculator inner grids — responsive */
+@media (max-width: 640px) {
+  .calc-row1 { grid-template-columns: 1fr !important; }
+  .calc-row2 { grid-template-columns: 1fr !important; }
+  .calc-city-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* General mobile padding fixes */
+@media (max-width: 640px) {
+  /* Reduce large padding on small screens */
+  [style*="padding: '72px 40px'"] { padding: 48px 20px !important; }
+  [style*="padding: '48px 40px'"] { padding: 32px 20px !important; }
+  [style*="padding: '40px 40px'"] { padding: 24px 20px !important; }
+}

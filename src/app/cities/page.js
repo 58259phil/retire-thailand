@@ -14,7 +14,7 @@ export default function CitiesPage() {
       backgroundImage: 'url(/temple.jpg)',
       backgroundSize: '120%',
       backgroundPosition: 'center 20%',
-      backgroundAttachment: 'fixed',
+      backgroundAttachment: 'scroll',
     }}>
 
       {/* Dark overlay — only over the photo area below header */}

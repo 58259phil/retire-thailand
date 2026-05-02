@@ -71,7 +71,7 @@ export default function CityGuidePage({ params }) {
     <main style={{
       position: 'relative', minHeight: '100vh',
       backgroundImage: 'url(/temple.jpg)',
-      backgroundSize: '120%', backgroundPosition: 'center 20%', backgroundAttachment: 'fixed',
+      backgroundSize: '120%', backgroundPosition: 'center 20%', backgroundAttachment: 'scroll',
     }}>
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)', zIndex: 0 }} />
 
@@ -104,7 +104,7 @@ export default function CityGuidePage({ params }) {
 
         {/* Content */}
         <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 40px 0' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '24px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '24px' }} className="city-guide-content-grid">
 
             {/* Main content */}
             <div>
