@@ -27,7 +27,7 @@ export default function Nav() {
     }}>
       <div style={{
         maxWidth: '1200px', margin: '0 auto',
-        padding: '0 40px', height: '64px',
+        padding: '0 20px', height: '64px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
 
@@ -76,7 +76,7 @@ export default function Nav() {
         <div style={{
           background: 'rgba(15,10,4,0.99)',
           borderTop: '1px solid rgba(201,150,58,0.1)',
-          padding: '16px 40px',
+          padding: '16px 20px',
           display: 'flex', flexDirection: 'column', gap: '16px',
         }}>
           <button onClick={handleCalculator} style={{
