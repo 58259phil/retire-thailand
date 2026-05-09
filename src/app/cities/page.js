@@ -1,5 +1,35 @@
 import Link from 'next/link';
 import { cityGuides } from '@/lib/content/cityGuides';
+import { StickyAffiliateSidebar } from '@/components/AffiliateCard';
+
+// Narrow inline affiliate card matching calculator results style
+const NarrowAffCard = ({ service, eyebrow, title, desc }) => {
+  const data = {
+    wise:       { url: 'https://wise.prf.hn/click/camref:1011l5FiPJ', icon: '💸' },
+    safetywing: { url: 'https://safetywing.com/?referenceID=26504193', icon: '🏥' },
+  }[service];
+  return (
+    <a href={data.url} target="_blank" rel="noopener noreferrer sponsored" style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+      background: 'rgba(201,150,58,0.1)',
+      border: '1px solid rgba(201,150,58,0.4)',
+      borderRadius: '4px',
+      padding: '14px 18px',
+      textDecoration: 'none',
+      marginBottom: '10px',
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <span style={{ fontSize: '22px' }}>{data.icon}</span>
+        <div>
+          <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '2px' }}>{eyebrow}</div>
+          <div style={{ fontSize: '13px', fontWeight: 600, color: '#F5EDD8' }}>{title}</div>
+          <div style={{ fontSize: '11px', color: '#7A6040', marginTop: '2px' }}>{desc}</div>
+        </div>
+      </div>
+      <span style={{ color: '#C9963A', fontWeight: 600, fontSize: '16px' }}>→</span>
+    </a>
+  );
+};
 
 export const metadata = {
   title: 'City Guides | Retire Thailand — Where to Retire in Thailand',
@@ -68,76 +98,105 @@ export default function CitiesPage() {
           </svg>
         </div>
 
-        {/* City cards */}
-        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '48px 40px 48px' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            {cityGuides.map((city) => (
-              <Link key={city.slug} href={`/cities/${city.slug}`} style={{ textDecoration: 'none' }}>
-                <article style={{
-                  background: 'rgba(20,13,4,0.82)',
-                  border: '1px solid rgba(201,150,58,0.25)',
-                  borderRadius: '4px',
-                  padding: '28px 32px',
-                  backdropFilter: 'blur(6px)',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'flex-start',
-                  gap: '24px',
-                }}>
-                  {/* Emoji */}
-                  <div style={{ fontSize: '44px', flexShrink: 0, lineHeight: 1 }}>{city.heroEmoji}</div>
+        {/* City cards — with sticky sidebar */}
+        <div style={{ maxWidth: '1080px', margin: '0 auto', padding: '48px 40px 48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '24px', alignItems: 'start' }} className="blog-article-grid">
 
-                  {/* Content */}
-                  <div style={{ flex: 1 }}>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '12px', marginBottom: '6px' }}>
-                      <h2 style={{
-                        fontFamily: 'var(--font-display), Georgia, serif',
-                        fontSize: '24px', fontWeight: 700, color: '#F5EDD8', margin: 0,
-                      }}>
-                        {city.name}
-                      </h2>
-                      <span style={{ fontSize: '12px', color: '#5A4030', letterSpacing: '0.06em' }}>{city.region}</span>
-                    </div>
-                    <p style={{ fontSize: '13px', fontWeight: 600, color: '#C9963A', marginBottom: '10px' }}>
-                      {city.tagline}
-                    </p>
-                    <p style={{ fontSize: '14px', color: '#7A6040', lineHeight: 1.7, marginBottom: '16px' }}>
-                      {city.verdict}
-                    </p>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '16px' }}>
-                      {city.highlights.slice(0, 4).map(h => (
-                        <span key={h} style={{
-                          fontSize: '11px', padding: '3px 10px',
-                          background: 'rgba(201,150,58,0.1)',
-                          border: '1px solid rgba(201,150,58,0.25)',
-                          borderRadius: '2px', color: '#C9963A', fontWeight: 500,
-                        }}>
-                          ✓ {h}
-                        </span>
-                      ))}
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
-                      <div style={{ display: 'flex', gap: '20px', fontSize: '13px' }}>
-                        <div>
-                          <span style={{ color: '#5A4030' }}>Budget: </span>
-                          <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.budget.toLocaleString()}/mo</span>
+            {/* Sticky affiliate sidebar */}
+            <StickyAffiliateSidebar context="cityGuide" />
+
+            {/* City cards */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+
+              {/* TOP affiliate cards (mobile only — sidebar hidden on mobile) */}
+              <div className="aff-mobile-banners">
+                <NarrowAffCard service="wise" eyebrow="Saves $1,200/year" title="Send your pension at the real rate" desc="Wise vs your bank — keeps more in your pocket" />
+                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Health cover from $50/mo" desc="SafetyWing — required for the Non-OA visa" />
+              </div>
+
+              {cityGuides.map((city, i) => (
+                <div key={city.slug}>
+                  <Link href={`/cities/${city.slug}`} style={{ textDecoration: 'none' }}>
+                    <article style={{
+                      background: 'rgba(20,13,4,0.82)',
+                      border: '1px solid rgba(201,150,58,0.25)',
+                      borderRadius: '4px',
+                      padding: '28px 32px',
+                      backdropFilter: 'blur(6px)',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'flex-start',
+                      gap: '24px',
+                    }}>
+                      {/* Emoji */}
+                      <div style={{ fontSize: '44px', flexShrink: 0, lineHeight: 1 }}>{city.heroEmoji}</div>
+
+                      {/* Content */}
+                      <div style={{ flex: 1 }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '12px', marginBottom: '6px' }}>
+                          <h2 style={{
+                            fontFamily: 'var(--font-display), Georgia, serif',
+                            fontSize: '24px', fontWeight: 700, color: '#F5EDD8', margin: 0,
+                          }}>
+                            {city.name}
+                          </h2>
+                          <span style={{ fontSize: '12px', color: '#5A4030', letterSpacing: '0.06em' }}>{city.region}</span>
                         </div>
-                        <div>
-                          <span style={{ color: '#5A4030' }}>Comfortable: </span>
-                          <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.comfortable.toLocaleString()}/mo</span>
+                        <p style={{ fontSize: '13px', fontWeight: 600, color: '#C9963A', marginBottom: '10px' }}>
+                          {city.tagline}
+                        </p>
+                        <p style={{ fontSize: '14px', color: '#7A6040', lineHeight: 1.7, marginBottom: '16px' }}>
+                          {city.verdict}
+                        </p>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '16px' }}>
+                          {city.highlights.slice(0, 4).map(h => (
+                            <span key={h} style={{
+                              fontSize: '11px', padding: '3px 10px',
+                              background: 'rgba(201,150,58,0.1)',
+                              border: '1px solid rgba(201,150,58,0.25)',
+                              borderRadius: '2px', color: '#C9963A', fontWeight: 500,
+                            }}>
+                              ✓ {h}
+                            </span>
+                          ))}
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
+                          <div style={{ display: 'flex', gap: '20px', fontSize: '13px' }}>
+                            <div>
+                              <span style={{ color: '#5A4030' }}>Budget: </span>
+                              <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.budget.toLocaleString()}/mo</span>
+                            </div>
+                            <div>
+                              <span style={{ color: '#5A4030' }}>Comfortable: </span>
+                              <span style={{ fontWeight: 600, color: '#F5EDD8' }}>฿{city.monthlyBudget.comfortable.toLocaleString()}/mo</span>
+                            </div>
+                          </div>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: 600, color: '#C9963A' }}>
+                            Read full guide
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C9963A" strokeWidth="2.5">
+                              <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                          </div>
                         </div>
                       </div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: 600, color: '#C9963A' }}>
-                        Read full guide
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C9963A" strokeWidth="2.5">
-                          <path d="M5 12h14M12 5l7 7-7 7"/>
-                        </svg>
-                      </div>
+                    </article>
+                  </Link>
+
+                  {/* MIDDLE affiliate card — after the 3rd city */}
+                  {i === 2 && (
+                    <div style={{ marginTop: '16px' }}>
+                      <NarrowAffCard service="wise" eyebrow="Real exchange rate" title="Send your pension to Thailand" desc="Wise saves ~$1,200/year vs banks" />
                     </div>
-                  </div>
-                </article>
-              </Link>
-            ))}
+                  )}
+                </div>
+              ))}
+
+              {/* BOTTOM affiliate card */}
+              <div style={{ marginTop: '8px' }}>
+                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Hospital cover wherever you live" desc="SafetyWing — accepted at major Thai hospitals" />
+              </div>
+
+            </div>
           </div>
         </div>
 
