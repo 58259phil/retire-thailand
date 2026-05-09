@@ -323,3 +323,18 @@ article, details, [style*="backdropFilter"] {
   h1 { font-size: 26px !important; }
   h2 { font-size: 20px !important; }
 }
+
+/* Sticky affiliate sidebar — desktop only */
+@media (max-width: 900px) {
+  .aff-sticky-sidebar { display: none !important; }
+  .aff-mobile-banners { display: block !important; }
+}
+@media (min-width: 901px) {
+  .aff-mobile-banners { display: none !important; }
+}
+
+/* Blog article — stack sidebar on mobile */
+@media (max-width: 900px) {
+  .blog-article-grid { grid-template-columns: 1fr !important; }
+  .blog-more-grid { grid-template-columns: 1fr !important; }
+}

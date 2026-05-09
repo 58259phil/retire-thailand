@@ -2,6 +2,18 @@ import Link from 'next/link';
 import { blogPosts, getBlogPost } from '@/lib/content/blogPosts';
 import { notFound } from 'next/navigation';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import { StickyAffiliateSidebar, AffiliateBanner } from '@/components/AffiliateCard';
+
+// Determine which affiliate context fits this article based on category
+function getAffiliateContext(category) {
+  if (!category) return 'default';
+  const c = category.toLowerCase();
+  if (c.includes('money') || c.includes('pension')) return 'blogMoney';
+  if (c.includes('visa') || c.includes('legal'))    return 'blogVisa';
+  if (c.includes('healthcare') || c.includes('health')) return 'blogHealth';
+  if (c.includes('city') || c.includes('cost'))     return 'blogCity';
+  return 'default';
+}
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -140,86 +152,55 @@ export default function BlogPostPage({ params }) {
 
         <DiamondDivider />
 
-        {/* Article */}
-        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 40px 48px' }}>
-          <div style={card}>{renderContent(post.content)}</div>
+        {/* Article — 2 column layout with sticky sidebar */}
+        <div style={{ maxWidth: '1080px', margin: '0 auto', padding: '40px 40px 48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '24px', alignItems: 'start' }} className="blog-article-grid">
 
-          {/* Affiliate banner — Wise */}
-          <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{
-            display: 'block',
-            background: 'linear-gradient(135deg, rgba(201,150,58,0.18) 0%, rgba(201,150,58,0.08) 100%)',
-            border: '1px solid rgba(201,150,58,0.4)',
-            borderRadius: '4px',
-            padding: '20px 24px',
-            textDecoration: 'none',
-            marginBottom: '12px',
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-              <div style={{ fontSize: '36px', flexShrink: 0 }}>💸</div>
-              <div style={{ flex: 1, minWidth: '200px' }}>
-                <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>Recommended · Money Transfer</div>
-                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '17px', fontWeight: 700, color: '#F5EDD8', marginBottom: '4px' }}>Send your pension at the real rate</div>
-                <div style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.6 }}>Save hundreds per year vs your bank with Wise — mid-market AUD/THB rate.</div>
+            {/* LEFT: Sticky affiliate sidebar (desktop only) */}
+            <StickyAffiliateSidebar context={getAffiliateContext(post.category)} />
+
+            {/* RIGHT: Article content */}
+            <div>
+              <div style={card}>{renderContent(post.content)}</div>
+
+              {/* Mobile-only inline affiliate banners (sidebar hidden on mobile) */}
+              <div className="aff-mobile-banners">
+                <AffiliateBanner service="wise" context={getAffiliateContext(post.category)} />
+                <AffiliateBanner service="safetywing" context={getAffiliateContext(post.category)} />
               </div>
-              <div style={{ flexShrink: 0, background: '#C9963A', color: '#0F0A04', fontSize: '12px', fontWeight: 600, padding: '10px 18px', borderRadius: '3px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-                Get Wise →
+
+              {/* CTA */}
+              <div style={{ ...card, textAlign: 'center', padding: '32px' }}>
+                <div style={{ fontSize: '32px', marginBottom: '8px' }}>🧮</div>
+                <h3 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', color: '#F5EDD8', marginBottom: '8px' }}>See Your Numbers</h3>
+                <p style={{ fontSize: '13px', color: '#7A6040', marginBottom: '20px' }}>Use our free calculator to see exactly how far your pension goes in each Thai city.</p>
+                <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#C9963A', color: '#0F0A04', fontSize: '14px', fontWeight: 600, padding: '13px 28px', borderRadius: '3px', textDecoration: 'none' }}>
+                  Open Pension Calculator
+                </Link>
               </div>
+
+              {/* Newsletter */}
+              <NewsletterSignup variant="inline" />
+
+              {/* More articles */}
+              {otherPosts.length > 0 && (
+                <div style={{ marginTop: '32px' }}>
+                  <h3 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', color: '#F5EDD8', marginBottom: '16px' }}>More Guides</h3>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }} className="blog-more-grid">
+                    {otherPosts.map(p => (
+                      <Link key={p.slug} href={`/blog/${p.slug}`} style={{ textDecoration: 'none' }}>
+                        <div style={{ background: 'rgba(20,13,4,0.82)', border: '1px solid rgba(201,150,58,0.2)', borderRadius: '4px', padding: '16px', backdropFilter: 'blur(6px)', cursor: 'pointer' }}>
+                          <div style={{ fontSize: '10px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '8px' }}>{p.category}</div>
+                          <h4 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '14px', color: '#F5EDD8', lineHeight: 1.4, marginBottom: '8px' }}>{p.title}</h4>
+                          <div style={{ fontSize: '11px', color: '#5A4030' }}>{p.readTime}</div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-          </a>
-
-          {/* Affiliate banner — SafetyWing */}
-          <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{
-            display: 'block',
-            background: 'linear-gradient(135deg, rgba(201,150,58,0.18) 0%, rgba(201,150,58,0.08) 100%)',
-            border: '1px solid rgba(201,150,58,0.4)',
-            borderRadius: '4px',
-            padding: '20px 24px',
-            textDecoration: 'none',
-            marginBottom: '24px',
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-              <div style={{ fontSize: '36px', flexShrink: 0 }}>🏥</div>
-              <div style={{ flex: 1, minWidth: '200px' }}>
-                <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>Recommended · Health Insurance</div>
-                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '17px', fontWeight: 700, color: '#F5EDD8', marginBottom: '4px' }}>Get the insurance you need for your visa</div>
-                <div style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.6 }}>SafetyWing offers flexible monthly cover designed for expats. Required for your Non-OA visa.</div>
-              </div>
-              <div style={{ flexShrink: 0, background: '#C9963A', color: '#0F0A04', fontSize: '12px', fontWeight: 600, padding: '10px 18px', borderRadius: '3px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-                Get SafetyWing →
-              </div>
-            </div>
-          </a>
-
-          {/* CTA */}
-          <div style={{ ...card, textAlign: 'center', padding: '32px' }}>
-            <div style={{ fontSize: '32px', marginBottom: '8px' }}>🧮</div>
-            <h3 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', color: '#F5EDD8', marginBottom: '8px' }}>See Your Numbers</h3>
-            <p style={{ fontSize: '13px', color: '#7A6040', marginBottom: '20px' }}>Use our free calculator to see exactly how far your pension goes in each Thai city.</p>
-            <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#C9963A', color: '#0F0A04', fontSize: '14px', fontWeight: 600, padding: '13px 28px', borderRadius: '3px', textDecoration: 'none' }}>
-              Open Pension Calculator
-            </Link>
           </div>
-
-          {/* Newsletter */}
-          <NewsletterSignup variant="inline" />
-
-          {/* More articles */}
-          {otherPosts.length > 0 && (
-            <div style={{ marginTop: '32px' }}>
-              <h3 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', color: '#F5EDD8', marginBottom: '16px' }}>More Guides</h3>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
-                {otherPosts.map(p => (
-                  <Link key={p.slug} href={`/blog/${p.slug}`} style={{ textDecoration: 'none' }}>
-                    <div style={{ background: 'rgba(20,13,4,0.82)', border: '1px solid rgba(201,150,58,0.2)', borderRadius: '4px', padding: '16px', backdropFilter: 'blur(6px)', cursor: 'pointer' }}>
-                      <div style={{ fontSize: '10px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '8px' }}>{p.category}</div>
-                      <h4 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '14px', color: '#F5EDD8', lineHeight: 1.4, marginBottom: '8px' }}>{p.title}</h4>
-                      <div style={{ fontSize: '11px', color: '#5A4030' }}>{p.readTime}</div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
 
         <DiamondDivider />

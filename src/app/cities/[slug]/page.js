@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { cityGuides, getCityGuide } from '@/lib/content/cityGuides';
 import { notFound } from 'next/navigation';
+import { AffiliateBanner } from '@/components/AffiliateCard';
 
 export async function generateStaticParams() {
   return cityGuides.map((city) => ({ slug: city.slug }));
@@ -214,19 +215,21 @@ export default function CityGuidePage({ params }) {
               {/* Recommended services — TOP of sidebar */}
               <div style={card}>
                 <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '12px' }}>Recommended Services</div>
-                <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none', marginBottom: '8px' }}>
+                <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '12px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none', marginBottom: '8px' }}>
                   <span style={{ fontSize: '20px' }}>💸</span>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>Wise — Money Transfer</div>
-                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>Send your pension at the real rate</div>
+                    <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '2px' }}>Real exchange rate</div>
+                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>Send your pension to {city.name}</div>
+                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>Wise saves ~$1,200/year vs banks</div>
                   </div>
                   <span style={{ color: '#C9963A', fontSize: '14px' }}>→</span>
                 </a>
-                <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none' }}>
+                <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '12px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none' }}>
                   <span style={{ fontSize: '20px' }}>🏥</span>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>SafetyWing — Insurance</div>
-                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>Required for retirement visa</div>
+                    <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '2px' }}>Hospital cover</div>
+                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>Cover wherever you live</div>
+                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>SafetyWing — required for visa</div>
                   </div>
                   <span style={{ color: '#C9963A', fontSize: '14px' }}>→</span>
                 </a>
