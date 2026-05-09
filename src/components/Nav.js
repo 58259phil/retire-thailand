@@ -53,6 +53,7 @@ export default function Nav() {
           </button>
           <Link href="/cities" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>City Guides</Link>
           <Link href="/blog" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>Blog</Link>
+          <Link href="/resources" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>Resources</Link>
           <Link href="/faq" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>FAQ</Link>
         </div>
 
@@ -88,6 +89,7 @@ export default function Nav() {
           </button>
           <Link href="/cities" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>City Guides</Link>
           <Link href="/blog" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>Blog</Link>
+          <Link href="/resources" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>Resources</Link>
           <Link href="/faq" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>FAQ</Link>
         </div>
       )}

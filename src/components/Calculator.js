@@ -241,6 +241,51 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
               </div>
             </div>
           </div>
+
+          {/* Affiliate recommendations */}
+          <div style={{ marginTop: '14px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+            <div style={{ fontSize: '10px', color: '#5A4030', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '4px' }}>
+              You'll need
+            </div>
+            <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              background: 'rgba(201,150,58,0.1)',
+              border: '1px solid rgba(201,150,58,0.3)',
+              borderRadius: '3px',
+              padding: '10px 14px',
+              textDecoration: 'none',
+              fontSize: '12px',
+              color: '#C9963A',
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <span style={{ fontSize: '18px' }}>💸</span>
+                <div>
+                  <div style={{ fontWeight: 600, color: '#F5EDD8' }}>Send your pension with Wise</div>
+                  <div style={{ fontSize: '11px', color: '#7A6040', marginTop: '2px' }}>Real exchange rate, low fees</div>
+                </div>
+              </div>
+              <span style={{ color: '#C9963A', fontWeight: 600 }}>→</span>
+            </a>
+            <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              background: 'rgba(201,150,58,0.1)',
+              border: '1px solid rgba(201,150,58,0.3)',
+              borderRadius: '3px',
+              padding: '10px 14px',
+              textDecoration: 'none',
+              fontSize: '12px',
+              color: '#C9963A',
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <span style={{ fontSize: '18px' }}>🏥</span>
+                <div>
+                  <div style={{ fontWeight: 600, color: '#F5EDD8' }}>Health insurance with SafetyWing</div>
+                  <div style={{ fontSize: '11px', color: '#7A6040', marginTop: '2px' }}>Required for retirement visa</div>
+                </div>
+              </div>
+              <span style={{ color: '#C9963A', fontWeight: 600 }}>→</span>
+            </a>
+          </div>
         </div>
       )}
     </div>

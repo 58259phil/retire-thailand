@@ -211,6 +211,27 @@ export default function CityGuidePage({ params }) {
                 ))}
               </div>
 
+              {/* Recommended services — TOP of sidebar */}
+              <div style={card}>
+                <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '12px' }}>Recommended Services</div>
+                <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '20px' }}>💸</span>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>Wise — Money Transfer</div>
+                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>Send your pension at the real rate</div>
+                  </div>
+                  <span style={{ color: '#C9963A', fontSize: '14px' }}>→</span>
+                </a>
+                <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px', background: 'rgba(201,150,58,0.08)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '3px', textDecoration: 'none' }}>
+                  <span style={{ fontSize: '20px' }}>🏥</span>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: '12px', fontWeight: 600, color: '#F5EDD8' }}>SafetyWing — Insurance</div>
+                    <div style={{ fontSize: '10px', color: '#7A6040', marginTop: '2px' }}>Required for retirement visa</div>
+                  </div>
+                  <span style={{ color: '#C9963A', fontSize: '14px' }}>→</span>
+                </a>
+              </div>
+
               {/* Other cities */}
               <div style={card}>
                 <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '12px' }}>Other City Guides</div>

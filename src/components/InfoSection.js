@@ -3,18 +3,16 @@
 const affiliateLinks = [
   {
     category: 'Currency Transfer',
-    description: 'Send your pension to Thailand with the best exchange rate. Save hundreds per year vs. your bank.',
+    description: 'Send your pension to Thailand with the best exchange rate. Mid-market rates with low transparent fees — saves hundreds per year vs. your bank.',
     providers: [
-      { name: 'Wise', url: 'https://wise.prf.hn/click/camref:1011l5FiPJ', badge: 'Best Rates', note: 'Mid-market rate, low fees' },
-      { name: 'OFX', url: 'https://ofx.com', badge: 'No Transfer Fee', note: 'Great for regular transfers' },
+      { name: 'Wise', url: 'https://wise.prf.hn/click/camref:1011l5FiPJ', badge: 'Recommended', note: 'Mid-market rate, low fees' },
     ],
   },
   {
     category: 'Health Insurance',
-    description: 'Required for your retirement visa. Compare plans from top Thai insurers before you move.',
+    description: 'Required for your retirement visa. Flexible monthly cover designed specifically for expats and long-term travellers.',
     providers: [
-      { name: 'Pacific Prime', url: 'https://www.pacificprime.com', badge: 'Most Popular', note: 'Compare 50,000+ plans' },
-      { name: 'SafetyWing', url: 'https://safetywing.com/?referenceID=26504193', badge: 'Expat Friendly', note: 'Flexible monthly cover' },
+      { name: 'SafetyWing', url: 'https://safetywing.com/?referenceID=26504193', badge: 'Recommended', note: 'Flexible monthly expat cover' },
     ],
   },
 ];

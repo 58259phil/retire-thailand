@@ -144,6 +144,52 @@ export default function BlogPostPage({ params }) {
         <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 40px 48px' }}>
           <div style={card}>{renderContent(post.content)}</div>
 
+          {/* Affiliate banner — Wise */}
+          <a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style={{
+            display: 'block',
+            background: 'linear-gradient(135deg, rgba(201,150,58,0.18) 0%, rgba(201,150,58,0.08) 100%)',
+            border: '1px solid rgba(201,150,58,0.4)',
+            borderRadius: '4px',
+            padding: '20px 24px',
+            textDecoration: 'none',
+            marginBottom: '12px',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+              <div style={{ fontSize: '36px', flexShrink: 0 }}>💸</div>
+              <div style={{ flex: 1, minWidth: '200px' }}>
+                <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>Recommended · Money Transfer</div>
+                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '17px', fontWeight: 700, color: '#F5EDD8', marginBottom: '4px' }}>Send your pension at the real rate</div>
+                <div style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.6 }}>Save hundreds per year vs your bank with Wise — mid-market AUD/THB rate.</div>
+              </div>
+              <div style={{ flexShrink: 0, background: '#C9963A', color: '#0F0A04', fontSize: '12px', fontWeight: 600, padding: '10px 18px', borderRadius: '3px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+                Get Wise →
+              </div>
+            </div>
+          </a>
+
+          {/* Affiliate banner — SafetyWing */}
+          <a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style={{
+            display: 'block',
+            background: 'linear-gradient(135deg, rgba(201,150,58,0.18) 0%, rgba(201,150,58,0.08) 100%)',
+            border: '1px solid rgba(201,150,58,0.4)',
+            borderRadius: '4px',
+            padding: '20px 24px',
+            textDecoration: 'none',
+            marginBottom: '24px',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+              <div style={{ fontSize: '36px', flexShrink: 0 }}>🏥</div>
+              <div style={{ flex: 1, minWidth: '200px' }}>
+                <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>Recommended · Health Insurance</div>
+                <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '17px', fontWeight: 700, color: '#F5EDD8', marginBottom: '4px' }}>Get the insurance you need for your visa</div>
+                <div style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.6 }}>SafetyWing offers flexible monthly cover designed for expats. Required for your Non-OA visa.</div>
+              </div>
+              <div style={{ flexShrink: 0, background: '#C9963A', color: '#0F0A04', fontSize: '12px', fontWeight: 600, padding: '10px 18px', borderRadius: '3px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+                Get SafetyWing →
+              </div>
+            </div>
+          </a>
+
           {/* CTA */}
           <div style={{ ...card, textAlign: 'center', padding: '32px' }}>
             <div style={{ fontSize: '32px', marginBottom: '8px' }}>🧮</div>
