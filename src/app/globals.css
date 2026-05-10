@@ -338,3 +338,8 @@ article, details, [style*="backdropFilter"] {
   .blog-article-grid { grid-template-columns: 1fr !important; }
   .blog-more-grid { grid-template-columns: 1fr !important; }
 }
+
+/* City guide 3-column outer grid — stack on mobile */
+@media (max-width: 900px) {
+  .city-guide-outer-grid { grid-template-columns: 1fr !important; }
+}

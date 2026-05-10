@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { cityGuides, getCityGuide } from '@/lib/content/cityGuides';
 import { notFound } from 'next/navigation';
-import { AffiliateBanner } from '@/components/AffiliateCard';
+import { AffiliateBanner, StickyAffiliateSidebar } from '@/components/AffiliateCard';
 
 export async function generateStaticParams() {
   return cityGuides.map((city) => ({ slug: city.slug }));
@@ -103,9 +103,15 @@ export default function CityGuidePage({ params }) {
 
         <DiamondDivider />
 
-        {/* Content */}
-        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 40px 0' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '24px' }} className="city-guide-content-grid">
+        {/* Content — 3 column: sticky sidebar | article | right sidebar */}
+        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 40px 0' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr 320px', gap: '24px', alignItems: 'start' }} className="city-guide-outer-grid">
+
+            {/* LEFT: Sticky affiliate sidebar */}
+            <StickyAffiliateSidebar context="cityGuide" />
+
+            {/* MIDDLE + RIGHT: existing content */}
+            <div style={{ display: 'contents' }}>
 
             {/* Main content */}
             <div>
@@ -247,6 +253,7 @@ export default function CityGuidePage({ params }) {
                 ))}
               </div>
 
+            </div>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import { StickyAffiliateSidebar } from '@/components/AffiliateCard';
 
 export const metadata = {
   title: 'FAQ | Retiring in Thailand — Australian Pension Questions Answered',
@@ -200,9 +201,14 @@ export default function FAQPage() {
         <DiamondDivider />
 
         {/* Content */}
-        <div style={{ maxWidth: '860px', margin: '0 auto', padding: '40px 40px 48px' }}>
+        <div style={{ maxWidth: '1080px', margin: '0 auto', padding: '40px 40px 48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '200px 1fr', gap: '24px', alignItems: 'start' }} className="blog-article-grid">
 
-          {/* Jump links */}
+            {/* Sticky sidebar */}
+            <StickyAffiliateSidebar context="default" />
+
+            {/* FAQ content */}
+            <div>
           <div style={{ ...card, padding: '20px 24px', marginBottom: '24px' }}>
             <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '14px' }}>Jump to a section</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -276,6 +282,8 @@ export default function FAQPage() {
             </Link>
           </div>
 
+            </div>
+          </div>
         </div>
 
         <DiamondDivider />

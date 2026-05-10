@@ -15,6 +15,13 @@ const affiliateLinks = [
       { name: 'SafetyWing', url: 'https://safetywing.com/?referenceID=26504193', badge: 'Recommended', note: 'Flexible monthly expat cover' },
     ],
   },
+  {
+    category: 'Accommodation',
+    description: 'Find serviced apartments and condos across Thailand. Great long-stay rates — ideal for trying a city before committing to a lease.',
+    providers: [
+      { name: 'Agoda', url: 'https://www.agoda.com/?cid=1932012', badge: 'Best Thailand Rates', note: 'Long-stay apartments & condos' },
+    ],
+  },
 ];
 
 const DiamondDivider = () => (
@@ -55,7 +62,7 @@ export default function InfoSection() {
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }} className="affiliate-grid">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="affiliate-grid">
               {affiliateLinks.map((section, i) => (
                 <div key={i} style={{
                   background: '#160E05',
