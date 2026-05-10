@@ -210,5 +210,67 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+
+    // ── Accommodation Blog Posts ──
+    {
+      url: 'https://www.retirethailand.net/blog/where-to-stay-in-thailand-before-signing-a-lease',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-hua-hin-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/serviced-apartments-vs-renting-long-term-thailand',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/find-accommodation-thailand-pension-budget',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-chiang-mai-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-pattaya-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-bangkok-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-phuket-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-khon-kaen-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/best-areas-to-stay-in-chiang-rai-australian-retiree',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ];
 }
