@@ -65,7 +65,7 @@ export async function POST(request) {
       },
       body: JSON.stringify({
         from: 'Retire Thailand <hello@retirethailand.net>',
-        reply_to: 'hello@retirethailand.net',
+        reply_to: 'mail.retirethailand@gmail.com',
         to: [email],
         subject: 'Welcome to Retire Thailand 🇹🇭',
         html: `
