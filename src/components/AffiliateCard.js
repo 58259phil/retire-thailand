@@ -1,5 +1,8 @@
 'use client';
 
+// Agoda affiliate URL — update this once approved
+const AGODA_URL = 'https://www.agoda.com/?cid=1932012';
+
 // Service definitions with multiple tagline contexts
 const services = {
   wise: {
@@ -34,6 +37,22 @@ const services = {
       default:    { eyebrow: 'Required for visa',  title: 'Health cover for your retirement',    desc: 'Flexible monthly expat cover — required for your Non-OA visa.' },
     },
   },
+  agoda: {
+    name: 'Agoda',
+    url: AGODA_URL,
+    icon: '🏨',
+    cta: 'Search Agoda',
+    category: 'Accommodation',
+    taglines: {
+      calculator: { eyebrow: 'Best Thailand rates', title: 'Find your perfect base in Thailand',    desc: 'Search serviced apartments and condos — great long-stay rates.' },
+      blogMoney:  { eyebrow: 'Long-stay deals',     title: 'Try before you commit to a city',      desc: 'Book a month in your shortlisted city before signing a lease.' },
+      blogVisa:   { eyebrow: 'Long-stay deals',     title: 'Need an address for your visa?',       desc: 'Agoda has monthly-rate serviced apartments across Thailand.' },
+      blogHealth: { eyebrow: 'Best Thailand rates', title: 'Find accommodation near good hospitals', desc: 'Agoda lets you filter by area — stay close to the hospitals you need.' },
+      blogCity:   { eyebrow: 'Best Thailand rates', title: 'Find your perfect base in Thailand',    desc: 'Compare long-stay apartments and condos across 7 Thai cities.' },
+      cityGuide:  { eyebrow: 'Best local rates',    title: 'Find accommodation in this city',      desc: 'Compare serviced apartments and condos — monthly rates available.' },
+      default:    { eyebrow: 'Best Thailand rates', title: 'Find accommodation in Thailand',       desc: 'Search Agoda for serviced apartments and condos — great long-stay rates.' },
+    },
+  },
 };
 
 // Sticky sidebar — desktop only (hidden on mobile via className)
@@ -51,6 +70,7 @@ export function StickyAffiliateSidebar({ context = 'default' }) {
       </div>
       <SidebarCard service="wise" context={context} />
       <SidebarCard service="safetywing" context={context} />
+      <SidebarCard service="agoda" context={context} />
     </div>
   );
 }
