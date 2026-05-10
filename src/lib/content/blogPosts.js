@@ -2393,6 +2393,7 @@ Do a two-week visit before committing. It's a very different pace of life — an
 *All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
     `,
   },
+];
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
 export const getLatestPosts = (count = 3) => blogPosts.slice(0, count);
