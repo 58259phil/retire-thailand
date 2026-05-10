@@ -1849,6 +1849,552 @@ Our [pension calculator](/) lets you model your exact accommodation costs across
 *All prices are approximate 2025–2026 figures. Rental costs vary by location, property condition and negotiation.*
     `,
   },
+,
+
+  {
+    slug: "best-areas-to-stay-in-chiang-mai-australian-retiree",
+    title: "Best Areas to Stay in Chiang Mai as an Australian Retiree",
+    metaDescription: "Where should you live in Chiang Mai as an Australian retiree? A neighbourhood-by-neighbourhood guide with real 2025-2026 rental costs, honest pros and cons, and pension affordability.",
+    date: "2026-05-11",
+    readTime: "8 min read",
+    category: "City Guides",
+    excerpt: "Chiang Mai is the most popular retirement city in Thailand for good reason — but where you live within the city makes a huge difference. Here's the honest neighbourhood guide.",
+    content: `
+## Why Chiang Mai Tops the List for Australian Retirees
+
+Chiang Mai is Thailand's cultural capital and the most popular city for long-term expats in the country. It's café-dense, walkable in parts, and offers modern condo living alongside centuries-old temples. For Australians retiring on the Age Pension, Chiang Mai's lower cost of living compared to beach cities makes it particularly attractive.
+
+There's one important thing to know before choosing where to live: Chiang Mai has a serious air quality problem during burning season (roughly February to April), when farmers burn fields and PM2.5 levels can spike dangerously high. Many long-term expats budget for a month or two away from the city during this period. It's worth factoring into your decision.
+
+## The Main Areas of Chiang Mai
+
+### Nimmanhaemin (Nimman)
+Nimman is Chiang Mai's trendiest neighbourhood — a dense grid of cafes, restaurants, coworking spaces, and boutique shops centred around Nimman Road and the MAYA shopping mall. It's the most popular area for digital nomads and younger expats.
+
+**Who it suits:** People who want to walk to everything, enjoy café culture, and don't mind a busier urban environment.
+
+**Rental costs (2025–2026):**
+- Studio: ฿8,000–฿12,000/month
+- 1 Bedroom Condo: ฿12,000–฿18,000/month
+- 2 Bedroom Condo: ฿18,000–฿28,000/month
+
+**Watch out for:** Nimman is the most expensive area in Chiang Mai. Demand is highest here, so prices are firmer and there's less room for negotiation. Traffic around MAYA mall can be congested.
+
+### The Old City (Moat Area)
+The historic heart of Chiang Mai, surrounded by a square moat and ancient city walls. Filled with temples, guesthouses and a mix of backpackers and long-term expats. The Old City has a more cultural feel than Nimman and rents are slightly cheaper.
+
+**Who it suits:** People who want to be immersed in Thai culture and history. Those who prefer a quieter, more atmospheric neighbourhood over a trendy one.
+
+**Rental costs:**
+- Studio: ฿6,000–฿10,000/month
+- 1 Bedroom Condo: ฿9,000–฿14,000/month
+- 2 Bedroom Condo: ฿14,000–฿20,000/month
+
+**Watch out for:** Tourist traffic, especially on weekends. Limited parking if you have a car.
+
+### Santitham / Chang Phueak (North of Old City)
+This is the area where savvy long-term expats move once they know the city. Santitham and Chang Phueak (meaning White Elephant) are residential neighbourhoods just north of the Old City — more Thai, less touristy, and noticeably cheaper.
+
+**Insider tip:** For better value in Chiang Mai, explore areas like Santitham and Chang Phueak rather than staying in Nimman.
+
+**Who it suits:** People who want authentic neighbourhood living at lower prices. Good access to the Old City and Nimman without paying Nimman prices.
+
+**Rental costs:**
+- Studio: ฿5,000–฿8,000/month
+- 1 Bedroom Condo: ฿7,000–฿11,000/month
+- Townhouse: ฿8,000–฿13,000/month
+
+### Hang Dong / San Phak Wan (South of City)
+The area south of Chiang Mai along the Hang Dong Road corridor is where many longer-term expat families and retirees end up. Houses with private pools are available from ฿15,000–฿30,000/month, with luxury villas up to ฿100,000. It's also home to several international schools and Kad Farang shopping centre with Western food options.
+
+**Who it suits:** People who want a house rather than a condo. Couples wanting more space. Anyone who prefers a quieter, greener environment. Requires a car or motorbike.
+
+**Rental costs:**
+- Townhouse: ฿10,000–฿15,000/month
+- 2 Bed House with Garden: ฿12,000–฿18,000/month
+- 2 Bed House with Pool: ฿18,000–฿30,000/month
+
+### Mae Rim (North of City)
+Mae Rim is a rural area north of Chiang Mai with stunning mountain scenery, elephant sanctuaries, and a slower pace of life. Very few expats live here full-time — it's more of a weekend destination — but some do choose it for the peace and space.
+
+**Who it suits:** People who want maximum peace and nature. Must be comfortable driving 20-30 minutes to access Chiang Mai's services.
+
+## Can You Afford Chiang Mai on the Pension?
+
+Yes — Chiang Mai is one of the most pension-friendly cities in Thailand. On the single overseas pension rate of approximately ฿52,000/month:
+
+- **Santitham/Chang Phueak (1 bed):** Total costs ฿30,000–฿35,000/month. **Surplus: ฿17,000–฿22,000/month**
+- **Old City (1 bed):** Total costs ฿33,000–฿38,000/month. **Surplus: ฿14,000–฿19,000/month**
+- **Nimman (1 bed):** Total costs ฿38,000–฿45,000/month. **Surplus: ฿7,000–฿14,000/month**
+- **Hang Dong (2 bed house):** Total costs ฿40,000–฿50,000/month. **Surplus: ฿2,000–฿12,000/month**
+
+Use our [pension calculator](/) to model your exact Chiang Mai budget.
+
+## Finding Accommodation in Chiang Mai
+
+Agoda is excellent for your initial stay in Chiang Mai — particularly serviced apartments and monthly-rate condos in Nimman and the Old City area.
+
+[Search Chiang Mai accommodation on Agoda →](https://www.agoda.com/city/chiang-mai-th.html?cid=1932012)
+
+Once you're on the ground, join the "Chiang Mai Expats" Facebook group — one of the largest expat communities in Asia with thousands of active members. Direct landlord listings in this group often have better prices than what you'll find on property portals.
+
+## My Recommendation
+
+First visit? Stay in the Old City or Nimman for your trial month — you'll be central, everything is walkable, and you'll get a feel for the city quickly.
+
+Once you decide to stay: look at Santitham or Hang Dong. Both give you significantly more for your money than the trendy tourist areas, and both are where the actual long-term expat community tends to live.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-pattaya-australian-retiree",
+    title: "Best Areas to Stay in Pattaya as an Australian Retiree",
+    metaDescription: "Where should an Australian retiree live in Pattaya? An honest neighbourhood guide covering Central Pattaya, Jomtien, Na Jomtien, Pratumnak Hill and Wongamat — with real 2025-2026 rental costs.",
+    date: "2026-05-11",
+    readTime: "7 min read",
+    category: "City Guides",
+    excerpt: "Pattaya has a reputation that puts some Australians off — but most long-term retirees here will tell you the reality is very different from the stereotype. Here's the honest neighbourhood guide.",
+    content: `
+## Pattaya — More Than Its Reputation
+
+Pattaya's reputation can be a turn-off for Australian retirees, and it's not entirely undeserved. Walking Street and Central Pattaya can be loud, chaotic and not to everyone's taste.
+
+But here's what most people don't realise: Pattaya is a big city with many very different neighbourhoods. The Australians who retire here successfully almost never live in the areas that give the city its reputation. They live in Jomtien, Pratumnak, or Na Jomtien — and they love it.
+
+Pattaya has some genuine advantages for Australian retirees: it's 90 minutes from Bangkok (and Bangkok's international airport), has Thailand's largest concentration of English-speaking services outside Bangkok, excellent hospitals, and an enormous expat community with active social networks.
+
+## The Main Areas of Pattaya
+
+### Central Pattaya / Walking Street
+The heart of Pattaya's tourist and nightlife district. Beach Road and Walking Street are what most people picture when they think of Pattaya.
+
+**Who it suits:** People who want to be in the middle of the action and don't mind noise and crowds. Short-term visitors, not long-term retirees.
+
+**Rental costs:**
+- Studio: ฿7,000–฿10,000/month
+- 1 Bedroom Condo: ฿10,000–฿15,000/month
+
+**Honest assessment:** Most Australian retirees don't end up here for the long term. Too noisy, too touristy, too much traffic.
+
+### Jomtien Beach
+Jomtien is about 3-4km south of Central Pattaya and is where a large proportion of long-term expat retirees choose to live. It has a long, quieter beach, a good night market, plenty of restaurants and bars pitched at retirees rather than tourists, and much less of the chaos of Central Pattaya.
+
+Jomtien and nearby areas offer a quieter lifestyle while still being close to the city's amenities. Condos typically range from ฿10,000 to ฿20,000 per month, with good value available slightly away from the beachfront.
+
+**Who it suits:** Retirees who want beach access without the Central Pattaya chaos. The most popular area for long-term Australian expats in Pattaya.
+
+**Rental costs:**
+- Studio: ฿7,000–฿10,000/month
+- 1 Bedroom Condo: ฿10,000–฿16,000/month
+- 2 Bedroom Condo: ฿16,000–฿25,000/month
+- Townhouse: ฿13,000–฿18,000/month
+
+### Pratumnak Hill
+Pratumnak (also called Pratumnak Hill or Cozy Beach area) is a residential hill between Central Pattaya and Jomtien, known for being quieter and more upmarket. It has several nice small beaches, fewer bars and clubs, and a more relaxed vibe.
+
+**Who it suits:** Retirees who want a quieter, more residential area. Good mix of condos and houses. Popular with European expats, good Australian contingent.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿12,000–฿18,000/month
+- 2 Bedroom Condo: ฿18,000–฿28,000/month
+- 2 Bed House with Pool: ฿25,000–฿38,000/month
+
+### Na Jomtien / Sattahip (South Pattaya)
+Further south of Jomtien, Na Jomtien is a quieter, more rural coastal strip with some beautiful beaches and a growing number of expats. Sattahip beyond it is even quieter — essentially a small fishing town with a naval base.
+
+Real estate prices in Pattaya vary widely. Look to Naklua or Pratumnak for a more relaxed vibe. Na Jomtien offers similar relaxation at lower prices.
+
+**Who it suits:** People who want peace, space and lower costs. Requires a car or motorbike — you're 20-30 minutes from Pattaya's services.
+
+**Rental costs:**
+- 2 Bed House with Garden: ฿12,000–฿18,000/month
+- 2 Bed House with Pool: ฿18,000–฿28,000/month
+
+### Wongamat Beach (North Pattaya)
+Wongamat is the upmarket northern end of Pattaya — quieter than Central, with a cleaner beach and more luxury developments.
+
+**Who it suits:** Those wanting upmarket condo living in a quieter setting. More expensive than other areas.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿15,000–฿25,000/month
+- 2 Bedroom Condo: ฿25,000–฿40,000/month
+
+## Can You Afford Pattaya on the Pension?
+
+Pattaya is one of the most affordable beach cities in Thailand and very manageable on the Age Pension:
+
+- **Jomtien (1 bed):** Total costs ฿35,000–฿42,000/month. **Surplus: ฿10,000–฿17,000/month**
+- **Pratumnak (1 bed):** Total costs ฿38,000–฿45,000/month. **Surplus: ฿7,000–฿14,000/month**
+- **Na Jomtien (house with pool):** Total costs ฿42,000–฿52,000/month. **Around break-even on pension**
+
+Use our [pension calculator](/) to model your exact Pattaya budget.
+
+## Finding Accommodation in Pattaya
+
+Agoda has excellent Pattaya inventory — particularly for your initial stay. Search specifically for Jomtien or Pratumnak if you want to avoid the Central Pattaya noise.
+
+[Search Pattaya accommodation on Agoda →](https://www.agoda.com/city/pattaya-th.html?cid=1932012)
+
+The "Pattaya Expats" and "Pattaya Property & Rentals" Facebook groups have hundreds of direct landlord listings at all price points.
+
+## My Recommendation
+
+Don't judge Pattaya by its reputation. Do a one-month trial in Jomtien and you might be surprised. The beach is good, the infrastructure is excellent, Bangkok is 90 minutes away, and the social life is as active as you want it to be.
+
+If Jomtien still feels too close to the Pattaya scene, try Na Jomtien — it's where Pattaya's long-term expats go when they want actual peace and quiet.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-bangkok-australian-retiree",
+    title: "Best Areas to Stay in Bangkok as an Australian Retiree",
+    metaDescription: "Bangkok is expensive by Thai standards but still extraordinary value compared to Australian cities. A neighbourhood guide for Australian retirees with real 2025-2026 rental costs.",
+    date: "2026-05-11",
+    readTime: "7 min read",
+    category: "City Guides",
+    excerpt: "Bangkok is harder on the pension than other Thai cities, but it offers world-class hospitals, transport and lifestyle. If you're considering it, here's where to live and what it costs.",
+    content: `
+## Bangkok — The Full Package, At a Price
+
+Bangkok is the most expensive city for retirement in Thailand — but it's still dramatically cheaper than any major Australian city. A comfortable 1-bedroom condo in a good Bangkok neighbourhood costs roughly what you'd pay for a basic studio in Brisbane or Melbourne.
+
+What Bangkok offers that no other Thai city can match: world-class hospitals (Bumrungrad, Samitivej, Bangkok Hospital), an extensive BTS and MRT rail network, unlimited dining and entertainment, and direct flights to Australia multiple times daily.
+
+For retirees with health concerns, or those who want the convenience of a major international city, Bangkok can be the right choice despite the higher cost.
+
+## The BTS/MRT Network Changes Everything
+
+Bangkok's rail system is the key to finding affordable accommodation. Properties near a BTS Skytrain or MRT subway station command a premium — but they also mean you don't need a car, which saves ฿15,000–฿25,000/month in car ownership costs.
+
+Neighbourhoods like Sukhumvit, Silom, Ekkamai, and Thonglor offer everything from budget studios to luxury high-rises near BTS/MRT stations. Expect to pay ฿12,000–฿60,000+ monthly depending on size and location.
+
+The strategy for pension-budget living in Bangkok: find a good condo near a rail station in a slightly less central area, and use the train to access everything else.
+
+## The Main Areas for Retirees
+
+### Sukhumvit (Lower) — On Nut, Phra Khanong, Bearing
+Lower Sukhumvit (Soi 50+, accessed from On Nut and Phra Khanong BTS stations) is where many budget-conscious expats live in Bangkok. You're still on the BTS, still have access to everything, but paying significantly less than Thonglor or Ekkamai.
+
+**Who it suits:** Retirees who want Bangkok's convenience at a more manageable price. On Nut has good supermarkets, markets and restaurants.
+
+**Rental costs:**
+- Studio: ฿9,000–฿13,000/month
+- 1 Bedroom Condo: ฿14,000–฿20,000/month
+- 2 Bedroom Condo: ฿20,000–฿30,000/month
+
+### Silom / Sathorn
+Bangkok's business district, but also home to a strong expat community. Lumphini Park is here — Bangkok's best green space. Good hospital access. Slightly cheaper than central Sukhumvit.
+
+**Who it suits:** Retirees who want a more urban, sophisticated neighbourhood. Good access to BTS and MRT.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿15,000–฿25,000/month
+- 2 Bedroom Condo: ฿25,000–฿40,000/month
+
+### Ari / Saphan Kwai (North Bangkok)
+Ari is one of Bangkok's most liveable neighbourhoods — tree-lined streets, local cafes, good food, less frenetic than central Sukhumvit. Popular with Thai professionals and a growing number of expats.
+
+**Who it suits:** Retirees who want a quieter, more authentic Bangkok neighbourhood without the tourist density of Sukhumvit.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿13,000–฿20,000/month
+- 2 Bedroom Condo: ฿20,000–฿32,000/month
+
+### Thonglor / Ekkamai
+These are Bangkok's trendiest, most expensive neighbourhoods — the equivalent of Sydney's Surry Hills or Melbourne's Fitzroy. Beautiful area but not where pension-budget retirees should start.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿25,000–฿50,000/month
+
+## Can You Afford Bangkok on the Pension?
+
+Bangkok is challenging on the single overseas pension rate (฿52,000/month) but possible with careful area selection:
+
+- **On Nut (1 bed):** Total costs ฿44,000–฿52,000/month. **Break-even to small surplus**
+- **Silom (1 bed):** Total costs ฿46,000–฿55,000/month. **At or over pension limit**
+- **Ari (1 bed):** Total costs ฿42,000–฿50,000/month. **Small surplus**
+
+Bangkok works more comfortably for couples, where two pensions combined (฿104,000/month) give genuine breathing room even in mid-range neighbourhoods.
+
+Use our [pension calculator](/) to model your Bangkok budget.
+
+## Finding Accommodation in Bangkok
+
+Agoda is excellent for your initial Bangkok stay — particularly for finding serviced apartments with monthly pricing near BTS stations.
+
+[Search Bangkok accommodation on Agoda →](https://www.agoda.com/city/bangkok-th.html?cid=1932012)
+
+For long-term leases, DDProperty.com and Hipflat.com have the most comprehensive Bangkok listings.
+
+## Honest Assessment
+
+Bangkok on a single pension is tight. It works, but you'll have less financial cushion than in Chiang Mai, Khon Kaen or Pattaya.
+
+If your priority is the best hospitals and maximum convenience, Bangkok is worth the extra cost. If your priority is financial comfort and a good quality of life with money to spare, consider Chiang Mai or Pattaya first.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property, proximity to rail and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-phuket-australian-retiree",
+    title: "Best Areas to Stay in Phuket as an Australian Retiree",
+    metaDescription: "Phuket is Thailand's most expensive city — but it's also one of the most beautiful. A neighbourhood guide for Australian retirees with 2025-2026 rental costs and pension affordability.",
+    date: "2026-05-11",
+    readTime: "7 min read",
+    category: "City Guides",
+    excerpt: "Phuket is pricier than other Thai retirement cities, but the lifestyle is exceptional. The key is knowing which areas to avoid and where to look for value. Here's the complete guide.",
+    content: `
+## Phuket — Expensive, But Worth It If You Choose Right
+
+Phuket is Thailand's most expensive retirement destination. There's no sugarcoating it. But it's also one of the most beautiful places in Southeast Asia, with an Andaman coastline that genuinely lives up to its postcard reputation.
+
+The key to Phuket on a pension budget: avoid the tourist hotspots and live where Thais and long-term expats actually live. The difference in cost between a tourist area condo and a residential area rental is often 40–60%.
+
+A car or motorbike is essential in Phuket. The island has no rail system and public transport is limited.
+
+## The Main Areas of Phuket
+
+### Patong — Avoid for Long-Term Living
+Patong is Phuket's main tourist beach and party district. It's what most people picture when they think Phuket. High rents, constant noise, tourist crowds — not where long-term retirees want to be.
+
+**Rental costs:** ฿20,000–฿40,000+ for a 1-bedroom.
+
+**Honest assessment:** Great for a holiday. Not a sensible choice for retirement living.
+
+### Rawai / Naiharn (South Phuket)
+Rawai and Naiharn in the south of Phuket are where the serious long-term expat community lives. Areas like Rawai, Kathu, or Nai Harn offer much better deals than tourist hotspots like Patong. Rawai has a local fishing village feel, a good expat community, and access to several beautiful quieter beaches like Naiharn Beach and Yanui Beach.
+
+**Who it suits:** Retirees who want genuine Phuket lifestyle without the Patong chaos. Popular with Australian expats.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿14,000–฿20,000/month
+- 2 Bedroom Condo: ฿20,000–฿30,000/month
+- 2 Bed House with Pool: ฿30,000–฿45,000/month
+
+### Kathu (Central Phuket)
+Kathu is an inland area in the centre of the island — less glamorous than coastal areas but significantly cheaper. Good access to Phuket Town and the west coast beaches. Several golf courses nearby.
+
+**Who it suits:** Golfers. Budget-conscious retirees who don't need to be right on the beach.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿10,000–฿15,000/month
+- 2 Bedroom Condo: ฿14,000–฿22,000/month
+- Townhouse: ฿12,000–฿18,000/month
+
+### Phuket Town
+The island's capital is often overlooked by expats but is actually a wonderful place to live — full of Sino-Portuguese architecture, good local food markets, and a growing cafe and restaurant scene. Significantly cheaper than beach areas.
+
+**Who it suits:** Retirees who appreciate culture, local food and lower costs over beach proximity.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿9,000–฿14,000/month
+- 2 Bedroom Condo: ฿14,000–฿22,000/month
+
+### Cherng Talay / Laguna (North Phuket)
+The north of Phuket around Bangtao Beach and the Laguna resort complex is where many upmarket expats live. Beautiful area, quieter than Patong, but expensive.
+
+**Rental costs:**
+- 2 Bed House with Pool: ฿40,000–฿70,000/month
+
+## Can You Afford Phuket on the Pension?
+
+Phuket is the tightest of our 7 cities on the single pension:
+
+- **Phuket Town (1 bed):** Total costs ฿38,000–฿46,000/month. **Surplus: ฿6,000–฿14,000/month**
+- **Kathu (1 bed):** Total costs ฿36,000–฿44,000/month. **Surplus: ฿8,000–฿16,000/month**
+- **Rawai (1 bed):** Total costs ฿42,000–฿52,000/month. **Break-even**
+- **Rawai (house with pool):** Total costs ฿55,000–฿68,000/month. **Above pension — needs savings supplement**
+
+A couple with combined pensions (฿104,000/month) lives very comfortably anywhere in Phuket.
+
+Use our [pension calculator](/) to model your Phuket budget.
+
+## Finding Accommodation in Phuket
+
+Agoda is the best starting point for your Phuket trial stay. Specifically search for Rawai or Kata/Karon areas for better value than Patong.
+
+[Search Phuket accommodation on Agoda →](https://www.agoda.com/city/phuket-th.html?cid=1932012)
+
+Join "Phuket Expats" on Facebook for direct rental listings and honest local advice.
+
+## My Recommendation
+
+Phuket on a single pension works, but requires discipline with accommodation choice. Rawai, Kathu and Phuket Town give you genuine Phuket lifestyle at prices that leave something in the bank.
+
+If you're a couple, Phuket becomes much more comfortable financially and is arguably the best lifestyle of any Thai retirement city.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-khon-kaen-australian-retiree",
+    title: "Best Areas to Stay in Khon Kaen as an Australian Retiree",
+    metaDescription: "Khon Kaen is Thailand's best kept retirement secret — affordable, modern, with excellent hospitals and a growing expat community. A neighbourhood guide with 2025-2026 rental costs.",
+    date: "2026-05-11",
+    readTime: "6 min read",
+    category: "City Guides",
+    excerpt: "Most Australians haven't heard of Khon Kaen — but those who retire there tend to stay. Here's why, and where to live in this northeast Thai city that stretches the pension furthest.",
+    content: `
+## Why Khon Kaen is Thailand's Best Kept Secret
+
+Khon Kaen doesn't appear on most retirement destination lists. It's not on the beach. It's not in the mountains. It's a mid-sized university city in northeast Thailand (Isaan region) that most tourists never visit.
+
+And that's exactly why it works so well.
+
+Khon Kaen, a growing northeastern university city, delivers some of the lowest rents in the country — $200–$350 USD for modern condos or serviced studios. It has Khon Kaen University (one of Thailand's best), Srinagarind Hospital (ranked among the top 5 hospitals in Thailand), an international airport with flights to Bangkok, its own Macro, Tesco/Lotus and Central Plaza shopping complex.
+
+The expat community is smaller than Chiang Mai or Pattaya — but those who are there tend to be committed long-termers rather than revolving-door nomads.
+
+## The Lake Area — Where Most Expats Live
+
+Khon Kaen is organised around Bueng Kaen Nakhon — a large lake in the southern part of the city. The lake area is where the majority of expats and middle-class Thais choose to live. It's easy to see why: the lakeside is beautiful, there's a park running along the waterfront, and the area is within 10 minutes of the city centre, hospitals and shopping.
+
+The area near the lake in the south of the city is especially lovely — less than 10 minutes from the city center, with Songthaew routes nearby. That's where many expats choose to live.
+
+**Who it suits:** Almost everyone. The lake area is the sweet spot of Khon Kaen — good location, great value.
+
+**Rental costs (lake area):**
+- Studio: ฿5,000–฿7,000/month
+- 1 Bedroom Condo: ฿8,000–฿12,000/month
+- 2 Bedroom Condo: ฿13,000–฿18,000/month
+- Townhouse: ฿9,000–฿13,000/month
+- 2 Bed House with Pool: ฿16,000–฿22,000/month
+
+## City Centre / University Area
+The central area around Khon Kaen University and the main commercial streets is slightly more convenient for shopping and dining but has less of the lake's charm.
+
+**Rental costs:**
+- Studio: ฿4,500–฿7,000/month
+- 1 Bedroom Condo: ฿7,500–฿11,000/month
+
+## Outer Residential Areas
+Khon Kaen has extensive Thai housing estates (moo baan) in the outer areas — quieter, cheaper, and more authentically local.
+
+**Rental costs:**
+- Townhouse: ฿7,000–฿10,000/month
+- 2 Bed House: ฿10,000–฿15,000/month
+
+## Can You Afford Khon Kaen on the Pension?
+
+Khon Kaen is where the pension goes furthest of all our seven cities:
+
+- **Lake area (1 bed condo):** Total costs ฿30,000–฿36,000/month. **Surplus: ฿16,000–฿22,000/month**
+- **Lake area (2 bed condo):** Total costs ฿36,000–฿42,000/month. **Surplus: ฿10,000–฿16,000/month**
+- **Lake area (house with pool):** Total costs ฿40,000–฿47,000/month. **Surplus: ฿5,000–฿12,000/month**
+
+Khon Kaen is the only city in our calculator where a pension-only budget can comfortably afford a 2-bedroom house with a pool.
+
+Use our [pension calculator](/) to model your Khon Kaen budget.
+
+## What Khon Kaen Doesn't Have
+Honesty matters: Khon Kaen doesn't have a beach (it's 6 hours from the nearest coast). The expat social scene is much smaller than Chiang Mai or Pattaya. There are fewer Western restaurants and imported food options, though this is improving. It gets very hot from March to May.
+
+## Finding Accommodation in Khon Kaen
+
+Agoda has good coverage of Khon Kaen serviced apartments and hotels for your initial stay. For long-term rentals, the "Khon Kaen Expats" Facebook group is the best resource — landlords post directly and prices are better than property portals.
+
+[Search Khon Kaen accommodation on Agoda →](https://www.agoda.com/city/khon-kaen-th.html?cid=1932012)
+
+## My Recommendation
+
+If maximising financial comfort on the pension is your priority, Khon Kaen deserves serious consideration. It's modern, safe, has excellent healthcare, and offers a genuinely good quality of life — just not the beach lifestyle.
+
+Do a two-week trial before committing. Khon Kaen is an acquired taste — but those who acquire it rarely leave.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-chiang-rai-australian-retiree",
+    title: "Best Areas to Stay in Chiang Rai as an Australian Retiree",
+    metaDescription: "Chiang Rai is Thailand's quietest, most affordable retirement city — surrounded by mountains and home to some of the country's most stunning temples. A neighbourhood guide with 2025-2026 rental costs.",
+    date: "2026-05-11",
+    readTime: "6 min read",
+    category: "City Guides",
+    excerpt: "Chiang Rai is where Australian retirees go when they want genuinely off-the-beaten-track Thailand — lower costs, fewer tourists, spectacular scenery, and a slower pace of life.",
+    content: `
+## Chiang Rai — Thailand's Quiet Northern Gem
+
+Chiang Rai sits at the top of Thailand near the borders with Myanmar and Laos — about 3 hours north of Chiang Mai by road. It's significantly quieter, greener, and cheaper than any other city in our guide.
+
+Just three hours north of Chiang Mai, Chiang Rai is a smaller, greener, and quieter northern option — popular with artists and slow travelers, offering mountain views, night bazaars, and modern condos for under $400 USD monthly. Internet and infrastructure have improved greatly in recent years.
+
+Chiang Rai is home to the White Temple (Wat Rong Khun) — one of the most photographed structures in Thailand. The surrounding countryside is stunning, with hill tribe villages, tea plantations, and some of Thailand's most dramatic mountain scenery.
+
+The expat community is small but established. Those who choose Chiang Rai tend to be people who've already lived in Thailand and consciously chosen a quieter, more authentic experience.
+
+## The Main Areas of Chiang Rai
+
+### City Centre
+Chiang Rai's city centre is compact and walkable — much more manageable than Chiang Mai or Bangkok. The Night Bazaar, Clock Tower, and main markets are all central. Most of the affordable condos and apartments are here.
+
+**Who it suits:** Those who want everything within walking distance. The most practical base for those without a car.
+
+**Rental costs:**
+- Studio: ฿4,500–฿6,500/month
+- 1 Bedroom Condo: ฿7,000–฿10,000/month
+- 2 Bedroom Condo: ฿10,000–฿15,000/month
+
+### Robwieng / Mae Fah Luang University Area
+The area around Mae Fah Luang University (one of Thailand's best) is modern and well-maintained with good facilities. Slightly outside the city centre.
+
+**Who it suits:** Those who like being near a university town atmosphere with cafes and bookshops.
+
+**Rental costs:**
+- 1 Bedroom Condo: ฿6,500–฿9,000/month
+- Townhouse: ฿7,000–฿10,000/month
+
+### Outer Chiang Rai / Rural Areas
+The real appeal of Chiang Rai for many retirees is the countryside. Houses with large gardens and mountain views can be found in the surrounding rural areas at very low prices. But you'll need a car and some Thai language skills for daily life.
+
+**Rental costs:**
+- 2 Bed House with Garden: ฿8,000–฿13,000/month
+- 2 Bed House with Pool: ฿14,000–฿20,000/month
+
+## Can You Afford Chiang Rai on the Pension?
+
+Chiang Rai is the most affordable of our seven cities:
+
+- **City centre (1 bed):** Total costs ฿28,000–฿34,000/month. **Surplus: ฿18,000–฿24,000/month**
+- **City centre (2 bed):** Total costs ฿33,000–฿39,000/month. **Surplus: ฿13,000–฿19,000/month**
+- **Outer area (house with pool):** Total costs ฿35,000–฿42,000/month. **Surplus: ฿10,000–฿17,000/month**
+
+Chiang Rai offers the most financial breathing room of any city in Thailand on the Age Pension. A 2-bedroom house with a pool is genuinely affordable here.
+
+Use our [pension calculator](/) to model your Chiang Rai budget.
+
+## What Chiang Rai Doesn't Have
+
+Honesty is important: Chiang Rai has a smaller expat community than Chiang Mai, fewer international dining options, and less English widely spoken outside tourist areas. The nearest international airport with direct flights to Bangkok is 15 minutes from the city centre — but international connections require changing in Bangkok. Like Chiang Mai, it has a burning season (February–April) with air quality issues.
+
+## Healthcare Note
+
+Chiang Rai has good hospitals for a city its size — Overbrook Hospital and Chiang Rai Prachanukroh Hospital are the main options. For serious or complex medical issues, most expats go to Chiang Mai (3 hours) or Bangkok.
+
+## Finding Accommodation in Chiang Rai
+
+Agoda has a growing selection of Chiang Rai properties, particularly for your initial trial stay.
+
+[Search Chiang Rai accommodation on Agoda →](https://www.agoda.com/city/chiang-rai-th.html?cid=1932012)
+
+The "Chiang Rai Expats" Facebook group is small but active and helpful for rental leads.
+
+## My Recommendation
+
+Chiang Rai is for a specific kind of retiree: someone who values peace, nature and simplicity over convenience and social infrastructure. If you liked Chiang Mai but found it a bit too busy, Chiang Rai might be exactly right.
+
+Do a two-week visit before committing. It's a very different pace of life — and that's precisely the point.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
+    `,
+  },
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
 export const getLatestPosts = (count = 3) => blogPosts.slice(0, count);
