@@ -1400,7 +1400,6 @@ For specific pension and visa questions, see our [FAQ page](/faq) — or contact
 *Disclaimer: This guide is general information only and does not constitute financial, legal or tax advice. Pension rates, visa requirements and tax rules change regularly. Always verify current information with the relevant authorities before making decisions.*
     `
   },
-,
 
   {
     slug: "where-to-stay-in-thailand-before-signing-a-lease",
@@ -1849,7 +1848,6 @@ Our [pension calculator](/) lets you model your exact accommodation costs across
 *All prices are approximate 2025–2026 figures. Rental costs vary by location, property condition and negotiation.*
     `,
   },
-,
 
   {
     slug: "best-areas-to-stay-in-chiang-mai-australian-retiree",
