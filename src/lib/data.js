@@ -15,6 +15,8 @@ export const cities = [
       rentStudio: 5000,
       rentOneBed: 8500,
       rentTwoBed: 14000,
+      rentTownhouse: 10000,
+      rentHousePool: 18000,
       foodLocal: 6000,
       foodMixed: 10000,
       foodWestern: 16000,
@@ -39,6 +41,8 @@ export const cities = [
       rentStudio: 8000,
       rentOneBed: 14000,
       rentTwoBed: 22000,
+      rentTownhouse: 18000,
+      rentHousePool: 30000,
       foodLocal: 8000,
       foodMixed: 13000,
       foodWestern: 20000,
@@ -63,6 +67,8 @@ export const cities = [
       rentStudio: 6000,
       rentOneBed: 10000,
       rentTwoBed: 16000,
+      rentTownhouse: 12000,
+      rentHousePool: 22000,
       foodLocal: 7000,
       foodMixed: 11000,
       foodWestern: 17000,
@@ -87,6 +93,8 @@ export const cities = [
       rentStudio: 12000,
       rentOneBed: 18000,
       rentTwoBed: 30000,
+      rentTownhouse: 25000,
+      rentHousePool: 45000,
       foodLocal: 9000,
       foodMixed: 15000,
       foodWestern: 24000,
@@ -111,6 +119,8 @@ export const cities = [
       rentStudio: 7000,
       rentOneBed: 11000,
       rentTwoBed: 18000,
+      rentTownhouse: 15000,
+      rentHousePool: 28000,
       foodLocal: 7500,
       foodMixed: 12000,
       foodWestern: 18000,
@@ -135,6 +145,8 @@ export const cities = [
       rentStudio: 10000,
       rentOneBed: 18000,
       rentTwoBed: 28000,
+      rentTownhouse: 22000,
+      rentHousePool: 45000,
       foodLocal: 8000,
       foodMixed: 14000,
       foodWestern: 22000,
@@ -146,6 +158,32 @@ export const cities = [
       misc: 4500,
     },
   },
+  {
+    id: "chiang-rai",
+    name: "Chiang Rai",
+    region: "Far North",
+    description: "Peaceful border town with low costs, stunning temples and a growing expat community. Thailand's best kept secret.",
+    tags: ["Peaceful", "Budget", "Cultural"],
+    beachAccess: false,
+    expatCommunity: "Small",
+    distanceBangkok: "850km / 1hr flight",
+    costs: {
+      rentStudio: 4500,
+      rentOneBed: 7500,
+      rentTwoBed: 12000,
+      rentTownhouse: 9000,
+      rentHousePool: 16000,
+      foodLocal: 5500,
+      foodMixed: 9000,
+      foodWestern: 14000,
+      utilities: 2200,
+      internet: 600,
+      transport: 2000,
+      entertainment: 3500,
+      healthInsurance: 7000,
+      misc: 2500,
+    },
+  },
 ];
 
 // Australian pension rates (March 2026)
@@ -154,7 +192,7 @@ export const pensionRates = {
     fortnightly: 1200.90,
     weekly: 600.45,
     annual: 31223,
-    overseasWeekly: 550, // Approximate after losing supplements
+    overseasWeekly: 550,
     overseasFortnightly: 1100,
   },
   couple: {
@@ -176,13 +214,15 @@ export const lifestyleOptions = [
 ];
 
 export const rentOptions = [
-  { id: "studio", label: "Studio / 1 Room", key: "rentStudio" },
-  { id: "one-bed", label: "1 Bedroom Condo", key: "rentOneBed" },
-  { id: "two-bed", label: "2 Bedroom Condo", key: "rentTwoBed" },
+  { id: "studio",        label: "Studio / 1 Room",          key: "rentStudio" },
+  { id: "one-bed",       label: "1 Bedroom Condo",          key: "rentOneBed" },
+  { id: "two-bed",       label: "2 Bedroom Condo",          key: "rentTwoBed" },
+  { id: "townhouse",     label: "Townhouse",                 key: "rentTownhouse" },
+  { id: "house-pool",    label: "2 Bed House with Pool",     key: "rentHousePool" },
 ];
 
 export const foodOptions = [
-  { id: "local", label: "Mostly Local Thai", key: "foodLocal" },
-  { id: "mixed", label: "Mix of Thai & Western", key: "foodMixed" },
-  { id: "western", label: "Mostly Western", key: "foodWestern" },
+  { id: "local",   label: "Mostly Local Thai",    key: "foodLocal" },
+  { id: "mixed",   label: "Mix of Thai & Western", key: "foodMixed" },
+  { id: "western", label: "Mostly Western",        key: "foodWestern" },
 ];
