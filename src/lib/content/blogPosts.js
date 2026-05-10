@@ -1400,7 +1400,455 @@ For specific pension and visa questions, see our [FAQ page](/faq) — or contact
 *Disclaimer: This guide is general information only and does not constitute financial, legal or tax advice. Pension rates, visa requirements and tax rules change regularly. Always verify current information with the relevant authorities before making decisions.*
     `
   },
-];
+,
+
+  {
+    slug: "where-to-stay-in-thailand-before-signing-a-lease",
+    title: "Where to Stay in Thailand Before Signing a Lease",
+    metaDescription: "Smart Australian retirees try before they commit. Here's how to use short and medium-term accommodation in Thailand to test a city before signing a long-term lease.",
+    date: "2026-05-10",
+    readTime: "7 min read",
+    category: "Cost of Living",
+    excerpt: "The biggest mistake Australian retirees make in Thailand is signing a 12-month lease before they've actually lived there. Here's a smarter approach — try the city first.",
+    content: `
+## Don't Sign a Lease Before You Do This
+
+The biggest mistake I see Australian retirees make in Thailand is committing to a 12-month lease on their first visit. They arrive, fall in love with a city after a week, sign on the dotted line — and then discover the neighbours are noisy, the area floods in wet season, or the commute to the good supermarket is brutal.
+
+The smarter approach is to treat your first one to three months as a paid test drive.
+
+## The Try-Before-You-Commit Strategy
+
+Thailand is one of the easiest countries in the world to do this in. Unlike Australia, where furnished short-term rentals cost a fortune, Thailand has an abundance of serviced apartments, guesthouses and hotels that offer monthly rates at very reasonable prices.
+
+The plan:
+
+**Month 1 — Serviced apartment or hotel**
+Book a serviced apartment or a comfortable hotel for your first month. You're paying a premium for flexibility, but you're buying yourself time to explore the city properly. Costs typically run 25–40% more than a long-term lease, but it's worth every baht.
+
+**Month 2 — Medium-term rental**
+Once you know which area of the city you like, find a furnished condo or house on a two to three month lease. Many Thai landlords will do this, especially in the off season. This gets your cost down significantly while still giving you flexibility.
+
+**Month 3+ — Long-term lease**
+Now you sign a 12-month lease. You know the city, you know the neighbourhood, you know the traffic patterns, you know where the good markets are and which areas flood. You're making an informed decision.
+
+## What to Look for During Your Trial Period
+
+**The morning test** — What's the area like at 7am? Local markets, noise, traffic, rubbish collection?
+
+**The wet season question** — Ask locals or expats in Facebook groups: does this street flood? Does this condo lose power? Wet season in Thailand (June–October) reveals a lot about a neighbourhood.
+
+**The hospital check** — How long does it actually take to get to the nearest decent hospital? Time it yourself, don't trust Google Maps.
+
+**The supermarket run** — Can you get the things you actually need day-to-day without a major expedition?
+
+**The expat community** — Find the local Facebook group for Australian or English-speaking expats in the city. Join before you arrive. Ask the real questions.
+
+## Using Agoda for Your Try-Before-You-Commit Stay
+
+Agoda is the best platform for finding accommodation in Thailand across all stages of this process. They have strong inventory across all price points and excellent coverage of the cities Australians typically retire to.
+
+For your first month, search for **serviced apartments** with monthly pricing — filter by "long stay" options. Many properties list a significantly discounted monthly rate compared to their nightly rate.
+
+For Hua Hin, Chiang Mai, Pattaya and Khon Kaen you'll find a good selection of fully furnished monthly rentals from around ฿12,000–฿25,000 per month depending on the city and standard.
+
+[Search accommodation on Agoda →](https://www.agoda.com/?cid=1932012)
+
+## What Does the Try Period Actually Cost?
+
+Here's a rough guide to what you'd pay for a comfortable furnished apartment on a short-term monthly rate in each city:
+
+**Khon Kaen** — ฿10,000–฿14,000/month (serviced apartment, 1 bedroom)
+**Chiang Mai** — ฿12,000–฿18,000/month
+**Hua Hin** — ฿15,000–฿22,000/month
+**Pattaya** — ฿12,000–฿18,000/month
+**Bangkok** — ฿18,000–฿30,000/month
+**Phuket** — ฿20,000–฿35,000/month
+
+These are higher than long-term lease rates, but they include furniture and often utilities, and you're not committed.
+
+## The Long-Term Lease Numbers
+
+Once you've done your test period and are ready to commit, here's what a 12-month lease looks like across accommodation types in 2025–2026:
+
+### Khon Kaen (Budget-Friendly)
+- Studio: ฿5,000/month
+- 1 Bedroom Condo: ฿8,500/month
+- 2 Bedroom Condo: ฿14,000/month
+- Townhouse: ฿10,000/month
+- 2 Bed House with Pool: ฿18,000/month
+
+### Hua Hin (Mid-Range)
+- Studio: ฿8,000/month
+- 1 Bedroom Condo: ฿14,000/month
+- 2 Bedroom Condo: ฿22,000/month
+- Townhouse: ฿18,000/month
+- 2 Bed House with Pool: ฿30,000/month
+
+### Chiang Mai (Great Value)
+- Studio: ฿6,000/month
+- 1 Bedroom Condo: ฿10,000/month
+- 2 Bedroom Condo: ฿16,000/month
+- Townhouse: ฿12,000/month
+- 2 Bed House with Pool: ฿22,000/month
+
+## One More Thing — Negotiate
+
+Thai landlords expect negotiation, especially for longer leases. If you're signing 12 months, ask for a 10–15% discount off the listed price. If you're signing two years, ask for more. Respectful negotiation is completely normal and expected.
+
+The try-before-you-commit approach costs you a bit more in the first few months. But it's far cheaper than breaking a 12-month lease after three months because you chose the wrong neighbourhood.
+
+Use the [pension calculator](/) to see how your accommodation choice affects your overall budget across different Thai cities.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by location, condition and negotiation.*
+    `,
+  },
+
+  {
+    slug: "best-areas-to-stay-in-hua-hin-australian-retiree",
+    title: "Best Areas to Stay in Hua Hin as an Australian Retiree",
+    metaDescription: "Hua Hin is Australia's favourite Thai retirement town — but which area should you live in? A guide to Hua Hin's neighbourhoods with real rental costs for 2025-2026.",
+    date: "2026-05-10",
+    readTime: "8 min read",
+    category: "City Guides",
+    excerpt: "I lived in Hua Hin for 8 years. Here's what I know about the different areas, what they actually cost, and which neighbourhoods suit Australian retirees best.",
+    content: `
+## Why Hua Hin is Australia's Favourite Thai Retirement Town
+
+Hua Hin has been attracting Australian retirees for decades — and for good reason. It's a royal beach town (the Thai King's summer palace is here), clean and well-organised by Thai standards, only 2.5 hours from Bangkok by road, and has one of the strongest English-speaking expat communities in Thailand.
+
+I lived here for eight years from 2006 to 2014. What I found is that Hua Hin isn't one place — it's a collection of very different neighbourhoods that suit very different lifestyles and budgets.
+
+## The Main Areas of Hua Hin
+
+### Hua Hin Town Centre
+The heart of the city, within walking distance of the famous night market, the beach, restaurants, bars and most day-to-day services. This is where a lot of new expats start because everything is close.
+
+**Who it suits:** People who want to walk everywhere and don't want a car or motorbike.
+**Rental costs:**
+- 1 Bedroom Condo: ฿14,000–฿18,000/month
+- 2 Bedroom Condo: ฿20,000–฿28,000/month
+- Townhouse: ฿15,000–฿22,000/month
+
+**Watch out for:** Weekend traffic from Bangkok visitors can be heavy. The beach near the town centre gets crowded on public holidays.
+
+### North Hua Hin (Khao Takiab area)
+About 5km south of the town centre, this area is quieter and has some beautiful stretches of beach. Khao Takiab (Chopstick Mountain) is a landmark with a large Buddha statue and a colony of monkeys. The beach here is less crowded than town.
+
+**Who it suits:** People who prefer a quieter beach lifestyle and don't mind being a short drive from shops and restaurants.
+**Rental costs:**
+- 1 Bedroom Condo: ฿12,000–฿16,000/month
+- 2 Bedroom Condo: ฿18,000–฿25,000/month
+- 2 Bed House with Pool: ฿25,000–฿35,000/month
+
+### Hin Lek Fai / Golf Course Area
+The hills west of Hua Hin town are home to several golf courses and many of the larger houses and villas. This is where Australians who want a proper garden, a pool, and more space tend to end up.
+
+**Who it suits:** Couples who want a house rather than a condo. Golfers. Anyone wanting more space and privacy.
+**Rental costs:**
+- 2 Bed Townhouse: ฿15,000–฿20,000/month
+- 3 Bed House with Pool: ฿25,000–฿40,000/month
+- 4 Bed Villa: ฿40,000–฿65,000/month
+
+This area requires a car or motorbike — you're not walking to the shops from here.
+
+### Pranburi (South of Hua Hin)
+About 25km south of Hua Hin, Pranburi is a quieter, more rural area with some beautiful beaches and a growing number of expats. Rents are noticeably cheaper than Hua Hin proper.
+
+**Who it suits:** People who want peace, space and lower costs. Those happy with a 30-minute drive to Hua Hin's services.
+**Rental costs:**
+- 2 Bed House with Garden: ฿12,000–฿18,000/month
+- 2 Bed House with Pool: ฿18,000–฿28,000/month
+
+### Khao Kalok / Sam Roi Yot
+Further south again — a very quiet, almost rural stretch of coast with stunning beach scenery. Very limited services nearby. Not for everyone, but those who choose it tend to love it.
+
+**Who it suits:** People who truly want to get away from it all. Expect to drive for shopping and dining.
+
+## Houses vs Condos in Hua Hin — What's the Difference?
+
+This is one of the most common questions from Australian retirees, and it's a fair one. Here's the honest breakdown:
+
+**Condos**
+- More security and management
+- Communal pool, gym, sometimes a restaurant
+- Air conditioning standard
+- Easier to lock up and leave when visiting family in Australia
+- Smaller outdoor space or none
+
+**Townhouses**
+- Usually 2–3 storeys, small private outdoor area
+- More space than a condo for similar money
+- Less management — you deal with the landlord directly
+- Good middle ground between condo and standalone house
+
+**Houses with Pool**
+- Real garden, real privacy
+- The "pool villa" lifestyle Australians dream about
+- In Hua Hin you can get a 2-bedroom house with private pool for ฿25,000–฿35,000/month (about A$1,100–$1,550)
+- Requires a car — these are rarely walkable to shops
+- Higher utilities (pool heating and maintenance)
+
+## Can You Afford Hua Hin on the Pension?
+
+On the current single Age Pension overseas rate of approximately **$550/week (฿12,100/week)**, Hua Hin is tight but achievable if you're careful:
+
+- **1 Bedroom Condo (town area):** Budget ฿38,000–฿45,000/month total. Your pension provides ฿52,000. Surplus: ฿7,000–฿14,000/month.
+- **Townhouse (golf area):** Total costs around ฿42,000–฿50,000/month. Pension is right at the limit.
+- **House with Pool (golf/Pranburi area):** Total costs ฿48,000–฿58,000/month. You'll need some additional savings.
+
+Use our [pension calculator](/) to model your exact Hua Hin budget.
+
+## Finding Accommodation in Hua Hin
+
+Agoda is a great starting point for exploring your options before you arrive — particularly for the try-before-you-commit period. Search for monthly rates on serviced apartments and condos to get a feel for what's available in each area.
+
+[Search Hua Hin accommodation on Agoda →](https://www.agoda.com/city/hua-hin-th.html?cid=1932012)
+
+## My Personal Recommendation
+
+If you're coming to Hua Hin for the first time to test the waters, start in or near the town centre. Walk everywhere for a month. Get your bearings. Then — once you know whether you're a beach person, a golf person, or a quiet-life person — look at the area that suits you for a longer lease.
+
+And don't underestimate Pranburi. Several Australians I know ended up there after initially planning to stay in Hua Hin town, and they love it.
+
+*All rental figures are approximate 2025–2026 rates. Actual prices vary by property, condition and negotiation.*
+    `,
+  },
+
+  {
+    slug: "serviced-apartments-vs-renting-long-term-thailand",
+    title: "Serviced Apartments vs Renting Long-Term in Thailand",
+    metaDescription: "Should you rent a serviced apartment or sign a long-term lease in Thailand? A practical guide for Australian retirees comparing costs, flexibility and lifestyle.",
+    date: "2026-05-10",
+    readTime: "6 min read",
+    category: "Cost of Living",
+    excerpt: "Serviced apartments or long-term lease? It's one of the first decisions every Australian retiree faces in Thailand. Here's the honest breakdown of both options.",
+    content: `
+## The First Big Housing Decision in Thailand
+
+Within the first few weeks of researching a Thai retirement, most Australians hit the same question: serviced apartment or long-term rental?
+
+It sounds like a simple choice, but it affects your cost of living, your flexibility, and your day-to-day quality of life significantly. Here's the honest comparison.
+
+## What Is a Serviced Apartment?
+
+A serviced apartment in Thailand is a furnished apartment, usually in a dedicated building or hotel complex, with hotel-like services included. This typically means:
+
+- Weekly or fortnightly cleaning included
+- Reception or management on site
+- Communal facilities (pool, gym, sometimes restaurant)
+- Utilities often included (or capped)
+- Flexible lease terms — monthly or quarterly
+- No need to buy furniture, appliances or set up bills
+
+Think of it as a very comfortable hotel room that you actually live in.
+
+## What Is a Long-Term Rental?
+
+A long-term rental in Thailand is typically a 6 or 12-month lease on a condo, townhouse or house. It may be furnished or unfurnished. You deal with the landlord directly or through an agent, set up your own utilities, and are responsible for the space as a tenant.
+
+The major difference from a serviced apartment is that you're committing to a fixed period, and you're managing more yourself.
+
+## The Cost Comparison
+
+Here's where the numbers get interesting. Using Hua Hin as an example:
+
+### Serviced Apartment (1 Bedroom)
+- Monthly rate: ฿18,000–฿25,000
+- Utilities: Usually included
+- Cleaning: Included
+- Furniture: Included
+- Flexibility: Monthly
+- **Effective total: ฿18,000–฿25,000**
+
+### Long-Term Condo Rental (1 Bedroom, 12-month lease)
+- Monthly rent: ฿12,000–฿16,000
+- Electricity: ฿1,500–฿3,000 (Thai condos charge per unit)
+- Water: ฿200–฿500
+- Internet: ฿600–฿700
+- Cleaning (own cost if you want it): ฿800–฿1,500
+- **Effective total: ฿15,100–฿21,700**
+
+**The gap is smaller than most people expect** — especially once you factor in electricity (which can be expensive in Thai condos charged at commercial rates), and the cost of your own cleaning.
+
+For a 12-month lease vs serviced apartment, the long-term rental is typically **฿2,000–฿6,000/month cheaper** depending on the property and city.
+
+Over a full year that's a saving of ฿24,000–฿72,000 (about A$1,100–$3,300). Meaningful, but not life-changing.
+
+## When Serviced Apartments Make Sense
+
+**You're new to Thailand.** The best reason to choose a serviced apartment is flexibility. You haven't committed to a city yet. You can leave when you want without penalty.
+
+**You travel back to Australia regularly.** Serviced apartments are easier to lock up and leave. No plants to water, no worrying about whether you left a tap dripping.
+
+**You want zero hassle.** No dealing with landlords, no arguing about water bills, no maintenance headaches. You pay, they manage.
+
+**You're a couple who wants hotel-quality amenities.** Many serviced apartment complexes in Thailand are genuinely beautiful — nicer, frankly, than a lot of long-term rental stock.
+
+## When Long-Term Rentals Make Sense
+
+**You know the city and the neighbourhood.** You've done your trial period (see our guide on [trying before you sign a lease](/blog/where-to-stay-in-thailand-before-signing-a-lease)), you know you want to stay, and you want to cut your costs.
+
+**You want a house, not a condo.** The serviced apartment market in Thailand is almost entirely condos and apartments. If you want a 2-bedroom house with a garden and a pool, you're going long-term.
+
+**You want to personalise your space.** Long-term rentals let you make the place feel like home — hang pictures, arrange furniture, have a proper kitchen.
+
+**You want to save money.** The maths typically favours a long-term lease by ฿2,000–฿6,000/month.
+
+## The Hybrid Approach
+
+Many experienced Thailand expats use a hybrid strategy:
+
+1. Start in a serviced apartment for 1–3 months
+2. Transition to a long-term lease once they know where they want to be
+
+This is exactly what I'd recommend for anyone coming to Thailand for the first time.
+
+## Finding Serviced Apartments in Thailand
+
+Agoda has excellent coverage of serviced apartments across all major Thai retirement cities. When searching, filter by "apartment" or "serviced apartment" and look for properties that offer monthly pricing — the discount vs nightly rates is usually significant.
+
+[Search serviced apartments on Agoda →](https://www.agoda.com/?cid=1932012)
+
+Key cities to search:
+- **Hua Hin** — good serviced apartment stock near the beach and town
+- **Chiang Mai** — excellent range from budget to boutique
+- **Pattaya** — biggest inventory in Thailand
+- **Khon Kaen** — more limited but growing
+
+## The Bottom Line
+
+If you're just arriving in Thailand: **serviced apartment.** Pay a small premium for the flexibility. Find your feet. Then switch to a long-term lease once you know where you want to be.
+
+If you've been in Thailand a year or more and know your city: **long-term lease.** You'll save money and have more of a home feeling.
+
+Use our [pension calculator](/) to see how accommodation type affects your weekly budget across different Thai cities.
+
+*Prices are approximate 2025–2026 figures and vary by city, property and negotiation.*
+    `,
+  },
+
+  {
+    slug: "find-accommodation-thailand-pension-budget",
+    title: "How to Find Accommodation in Thailand on a Pension Budget",
+    metaDescription: "Practical guide for Australian retirees finding affordable accommodation in Thailand. Real costs, best platforms, negotiation tips and which cities stretch your pension furthest.",
+    date: "2026-05-10",
+    readTime: "7 min read",
+    category: "Cost of Living",
+    excerpt: "Finding the right accommodation in Thailand on an Australian pension is very doable — if you know where to look, what to pay, and how to negotiate. Here's the complete guide.",
+    content: `
+## Your Pension. Your Budget. Finding a Home in Thailand.
+
+The Australian Age Pension overseas rate is approximately **$550 per week** (฿12,100 at current exchange rates). After health insurance and basic living costs, most Australians have around **฿20,000–฿28,000 per month** available for accommodation.
+
+The good news: that budget gets you a very decent place to live across most of Thailand — if you know how to use it.
+
+## What ฿20,000–฿28,000/Month Gets You in Each City
+
+### Khon Kaen (Best Value)
+- ฿20,000 → Very comfortable 2-bedroom condo with pool and gym
+- ฿15,000 → Modern 1-bedroom condo in a good location
+- ฿10,000 → Good townhouse in a Thai neighbourhood
+
+Khon Kaen is where your pension goes furthest on accommodation. A comfortable 1-bedroom condo leaves you ฿8,000–฿12,000/month more than other cities for food, entertainment and savings.
+
+### Chiang Mai (Excellent Value)
+- ฿22,000 → 2-bedroom house with small pool in a gated village
+- ฿16,000 → Quality 2-bedroom condo
+- ฿10,000 → Studio or small 1-bedroom condo
+
+Chiang Mai has the widest range of accommodation in Thailand. The old moat area and Nimman Road have modern condo buildings. The Hang Dong and Mae Rim areas outside the city have houses with gardens for very reasonable prices.
+
+### Hua Hin (Mid-Range)
+- ฿25,000 → Good 2-bedroom condo near the beach
+- ฿18,000 → Comfortable 1-bedroom condo in town
+- ฿15,000 → Older but decent 1-bedroom condo
+
+Hua Hin is pricier than inland cities but still very manageable on the pension, especially if you're not set on living right in town.
+
+### Pattaya (Good Value)
+- ฿22,000 → Quality 2-bedroom condo, often with sea view
+- ฿15,000 → Good 1-bedroom condo
+- ฿11,000 → Studio in a well-maintained complex
+
+Pattaya has the most rental stock of any Thai city — which means competition keeps prices reasonable and you have lots of choice.
+
+### Bangkok (Tighter)
+- ฿28,000 → Gets you a decent 1-bedroom condo in a mid-range area
+- ฿22,000 → Studio or older 1-bedroom condo
+
+Bangkok is harder on the pension for accommodation. If you're set on Bangkok, focus on areas outside the central Sukhumvit corridor — On Nut, Bang Na, and areas near the newer BTS/MRT extensions offer much better value.
+
+### Phuket (Expensive)
+- ฿30,000 → 1-bedroom condo in a decent area
+- ฿25,000 → Studio near the beach
+
+Phuket is the most expensive Thai city for accommodation. Your pension covers it, but you'll have less left over for everything else.
+
+## Where to Look for Accommodation in Thailand
+
+### Before You Arrive — Agoda
+[Agoda](https://www.agoda.com/?cid=1932012) is the best platform for finding your initial accommodation in Thailand — serviced apartments, long-stay condos and monthly rate hotels. Strong Thailand inventory across all cities.
+
+Search tip: Filter by "long stay" or look for properties that show a monthly rate. Many properties discount heavily (30–50%) for stays of 28+ nights.
+
+### Once You're There — Facebook Groups
+Every Thai city has active Facebook groups for expat rentals:
+- "Hua Hin Expats" — very active, lots of direct landlord listings
+- "Chiang Mai Expats" — massive group, excellent rental listings
+- "Pattaya Expats" — huge community, tons of rental options
+- "Khon Kaen Expats" — smaller but helpful
+
+Thai landlords often post directly in these groups, meaning no agent fee and often better negotiating position.
+
+### Long-Term Lease Platforms
+- **DDProperty.com** — Thailand's largest property portal
+- **FazWaz.com** — good English interface, good coverage
+- **Hipflat.com** — strong condo coverage in major cities
+
+## Negotiation — What's Normal in Thailand
+
+Thai landlords expect negotiation. Here's what works:
+
+**For a 6-month lease:** Ask for 5–8% off the listed price.
+**For a 12-month lease:** Ask for 10–15% off. This is completely normal.
+**For 2 years:** Ask for 15–20% off, or ask for the first or last month free.
+**In low season (May–September):** Landlords are more flexible. This is when to push hardest.
+
+The negotiation should always be respectful and friendly. Bring a Thai friend or hire a local agent if you're not confident doing it yourself.
+
+## What to Insist On Before Signing
+
+1. **Electricity rate** — Some condo buildings charge 7–8 baht per unit (government rate is around 4 baht). Ask before you sign. High electricity charges can add ฿1,000–฿2,000/month unexpectedly.
+
+2. **Water rate** — Similar issue. Some buildings charge a flat fee, some charge per unit.
+
+3. **Internet** — Confirm the building has good fibre access. Ask other residents if you can.
+
+4. **Air conditioning condition** — Old A/C units are expensive to run. Ask when the units were last serviced.
+
+5. **Security deposit** — Standard is 2 months rent. Be wary of anyone asking for more.
+
+6. **Exit clauses** — What's the penalty if you need to leave early? One month's notice is standard, but get it in writing.
+
+## The Cheapest Way to Live in Thailand on the Pension
+
+If you're on a very tight budget, here's the lowest-cost legitimate accommodation strategy:
+
+1. **Choose Khon Kaen or Chiang Rai** — both have good infrastructure and are significantly cheaper than beach towns
+2. **Live in a Thai neighbourhood rather than the expat zone** — rents can be 30–40% lower
+3. **Take a Thai-style apartment rather than a Western-style condo** — basic but clean
+4. **Sign a 12-month lease from the start** — no short-term premium
+
+In Khon Kaen, a basic but comfortable Thai apartment costs ฿5,000–฿7,000/month. That leaves your pension covering all your other expenses comfortably with money to spare.
+
+## Use the Calculator
+
+Our [pension calculator](/) lets you model your exact accommodation costs across 7 Thai cities — including studios, condos, townhouses and houses with pools. Enter your pension type and lifestyle preferences to see exactly how your weekly budget stacks up.
+
+*All prices are approximate 2025–2026 figures. Rental costs vary by location, property condition and negotiation.*
+    `,
+  },
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
 export const getLatestPosts = (count = 3) => blogPosts.slice(0, count);
