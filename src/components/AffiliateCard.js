@@ -81,6 +81,13 @@ function SidebarCard({ service, context }) {
   if (!s) return null;
   const t = s.taglines[context] || s.taglines.default;
 
+  const logos = {
+    wise: { src: '/wise-logo.png', height: '22px' },
+    safetywing: { src: '/safetywing-logo.png', height: '28px' },
+    agoda: { src: '/agoda-logo.png', height: '28px' },
+  };
+  const logo = logos[service];
+
   return (
     <a
       href={s.url}
@@ -96,11 +103,17 @@ function SidebarCard({ service, context }) {
         display: 'block',
       }}
     >
-      <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '6px' }}>
+      <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '8px' }}>
         {t.eyebrow}
       </div>
-      <span style={{ fontSize: '24px', display: 'block', marginBottom: '8px' }}>{s.icon}</span>
-      <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '13px', fontWeight: 700, color: '#F5EDD8', lineHeight: 1.3, marginBottom: '6px' }}>
+      {logo && (
+        <img
+          src={logo.src}
+          alt={s.name}
+          style={{ height: logo.height, width: 'auto', display: 'block', marginBottom: '8px', maxWidth: '100%' }}
+        />
+      )}
+      <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '12px', fontWeight: 700, color: '#F5EDD8', lineHeight: 1.3, marginBottom: '6px' }}>
         {t.title}
       </div>
       <div style={{ fontSize: '11px', color: '#7A6040', lineHeight: 1.5, marginBottom: '10px' }}>
@@ -119,6 +132,13 @@ export function AffiliateBanner({ service, context = 'default' }) {
   if (!s) return null;
   const t = s.taglines[context] || s.taglines.default;
 
+  const logos = {
+    wise: { src: '/wise-logo.png', height: '24px' },
+    safetywing: { src: '/safetywing-logo.png', height: '32px' },
+    agoda: { src: '/agoda-logo.png', height: '32px' },
+  };
+  const logo = logos[service];
+
   return (
     <a
       href={s.url}
@@ -135,7 +155,9 @@ export function AffiliateBanner({ service, context = 'default' }) {
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-        <div style={{ fontSize: '36px', flexShrink: 0 }}>{s.icon}</div>
+        {logo && (
+          <img src={logo.src} alt={s.name} style={{ height: logo.height, width: 'auto', flexShrink: 0 }} />
+        )}
         <div style={{ flex: 1, minWidth: '180px' }}>
           <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>
             {t.eyebrow} · {s.category}
