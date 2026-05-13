@@ -116,7 +116,7 @@ This is a popular alternative that many Australians prefer because it does not r
 **How it works:**
 1. Enter Thailand on a tourist visa or visa exemption entry
 2. Apply for a Non-Immigrant O visa at an immigration office in Thailand
-3. Open a Thai bank account and deposit ฿800,000
+3. [Open a Thai bank account](/blog/opening-bank-account-thailand-australian) and deposit ฿800,000
 4. After the funds have seasoned for the required period, apply for a 1-year retirement extension
 
 **Key advantage:** Health insurance is NOT required for the initial Non-O visa. It may be required for some annual extensions depending on the immigration office — requirements vary, so check with your local office.
@@ -238,7 +238,7 @@ None of this is alarming for retirees following the rules properly. It's mainly 
 
 ## The Bottom Line
 
-The Thai retirement visa is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
+The [Thai retirement visa](/blog/thai-retirement-visa-australians) is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
 
 Use our [cost calculator](/) to plan your budget, and our [FAQ page](/faq) for answers to common pension and visa questions.
     `
@@ -830,7 +830,7 @@ If you've always dreamed of living by a tropical beach, Phuket is genuinely beau
 
 ## The Real Cost of Living in Phuket
 
-Phuket is Thailand's most expensive retirement destination — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
+Phuket is Thailand's most expensive retirement destination. Read our [full Phuket city guide](/cities/phuket) — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
 
 **Rent:** A decent one-bedroom condo in a good area runs ฿18,000–฿30,000/month ($820–$1,365 AUD). Beachfront or sea-view adds a significant premium.
 
@@ -1142,7 +1142,7 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 - Connect with the local expat community
 
 ### First Three Months
-- Apply for your retirement visa extension if needed
+- [Apply for your retirement visa](/blog/thai-retirement-visa-australians) extension if needed
 - Get a Thai driving licence if you plan to drive
 - Set up home internet (AIS, True or 3BB)
 - Establish your regular routines
@@ -1449,7 +1449,7 @@ Agoda is the best platform for finding accommodation in Thailand across all stag
 
 For your first month, search for **serviced apartments** with monthly pricing — filter by "long stay" options. Many properties list a significantly discounted monthly rate compared to their nightly rate.
 
-For Hua Hin, Chiang Mai, Pattaya and Khon Kaen you'll find a good selection of fully furnished monthly rentals from around ฿12,000–฿25,000 per month depending on the city and standard.
+For [Hua Hin](/blog/best-areas-to-stay-in-hua-hin-australian-retiree), [Chiang Mai](/blog/best-areas-to-stay-in-chiang-mai-australian-retiree), [Pattaya](/blog/best-areas-to-stay-in-pattaya-australian-retiree) and [Khon Kaen](/blog/best-areas-to-stay-in-khon-kaen-australian-retiree) you'll find a good selection of fully furnished monthly rentals from around ฿12,000–฿25,000 per month depending on the city and standard.
 
 [Search accommodation on Agoda →](https://www.agoda.com/?cid=1932012)
 
@@ -1590,7 +1590,7 @@ This is one of the most common questions from Australian retirees, and it's a fa
 
 ## Can You Afford Hua Hin on the Pension?
 
-On the current single Age Pension overseas rate of approximately **$550/week (฿12,100/week)**, Hua Hin is tight but achievable if you're careful:
+On the current single [Age Pension overseas rate](/blog/australian-pension-thailand) of approximately **$550/week (฿12,100/week)**, Hua Hin is tight but achievable if you're careful:
 
 - **1 Bedroom Condo (town area):** Budget ฿38,000–฿45,000/month total. Your pension provides ฿52,000. Surplus: ฿7,000–฿14,000/month.
 - **Townhouse (golf area):** Total costs around ฿42,000–฿50,000/month. Pension is right at the limit.
@@ -1749,7 +1749,7 @@ The good news: that budget gets you a very decent place to live across most of T
 - ฿15,000 → Modern 1-bedroom condo in a good location
 - ฿10,000 → Good townhouse in a Thai neighbourhood
 
-Khon Kaen is where your pension goes furthest on accommodation. A comfortable 1-bedroom condo leaves you ฿8,000–฿12,000/month more than other cities for food, entertainment and savings.
+[Khon Kaen](/blog/best-areas-to-stay-in-khon-kaen-australian-retiree) is where your pension goes furthest on accommodation. A comfortable 1-bedroom condo leaves you ฿8,000–฿12,000/month more than other cities for food, entertainment and savings.
 
 ### Chiang Mai (Excellent Value)
 - ฿22,000 → 2-bedroom house with small pool in a gated village
@@ -1776,7 +1776,7 @@ Pattaya has the most rental stock of any Thai city — which means competition k
 - ฿28,000 → Gets you a decent 1-bedroom condo in a mid-range area
 - ฿22,000 → Studio or older 1-bedroom condo
 
-Bangkok is harder on the pension for accommodation. If you're set on Bangkok, focus on areas outside the central Sukhumvit corridor — On Nut, Bang Na, and areas near the newer BTS/MRT extensions offer much better value.
+[Bangkok](/blog/best-areas-to-stay-in-bangkok-australian-retiree) is harder on the pension for accommodation. If you're set on Bangkok, focus on areas outside the central Sukhumvit corridor — On Nut, Bang Na, and areas near the newer BTS/MRT extensions offer much better value.
 
 ### Phuket (Expensive)
 - ฿30,000 → 1-bedroom condo in a decent area
@@ -1860,7 +1860,7 @@ Our [pension calculator](/) lets you model your exact accommodation costs across
     content: `
 ## Why Chiang Mai Tops the List for Australian Retirees
 
-Chiang Mai is Thailand's cultural capital and the most popular city for long-term expats in the country. It's café-dense, walkable in parts, and offers modern condo living alongside centuries-old temples. For Australians retiring on the Age Pension, Chiang Mai's lower cost of living compared to beach cities makes it particularly attractive.
+Chiang Mai is Thailand's cultural capital. Read our [full Chiang Mai city guide](/cities/chiang-mai) and the most popular city for long-term expats in the country. It's café-dense, walkable in parts, and offers modern condo living alongside centuries-old temples. For Australians retiring on the Age Pension, Chiang Mai's lower cost of living compared to beach cities makes it particularly attractive.
 
 There's one important thing to know before choosing where to live: Chiang Mai has a serious air quality problem during burning season (roughly February to April), when farmers burn fields and PM2.5 levels can spike dangerously high. Many long-term expats budget for a month or two away from the city during this period. It's worth factoring into your decision.
 
@@ -1961,7 +1961,7 @@ Pattaya's reputation can be a turn-off for Australian retirees, and it's not ent
 
 But here's what most people don't realise: Pattaya is a big city with many very different neighbourhoods. The Australians who retire here successfully almost never live in the areas that give the city its reputation. They live in Jomtien, Pratumnak, or Na Jomtien — and they love it.
 
-Pattaya has some genuine advantages for Australian retirees: it's 90 minutes from Bangkok (and Bangkok's international airport), has Thailand's largest concentration of English-speaking services outside Bangkok, excellent hospitals, and an enormous expat community with active social networks.
+Pattaya has some genuine advantages. Read our [full Pattaya city guide](/cities/pattaya) for Australian retirees: it's 90 minutes from Bangkok (and Bangkok's international airport), has Thailand's largest concentration of English-speaking services outside Bangkok, excellent hospitals, and an enormous expat community with active social networks.
 
 ## The Main Areas of Pattaya
 
@@ -2058,7 +2058,7 @@ If Jomtien still feels too close to the Pattaya scene, try Na Jomtien — it's w
     content: `
 ## Bangkok — The Full Package, At a Price
 
-Bangkok is the most expensive city for retirement in Thailand — but it's still dramatically cheaper than any major Australian city. A comfortable 1-bedroom condo in a good Bangkok neighbourhood costs roughly what you'd pay for a basic studio in Brisbane or Melbourne.
+Bangkok is the most expensive city for retirement in Thailand. Read our [full Bangkok city guide](/cities/bangkok) — but it's still dramatically cheaper than any major Australian city. A comfortable 1-bedroom condo in a good Bangkok neighbourhood costs roughly what you'd pay for a basic studio in Brisbane or Melbourne.
 
 What Bangkok offers that no other Thai city can match: world-class hospitals (Bumrungrad, Samitivej, Bangkok Hospital), an extensive BTS and MRT rail network, unlimited dining and entertainment, and direct flights to Australia multiple times daily.
 
@@ -2241,7 +2241,7 @@ If you're a couple, Phuket becomes much more comfortable financially and is argu
     content: `
 ## Why Khon Kaen is Thailand's Best Kept Secret
 
-Khon Kaen doesn't appear on most retirement destination lists. It's not on the beach. It's not in the mountains. It's a mid-sized university city in northeast Thailand (Isaan region) that most tourists never visit.
+Khon Kaen doesn't appear on most retirement destination lists. Read our [full Khon Kaen city guide](/cities/khon-kaen). It's not on the beach. It's not in the mountains. It's a mid-sized university city in northeast Thailand (Isaan region) that most tourists never visit.
 
 And that's exactly why it works so well.
 
@@ -2320,7 +2320,7 @@ Do a two-week trial before committing. Khon Kaen is an acquired taste — but th
     content: `
 ## Chiang Rai — Thailand's Quiet Northern Gem
 
-Chiang Rai sits at the top of Thailand near the borders with Myanmar and Laos — about 3 hours north of Chiang Mai by road. It's significantly quieter, greener, and cheaper than any other city in our guide.
+Chiang Rai sits at the top of Thailand. Read our [full Chiang Rai city guide](/cities/chiang-rai) near the borders with Myanmar and Laos — about 3 hours north of Chiang Mai by road. It's significantly quieter, greener, and cheaper than any other city in our guide.
 
 Just three hours north of Chiang Mai, Chiang Rai is a smaller, greener, and quieter northern option — popular with artists and slow travelers, offering mountain views, night bazaars, and modern condos for under $400 USD monthly. Internet and infrastructure have improved greatly in recent years.
 
