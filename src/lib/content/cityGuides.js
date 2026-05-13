@@ -55,7 +55,7 @@ export const cityGuides = [
 
 Hua Hin has been attracting retirees for decades, and it's easy to see why. It has all the things that make Thailand great — warm weather, great food, friendly people, low cost of living — with the added bonus of a beach, excellent golf, and a well-established community of English-speaking expats.
 
-Unlike the party towns of Pattaya or the tourist chaos of Phuket, Hua Hin has a more refined, relaxed character. It's where Thai royalty comes for holidays. That sets the tone — dignified, pleasant, unpretentious.
+Unlike the party towns of Pattaya or the tourist chaos of Phuket. See our [best areas guide for Hua Hin](/blog/best-areas-to-stay-in-hua-hin-australian-retiree), Hua Hin has a more refined, relaxed character. It's where Thai royalty comes for holidays. That sets the tone — dignified, pleasant, unpretentious.
 
 ## The Real Costs in 2026
 
@@ -86,7 +86,15 @@ Use our [pension calculator](/) to see your specific numbers.
 ## Our Verdict
 
 Hua Hin is one of the best retirement destinations in Southeast Asia — but it's not the best choice if you're relying solely on a modest pension with no super. It rewards those with a little extra coming in. If budget is tight, consider Khon Kaen or Chiang Mai instead. If you have a comfortable income, Hua Hin is hard to beat.
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Hua Hin](/blog/best-areas-to-stay-in-hua-hin-australian-retiree) — Where to stay in each neighbourhood
+- [Where to Stay Before Signing a Lease](/blog/where-to-stay-in-thailand-before-signing-a-lease) — Try before you commit
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+- [Sending Your Pension to Thailand](/blog/transfer-australian-pension-thailand) — How to transfer money cheaply
+`,
   },
   {
     slug: "khon-kaen",
@@ -167,7 +175,15 @@ Khon Kaen has a relatively compact city centre that's easy to navigate. Most exp
 Yes — comfortably. Khon Kaen is the one major Thai city where the Australian Age Pension alone genuinely allows a comfortable lifestyle with a reasonable weekly surplus. It's our top recommendation for pension-only retirees.
 
 See exactly how your numbers stack up with our [pension calculator](/).
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Khon Kaen](/blog/best-areas-to-stay-in-khon-kaen-australian-retiree) — Neighbourhood guide
+- [Find Accommodation on a Pension Budget](/blog/find-accommodation-thailand-pension-budget) — How to find the best value
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+- [Opening a Thai Bank Account](/blog/opening-bank-account-thailand-australian) — Step by step guide
+`,
   },
   {
     slug: "chiang-mai",
@@ -255,7 +271,15 @@ It works on the pension alone, but it's tighter than Khon Kaen. Adding even a sm
 Chiang Mai is the best all-round choice for most Australian retirees — particularly those who value community, culture, and quality of life over pure budget. The large expat scene makes settling in easy, the healthcare is excellent, and the city rewards those who take the time to explore it.
 
 Check your personal numbers with our [pension calculator](/).
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Chiang Mai](/blog/best-areas-to-stay-in-chiang-mai-australian-retiree) — Neighbourhood by neighbourhood guide
+- [Where to Stay Before Signing a Lease](/blog/where-to-stay-in-thailand-before-signing-a-lease) — Try before you commit
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+- [90-Day Reporting Guide](/blog/90-day-reporting-thailand-guide) — What you need to know
+`,
   },
   {
     slug: "pattaya",
@@ -345,7 +369,15 @@ The expat community in Pattaya is massive — and not just the party crowd. The 
 Yes — on a comfortable lifestyle in Jomtien or East Pattaya. It's tighter than Khon Kaen but works as a beach retirement option.
 
 Use our [pension calculator](/) to see your specific weekly numbers.
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Pattaya](/blog/best-areas-to-stay-in-pattaya-australian-retiree) — Neighbourhood guide
+- [Serviced Apartments vs Long-Term Renting](/blog/serviced-apartments-vs-renting-long-term-thailand) — Which is better for you
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+- [Getting Around Thailand](/blog/getting-around-thailand-retirees) — Transport guide
+`,
   },
   {
     slug: "bangkok",
@@ -434,7 +466,15 @@ Bangkok on the pension alone is tight. Adding $200–$300/week from super makes 
 Bangkok is best for retirees who genuinely want city life and who have either a super top-up or are comfortable with a tighter budget in exchange for world-class urban living.
 
 Check your Bangkok budget with our [pension calculator](/).
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Bangkok](/blog/best-areas-to-stay-in-bangkok-australian-retiree) — Neighbourhood guide
+- [Australia Thailand Tax Guide](/blog/australia-thailand-tax-retirees) — Tax implications
+- [Healthcare in Thailand for Australians](/blog/medicare-thailand-australians) — Medicare and health cover
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+`,
   },
   {
     slug: "phuket",
@@ -546,7 +586,15 @@ For Australians with a combined pension-plus-super income of $800–$1,000+/week
 For pension-only retirees, the numbers are difficult. Hua Hin, Pattaya, Chiang Mai or Khon Kaen all offer better value and more comfortable financial breathing room.
 
 Use our [pension calculator](/) to see exactly how your numbers stack up.
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Phuket](/blog/best-areas-to-stay-in-phuket-australian-retiree) — Neighbourhood guide
+- [Find Accommodation on a Pension Budget](/blog/find-accommodation-thailand-pension-budget) — How to find value in Phuket
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+- [Flights from Australia to Thailand](/blog/flights-australia-thailand-retirees) — Best routes and airlines
+`,
   },
   {
     slug: "chiang-rai",
@@ -655,7 +703,15 @@ Chiang Rai suits retirees who:
 It's not right for those who need a large English-speaking social scene, Western amenities on tap, or regular access to specialist medical care.
 
 Check your Chiang Rai budget with our [pension calculator](/).
-    `,
+    
+
+## Related Guides
+
+- [Best Areas to Stay in Chiang Rai](/blog/best-areas-to-stay-in-chiang-rai-australian-retiree) — Neighbourhood guide
+- [Find Accommodation on a Pension Budget](/blog/find-accommodation-thailand-pension-budget) — How to find the best value
+- [Learning Thai Language](/blog/learning-thai-language-retirees) — Useful for daily life
+- [Thai Retirement Visa Requirements](/blog/thai-retirement-visa-australians) — Visa guide for Australians
+`,
   },
 ];
 
