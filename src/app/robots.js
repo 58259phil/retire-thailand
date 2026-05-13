@@ -4,6 +4,7 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://retire-thailand.vercel.app/sitemap.xml',
+    sitemap: 'https://www.retirethailand.net/sitemap.xml',
+    host: 'https://www.retirethailand.net',
   };
 }
