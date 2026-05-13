@@ -2,6 +2,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "retire-thailand.vercel.app"
+        }
+      ],
       "destination": "https://www.retirethailand.net/$1",
       "permanent": true
     }
