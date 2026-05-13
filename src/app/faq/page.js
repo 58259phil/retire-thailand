@@ -13,39 +13,39 @@ const faqs = [
     questions: [
       {
         q: "Can I receive the Australian Age Pension while living in Thailand?",
-        a: "Yes. You must claim the pension while physically in Australia — you need to be present on the day you lodge your claim. Once granted, for most long-term Australians there is no mandatory waiting period before you can move overseas. Your pension is paid to you in Thailand indefinitely. After 6 weeks abroad your supplements reduce slightly, and after 26 weeks your rate may be recalculated based on your years of Australian residency. Always confirm your specific situation with Centrelink International Services on 131 673 before making plans.",
+        a: "Yes. You must claim the pension while physically in Australia — you need to be present on the day you lodge your claim. Once granted, for most long-term Australians there is no mandatory waiting period. See our [full pension guide](/blog/australian-pension-thailand) before you can move overseas. Your pension is paid to you in Thailand indefinitely. After 6 weeks abroad your supplements reduce slightly, and after 26 weeks your rate may be recalculated based on your years of Australian residency. Always confirm your specific situation with Centrelink International Services on 131 673 before making plans.",
       },
       {
         q: "What is the current Australian Age Pension rate in 2026?",
-        a: "From 20 March 2026, the maximum single Age Pension is $1,200.90 per fortnight (approximately $600 per week). When living overseas long-term, you lose the energy supplement and the pension supplement drops to the basic rate, leaving you with roughly $540–$560 per week. Rates are updated every March and September — always check the current rate at servicesaustralia.gov.au.",
+        a: "From 20 March 2026, the maximum single Age Pension is $1,200.90 per fortnight (approximately $600 per week). When living overseas long-term, you lose the energy supplement and the pension supplement drops to the basic rate, leaving you with roughly $540–$560 per week. Rates are updated every March and September. Use our [pension calculator](/) to see how far this goes in each Thai city.",
       },
       {
         q: "What age do I need to be to claim the Age Pension?",
-        a: "The current Age Pension age is 67 for both men and women born after 1 January 1957. If you were born before that date, the qualifying age may be slightly lower. You cannot claim the pension before reaching this age regardless of where you live.",
+        a: "The current Age Pension age is 67 for both men and women born after 1 January 1957. If you were born before that date, the qualifying age may be slightly lower. You cannot claim the pension before reaching this age regardless of where you live. Read our [guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia).",
       },
       {
         q: "What are the residency requirements to claim the Age Pension?",
-        a: "You must be physically present in Australia on the day you lodge your claim. You also need to have lived in Australia for at least 10 years total, with at least 5 of those years being continuous. For most Australians who have lived and worked here most of their lives, this is easily met. If you have lived overseas for a period, count up your total Australian residency — as long as it adds up to 10 years with a 5-year continuous stretch, you qualify.",
+        a: "You must be physically present in Australia on the day you lodge your claim. You also need to have lived in Australia for at least 10 years total, with at least 5 of those years being continuous. For most Australians who have lived and worked here most of their lives, this is easily met. If you have lived overseas for a period, count up your total Australian residency — as long as it adds up to 10 years with a 5-year continuous stretch, you qualify. Read our [full pension portability guide](/blog/australian-pension-thailand).",
       },
       {
         q: "What is the two-year portability rule and does it apply to me?",
-        a: "The two-year rule is often misunderstood. It only applies to former residents — people who lived overseas for an extended period, returned to Australia specifically to claim the pension, and then want to immediately leave again. It does not apply to Australians who have been living and working in Australia leading up to their retirement. If you have been residing in Australia for many years before claiming, you can move to Thailand after claiming without any mandatory waiting period. If you are unsure whether this rule applies to your situation, contact Centrelink International Services on 131 673.",
+        a: "The two-year rule is often misunderstood. It only applies to former residents — people who lived overseas for an extended period, returned to Australia specifically to claim the pension, and then want to immediately leave again. It does not apply to Australians who have been living and working in Australia leading up to their retirement. If you have been residing in Australia for many years before claiming, you can move to Thailand after claiming without any mandatory waiting period. If you are unsure whether this rule applies to your situation, contact Centrelink International Services on 131 673. Read our [full pension portability guide](/blog/australian-pension-thailand).",
       },
       {
         q: "Will I get the full pension in Thailand or a reduced amount?",
-        a: "It depends on your Australian Working Life Residency (AWLR) — the number of years you lived in Australia between ages 16 and 67. If you have 35 or more years, you generally receive the full overseas rate. If fewer than 35 years, your pension is calculated proportionally. For example, 28 years of Australian residency means you receive roughly 28/35ths of the full rate. If you spent time living overseas during your working life, add up your total Australian years carefully. Contact Centrelink International Services (phone 131 673 from overseas) to get an estimate based on your specific history.",
+        a: "It depends on your Australian Working Life Residency (AWLR) — the number of years you lived in Australia between ages 16 and 67. If you have 35 or more years, you generally receive the full overseas rate. If fewer than 35 years, your pension is calculated proportionally. For example, 28 years of Australian residency means you receive roughly 28/35ths of the full rate. If you spent time living overseas during your working life, add up your total Australian years carefully. Contact Centrelink International Services (phone 131 673 from overseas) to get an estimate. Use our [pension calculator](/) to model your budget. based on your specific history.",
       },
       {
         q: "What do I lose when I take my pension overseas?",
-        a: "After 6 weeks outside Australia, you lose the energy supplement. The pension supplement drops to the basic rate only. You also lose access to the Pensioner Concession Card benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
+        a: "After 6 weeks outside Australia, you lose the energy supplement. The pension supplement drops to the basic rate only. You also lose access to the Pensioner Concession Card. Read our [full overseas pension guide](/blog/australian-pension-thailand) for details. benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
       },
       {
         q: "Can Centrelink pay my pension directly into a Thai bank account?",
-        a: "Yes — Centrelink can pay your pension directly into a Thai bank account. However, be aware that the exchange rate and fees used by the banking system are generally poor. Most expats find it more cost-effective to have Centrelink pay into an Australian bank account and then transfer to Thailand themselves using a service like Wise, which charges much lower fees and uses mid-market exchange rates.",
+        a: "Yes — Centrelink can pay your pension directly into a Thai bank account. However, be aware that the exchange rate and fees used by the banking system are generally poor. Most expats find it more cost-effective to have Centrelink pay into an Australian bank account and then transfer to Thailand themselves using a service like [Wise](/resources), which charges much lower fees. Read our [guide to sending your pension to Thailand](/blog/transfer-australian-pension-thailand) and uses mid-market exchange rates.",
       },
       {
         q: "Do I need to tell Centrelink if I move to Thailand permanently?",
-        a: "Yes — you must notify Centrelink if you leave Australia for more than 6 weeks, and definitely if you are relocating permanently. Failing to notify them can result in overpayments which you would need to repay. You can notify them online through myGov or by calling Centrelink International Services.",
+        a: "Yes — you must notify Centrelink. Our [complete moving checklist](/blog/preparing-to-move-thailand-checklist) covers exactly what to do before you leave. if you leave Australia for more than 6 weeks, and definitely if you are relocating permanently. Failing to notify them can result in overpayments which you would need to repay. You can notify them online through myGov or by calling Centrelink International Services.",
       },
     ],
   },
@@ -54,27 +54,27 @@ const faqs = [
     questions: [
       {
         q: "What visa do I need to retire in Thailand?",
-        a: "The most common option is the Non-Immigrant O-A Visa, known as the retirement visa. It's available to anyone aged 50 or over and is renewable annually. You need to show either 800,000 THB (around $36,000 AUD) in a Thai bank account, or a monthly income of 65,000 THB (around $2,950 AUD/month). Health insurance is mandatory for this visa.",
+        a: "The most common option is the Non-Immigrant O-A Visa, known as the retirement visa. It's available to anyone aged 50 or over and is renewable annually. You need to show either 800,000 THB (around $36,000 AUD) in a Thai bank account, or a monthly income of 65,000 THB (around $2,950 AUD/month). Health insurance is mandatory for this visa. Read our [complete Thai retirement visa guide](/blog/thai-retirement-visa-australians).",
       },
       {
         q: "How much money do I need in a Thai bank account for the retirement visa?",
-        a: "You need 800,000 THB (approximately $36,000 AUD at current rates) deposited in a Thai bank account. This money needs to have been in the account for at least 2–3 months before your application — you cannot simply deposit it the day before. Many retirees treat this as a dedicated visa fund they keep separate from their spending money.",
+        a: "You need 800,000 THB (approximately $36,000 AUD at current rates) deposited in a Thai bank account. This money needs to have been in the account for at least 2–3 months before your application — you cannot simply deposit it the day before. Many retirees treat this as a dedicated visa fund. Read our guide to [opening a Thai bank account](/blog/opening-bank-account-thailand-australian). they keep separate from their spending money.",
       },
       {
         q: "Is health insurance compulsory for the Thai retirement visa?",
-        a: "Yes — health insurance is mandatory for the Non-Immigrant O-A retirement visa. Your policy must have at minimum 40,000 THB outpatient coverage and 400,000 THB inpatient coverage. Several Thai insurance companies offer plans specifically designed to meet these requirements at reasonable prices. For someone aged 60–70, expect to pay roughly 50,000–90,000 THB per year for a qualifying plan.",
+        a: "Yes — health insurance is mandatory. Read our [healthcare guide](/blog/medicare-thailand-australians) for recommended options. for the Non-Immigrant O-A retirement visa. Your policy must have at minimum 40,000 THB outpatient coverage and 400,000 THB inpatient coverage. Several Thai insurance companies offer plans specifically designed to meet these requirements at reasonable prices. For someone aged 60–70, expect to pay roughly 50,000–90,000 THB per year for a qualifying plan.",
       },
       {
         q: "Can I apply for the Thai retirement visa from Australia?",
-        a: "Yes — you apply at the Royal Thai Embassy in Canberra, or Thai Consulates in Sydney or Melbourne. You will need your passport, proof of funds, health insurance certificate, police clearance certificate from the Australian Federal Police, and a medical certificate from a registered doctor. The process typically takes a few weeks.",
+        a: "Yes — you apply at the Royal Thai Embassy in Canberra, or Thai Consulates in Sydney or Melbourne. You will need your passport, proof of funds, health insurance certificate, police clearance certificate from the Australian Federal Police, and a medical certificate from a registered doctor. The process typically takes a few weeks. Read our [complete visa guide](/blog/thai-retirement-visa-australians) for step-by-step instructions.",
       },
       {
         q: "What is the 90-day reporting requirement?",
-        a: "While living in Thailand on a long-term visa, you must report your address to Thai Immigration every 90 days. This is done by submitting a TM47 form — either online, by post, or in person at your local immigration office. If you leave Thailand and re-enter before your 90-day deadline, the clock resets. Missing the deadline incurs a fine of 2,000 THB (about $90 AUD).",
+        a: "While living in Thailand on a long-term visa, you must report your address to Thai Immigration every 90 days. This is done by submitting a TM47 form — either online, by post, or in person at your local immigration office. If you leave Thailand and re-enter before your 90-day deadline, the clock resets. Missing the deadline incurs a fine of 2,000 THB. Read our [90-day reporting guide](/blog/90-day-reporting-thailand-guide) for full instructions. (about $90 AUD).",
       },
       {
         q: "What happens if I visit Australia during my retirement in Thailand?",
-        a: "Short visits to Australia are no problem — your Thai visa allows multiple re-entries. For your pension, visiting Australia has no negative effect on your payments. Regular trips home to see family, attend medical appointments, or handle financial matters are completely compatible with living on the pension in Thailand.",
+        a: "Short visits to Australia are fine. Read our [Australian pension portability guide](/blog/australian-pension-thailand) for how this affects your payments. are no problem — your Thai visa allows multiple re-entries. For your pension, visiting Australia has no negative effect on your payments. Regular trips home to see family are fine. Read our [Australian pension portability guide](/blog/australian-pension-thailand) for how this affects payments., attend medical appointments, or handle financial matters are completely compatible with living on the pension in Thailand.",
       },
     ],
   },
@@ -83,19 +83,19 @@ const faqs = [
     questions: [
       {
         q: "What happens to my Medicare when I move to Thailand?",
-        a: "Your Medicare card remains active, but it only works in Australia. Living in Thailand, you cannot use Medicare for Thai medical services. If you return to Australia for a visit and see a doctor or go to hospital, Medicare covers you as normal. This is why private health insurance is essential for all Australian expats in Thailand.",
+        a: "Your Medicare card remains active, but it only works in Australia. Living in Thailand, you cannot use Medicare for Thai medical services. If you return to Australia for a visit and see a doctor or go to hospital, Medicare covers you as normal. This is why private health insurance is essential. Read our [full Medicare and healthcare guide](/blog/medicare-thailand-australians). for all Australian expats in Thailand.",
       },
       {
         q: "Is healthcare in Thailand good enough for retirees?",
-        a: "Thailand has genuinely excellent private healthcare — particularly in Bangkok, Chiang Mai, Hua Hin, Pattaya and Khon Kaen. Private hospitals are modern, often internationally accredited, with English-speaking doctors many of whom trained overseas. Major Bangkok hospitals like Bumrungrad International are considered among the best in Asia. For most healthcare needs, Thai private hospitals are very good. For extremely complex or specialist procedures, some retirees prefer to fly home to Australia.",
+        a: "Thailand has genuinely excellent private healthcare. Read our [full healthcare guide](/blog/medicare-thailand-australians) — particularly in Bangkok, Chiang Mai, Hua Hin, Pattaya and Khon Kaen. Private hospitals are modern, often internationally accredited, with English-speaking doctors many of whom trained overseas. Major Bangkok hospitals like Bumrungrad International are considered among the best in Asia. For most healthcare needs, Thai private hospitals are very good. Read our [complete healthcare guide](/blog/medicare-thailand-australians). For extremely complex or specialist procedures, some retirees prefer to fly home to Australia.",
       },
       {
         q: "How much does private health insurance cost in Thailand?",
-        a: "For an Australian aged 60–70, expect to pay roughly 50,000–100,000 THB per year ($2,300–$4,500 AUD) for a plan that meets the retirement visa requirements and provides reasonable coverage. Costs increase with age and depend on the level of coverage and any pre-existing conditions. It is strongly recommended to get cover before leaving Australia, as pre-existing conditions are often excluded from new policies.",
+        a: "For an Australian aged 60–70, expect to pay roughly 50,000–100,000 THB per year ($2,300–$4,500 AUD) for a plan that meets the retirement visa requirements and provides reasonable coverage. Costs increase with age and depend on the level of coverage and any pre-existing conditions. It is strongly recommended to get cover before leaving Australia. See our [recommended health insurance options](/resources)., as pre-existing conditions are often excluded from new policies.",
       },
       {
         q: "Should I get health insurance before I leave Australia?",
-        a: "Yes — strongly recommended. Once you have a diagnosed condition, getting comprehensive cover for that condition becomes much harder or more expensive. If you get insured while healthy, many conditions that develop later will be covered. Waiting until after you arrive in Thailand and have had a health scare is the wrong time to shop for insurance.",
+        a: "Yes — strongly recommended. Once you have a diagnosed condition, getting comprehensive cover for that condition becomes much harder or more expensive. If you get insured while healthy, many conditions that develop later will be covered. Waiting until after you arrive in Thailand and have had a health scare is the wrong time. See our [recommended providers](/resources). is the wrong time to shop for insurance.",
       },
     ],
   },
@@ -104,7 +104,7 @@ const faqs = [
     questions: [
       {
         q: "Do I have to pay tax in Thailand on my Australian pension?",
-        a: "Thailand introduced new rules in 2024 requiring foreign residents to declare overseas income brought into Thailand during the same calendar year it was earned. This is a complex and evolving area — the rules changed recently and enforcement is still developing. Most Australian retirees are advised to speak with a Thai tax accountant about their specific situation. Australia and Thailand do not have a comprehensive double tax agreement, so the situation is not fully clear-cut for everyone.",
+        a: "Thailand introduced new rules in 2024 requiring foreign residents to declare overseas income brought into Thailand during the same calendar year it was earned. This is a complex and evolving area — the rules changed recently and enforcement is still developing. Most Australian retirees are advised to speak with a Thai tax accountant. Read our [Australia-Thailand tax guide](/blog/australia-thailand-tax-retirees). about their specific situation. Australia and Thailand do not have a comprehensive double tax agreement, so the situation is not fully clear-cut for everyone.",
       },
       {
         q: "Do I still pay tax in Australia on my pension?",
@@ -129,23 +129,23 @@ const faqs = [
       },
       {
         q: "Is Thailand safe for retirees?",
-        a: "Thailand is generally very safe for foreign retirees. Violent crime against foreigners is rare. The main risks are everyday ones — motorbike accidents (a genuine concern, take care on roads), petty theft in tourist areas, and scams targeting tourists. Retirees who settle into a city and live like locals rather than tourists generally have very few safety concerns.",
+        a: "Thailand is generally very safe for retirees. Read our [guide to safety in Thailand](/blog/retiring-in-thailand-from-australia) for more detail. for foreign retirees. Violent crime against foreigners is rare. The main risks are everyday ones — motorbike accidents (a genuine concern, take care on roads), petty theft in tourist areas, and scams targeting tourists. Retirees who settle into a city and live like locals rather than tourists generally have very few safety concerns.",
       },
       {
         q: "Can I drive in Thailand on my Australian licence?",
-        a: "You can drive in Thailand on your Australian licence for up to 90 days. For longer-term residence, you should get a Thai driving licence. The process involves a medical certificate, vision test, and written test (available in English) at your local Land Transport Office. Many expats find it straightforward.",
+        a: "You can drive in Thailand on your Australian licence for up to 90 days. Read our [getting around Thailand guide](/blog/getting-around-thailand-retirees) for full details. For longer-term residence, you should get a Thai driving licence. The process involves a medical certificate, vision test, and written test (available in English) at your local Land Transport Office. Many expats find it straightforward.",
       },
       {
         q: "What is the cost of living in Thailand compared to Australia?",
-        a: "Generally speaking, a comfortable lifestyle in Thailand costs roughly 40–60% of what an equivalent lifestyle costs in a major Australian city. Rent is dramatically cheaper — a modern one-bedroom condo with pool in Chiang Mai or Khon Kaen rents for $400–$550 AUD/month versus $2,000+ in Brisbane. Food, healthcare, transport and entertainment are all significantly cheaper. The main exception is imported Western goods, which can cost more than in Australia.",
+        a: "Generally speaking, a comfortable lifestyle in Thailand costs roughly 40% less. Use our [pension calculator](/) to compare costs across 7 Thai cities side by side. In Thailand costs roughly 40–60% of what an equivalent lifestyle costs in a major Australian city. Rent is dramatically cheaper — a modern one-bedroom condo with pool in Chiang Mai or Khon Kaen rents for $400–$550 AUD/month versus $2,000+ in Brisbane. Food, healthcare, transport and entertainment are all significantly cheaper. The main exception is imported Western goods, which can cost more than in Australia.",
       },
       {
         q: "Can I buy property in Thailand as an Australian?",
-        a: "Foreigners cannot own land in Thailand, but can own condominium units (apartments) in their own name — provided foreign ownership in that building does not exceed 49%. Many Australian retirees rent rather than buy, which gives flexibility without the legal complexities of property ownership. If you want to buy a house, it can be done through a long-term lease arrangement, though this involves legal complexity and is worth getting professional advice on.",
+        a: "Foreigners cannot own land in Thailand. Read our [complete renting guide](/blog/renting-condo-thailand-guide) for your best options., but can own condominium units (apartments) in their own name — provided foreign ownership in that building does not exceed 49%. Many Australian retirees rent rather than buy, which gives flexibility without the legal complexities of property ownership. If you want to buy a house, it can be done through a long-term lease arrangement, though this involves legal complexity and is worth getting professional advice on.",
       },
       {
         q: "How do I make friends and build a social life in Thailand?",
-        a: "Most cities with significant expat populations have active social clubs, golf groups, Hash House Harriers running/walking clubs, and regular expat meetups. The Hua Hin Expats Club, Chiang Mai Expats Club and Pattaya Expats Club all have decades of history and weekly events that welcome newcomers. Facebook groups for your chosen city are also very active. The expat community in Thailand is generally welcoming — the key is to put yourself out there in the first few months rather than waiting for friendships to come to you.",
+        a: "Most cities with significant expat populations have active social clubs. Read our [guide to making friends in Thailand](/blog/making-friends-retiring-thailand)., golf groups, Hash House Harriers running/walking clubs, and regular expat meetups. The Hua Hin Expats Club, Chiang Mai Expats Club and Pattaya Expats Club all have decades of history and weekly events that welcome newcomers. Facebook groups for your chosen city are also very active. The expat community in Thailand is generally welcoming — the key is to put yourself out there in the first few months rather than waiting for friendships to come to you.",
       },
     ],
   },
