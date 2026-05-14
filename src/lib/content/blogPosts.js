@@ -1723,7 +1723,81 @@ If you've been in Thailand a year or more and know your city: **long-term lease.
 
 Use our [pension calculator](/) to see how accommodation type affects your weekly budget across different Thai cities.
 
-*Prices are approximate 2025–2026 figures and vary by city, property and negotiation.*
+## City by City — Serviced Apartment vs Long-Term Rental Costs (2026)
+
+Here's how the numbers compare across all 7 major Thai retirement cities:
+
+### Hua Hin
+| Type | Monthly Cost | Includes |
+|---|---|---|
+| Serviced apartment (1 bed) | ฿18,000–฿25,000 | Utilities, cleaning, pool |
+| Long-term condo (1 bed) | ฿12,000–฿16,000 | Rent only |
+| Long-term house with pool | ฿28,000–฿35,000 | Rent only |
+
+### Chiang Mai
+| Type | Monthly Cost | Includes |
+|---|---|---|
+| Serviced apartment (1 bed) | ฿12,000–฿18,000 | Utilities, cleaning |
+| Long-term condo (1 bed) | ฿8,000–฿12,000 | Rent only |
+| Long-term house with pool | ฿18,000–฿28,000 | Rent only |
+
+### Pattaya
+| Type | Monthly Cost | Includes |
+|---|---|---|
+| Serviced apartment (1 bed) | ฿12,000–฿18,000 | Utilities, cleaning |
+| Long-term condo (1 bed) | ฿9,000–฿13,000 | Rent only |
+| Long-term house with pool | ฿22,000–฿32,000 | Rent only |
+
+### Khon Kaen
+| Type | Monthly Cost | Includes |
+|---|---|---|
+| Serviced apartment (1 bed) | ฿8,000–฿12,000 | Utilities, cleaning |
+| Long-term condo (1 bed) | ฿6,000–฿9,000 | Rent only |
+| Long-term house with pool | ฿14,000–฿20,000 | Rent only |
+
+---
+
+## Questions to Ask Before Signing Anything
+
+Whether you choose a serviced apartment or a long-term lease, always ask these questions before committing:
+
+**For serviced apartments:**
+1. Is the monthly rate locked or can it change?
+2. What exactly is included — internet, electricity, water, cleaning frequency?
+3. What's the notice period to leave?
+4. Is there a minimum stay?
+5. Are there laundry facilities on site?
+
+**For long-term leases:**
+1. What is the electricity rate per unit? (Should be close to government rate of ~฿4/unit)
+2. Is the property furnished or unfurnished?
+3. Who is responsible for maintenance and repairs?
+4. Can I make small modifications — hang pictures, add shelving?
+5. What is the exit clause if I need to leave early?
+
+---
+
+## What Australian Retirees Actually Choose
+
+Based on the pattern we see from Australians retiring in Thailand:
+
+**First 1-3 months:** Almost always a serviced apartment or hotel. The flexibility is worth the extra cost while you find your feet.
+
+**After settling:** Most move to a long-term lease — either a condo or, increasingly, a house or townhouse. The Facebook feedback we get consistently is that Australians want more space than a condo offers once they're living there full time.
+
+**Couples:** Tend to prioritise houses with private pools once they commit long-term. A 2-bedroom house with pool in Hua Hin or Chiang Mai for ฿25,000–฿35,000/month is genuinely life-changing value compared to Australian rental costs.
+
+---
+
+## Using Agoda for Your Trial Period
+
+Agoda is the best platform to find serviced apartments and monthly-rate accommodation for your initial stay in Thailand. Filter specifically for properties offering monthly pricing — the discount compared to nightly rates is usually 30–50%.
+
+[Search serviced apartments on Agoda →](https://www.agoda.com/?cid=1932012)
+
+Use our [pension calculator](/) to model how your accommodation choice affects your overall weekly budget across all 7 Thai cities.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by city, property and negotiation.*
     `,
   },
 
