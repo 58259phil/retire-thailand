@@ -78,8 +78,8 @@ The key is choosing the right city for your budget, understanding the portabilit
   },
   {
     slug: "thai-retirement-visa-australians",
-    title: "Thai Retirement Visa Guide for Australians (2026)",
-    metaDescription: "Complete guide to getting a Thai retirement visa as an Australian in 2026. Covers the Non-OA and Non-O visa options, financial requirements, health insurance rules, re-entry permits and step-by-step application.",
+    title: "Thai Retirement Visa Requirements for Australians 2026 — Complete Guide",
+    metaDescription: "Thai retirement visa requirements for Australians in 2026. Non-OA visa costs, ฿800,000 bank requirement, health insurance rules, step-by-step application guide from Australia.",
     date: "2026-04-14",
     readTime: "14 min read",
     category: "Visa & Legal",
