@@ -258,7 +258,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
               color: '#C9963A',
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <span style={{ fontSize: '18px' }}>💸</span>
+                <img src="/wise-logo.png" alt="Wise" style={{ height: '20px', width: 'auto', flexShrink: 0 }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#F5EDD8' }}>Send your pension with Wise</div>
                   <div style={{ fontSize: '11px', color: '#7A6040', marginTop: '2px' }}>Real exchange rate, low fees</div>
@@ -277,7 +277,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
               color: '#C9963A',
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <span style={{ fontSize: '18px' }}>🏥</span>
+                <img src="/safetywing-logo.png" alt="SafetyWing" style={{ height: '26px', width: 'auto', flexShrink: 0 }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#F5EDD8' }}>Health insurance with SafetyWing</div>
                   <div style={{ fontSize: '11px', color: '#7A6040', marginTop: '2px' }}>Required for retirement visa</div>
