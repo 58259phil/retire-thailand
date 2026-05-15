@@ -46,6 +46,8 @@ const serviceLogos = {
   'Wise': { src: '/wise-logo.png', height: '36px' },
   'SafetyWing': { src: '/safetywing-logo.png', height: '48px' },
 };
+
+const DiamondDivider = () => (
   <div style={{ background: '#0F0A04', overflow: 'hidden' }}>
     <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="680" height="24" fill="#0F0A04"/>

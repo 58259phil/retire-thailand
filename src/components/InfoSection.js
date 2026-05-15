@@ -5,6 +5,8 @@ const providerLogos = {
   'SafetyWing': { src: '/safetywing-logo.png', height: '30px' },
   'Agoda': { src: '/agoda-logo.png', height: '28px' },
 };
+
+const affiliateLinks = [
   {
     category: 'Currency Transfer',
     description: 'Send your pension to Thailand with the best exchange rate. Mid-market rates with low transparent fees — saves hundreds per year vs. your bank.',
