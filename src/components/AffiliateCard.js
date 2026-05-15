@@ -82,9 +82,9 @@ function SidebarCard({ service, context }) {
   const t = s.taglines[context] || s.taglines.default;
 
   const logos = {
-    wise: { src: '/wise-logo.png', height: '22px' },
-    safetywing: { src: '/safetywing-logo.png', height: '28px' },
-    agoda: { src: '/agoda-logo.png', height: '28px' },
+    wise: { src: '/wise-logo.png', height: '32px' },
+    safetywing: { src: '/safetywing-logo.png', height: '40px' },
+    agoda: { src: '/agoda-logo.png', height: '36px' },
   };
   const logo = logos[service];
 
