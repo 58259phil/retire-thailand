@@ -98,12 +98,6 @@ export default function BlogPage() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
 
-              {/* TOP affiliate cards (mobile only) */}
-              <div className="aff-mobile-banners">
-                <NarrowAffCard service="wise" eyebrow="Saves $1,200/year" title="Stop your bank skimming your pension" desc="Wise charges ~$8 vs your bank's $50+" />
-                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Health cover from $50/month" desc="SafetyWing — flexible expat cover" />
-              </div>
-
               {blogPosts.map((post, i) => (
                 <div key={post.slug}>
                   <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
@@ -145,19 +139,9 @@ export default function BlogPage() {
                     </article>
                   </Link>
 
-                  {/* MIDDLE affiliate card — after the 5th post */}
-                  {i === 4 && (
-                    <div style={{ marginTop: '14px' }}>
-                      <NarrowAffCard service="wise" eyebrow="Real exchange rate" title="Send your pension to Thailand" desc="Wise saves ~$1,200/year vs banks" />
-                    </div>
-                  )}
                 </div>
               ))}
 
-              {/* BOTTOM affiliate card */}
-              <div style={{ marginTop: '8px' }}>
-                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Cover designed for expat retirees" desc="SafetyWing — flexible monthly billing" />
-              </div>
             </div>
           </div>
         </div>

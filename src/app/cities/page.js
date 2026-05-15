@@ -108,12 +108,6 @@ export default function CitiesPage() {
             {/* City cards */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
-              {/* TOP affiliate cards (mobile only — sidebar hidden on mobile) */}
-              <div className="aff-mobile-banners">
-                <NarrowAffCard service="wise" eyebrow="Saves $1,200/year" title="Send your pension at the real rate" desc="Wise vs your bank — keeps more in your pocket" />
-                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Health cover from $50/mo" desc="SafetyWing — required for the Non-OA visa" />
-              </div>
-
               {cityGuides.map((city, i) => (
                 <div key={city.slug}>
                   <Link href={`/cities/${city.slug}`} style={{ textDecoration: 'none' }}>
@@ -182,19 +176,8 @@ export default function CitiesPage() {
                     </article>
                   </Link>
 
-                  {/* MIDDLE affiliate card — after the 3rd city */}
-                  {i === 2 && (
-                    <div style={{ marginTop: '16px' }}>
-                      <NarrowAffCard service="wise" eyebrow="Real exchange rate" title="Send your pension to Thailand" desc="Wise saves ~$1,200/year vs banks" />
-                    </div>
-                  )}
                 </div>
               ))}
-
-              {/* BOTTOM affiliate card */}
-              <div style={{ marginTop: '8px' }}>
-                <NarrowAffCard service="safetywing" eyebrow="Required for visa" title="Hospital cover wherever you live" desc="SafetyWing — accepted at major Thai hospitals" />
-              </div>
 
             </div>
           </div>
