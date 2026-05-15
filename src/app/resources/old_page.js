@@ -42,10 +42,7 @@ const services = [
   },
 ];
 
-const serviceLogos = {
-  'Wise': { src: '/wise-logo.png', height: '36px' },
-  'SafetyWing': { src: '/safetywing-logo.png', height: '48px' },
-};
+const DiamondDivider = () => (
   <div style={{ background: '#0F0A04', overflow: 'hidden' }}>
     <svg width="100%" height="24" viewBox="0 0 680 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="680" height="24" fill="#0F0A04"/>
@@ -123,13 +120,7 @@ export default function ResourcesPage() {
             }}>
               {/* Header */}
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '20px', marginBottom: '20px' }}>
-                <div style={{ flexShrink: 0, lineHeight: 1, minWidth: '60px', display: 'flex', alignItems: 'center' }}>
-                  {serviceLogos[s.name] ? (
-                    <img src={serviceLogos[s.name].src} alt={s.name} style={{ height: serviceLogos[s.name].height, width: 'auto' }} />
-                  ) : (
-                    <span style={{ fontSize: '48px' }}>{s.icon}</span>
-                  )}
-                </div>
+                <div style={{ fontSize: '48px', flexShrink: 0, lineHeight: 1 }}>{s.icon}</div>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9963A', marginBottom: '4px' }}>
                     {s.category}
@@ -217,4 +208,5 @@ export default function ResourcesPage() {
       </div>
     </main>
   );
+
 }

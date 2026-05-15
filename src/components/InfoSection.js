@@ -1,6 +1,10 @@
 'use client';
 
-const affiliateLinks = [
+const providerLogos = {
+  'Wise': { src: '/wise-logo.png', height: '24px' },
+  'SafetyWing': { src: '/safetywing-logo.png', height: '30px' },
+  'Agoda': { src: '/agoda-logo.png', height: '28px' },
+};
   {
     category: 'Currency Transfer',
     description: 'Send your pension to Thailand with the best exchange rate. Mid-market rates with low transparent fees — saves hundreds per year vs. your bank.',
@@ -91,9 +95,17 @@ export default function InfoSection() {
                         }}
                       >
                         <div>
-                          <div style={{ fontSize: '14px', fontWeight: 500, color: '#F5EDD8', marginBottom: '2px' }}>
-                            {provider.name}
-                          </div>
+                          {providerLogos[provider.name] ? (
+                            <img
+                              src={providerLogos[provider.name].src}
+                              alt={provider.name}
+                              style={{ height: providerLogos[provider.name].height, width: 'auto', display: 'block', marginBottom: '4px' }}
+                            />
+                          ) : (
+                            <div style={{ fontSize: '14px', fontWeight: 500, color: '#F5EDD8', marginBottom: '2px' }}>
+                              {provider.name}
+                            </div>
+                          )}
                           <div style={{ fontSize: '11px', color: '#5A4030' }}>{provider.note}</div>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
