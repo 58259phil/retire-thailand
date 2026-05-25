@@ -28,7 +28,14 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: `https://www.retirethailand.net/blog/${params.slug}`,
     },
-    openGraph: { title: post.title, description: post.metaDescription, type: 'article', publishedTime: post.date },
+    openGraph: {
+      title: post.title,
+      description: post.metaDescription,
+      type: 'article',
+      publishedTime: post.date,
+      url: `https://www.retirethailand.net/blog/${params.slug}`,
+      images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: post.title }],
+    },
   };
 }
 

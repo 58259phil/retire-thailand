@@ -16,7 +16,13 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: `https://www.retirethailand.net/cities/${params.slug}`,
     },
-    openGraph: { title: `Retiring in ${city.name}, Thailand`, description: city.metaDescription, type: 'article' },
+    openGraph: {
+      title: `Retiring in ${city.name}, Thailand`,
+      description: city.metaDescription,
+      type: 'article',
+      url: `https://www.retirethailand.net/cities/${params.slug}`,
+      images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: `Retiring in ${city.name} as an Australian` }],
+    },
   };
 }
 
