@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 export const metadata = {
   metadataBase: new URL('https://www.retirethailand.net'),
   title: 'Retire Thailand | Australian Pension Stretcher',
-  description: 'Find out exactly how far your Australian Age Pension goes in Thailand. Compare cities, calculate your weekly budget, and plan your retirement in the Land of Smiles.',
+  description: 'Find out how far your Australian Age Pension goes in Thailand. Compare cities, calculate your weekly budget, and plan your retirement.',
   keywords: ['retire Thailand', 'Australian pension Thailand', 'cost of living Thailand', 'Hua Hin retire', 'Khon Kaen expat', 'age pension overseas'],
   openGraph: {
     title: 'Retire Thailand | Australian Pension Stretcher',
