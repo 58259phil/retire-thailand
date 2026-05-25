@@ -6,7 +6,7 @@ export const blogPosts = [
   {
     slug: "australian-pension-thailand",
     title: "Can I Retire in Thailand on the Australian Age Pension?",
-    metaDescription: "Find out exactly how far the Australian Age Pension goes in Thailand. We break down costs city by city, explain the portability rules, and show you what life really looks like on $1,200 a fortnight.",
+    metaDescription: "How far does the Australian Age Pension go in Thailand? Current overseas rates, what you lose when you leave and how to maximise every dollar.",
     date: "2026-03-15",
     readTime: "8 min read",
     category: "Pension & Money",
@@ -78,8 +78,8 @@ The key is choosing the right city for your budget, understanding the portabilit
   },
   {
     slug: "thai-retirement-visa-australians",
-    title: "Thai Retirement Visa Requirements for Australians 2026 — Complete Guide",
-    metaDescription: "Thai retirement visa requirements for Australians in 2026. Non-OA visa costs, ฿800,000 bank requirement, health insurance rules, step-by-step application guide from Australia.",
+    title: "Thai Retirement Visa for Australians 2026 — Full Guide",
+    metaDescription: "Thai retirement visa requirements for Australians 2026. Non-OA visa, ฿800,000 bank requirement, health insurance rules and step-by-step application.",
     date: "2026-04-14",
     readTime: "14 min read",
     category: "Visa & Legal",
@@ -246,7 +246,7 @@ Use our [cost calculator](/) to plan your budget, and our [FAQ page](/faq) for a
   {
     slug: "cost-of-living-thailand-australians-2026",
     title: "True Cost of Living in Thailand for Australians in 2026",
-    metaDescription: "A realistic breakdown of what it actually costs an Australian to live in Thailand in 2026. Rent, food, health insurance, transport and more — with real numbers across 6 cities.",
+    metaDescription: "Real cost of living in Thailand for Australians 2026. Monthly budgets for 7 cities — rent, food, healthcare and transport compared.",
     date: "2026-03-05",
     readTime: "12 min read",
     category: "Cost of Living",
@@ -325,8 +325,8 @@ Use our [interactive calculator](/) to get personalised numbers for your specifi
   },
   {
     slug: "transfer-australian-pension-thailand",
-    title: "How to Transfer Your Australian Pension to Thailand (Cheapest Way)",
-    metaDescription: "The cheapest and easiest way to transfer your Australian Age Pension to a Thai bank account. Compare Wise, OFX and your bank — the difference can save you hundreds per year.",
+    title: "Transfer Your Australian Pension to Thailand Cheaply",
+    metaDescription: "Cheapest way to transfer your Australian pension to Thailand. Wise vs bank comparison, step-by-step setup and how to avoid losing money on fees.",
     date: "2026-02-28",
     readTime: "6 min read",
     category: "Pension & Money",
@@ -377,7 +377,7 @@ Use our [pension calculator](/) to see how these savings affect your weekly budg
   {
     slug: "retiring-thailand-age-60",
     title: "Retiring in Thailand at 60 — What You Actually Need to Know",
-    metaDescription: "Thinking about retiring in Thailand at 60? Here's what Australians need to know about visas, money, healthcare and what life is really like before you reach pension age.",
+    metaDescription: "Retiring in Thailand at 60? Pension gap strategies, superannuation tips and visa options for Australians under 67.",
     date: "2026-04-01",
     readTime: "9 min read",
     category: "Planning",
@@ -429,7 +429,7 @@ Use our [pension calculator](/) to model what your numbers might look like once 
   {
     slug: "medicare-thailand-australians",
     title: "What Happens to Your Medicare When You Move to Thailand?",
-    metaDescription: "What happens to Australian Medicare when you move to Thailand? Here's the honest answer — what you lose, what you keep, and how to make sure you're properly covered.",
+    metaDescription: "What happens to Australian Medicare when you move to Thailand? The honest answer plus what healthcare looks like for retirees.",
     date: "2026-04-02",
     readTime: "7 min read",
     category: "Healthcare",
@@ -472,7 +472,7 @@ Thai healthcare is genuinely good — particularly in Bangkok, Chiang Mai, Hua H
   {
     slug: "how-much-super-retire-thailand",
     title: "How Much Super Do You Actually Need to Retire in Thailand?",
-    metaDescription: "How much superannuation do you need to retire in Thailand as an Australian? Here's a realistic breakdown based on different ages, lifestyles and whether you're relying on the Age Pension.",
+    metaDescription: "How much super do you need to retire in Thailand? A realistic breakdown based on lifestyle, the Age Pension and what Thai cities cost.",
     date: "2026-04-03",
     readTime: "10 min read",
     category: "Pension & Money",
@@ -568,7 +568,7 @@ Use our [pension calculator](/) to compare what your Australian pension buys you
   {
     slug: "opening-bank-account-thailand-australian",
     title: "How to Open a Bank Account in Thailand as an Australian",
-    metaDescription: "Step by step guide to opening a Thai bank account as an Australian retiree. Which banks are easiest, what documents you need, and the tips that save you a wasted trip.",
+    metaDescription: "Step by step guide to opening a Thai bank account as an Australian retiree. Which bank, documents needed and how to get your pension paid directly.",
     date: "2026-04-05",
     readTime: "8 min read",
     category: "Practical Guides",
@@ -612,7 +612,7 @@ Once your account is open, a better approach than direct payment is to have Cent
   {
     slug: "renting-condo-thailand-guide",
     title: "Renting a Condo in Thailand — What Australians Need to Know",
-    metaDescription: "A practical guide to renting a condo in Thailand as an Australian retiree. How to find places, what to watch out for in contracts, typical costs and the questions to ask before you sign.",
+    metaDescription: "Practical guide to renting a condo in Thailand as an Australian retiree. Finding the right place, lease tips and how to avoid common mistakes.",
     date: "2026-04-06",
     readTime: "9 min read",
     category: "Practical Guides",
@@ -658,7 +658,7 @@ Budget roughly ฿2,500–฿4,500/month for utilities in a typical one-bedroom 
   {
     slug: "learning-thai-language-retirees",
     title: "Do You Need to Learn Thai to Retire There?",
-    metaDescription: "Do you need to speak Thai to retire in Thailand as an Australian? The honest answer — what you can get by without, what's genuinely useful to learn, and how hard it actually is.",
+    metaDescription: "Do you need to speak Thai to retire in Thailand? The honest answer plus practical tips for getting by and when it actually matters.",
     date: "2026-04-07",
     readTime: "6 min read",
     category: "Lifestyle",
@@ -701,8 +701,8 @@ You just need enough to be polite, to show you've tried, and to handle a few bas
   },
   {
     slug: "weather-thailand-australians",
-    title: "Thailand's Weather — What Australians Actually Think When They Get There",
-    metaDescription: "What is Thailand's weather really like for Australian retirees? An honest look at the heat, humidity, rainy season and which cities have the most bearable climate year-round.",
+    title: "Thailand's Weather — What Australian Retirees Think",
+    metaDescription: "What is Thailand's weather really like for Australian retirees? Honest guide to heat, humidity, flooding and the burning season.",
     date: "2026-04-08",
     readTime: "7 min read",
     category: "Lifestyle",
@@ -738,7 +738,7 @@ Most Australians from Queensland or the Northern Territory adapt within a month 
   {
     slug: "90-day-reporting-thailand-guide",
     title: "Thailand 90-Day Reporting — What It Is and How to Do It",
-    metaDescription: "Everything Australian retirees need to know about Thailand's 90-day reporting requirement. What it is, how to do it online, in person or by post, and what happens if you miss it.",
+    metaDescription: "Thailand 90-day reporting for Australian retirees. What it is, how to do it online or in person and what happens if you miss it.",
     date: "2026-04-09",
     readTime: "6 min read",
     category: "Visa & Legal",
@@ -776,8 +776,8 @@ After the first couple of times, most expats barely think about it — it's just
   },
   {
     slug: "making-friends-retiring-thailand",
-    title: "Making Friends and Building a Social Life When You Retire to Thailand",
-    metaDescription: "How do Australian retirees make friends and build a social life in Thailand? Honest advice on expat communities, meeting locals, and avoiding the isolation that catches some people off guard.",
+    title: "Making Friends When You Retire to Thailand",
+    metaDescription: "How Australian retirees make friends in Thailand. Honest advice on expat communities, clubs, Facebook groups and what actually works.",
     date: "2026-04-10",
     readTime: "8 min read",
     category: "Lifestyle",
@@ -815,8 +815,8 @@ The people who struggle long-term are usually those who didn't actively work on 
   },
   {
     slug: "phuket-retirement-guide-australians",
-    title: "Retiring in Phuket as an Australian — Is It Worth the Extra Cost?",
-    metaDescription: "Thinking about retiring in Phuket? Here's an honest guide for Australians — what it really costs, the best areas to live, healthcare, and whether the lifestyle justifies the price tag.",
+    title: "Retiring in Phuket as an Australian — Worth the Cost?",
+    metaDescription: "Retiring in Phuket as an Australian — real costs, best areas to live and whether your Age Pension covers it.",
     date: "2026-04-11",
     readTime: "9 min read",
     category: "City Guides",
@@ -865,8 +865,8 @@ Use our [pension calculator](/) to see exactly how your numbers stack up.
   },
   {
     slug: "things-to-do-thailand-retirement",
-    title: "What Do You Actually Do All Day — and [how to build a social life](/blog/making-friends-retiring-thailand) When You Retire in Thailand?",
-    metaDescription: "What does daily retired life actually look like in Thailand? Honest answers about how Australian retirees fill their days — activities, hobbies, travel and keeping life interesting long-term.",
+    title: "What Do You Do All Day When You Retire in Thailand?",
+    metaDescription: "What does daily retired life look like in Thailand? Honest answers about structure, boredom, purpose and how Australians spend their days.",
     date: "2026-04-12",
     readTime: "8 min read",
     category: "Lifestyle",
@@ -901,8 +901,8 @@ The retirees who thrive in Thailand long-term are those who build a life with so
   },
   {
     slug: "flights-australia-thailand-retirees",
-    title: "Flying Between Australia and Thailand — What Retirees Need to Know",
-    metaDescription: "Practical guide to flying between Australia and Thailand for retirees. Best routes, cheapest airlines, how often to visit home, and tips for making long-haul flights more comfortable.",
+    title: "Flying Australia to Thailand — Retiree Guide",
+    metaDescription: "Flying Australia to Thailand for retirees. Best routes, airlines, how to find cheap fares and what to expect on the journey.",
     date: "2026-04-13",
     readTime: "7 min read",
     category: "Practical Guides",
@@ -947,7 +947,7 @@ A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD. Budget ฿
   {
     slug: "thailand-internet-connectivity-expats",
     title: "Internet, Phone and Staying Connected in Thailand",
-    metaDescription: "Everything Australian retirees need to know about internet, mobile phones and staying connected in Thailand. Speed, costs, providers and how to keep in touch with family back home.",
+    metaDescription: "Internet and mobile phones in Thailand for Australian retirees. Providers, speeds, costs and what actually works day to day.",
     date: "2026-04-14",
     readTime: "6 min read",
     category: "Practical Guides",
@@ -982,8 +982,8 @@ The combination of home fibre broadband (฿600/month), a Thai SIM for mobile da
   },
   {
     slug: "getting-around-thailand-retirees",
-    title: "Getting Around Thailand as a Retiree — Transport Options Explained",
-    metaDescription: "How do Australian retirees get around in Thailand? A practical guide to motorbikes, cars, Grab, songthaews, trains and buses — costs, safety and what works best for older expats.",
+    title: "Getting Around Thailand as a Retiree",
+    metaDescription: "How Australian retirees get around in Thailand. Motorbikes, cars, Grab, songthaews and everything in between.",
     date: "2026-04-15",
     readTime: "8 min read",
     category: "Practical Guides",
@@ -1022,8 +1022,8 @@ You can live comfortably in most Thai cities without owning any vehicle at all �
   },
   {
     slug: "australia-thailand-tax-retirees",
-    title: "Tax for Australian Retirees in Thailand — What You Need to Know",
-    metaDescription: "Do Australian retirees in Thailand pay tax? Here's a plain English explanation of Australian tax obligations, Thailand's new foreign income rules, and what steps to take before you move.",
+    title: "Tax for Australian Retirees Living in Thailand",
+    metaDescription: "Do Australian retirees in Thailand pay tax? Plain English guide to the Australia-Thailand tax treaty and what's taxable.",
     date: "2026-04-16",
     readTime: "9 min read",
     category: "Pension & Money",
@@ -1077,8 +1077,8 @@ For most Australian retirees in Thailand on the pension with modest super, the t
   },
   {
     slug: "preparing-to-move-thailand-checklist",
-    title: "Moving to Thailand — The Preparation Checklist for Australians",
-    metaDescription: "A practical checklist for Australians preparing to retire in Thailand. What to sort out before you leave, what to bring, what to set up on arrival, and the things people forget.",
+    title: "Moving to Thailand — Preparation Checklist",
+    metaDescription: "Practical checklist for Australians retiring to Thailand. What to sort before you leave, what to do on arrival and what most people forget.",
     date: "2026-04-17",
     readTime: "10 min read",
     category: "Planning",
@@ -1156,8 +1156,8 @@ Use our [pension calculator](/) to confirm your financial numbers are solid befo
   },
   {
     slug: "retiring-in-thailand-from-australia",
-    title: "Retiring in Thailand From Australia — The Complete 2026 Guide",
-    metaDescription: "The complete guide to retiring in Thailand from Australia in 2026. Everything Australians need to know — Age Pension rules, retirement visa, costs by city, healthcare and how to make it work financially.",
+    title: "Retiring in Thailand From Australia — 2026 Guide",
+    metaDescription: "Complete guide to retiring in Thailand from Australia 2026. Pension portability, visa, healthcare, costs and the best cities for Australians.",
     date: "2026-04-14",
     readTime: "15 min read",
     category: "Planning",
@@ -1404,7 +1404,7 @@ For specific pension and visa questions, see our [FAQ page](/faq) — or contact
   {
     slug: "where-to-stay-in-thailand-before-signing-a-lease",
     title: "Where to Stay in Thailand Before Signing a Lease",
-    metaDescription: "Smart Australian retirees try before they commit. Here's how to use short and medium-term accommodation in Thailand to test a city before signing a long-term lease.",
+    metaDescription: "Try before you commit — how to use short-term accommodation in Thailand to test a city before signing a long-term lease.",
     date: "2026-05-10",
     readTime: "7 min read",
     category: "Cost of Living",
@@ -1506,7 +1506,7 @@ Use the [pension calculator](/) to see how your accommodation choice affects you
   {
     slug: "best-areas-to-stay-in-hua-hin-australian-retiree",
     title: "Best Areas to Stay in Hua Hin as an Australian Retiree",
-    metaDescription: "Hua Hin is Australia's favourite Thai retirement town — but which area should you live in? A guide to Hua Hin's neighbourhoods with real rental costs for 2025-2026.",
+    metaDescription: "Best areas to stay in Hua Hin for Australian retirees. Neighbourhood guide with real 2025-2026 rental costs and honest pros and cons.",
     date: "2026-05-10",
     readTime: "8 min read",
     category: "City Guides",
@@ -1617,7 +1617,7 @@ And don't underestimate Pranburi. Several Australians I know ended up there afte
   {
     slug: "serviced-apartments-vs-renting-long-term-thailand",
     title: "Serviced Apartments vs Renting Long-Term in Thailand",
-    metaDescription: "Should you rent a serviced apartment or sign a long-term lease in Thailand? A practical guide for Australian retirees comparing costs, flexibility and lifestyle.",
+    metaDescription: "Serviced apartment vs long-term lease in Thailand. Practical cost comparison for Australian retirees — flexibility, costs and lifestyle.",
     date: "2026-05-10",
     readTime: "6 min read",
     category: "Cost of Living",
@@ -1804,7 +1804,7 @@ Use our [pension calculator](/) to model how your accommodation choice affects y
   {
     slug: "find-accommodation-thailand-pension-budget",
     title: "How to Find Accommodation in Thailand on a Pension Budget",
-    metaDescription: "Practical guide for Australian retirees finding affordable accommodation in Thailand. Real costs, best platforms, negotiation tips and which cities stretch your pension furthest.",
+    metaDescription: "Finding affordable accommodation in Thailand on the Age Pension. Real costs, best platforms, negotiation tips and which cities stretch furthest.",
     date: "2026-05-10",
     readTime: "7 min read",
     category: "Cost of Living",
@@ -1928,7 +1928,7 @@ Also read: [Internet and connectivity in Thailand](/blog/thailand-internet-conne
   {
     slug: "best-areas-to-stay-in-chiang-mai-australian-retiree",
     title: "Best Areas to Stay in Chiang Mai as an Australian Retiree",
-    metaDescription: "Where should you live in Chiang Mai as an Australian retiree? A neighbourhood-by-neighbourhood guide with real 2025-2026 rental costs, honest pros and cons, and pension affordability.",
+    metaDescription: "Best areas in Chiang Mai for Australian retirees. Neighbourhood guide with 2025-2026 rental costs, honest pros and cons and pension affordability.",
     date: "2026-05-11",
     readTime: "8 min read",
     category: "City Guides",
@@ -2025,7 +2025,7 @@ Once you decide to stay: look at Santitham or Hang Dong. Both give you significa
   {
     slug: "best-areas-to-stay-in-pattaya-australian-retiree",
     title: "Best Areas to Stay in Pattaya as an Australian Retiree",
-    metaDescription: "Where should an Australian retiree live in Pattaya? An honest neighbourhood guide covering Central Pattaya, Jomtien, Na Jomtien, Pratumnak Hill and Wongamat — with real 2025-2026 rental costs.",
+    metaDescription: "Best areas in Pattaya for Australian retirees. Jomtien, Pratumnak, Na Jomtien and Wongamat — with real 2025-2026 rental costs.",
     date: "2026-05-11",
     readTime: "7 min read",
     category: "City Guides",
@@ -2126,7 +2126,7 @@ If Jomtien still feels too close to the Pattaya scene, try Na Jomtien — it's w
   {
     slug: "best-areas-to-stay-in-bangkok-australian-retiree",
     title: "Best Areas to Stay in Bangkok as an Australian Retiree",
-    metaDescription: "Bangkok is expensive by Thai standards but still extraordinary value compared to Australian cities. A neighbourhood guide for Australian retirees with real 2025-2026 rental costs.",
+    metaDescription: "Best areas in Bangkok for Australian retirees. Neighbourhood guide with real 2025-2026 rental costs and pension affordability tips.",
     date: "2026-05-11",
     readTime: "7 min read",
     category: "City Guides",
@@ -2217,7 +2217,7 @@ If your priority is the best hospitals and maximum convenience, Bangkok is worth
   {
     slug: "best-areas-to-stay-in-phuket-australian-retiree",
     title: "Best Areas to Stay in Phuket as an Australian Retiree",
-    metaDescription: "Phuket is Thailand's most expensive city — but it's also one of the most beautiful. A neighbourhood guide for Australian retirees with 2025-2026 rental costs and pension affordability.",
+    metaDescription: "Best areas in Phuket for Australian retirees. Neighbourhood guide with 2025-2026 rental costs and whether your pension covers it.",
     date: "2026-05-11",
     readTime: "7 min read",
     category: "City Guides",
@@ -2309,7 +2309,7 @@ If you're a couple, Phuket becomes much more comfortable financially and is argu
   {
     slug: "best-areas-to-stay-in-khon-kaen-australian-retiree",
     title: "Best Areas to Stay in Khon Kaen as an Australian Retiree",
-    metaDescription: "Khon Kaen is Thailand's best kept retirement secret — affordable, modern, with excellent hospitals and a growing expat community. A neighbourhood guide with 2025-2026 rental costs.",
+    metaDescription: "Best areas in Khon Kaen for Australian retirees. Neighbourhood guide with 2025-2026 rental costs — Thailand's best value retirement city.",
     date: "2026-05-11",
     readTime: "6 min read",
     category: "City Guides",
@@ -2388,7 +2388,7 @@ Do a two-week trial before committing. Khon Kaen is an acquired taste — but th
   {
     slug: "best-areas-to-stay-in-chiang-rai-australian-retiree",
     title: "Best Areas to Stay in Chiang Rai as an Australian Retiree",
-    metaDescription: "Chiang Rai is Thailand's quietest, most affordable retirement city — surrounded by mountains and home to some of the country's most stunning temples. A neighbourhood guide with 2025-2026 rental costs.",
+    metaDescription: "Best areas in Chiang Rai for Australian retirees. Neighbourhood guide with 2025-2026 rental costs — Thailand's most affordable retirement city.",
     date: "2026-05-11",
     readTime: "6 min read",
     category: "City Guides",
