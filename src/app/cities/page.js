@@ -35,6 +35,14 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.retirethailand.net/cities',
   },
+  openGraph: {
+    title: 'City Guides | Retire Thailand',
+    description: 'Guides to the best cities to retire in Thailand for Australians.',
+    url: 'https://www.retirethailand.net/cities',
+    siteName: 'Retire Thailand',
+    type: 'website',
+    images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
+  },
   title: 'City Guides | Retire Thailand — Where to Retire in Thailand',
   description: 'Guides to the best cities to retire in Thailand. Real costs, neighbourhoods, healthcare and honest assessments of Hua Hin, Chiang Mai and more.',
 };

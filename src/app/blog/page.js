@@ -34,6 +34,14 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.retirethailand.net/blog',
   },
+  openGraph: {
+    title: 'Blog | Retire Thailand — Australian Retirement Guides',
+    description: 'Practical guides for Australians retiring in Thailand.',
+    url: 'https://www.retirethailand.net/blog',
+    siteName: 'Retire Thailand',
+    type: 'website',
+    images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
+  },
   title: 'Blog | Retire Thailand — Australian Pension & Retirement Guides',
   description: 'Practical guides for Australians retiring in Thailand. Pension rules, visa requirements, cost of living and honest advice from people who have made the move.',
 };

@@ -4,6 +4,14 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.retirethailand.net/resources',
   },
+  openGraph: {
+    title: 'Recommended Resources | Retire Thailand',
+    description: 'Recommended services for Australians retiring in Thailand.',
+    url: 'https://www.retirethailand.net/resources',
+    siteName: 'Retire Thailand',
+    type: 'website',
+    images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
+  },
   title: 'Recommended Resources | Retire Thailand',
   description: 'The tools and services we recommend to Australians retiring in Thailand. Honest reviews of money transfer, health insurance, and other essential services.',
 };

@@ -6,6 +6,14 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.retirethailand.net/faq',
   },
+  openGraph: {
+    title: 'FAQ | Retiring in Thailand — Australian Questions Answered',
+    description: 'Common questions Australians ask about retiring in Thailand.',
+    url: 'https://www.retirethailand.net/faq',
+    siteName: 'Retire Thailand',
+    type: 'website',
+    images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
+  },
   title: 'FAQ | Retiring in Thailand — Australian Pension Questions Answered',
   description: 'Common questions Australians ask about retiring in Thailand. Pension portability, Medicare, visas, healthcare and tax — plain English answers.',
 };
