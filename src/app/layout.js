@@ -25,6 +25,14 @@ export const metadata = {
     url: 'https://www.retirethailand.net',
     siteName: 'Retire Thailand',
     type: 'website',
+    images: [
+      {
+        url: '/temple.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Retire Thailand — Australian Pension Calculator',
+      },
+    ],
   },
   alternates: {
     canonical: 'https://www.retirethailand.net',
