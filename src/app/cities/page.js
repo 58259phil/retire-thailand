@@ -32,6 +32,9 @@ const NarrowAffCard = ({ service, eyebrow, title, desc }) => {
 };
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://www.retirethailand.net/cities',
+  },
   title: 'City Guides | Retire Thailand — Where to Retire in Thailand',
   description: 'Guides to the best cities to retire in Thailand. Real costs, neighbourhoods, healthcare and honest assessments of Hua Hin, Chiang Mai and more.',
 };

@@ -3,6 +3,9 @@ import NewsletterSignup from '@/components/NewsletterSignup';
 import { StickyAffiliateSidebar } from '@/components/AffiliateCard';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://www.retirethailand.net/faq',
+  },
   title: 'FAQ | Retiring in Thailand — Australian Pension Questions Answered',
   description: 'Common questions Australians ask about retiring in Thailand. Pension portability, Medicare, visas, healthcare and tax — plain English answers.',
 };

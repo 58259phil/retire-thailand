@@ -25,6 +25,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${post.title} | Retire Thailand`,
     description: post.metaDescription,
+    alternates: {
+      canonical: `https://www.retirethailand.net/blog/${params.slug}`,
+    },
     openGraph: { title: post.title, description: post.metaDescription, type: 'article', publishedTime: post.date },
   };
 }

@@ -13,6 +13,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `Retiring in ${city.name}, Thailand | Retire Thailand`,
     description: city.metaDescription,
+    alternates: {
+      canonical: `https://www.retirethailand.net/cities/${params.slug}`,
+    },
     openGraph: { title: `Retiring in ${city.name}, Thailand`, description: city.metaDescription, type: 'article' },
   };
 }

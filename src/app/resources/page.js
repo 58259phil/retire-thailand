@@ -1,6 +1,9 @@
 import Link from 'next/link';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://www.retirethailand.net/resources',
+  },
   title: 'Recommended Resources | Retire Thailand',
   description: 'The tools and services we recommend to Australians retiring in Thailand. Honest reviews of money transfer, health insurance, and other essential services.',
 };
