@@ -238,7 +238,7 @@ None of this is alarming for retirees following the rules properly. It's mainly 
 
 ## The Bottom Line
 
-The [Thai retirement visa](/blog/thai-retirement-visa-australians) is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
+The [Thai retirement visa](/blog/thai-retirement-visa-australians) makes Thailand a much simpler choice than Bali for Australians — see our [Thailand vs Bali comparison](/blog/thailand-vs-bali-retire-australians) and our [guide to Thailand's weather](/blog/weather-thailand-australians) is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
 
 Use our [cost calculator](/) to plan your budget, and our [FAQ page](/faq) for answers to common pension and visa questions.
     `
@@ -385,7 +385,7 @@ Use our [pension calculator](/) to see how these savings affect your weekly budg
     content: `
 ## The Gap Nobody Talks About
 
-If you're 60 and dreaming of retiring to Thailand, there's one inconvenient truth to deal with upfront: the Australian Age Pension doesn't start until you're 67. That's a seven-year gap you need to fund yourself.
+If you're 60 and dreaming of retiring to Thailand, there's one inconvenient truth to deal with upfront: the Australian Age Pension doesn't start until you're 67. That's a seven-year gap you need to fund yourself. Read our [full guide to retiring in Thailand at 60](/blog/retiring-thailand-age-60) for strategies to bridge it.
 
 That's not a reason to give up on the idea. It's just a reason to plan properly.
 
@@ -482,7 +482,7 @@ Thai healthcare is genuinely good — particularly in Bangkok, Chiang Mai, Hua H
 
 The Australian Age Pension covers the basics in Thailand. But "the basics" means watching your spending pretty carefully — not much buffer for travel, unexpected medical bills, or just enjoying life a bit more.
 
-Superannuation is what turns a manageable retirement into a comfortable one.
+Superannuation is what turns a manageable. Also see our [guide to how much super you actually need](/blog/how-much-super-retire-thailand). retirement into a comfortable one.
 
 ## Scenario 1 — Retiring at 67 With the Full Pension
 
@@ -785,7 +785,7 @@ After the first couple of times, most expats barely think about it — it's just
     content: `
 ## The Thing Nobody Warns You About
 
-Moving to a new country alone in your 60s or 70s can be lonely. Especially in the first few months, before you've built any kind of community. Some people handle this fine. Others are caught completely off guard by it.
+Moving to a new country alone. Also read: [what you actually do all day when you retire in Thailand](/blog/things-to-do-thailand-retirement). in your 60s or 70s can be lonely. Especially in the first few months, before you've built any kind of community. Some people handle this fine. Others are caught completely off guard by it.
 
 ## The Expat Community — Your First Port of Call
 
@@ -830,7 +830,7 @@ If you've always dreamed of living by a tropical beach, Phuket is genuinely beau
 
 ## The Real Cost of Living in Phuket
 
-Phuket is Thailand's most expensive retirement destination. Read our [full Phuket city guide](/cities/phuket) — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
+Phuket is Thailand's most expensive retirement destination. Read our [full Phuket city guide](/cities/phuket) and our [Phuket retirement guide for Australians](/blog/phuket-retirement-guide-australians) — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
 
 **Rent:** A decent one-bedroom condo in a good area runs ฿18,000–฿30,000/month ($820–$1,365 AUD). Beachfront or sea-view adds a significant premium.
 
@@ -865,7 +865,7 @@ Use our [pension calculator](/) to see exactly how your numbers stack up.
   },
   {
     slug: "things-to-do-thailand-retirement",
-    title: "What Do You Actually Do All Day When You Retire in Thailand?",
+    title: "What Do You Actually Do All Day — and [how to build a social life](/blog/making-friends-retiring-thailand) When You Retire in Thailand?",
     metaDescription: "What does daily retired life actually look like in Thailand? Honest answers about how Australian retirees fill their days — activities, hobbies, travel and keeping life interesting long-term.",
     date: "2026-04-12",
     readTime: "8 min read",
@@ -874,7 +874,7 @@ Use our [pension calculator](/) to see exactly how your numbers stack up.
     content: `
 ## The Question Worth Thinking About
 
-Most people spend a lot of time thinking about the financial side of retiring to Thailand — the pension, the visa, the costs. Fewer spend enough time thinking about what they'll actually do every day.
+Most people spend a lot of time thinking about the financial side of retiring to Thailand — also read our guide on [making friends and building a social life](/blog/making-friends-retiring-thailand). — the pension, the visa, the costs. Fewer spend enough time thinking about what they'll actually do every day.
 
 This matters more than most people realise. Unstructured time sounds wonderful before you have it. After a few months of unstructured time, many retirees start to feel adrift.
 
@@ -1165,7 +1165,7 @@ Use our [pension calculator](/) to confirm your financial numbers are solid befo
     content: `
 ## Why Australians Are Choosing Thailand
 
-Thailand is the most popular retirement destination in Southeast Asia for Australians — and it's not hard to understand why.
+Thailand is the most popular retirement destination in Southeast Asia for Australians. This is [the complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia). — and it's not hard to understand why.
 
 The cost of living is roughly 40–60% of what you'd spend in Brisbane or Melbourne. The weather is warm year-round. The food is extraordinary. Healthcare at private hospitals is genuinely good and far cheaper than Australia. And there's already a large, welcoming community of Australians who've made the move.
 
@@ -1686,7 +1686,7 @@ Over a full year that's a saving of ฿24,000–฿72,000 (about A$1,100–$3,30
 
 ## When Long-Term Rentals Make Sense
 
-**You know the city and the neighbourhood.** You've done your trial period (see our guide on [trying before you sign a lease](/blog/where-to-stay-in-thailand-before-signing-a-lease)), you know you want to stay, and you want to cut your costs.
+**You know the city and the neighbourhood.** You've done your trial period (see our guide on [trying before you sign a lease](/blog/where-to-stay-in-thailand-before-signing-a-lease) and our [complete condo renting guide](/blog/renting-condo-thailand-guide)), you know you want to stay, and you want to cut your costs.
 
 **You want a house, not a condo.** The serviced apartment market in Thailand is almost entirely condos and apartments. If you want a 2-bedroom house with a garden and a pool, you're going long-term.
 
@@ -1920,6 +1920,8 @@ In Khon Kaen, a basic but comfortable Thai apartment costs ฿5,000–฿7,000/m
 Our [pension calculator](/) lets you model your exact accommodation costs across 7 Thai cities — including studios, condos, townhouses and houses with pools. Enter your pension type and lifestyle preferences to see exactly how your weekly budget stacks up.
 
 *All prices are approximate 2025–2026 figures. Rental costs vary by location, property condition and negotiation.*
+
+Also read: [Internet and connectivity in Thailand](/blog/thailand-internet-connectivity-expats) — what to expect for home broadband and mobile data.
     `,
   },
 
