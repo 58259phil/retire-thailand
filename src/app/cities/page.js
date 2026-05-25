@@ -33,7 +33,7 @@ const NarrowAffCard = ({ service, eyebrow, title, desc }) => {
 
 export const metadata = {
   title: 'City Guides | Retire Thailand — Where to Retire in Thailand',
-  description: 'In-depth guides to the best cities to retire in Thailand as an Australian. Real costs, neighbourhoods, healthcare and honest assessments of Hua Hin, Khon Kaen, Chiang Mai and more.',
+  description: 'Guides to the best cities to retire in Thailand. Real costs, neighbourhoods, healthcare and honest assessments of Hua Hin, Chiang Mai and more.',
 };
 
 export default function CitiesPage() {

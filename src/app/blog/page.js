@@ -32,7 +32,7 @@ const NarrowAffCard = ({ service, eyebrow, title, desc }) => {
 
 export const metadata = {
   title: 'Blog | Retire Thailand — Australian Pension & Retirement Guides',
-  description: 'Practical guides for Australians retiring in Thailand. Pension rules, visa requirements, cost of living breakdowns and honest advice from people who have made the move.',
+  description: 'Practical guides for Australians retiring in Thailand. Pension rules, visa requirements, cost of living and honest advice from people who have made the move.',
 };
 
 const categoryColors = {
