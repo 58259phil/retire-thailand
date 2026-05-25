@@ -60,7 +60,7 @@ The most common path looks like this:
 
 1. Work in Australia until age 67
 2. Claim the Age Pension while physically in Australia
-3. Notify Centrelink of your intention to move overseas
+3. Notify Centrelink of your intention to move overseas. Read our [complete moving to Thailand checklist](/blog/preparing-to-move-thailand-checklist) for everything you need to do
 4. Move to Thailand when you're ready
 
 During the period before you leave, use the time to research cities, visit Thailand on holiday, sort your health insurance, open a Thai bank account, and get your financial affairs in order.
@@ -385,7 +385,7 @@ Use our [pension calculator](/) to see how these savings affect your weekly budg
     content: `
 ## The Gap Nobody Talks About
 
-If you're 60 and dreaming of retiring to Thailand, there's one inconvenient truth to deal with upfront: the Australian Age Pension doesn't start until you're 67. That's a seven-year gap you need to fund yourself. Read our [full guide to retiring in Thailand at 60](/blog/retiring-thailand-age-60) for strategies to bridge it.
+If you're 60 and dreaming of retiring to Thailand, there's one inconvenient truth to deal with upfront: the Australian Age Pension doesn't start until you're 67. That's a seven-year gap you need to fund yourself. Read our [full guide to retiring in Thailand at 60](/blog/retiring-thailand-age-60) for strategies to bridge it. Also see [how much super you need](/blog/how-much-super-retire-thailand).
 
 That's not a reason to give up on the idea. It's just a reason to plan properly.
 
@@ -518,7 +518,7 @@ For example, if you have 28 years of Australian residency, your overseas pension
 
 **$500,000+ in super** = genuinely worry-free retirement in Thailand at almost any age
 
-Use our [pension calculator](/) to see what your weekly numbers look like.
+Use our [pension calculator](/) to see what your weekly numbers look like. Also read our [complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia).
     `
   },
   {
@@ -824,13 +824,13 @@ The people who struggle long-term are usually those who didn't actively work on 
     content: `
 ## Phuket's Appeal Is Obvious
 
-White sand beaches, crystal clear water, world-class resorts, excellent international restaurants, direct flights from Australia — Phuket ticks a lot of boxes that other Thai cities simply can't match.
+White sand beaches, crystal clear water, world-class resorts, excellent international restaurants, direct flights from Australia — Phuket ticks a lot of boxes that other Thai cities simply can't match. Read our [Phuket retirement guide for Australians](/blog/phuket-retirement-guide-australians) for the full picture.
 
 If you've always dreamed of living by a tropical beach, Phuket is genuinely beautiful. But beauty comes at a cost, and that cost matters when you're living on a fixed income.
 
 ## The Real Cost of Living in Phuket
 
-Phuket is Thailand's most expensive retirement destination. Read our [full Phuket city guide](/cities/phuket) and our [Phuket retirement guide for Australians](/blog/phuket-retirement-guide-australians) — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
+Phuket is Thailand's most expensive retirement destination. Read our [full Phuket city guide](/cities/phuket), our [best areas guide for Phuket](/blog/best-areas-to-stay-in-phuket-australian-retiree) and our [Phuket retirement guide for Australians](/blog/phuket-retirement-guide-australians) — significantly pricier than Chiang Mai, Khon Kaen or even Hua Hin.
 
 **Rent:** A decent one-bedroom condo in a good area runs ฿18,000–฿30,000/month ($820–$1,365 AUD). Beachfront or sea-view adds a significant premium.
 
@@ -941,7 +941,7 @@ Most Australian expats in Thailand visit home once or twice a year — typically
 
 ## The Financial Reality
 
-A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD. Budget ฿60,000–฿130,000 ($2,700–$5,900 AUD) per year for two return flights home. See our [pension calculator](/) to make sure it fits your numbers.
+A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD. Budget ฿60,000–฿130,000 ($2,700–$5,900 AUD) per year for two return flights home. See our [pension calculator](/) to make sure it fits your numbers. Read our [Phuket retirement guide](/blog/phuket-retirement-guide-australians) for whether the extra cost is worth it.
     `
   },
   {
@@ -1088,7 +1088,7 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 
 ### Financial and Centrelink
 
-- Notify Centrelink of your intention to move overseas
+- Notify Centrelink of your intention to move overseas. Read our [complete moving to Thailand checklist](/blog/preparing-to-move-thailand-checklist) for everything you need to do
 - Confirm your pension entitlement — contact Centrelink International Services on 131 673 to get your specific payment rate based on your Australian Working Life Residency
 - Set up myGov online access (you'll need this from Thailand)
 - Arrange for your pension to be paid into your Australian bank account
@@ -1142,7 +1142,7 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 - Connect with the local expat community
 
 ### First Three Months
-- [Apply for your retirement visa](/blog/thai-retirement-visa-australians) extension if needed
+- [Apply for your retirement visa](/blog/thai-retirement-visa-australians) — especially important if you're [retiring at 60](/blog/retiring-thailand-age-60) before the pension kicks in extension if needed
 - Get a Thai driving licence if you plan to drive
 - Set up home internet (AIS, True or 3BB)
 - Establish your regular routines
@@ -1151,7 +1151,7 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 
 Moving to Thailand is a big logistical exercise, but thousands of Australians do it every year. Start the checklist 3–6 months before your planned departure date.
 
-Use our [pension calculator](/) to confirm your financial numbers are solid before you start booking flights.
+Use our [pension calculator](/) to confirm your financial numbers are solid before you start booking flights. Read our [flights guide](/blog/flights-australia-thailand-retirees) for the cheapest routes.
     `
   },
   {
@@ -1165,7 +1165,7 @@ Use our [pension calculator](/) to confirm your financial numbers are solid befo
     content: `
 ## Why Australians Are Choosing Thailand
 
-Thailand is the most popular retirement destination in Southeast Asia for Australians. This is [the complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia). — and it's not hard to understand why.
+Thailand is the most popular retirement destination in Southeast Asia for Australians. This is [the complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia) — the most comprehensive starting point for Australians planning the move. — and it's not hard to understand why.
 
 The cost of living is roughly 40–60% of what you'd spend in Brisbane or Melbourne. The weather is warm year-round. The food is extraordinary. Healthcare at private hospitals is genuinely good and far cheaper than Australia. And there's already a large, welcoming community of Australians who've made the move.
 
