@@ -579,77 +579,101 @@ export default function Calculator() {
           Adjust the settings below to match your lifestyle and see your weekly budget breakdown.
         </p>
 
-        {/* ── Step 1: Horizontal currency strip ── */}
+        {/* ── Step 1: Currency card ── */}
         <div style={{ marginBottom: '28px' }}>
-          <div style={{ ...stepLabel, marginBottom: '14px' }}>
+
+          {/* Step label with live indicator right next to it */}
+          <div style={{ ...stepLabel, marginBottom: '14px', justifyContent: 'center' }}>
             <div style={stepNum}>1</div>
             Your exchange rate
-            <div style={{ flex: 1, height: '1px', background: 'linear-gradient(90deg, rgba(201,150,58,0.3), transparent)', marginLeft: '8px' }} />
-            <span style={{ fontSize: '10px', color: rateError ? '#F6C90E' : '#4CAF50', display: 'flex', alignItems: 'center', gap: '4px' }}>
+            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', marginLeft: '8px' }}>
               <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: rateError ? '#F6C90E' : '#4CAF50', display: 'inline-block' }} />
-              {rateLoading ? 'Loading...' : rateError ? 'Approximate' : 'Live'}
+              <span style={{ fontSize: '10px', color: rateError ? '#F6C90E' : '#4CAF50' }}>
+                {rateLoading ? 'Loading...' : rateError ? 'Approximate' : 'Live'}
+              </span>
             </span>
           </div>
 
-          {/* Currency tiles */}
-          <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-            {currencies.map(c => {
+          {/* One card containing all currencies in 2 rows */}
+          {(() => {
+            const ratio = exchangeRate / 22.0;
+            const approxRates = {
+              AUD: exchangeRate, USD: parseFloat((32.90 * ratio).toFixed(2)),
+              GBP: parseFloat((37.85 * ratio).toFixed(2)), CAD: parseFloat((28.10 * ratio).toFixed(2)),
+              DKK: parseFloat((4.18 * ratio).toFixed(2)), EUR: parseFloat((31.20 * ratio).toFixed(2)),
+              SGD: parseFloat((26.85 * ratio).toFixed(2)), ZAR: parseFloat((1.58 * ratio).toFixed(2)),
+              SEK: parseFloat((2.76 * ratio).toFixed(2)),
+            };
+            const displayRates = Object.keys(allRates).length > 0 ? allRates : approxRates;
+
+            const row1 = currencies.filter(c => ['AUD','USD','GBP','CAD'].includes(c.code));
+            const row2 = currencies.filter(c => ['DKK','EUR','SGD','ZAR','SEK'].includes(c.code));
+
+            const CurrencyItem = ({ c }) => {
               const isSelected = selectedCurrency === c.code;
-              const ratio = exchangeRate / 22.0;
-              const approxRates = {
-                AUD: exchangeRate, CAD: parseFloat((28.10 * ratio).toFixed(2)),
-                DKK: parseFloat((4.18 * ratio).toFixed(2)), EUR: parseFloat((31.20 * ratio).toFixed(2)),
-                GBP: parseFloat((37.85 * ratio).toFixed(2)), SGD: parseFloat((26.85 * ratio).toFixed(2)),
-                ZAR: parseFloat((1.58 * ratio).toFixed(2)), SEK: parseFloat((2.76 * ratio).toFixed(2)),
-                USD: parseFloat((32.90 * ratio).toFixed(2)),
-              };
-              const displayRates = Object.keys(allRates).length > 0 ? allRates : approxRates;
               return (
                 <button
                   key={c.code}
                   onClick={() => handleCurrencySelect(c.code)}
                   style={{
-                    background: isSelected ? 'rgba(201,150,58,0.18)' : 'rgba(20,13,4,0.7)',
-                    border: isSelected ? '1px solid rgba(201,150,58,0.7)' : '1px solid rgba(201,150,58,0.18)',
-                    borderRadius: '3px',
-                    padding: '8px 12px',
+                    background: isSelected ? 'rgba(201,150,58,0.15)' : 'transparent',
+                    border: 'none',
+                    borderRadius: '4px',
+                    padding: '10px 16px',
                     cursor: 'pointer',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    gap: '3px',
+                    gap: '4px',
                     fontFamily: 'inherit',
-                    minWidth: '72px',
-                    transition: 'border-color 0.15s, background 0.15s',
-                    position: 'relative',
+                    transition: 'background 0.15s',
+                    flex: 1,
                   }}
                 >
-                  {isSelected && (
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span style={{ fontSize: '15px', lineHeight: 1 }}>{c.flag}</span>
                     <span style={{
-                      position: 'absolute', top: '-5px', right: '-5px',
-                      width: '14px', height: '14px', borderRadius: '50%',
-                      background: '#C9963A', display: 'flex', alignItems: 'center',
-                      justifyContent: 'center', fontSize: '8px', color: '#0F0A04', fontWeight: 700,
-                    }}>✓</span>
-                  )}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                    <span style={{ fontSize: '14px', lineHeight: 1 }}>{c.flag}</span>
-                    <span style={{ fontSize: '11px', fontWeight: isSelected ? 600 : 400, color: isSelected ? '#F5EDD8' : '#7A6040' }}>
+                      fontSize: '12px',
+                      fontWeight: isSelected ? 700 : 400,
+                      color: isSelected ? '#C9963A' : '#7A6040',
+                    }}>
                       {currencySymbols[c.code] || c.code}
                     </span>
                   </div>
                   <span style={{
                     fontSize: '10px',
-                    color: isSelected ? '#C9963A' : '#5A4030',
-                    fontFamily: isSelected ? 'var(--font-display), Georgia, serif' : 'inherit',
+                    color: isSelected ? '#F5EDD8' : '#5A4030',
                     fontWeight: isSelected ? 500 : 400,
                   }}>
                     ฿{displayRates[c.code]?.toFixed(2) || '—'}
                   </span>
                 </button>
               );
-            })}
-          </div>
+            };
+
+            return (
+              <div style={{
+                background: 'rgba(20,13,4,0.82)',
+                border: '1px solid rgba(201,150,58,0.2)',
+                borderRadius: '4px',
+                padding: '8px',
+                backdropFilter: 'blur(6px)',
+                maxWidth: '680px',
+                margin: '0 auto',
+              }}>
+                {/* Row 1 — pension preset currencies */}
+                <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '4px' }}>
+                  {row1.map(c => <CurrencyItem key={c.code} c={c} />)}
+                </div>
+                {/* Subtle divider */}
+                <div style={{ height: '1px', background: 'rgba(201,150,58,0.1)', margin: '0 8px 4px' }} />
+                {/* Row 2 — custom amount currencies */}
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  {row2.map(c => <CurrencyItem key={c.code} c={c} />)}
+                </div>
+              </div>
+            );
+          })()}
         </div>
 
         {/* ── Main calculator — single column ── */}
