@@ -188,21 +188,30 @@ export const cities = [
 
 // Australian pension rates (March 2026)
 export const pensionRates = {
-  single: {
-    fortnightly: 1200.90,
-    weekly: 600.45,
-    annual: 31223,
-    overseasWeekly: 550,
-    overseasFortnightly: 1100,
-  },
-  couple: {
-    fortnightlyEach: 905.20,
-    weeklyEach: 452.60,
-    annualEach: 23535,
-    combined: {
-      fortnightly: 1810.40,
+  AUD: {
+    single: {
+      overseasWeekly: 550,
+      overseasFortnightly: 1100,
+      label: 'Single overseas rate · March 2026',
+      note: null,
+    },
+    couple: {
       weekly: 905.20,
-      annual: 47070,
+      label: 'Couple combined · March 2026',
+      note: null,
+    },
+  },
+  USD: {
+    single: {
+      overseasWeekly: 480,
+      overseasFortnightly: 960,
+      label: 'US Social Security · 2026',
+      note: 'Average',
+    },
+    couple: {
+      weekly: 784,
+      label: 'US Social Security couple · 2026',
+      note: 'Average',
     },
   },
 };

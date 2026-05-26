@@ -4,7 +4,22 @@ import { useState, useEffect, useCallback } from 'react';
 import { cities, pensionRates, lifestyleOptions, rentOptions, foodOptions } from '@/lib/data';
 
 // ── Helpers ──────────────────────────────────────────────
-const formatAUD = (n) => `A$${Math.abs(n).toFixed(0)}`;
+const currencySymbols = {
+  AUD: 'AU$',
+  USD: 'US$',
+  GBP: '£',
+  EUR: '€',
+  CAD: 'CA$',
+  DKK: 'Kr',
+  SGD: 'S$',
+  ZAR: 'R',
+  SEK: 'kr',
+};
+
+const formatCurrency = (n, code) => {
+  const sym = currencySymbols[code] || code;
+  return `${sym}${Math.abs(n).toFixed(0)}`;
+};
 const formatTHB = (n) => `฿${Math.abs(Math.round(n)).toLocaleString()}`;
 
 const cityEmojis = {
@@ -31,9 +46,10 @@ const lineItems = [
 // Currency list — AUD first, then alphabetical
 const currencies = [
   { code: 'AUD', flag: '🇦🇺', label: 'Australian $', primary: true },
-  { code: 'GBP', flag: '🇬🇧', label: 'British £',    primary: false },
+  { code: 'CAD', flag: '🇨🇦', label: 'Canadian $',   primary: false },
   { code: 'DKK', flag: '🇩🇰', label: 'Danish Kr',    primary: false },
   { code: 'EUR', flag: '🇪🇺', label: 'Euro',          primary: false },
+  { code: 'GBP', flag: '🇬🇧', label: 'British £',    primary: false },
   { code: 'SGD', flag: '🇸🇬', label: 'Singapore $',  primary: false },
   { code: 'ZAR', flag: '🇿🇦', label: 'S. African R', primary: false },
   { code: 'SEK', flag: '🇸🇪', label: 'Swedish Kr',   primary: false },
@@ -86,8 +102,8 @@ function CityCard({ city, selected, onToggle }) {
 }
 
 // ── Results Panel ─────────────────────────────────────────
-function ResultsPanel({ city, results, exchangeRate, index }) {
-  const [open, setOpen] = useState(false); // all closed by default
+function ResultsPanel({ city, results, exchangeRate, selectedCurrency, currencyRate, index }) {
+  const [open, setOpen] = useState(false);
   const [view, setView] = useState('monthly');
 
   const emoji = cityEmojis[city.id] || '📍';
@@ -96,6 +112,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
   const isGood  = results.surplusWeekly > 100;
   const surplusColor = isGood ? '#6FCF97' : isOk ? '#F6C90E' : '#EB5757';
   const multiplier = view === 'weekly' ? 1 / 4.33 : 1;
+  const sym = currencySymbols[selectedCurrency] || selectedCurrency;
 
   return (
     <div style={{
@@ -129,10 +146,9 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
               Weekly surplus
             </div>
             <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '20px', color: surplusColor }}>
-              {isTight ? '−' : '+'} {formatAUD(Math.abs(results.surplusWeekly))}
+              {isTight ? '−' : '+'} {formatCurrency(Math.abs(results.surplusWeekly), selectedCurrency)}
             </div>
           </div>
-          {/* Gold chevron arrow — same style as before, just gold */}
           <svg
             width="20" height="20" viewBox="0 0 24 24"
             fill="none" stroke="#C9963A" strokeWidth="2.5" strokeLinecap="round"
@@ -183,7 +199,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
             const thb = results.monthlyTHB[item.key];
             if (!thb) return null;
             const dispTHB = thb * multiplier;
-            const dispAUD = (thb / exchangeRate) * multiplier;
+            const dispCur = (thb / currencyRate) * multiplier;
             return (
               <div key={item.key} style={{
                 display: 'flex', justifyContent: 'space-between', alignItems: 'center',
@@ -194,7 +210,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
                   <span>{item.emoji}</span><span>{item.label}</span>
                 </div>
                 <div style={{ textAlign: 'right' }}>
-                  <div style={{ color: '#C9963A', fontWeight: 500, fontSize: '13px' }}>{formatAUD(dispAUD)}</div>
+                  <div style={{ color: '#C9963A', fontWeight: 500, fontSize: '13px' }}>{formatCurrency(dispCur, selectedCurrency)}</div>
                   <div style={{ color: '#5A4030', fontSize: '11px' }}>{formatTHB(dispTHB)}</div>
                 </div>
               </div>
@@ -206,13 +222,13 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', color: '#7A6040', marginBottom: '8px' }}>
               <span>Total expenses</span>
               <span style={{ color: '#A08060', fontWeight: 500 }}>
-                {view === 'weekly' ? formatAUD(results.totalWeeklyAUD) : formatAUD(results.totalMonthlyAUD)}
+                {view === 'weekly' ? formatCurrency(results.totalWeeklyAUD, selectedCurrency) : formatCurrency(results.totalMonthlyAUD, selectedCurrency)}
               </span>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', color: '#7A6040', marginBottom: '8px' }}>
               <span>Your income</span>
               <span style={{ color: '#A08060', fontWeight: 500 }}>
-                {view === 'weekly' ? formatAUD(results.pensionWeekly) : formatAUD(results.pensionWeekly * 4.33)}
+                {view === 'weekly' ? formatCurrency(results.pensionWeekly, selectedCurrency) : formatCurrency(results.pensionWeekly * 4.33, selectedCurrency)}
               </span>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '10px', borderTop: '1px solid rgba(201,150,58,0.15)' }}>
@@ -220,7 +236,7 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
                 {isTight ? 'Shortfall' : 'Surplus'}
               </span>
               <span style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', color: surplusColor }}>
-                {isTight ? '−' : '+'} {view === 'weekly' ? formatAUD(Math.abs(results.surplusWeekly)) : formatAUD(Math.abs(results.surplusMonthly))}
+                {isTight ? '−' : '+'} {view === 'weekly' ? formatCurrency(Math.abs(results.surplusWeekly), selectedCurrency) : formatCurrency(Math.abs(results.surplusMonthly), selectedCurrency)}
                 <span style={{ fontSize: '12px', fontFamily: 'inherit', marginLeft: '4px', color: '#7A6040' }}>
                   /{view === 'weekly' ? 'wk' : 'mo'}
                 </span>
@@ -293,43 +309,22 @@ function ResultsPanel({ city, results, exchangeRate, index }) {
 }
 
 // ── Exchange Rate Panel ───────────────────────────────────
-function ExchangePanel({ audRate, rateLoading, rateError }) {
-  // Approximate cross rates to THB based on AUD/THB
-  // These are fetched live via the exchange rate API in production
-  const [rates, setRates] = useState({});
+function ExchangePanel({ audRate, rateLoading, rateError, selectedCurrency, onCurrencySelect, allRates }) {
 
-  useEffect(() => {
-    // Fetch all rates relative to THB
-    const fetchRates = async () => {
-      try {
-        const res = await fetch('/api/exchange-rate');
-        const data = await res.json();
-        // Use the allRates if available, otherwise approximate
-        if (data.allRates) {
-          setRates(data.allRates);
-        }
-      } catch {
-        // silently fall back to approximations
-      }
-    };
-    fetchRates();
-  }, []);
-
-  // Approximate THB rates based on typical exchange rates
-  // These update proportionally when AUD rate changes
-  const ratio = audRate / 22.0; // scale factor from base rate
+  const ratio = audRate / 22.0;
   const approxRates = {
     AUD: audRate,
-    GBP: parseFloat((37.85 * ratio).toFixed(2)),
+    CAD: parseFloat((28.10 * ratio).toFixed(2)),
     DKK: parseFloat((4.18 * ratio).toFixed(2)),
     EUR: parseFloat((31.20 * ratio).toFixed(2)),
+    GBP: parseFloat((37.85 * ratio).toFixed(2)),
     SGD: parseFloat((26.85 * ratio).toFixed(2)),
     ZAR: parseFloat((1.58 * ratio).toFixed(2)),
     SEK: parseFloat((2.76 * ratio).toFixed(2)),
     USD: parseFloat((32.90 * ratio).toFixed(2)),
   };
 
-  const displayRates = Object.keys(rates).length > 0 ? rates : approxRates;
+  const displayRates = Object.keys(allRates).length > 0 ? allRates : approxRates;
 
   return (
     <div style={{
@@ -339,48 +334,66 @@ function ExchangePanel({ audRate, rateLoading, rateError }) {
       padding: '14px',
     }}>
       {/* Live badge */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '10px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
         <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: rateError ? '#F6C90E' : '#4CAF50', flexShrink: 0 }} />
         <span style={{ fontSize: '10px', color: rateError ? '#F6C90E' : '#4CAF50', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
           {rateLoading ? 'Loading...' : rateError ? 'Approximate' : 'Live rates'}
         </span>
       </div>
 
-      <div style={{ fontSize: '10px', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#C9963A', marginBottom: '10px' }}>
-        Thai Baht per 1 unit
+      {/* Instruction */}
+      <div style={{ fontSize: '9px', color: '#C9963A', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: '10px' }}>
+        Click your exchange rate
       </div>
 
-      {currencies.map(c => (
-        <div
-          key={c.code}
-          style={{
-            display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-            padding: c.primary ? '8px 14px' : '6px 0',
-            margin: c.primary ? '0 -14px' : '0',
-            borderBottom: c.primary ? '1px solid rgba(201,150,58,0.2)' : '1px solid rgba(201,150,58,0.08)',
-            background: c.primary ? 'rgba(201,150,58,0.1)' : 'transparent',
-            marginBottom: c.primary ? '4px' : '0',
-          }}
-        >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span style={{ fontSize: '13px' }}>{c.flag}</span>
-            <span style={{ fontSize: '11px', color: c.primary ? '#F5EDD8' : '#7A6040', fontWeight: c.primary ? 500 : 400 }}>
-              {c.label}
-            </span>
+      {currencies.map(c => {
+        const isSelected = selectedCurrency === c.code;
+        return (
+          <div
+            key={c.code}
+            onClick={() => onCurrencySelect(c.code)}
+            style={{
+              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+              padding: isSelected ? '8px 10px' : c.primary ? '8px 14px' : '6px 6px',
+              margin: c.primary && !isSelected ? '0 -14px' : isSelected ? '2px -10px' : '0',
+              borderBottom: isSelected
+                ? '1px solid rgba(201,150,58,0.4)'
+                : c.primary
+                  ? '1px solid rgba(201,150,58,0.2)'
+                  : '1px solid rgba(201,150,58,0.08)',
+              background: isSelected
+                ? 'rgba(201,150,58,0.18)'
+                : c.primary
+                  ? 'rgba(201,150,58,0.1)'
+                  : 'transparent',
+              marginBottom: c.primary && !isSelected ? '4px' : isSelected ? '4px' : '0',
+              cursor: 'pointer',
+              borderRadius: isSelected ? '3px' : '0',
+              border: isSelected ? '1px solid rgba(201,150,58,0.5)' : undefined,
+              transition: 'background 0.15s',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span style={{ fontSize: '13px' }}>{c.flag}</span>
+              <span style={{ fontSize: '11px', color: isSelected ? '#F5EDD8' : c.primary ? '#F5EDD8' : '#7A6040', fontWeight: isSelected ? 600 : c.primary ? 500 : 400 }}>
+                {c.label}
+              </span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <span style={{
+                fontSize: isSelected || c.primary ? '14px' : '11px',
+                color: '#C9963A', fontWeight: 500,
+                fontFamily: isSelected || c.primary ? 'var(--font-display), Georgia, serif' : 'inherit',
+              }}>
+                ฿{displayRates[c.code]?.toFixed(2) || '—'}
+              </span>
+              {isSelected && (
+                <span style={{ fontSize: '9px', color: '#C9963A', fontWeight: 700 }}>✓</span>
+              )}
+            </div>
           </div>
-          <span style={{
-            fontSize: c.primary ? '14px' : '11px',
-            color: '#C9963A', fontWeight: 500,
-            fontFamily: c.primary ? 'var(--font-display), Georgia, serif' : 'inherit',
-          }}>
-            ฿{displayRates[c.code]?.toFixed(2) || '—'}
-          </span>
-        </div>
-      ))}
-
-      <div style={{ fontSize: '9px', color: '#5A4030', marginTop: '10px', lineHeight: 1.5, borderTop: '1px solid rgba(201,150,58,0.1)', paddingTop: '8px' }}>
-        Rates updated hourly. Calculator uses AUD rate only.
-      </div>
+        );
+      })}
     </div>
   );
 }
@@ -398,21 +411,56 @@ export default function Calculator() {
   const [exchangeRate, setExchangeRate]         = useState(22.0);
   const [rateLoading, setRateLoading]           = useState(true);
   const [rateError, setRateError]               = useState(false);
+  const [selectedCurrency, setSelectedCurrency] = useState('AUD');
+  const [allRates, setAllRates]                 = useState({});
 
   useEffect(() => {
     fetch('/api/exchange-rate')
       .then(r => r.json())
-      .then(d => { setExchangeRate(d.rate); setRateError(d.source === 'fallback'); })
+      .then(d => {
+        setExchangeRate(d.rate);
+        setRateError(d.source === 'fallback');
+        if (d.allRates) setAllRates(d.allRates);
+      })
       .catch(() => setRateError(true))
       .finally(() => setRateLoading(false));
   }, []);
 
-  const weeklyPensionAUD = useCallback(() => {
+  // When currency changes — switch to custom if no preset, or pension rate if preset exists
+  const handleCurrencySelect = (code) => {
+    setSelectedCurrency(code);
+    if (pensionRates[code]) {
+      setUseCustomAmount(false);
+    } else {
+      setUseCustomAmount(true);
+    }
+  };
+
+  // Get the THB rate for the selected currency
+  const getCurrencyRate = useCallback(() => {
+    const ratio = exchangeRate / 22.0;
+    const approx = {
+      AUD: exchangeRate,
+      CAD: parseFloat((28.10 * ratio).toFixed(2)),
+      DKK: parseFloat((4.18 * ratio).toFixed(2)),
+      EUR: parseFloat((31.20 * ratio).toFixed(2)),
+      GBP: parseFloat((37.85 * ratio).toFixed(2)),
+      SGD: parseFloat((26.85 * ratio).toFixed(2)),
+      ZAR: parseFloat((1.58 * ratio).toFixed(2)),
+      SEK: parseFloat((2.76 * ratio).toFixed(2)),
+      USD: parseFloat((32.90 * ratio).toFixed(2)),
+    };
+    return (Object.keys(allRates).length > 0 ? allRates : approx)[selectedCurrency] || exchangeRate;
+  }, [exchangeRate, selectedCurrency, allRates]);
+
+  const weeklyPension = useCallback(() => {
     if (useCustomAmount && customAmount) return parseFloat(customAmount) || 0;
-    return pensionType === 'single'
-      ? pensionRates.single.overseasWeekly
-      : pensionRates.couple.combined.weekly;
-  }, [useCustomAmount, customAmount, pensionType]);
+    const rates = pensionRates[selectedCurrency];
+    if (rates) {
+      return pensionType === 'single' ? rates.single.overseasWeekly : rates.couple.weekly;
+    }
+    return 0;
+  }, [useCustomAmount, customAmount, pensionType, selectedCurrency]);
 
   const toggleCity = (id) => {
     setSelectedCities(prev => {
@@ -426,6 +474,7 @@ export default function Calculator() {
     const lm = lifestyleOptions.find(l => l.id === lifestyle)?.multiplier || 1;
     const rk = rentOptions.find(r => r.id === rentOption)?.key || 'rentOneBed';
     const fk = foodOptions.find(f => f.id === foodOption)?.key || 'foodMixed';
+    const currencyRate = getCurrencyRate();
 
     const monthlyTHB = {
       rent:          city.costs[rk],
@@ -439,10 +488,10 @@ export default function Calculator() {
     };
 
     const totalMonthlyTHB = Object.values(monthlyTHB).reduce((a, b) => a + b, 0);
-    const totalMonthlyAUD = totalMonthlyTHB / exchangeRate;
+    const totalMonthlyAUD = totalMonthlyTHB / currencyRate;
     const totalWeeklyAUD  = totalMonthlyAUD / 4.33;
     const totalWeeklyTHB  = totalMonthlyTHB / 4.33;
-    const pensionWeekly   = weeklyPensionAUD();
+    const pensionWeekly   = weeklyPension();
     const surplusWeekly   = pensionWeekly - totalWeeklyAUD;
     const surplusMonthly  = surplusWeekly * 4.33;
 
@@ -451,14 +500,21 @@ export default function Calculator() {
       totalWeeklyAUD, totalWeeklyTHB,
       surplusWeekly, surplusMonthly, pensionWeekly,
       canAfford: surplusWeekly >= 0,
-      surplusPercent: Math.min(100, Math.max(0, (surplusWeekly / pensionWeekly) * 100)),
+      surplusPercent: Math.min(100, Math.max(0, (surplusWeekly / (pensionWeekly || 1)) * 100)),
     };
-  }, [lifestyle, rentOption, foodOption, includeInsurance, exchangeRate, weeklyPensionAUD]);
+  }, [lifestyle, rentOption, foodOption, includeInsurance, getCurrencyRate, weeklyPension]);
 
   const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
-  const weeklyAUD = weeklyPensionAUD();
+  const weeklyAmount = weeklyPension();
+  const currencyRate = getCurrencyRate();
+  const sym = currencySymbols[selectedCurrency] || selectedCurrency;
+  const hasPensionPreset = !!pensionRates[selectedCurrency];
+  const pensionPreset = hasPensionPreset ? pensionRates[selectedCurrency] : null;
+  const currentPreset = pensionPreset
+    ? (pensionType === 'single' ? pensionPreset.single : pensionPreset.couple)
+    : null;
 
-  // Shared card style — semi-transparent for photo background
+  // Shared card style
   const icard = {
     background: 'rgba(20,13,4,0.82)',
     border: '1px solid rgba(201,150,58,0.25)',
@@ -529,9 +585,15 @@ export default function Calculator() {
 
           {/* ── LEFT: Exchange rate panel ── */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            {/* Spacer to align top of panel with pension type card */}
             <div style={{ height: '36px', flexShrink: 0 }} />
-            <ExchangePanel audRate={exchangeRate} rateLoading={rateLoading} rateError={rateError} />
+            <ExchangePanel
+              audRate={exchangeRate}
+              rateLoading={rateLoading}
+              rateError={rateError}
+              selectedCurrency={selectedCurrency}
+              onCurrencySelect={handleCurrencySelect}
+              allRates={allRates}
+            />
           </div>
 
           {/* ── RIGHT: Calculator ── */}
@@ -557,12 +619,14 @@ export default function Calculator() {
               <div style={icard}>
                 <div style={ititle}>Weekly income</div>
                 <div style={{ display: 'flex', gap: '4px' }}>
-                  <button style={{ ...seg(!useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(false)}>Pension rate</button>
-                  <button style={{ ...seg(useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(true)}>Custom amount</button>
+                  {hasPensionPreset && (
+                    <button style={{ ...seg(!useCustomAmount), fontSize: '10px' }} onClick={() => setUseCustomAmount(false)}>Pension rate</button>
+                  )}
+                  <button style={{ ...seg(useCustomAmount || !hasPensionPreset), fontSize: '10px' }} onClick={() => setUseCustomAmount(true)}>Custom amount</button>
                 </div>
-                {useCustomAmount ? (
+                {(useCustomAmount || !hasPensionPreset) ? (
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px' }}>
-                    <span style={{ fontSize: '13px', color: '#7A6040' }}>A$</span>
+                    <span style={{ fontSize: '13px', color: '#7A6040' }}>{sym}</span>
                     <input
                       type="number" placeholder="650" value={customAmount}
                       onChange={e => setCustomAmount(e.target.value)} min="0"
@@ -579,11 +643,16 @@ export default function Calculator() {
                 ) : (
                   <div style={{ background: 'rgba(201,150,58,0.1)', border: '1px solid rgba(201,150,58,0.2)', borderRadius: '3px', padding: '10px', marginTop: '8px' }}>
                     <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', color: '#C9963A' }}>
-                      A${weeklyAUD.toFixed(2)}/wk
+                      {sym}{(pensionType === 'single' ? currentPreset?.overseasWeekly : currentPreset?.weekly)?.toFixed(2)}/wk
                     </div>
                     <div style={{ fontSize: '10px', color: '#5A4030', marginTop: '2px' }}>
-                      {pensionType === 'single' ? 'Single' : 'Couple'} overseas rate · March 2026
+                      {pensionType === 'single' ? currentPreset?.label : currentPreset?.label}
                     </div>
+                    {currentPreset?.note && (
+                      <div style={{ fontSize: '9px', color: '#C9963A', marginTop: '2px', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+                        {currentPreset.note}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -679,6 +748,8 @@ export default function Calculator() {
                   city={city}
                   results={calculateCityCosts(city)}
                   exchangeRate={exchangeRate}
+                  selectedCurrency={selectedCurrency}
+                  currencyRate={currencyRate}
                   index={index}
                 />
               );
@@ -689,6 +760,7 @@ export default function Calculator() {
               Cost estimates based on 2025–2026 expat data from Numbeo, ExpatDen and Thailand Insider Guide.
               Actual costs vary. Australian Age Pension rates effective 20 March 2026 —
               verify at <a href="https://www.servicesaustralia.gov.au" target="_blank" rel="noopener noreferrer" style={{ color: '#C9963A' }}>servicesaustralia.gov.au</a>.
+              US Social Security average based on SSA April 2026 data.
             </div>
 
           </div>
