@@ -1,5 +1,6 @@
 // Cost of living data for Thai cities (monthly in THB)
 // Sources: Numbeo, ExpatDen, ThailandInsiderGuide 2025-2026
+// v2 — added pensionRates for AUD, USD, GBP, CAD
 
 export const cities = [
   {
@@ -238,8 +239,8 @@ export const pensionRates = {
       label: 'US Social Security couple · 2026',
       note: 'Average',
     },
-  },
-};
+  };
+
 
 export const lifestyleOptions = [
   { id: "budget", label: "Budget", description: "Mostly street food, basic condo, local transport", multiplier: 0.75 },
