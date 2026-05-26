@@ -201,7 +201,32 @@ export const pensionRates = {
       note: null,
     },
   },
-  USD: {
+  GBP: {
+    single: {
+      overseasWeekly: 241.30,
+      overseasFortnightly: 482.60,
+      label: 'UK Full New State Pension · 2026/27',
+      note: 'Full rate — requires 35 NI years',
+    },
+    couple: {
+      weekly: 482.60,
+      label: 'UK State Pension couple · 2026/27',
+      note: 'Two full state pensions combined',
+    },
+  },
+  CAD: {
+    single: {
+      overseasWeekly: 363,
+      overseasFortnightly: 726,
+      label: 'Average CPP + OAS combined · 2026',
+      note: 'Average',
+    },
+    couple: {
+      weekly: 726,
+      label: 'Average CPP + OAS couple · 2026',
+      note: 'Average — two recipients',
+    },
+  },
     single: {
       overseasWeekly: 480,
       overseasFortnightly: 960,
