@@ -585,7 +585,11 @@ export default function Calculator() {
 
           {/* ── LEFT: Exchange rate panel ── */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <div style={{ height: '36px', flexShrink: 0 }} />
+            {/* Step 1 — above exchange panel */}
+            <div style={{ ...stepLabel, marginBottom: '14px' }}>
+              <div style={stepNum}>1</div>
+              Your exchange rate
+            </div>
             <ExchangePanel
               audRate={exchangeRate}
               rateLoading={rateLoading}
@@ -599,9 +603,9 @@ export default function Calculator() {
           {/* ── RIGHT: Calculator ── */}
           <div>
 
-            {/* Step 1 */}
+            {/* Step 2 */}
             <div style={stepLabel}>
-              <div style={stepNum}>1</div>
+              <div style={stepNum}>2</div>
               Your preferences
             </div>
 
@@ -714,9 +718,9 @@ export default function Calculator() {
 
             <div style={goldDiv} />
 
-            {/* Step 2 */}
+            {/* Step 3 */}
             <div style={stepLabel}>
-              <div style={stepNum}>2</div>
+              <div style={stepNum}>3</div>
               Select cities to compare (up to 3)
             </div>
 
@@ -733,9 +737,9 @@ export default function Calculator() {
 
             <div style={goldDiv} />
 
-            {/* Step 3 */}
+            {/* Step 4 */}
             <div style={stepLabel}>
-              <div style={stepNum}>3</div>
+              <div style={stepNum}>4</div>
               Your results
             </div>
 
