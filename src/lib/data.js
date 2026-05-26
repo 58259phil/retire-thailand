@@ -228,6 +228,7 @@ export const pensionRates = {
       note: 'Average — two recipients',
     },
   },
+  USD: {
     single: {
       overseasWeekly: 480,
       overseasFortnightly: 960,
@@ -239,7 +240,8 @@ export const pensionRates = {
       label: 'US Social Security couple · 2026',
       note: 'Average',
     },
-  };
+  },
+};
 
 
 export const lifestyleOptions = [
