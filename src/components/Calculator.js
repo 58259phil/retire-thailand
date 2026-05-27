@@ -475,16 +475,29 @@ export default function Calculator() {
     const rk = rentOptions.find(r => r.id === rentOption)?.key || 'rentOneBed';
     const fk = foodOptions.find(f => f.id === foodOption)?.key || 'foodMixed';
     const currencyRate = getCurrencyRate();
+    const isCouple = pensionType === 'couple';
+
+    // Couple multipliers — rent stays same, everything else increases
+    const cm = {
+      rent:          1.0,
+      food:          isCouple ? 1.7 : 1.0,
+      utilities:     isCouple ? 1.2 : 1.0,
+      internet:      1.0,
+      transport:     isCouple ? 1.5 : 1.0,
+      entertainment: isCouple ? 1.8 : 1.0,
+      insurance:     isCouple ? 2.0 : 1.0,
+      misc:          isCouple ? 1.5 : 1.0,
+    };
 
     const monthlyTHB = {
-      rent:          city.costs[rk],
-      food:          city.costs[fk] * lm,
-      utilities:     city.costs.utilities,
-      internet:      city.costs.internet,
-      transport:     city.costs.transport * lm,
-      entertainment: city.costs.entertainment * lm,
-      insurance:     includeInsurance ? city.costs.healthInsurance : 0,
-      misc:          city.costs.misc * lm,
+      rent:          city.costs[rk] * cm.rent,
+      food:          city.costs[fk] * lm * cm.food,
+      utilities:     city.costs.utilities * cm.utilities,
+      internet:      city.costs.internet * cm.internet,
+      transport:     city.costs.transport * lm * cm.transport,
+      entertainment: city.costs.entertainment * lm * cm.entertainment,
+      insurance:     includeInsurance ? city.costs.healthInsurance * cm.insurance : 0,
+      misc:          city.costs.misc * lm * cm.misc,
     };
 
     const totalMonthlyTHB = Object.values(monthlyTHB).reduce((a, b) => a + b, 0);
@@ -502,7 +515,7 @@ export default function Calculator() {
       canAfford: surplusWeekly >= 0,
       surplusPercent: Math.min(100, Math.max(0, (surplusWeekly / (pensionWeekly || 1)) * 100)),
     };
-  }, [lifestyle, rentOption, foodOption, includeInsurance, getCurrencyRate, weeklyPension]);
+  }, [lifestyle, rentOption, foodOption, includeInsurance, getCurrencyRate, weeklyPension, pensionType]);
 
   const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
   const weeklyAmount = weeklyPension();
