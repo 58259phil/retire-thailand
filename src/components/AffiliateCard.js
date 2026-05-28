@@ -71,7 +71,7 @@ export function StickyAffiliateSidebar({ context = 'default' }) {
       <SidebarCard service="wise" context={context} />
       <SidebarCard service="safetywing" context={context} />
       <SidebarCard service="agoda" context={context} />
-      <div style={{ fontSize: '9px', color: '#3A2810', textAlign: 'center', marginTop: '4px', lineHeight: 1.5 }}>
+      <div style={{ fontSize: '9px', color: '#7A6040', textAlign: 'center', marginTop: '4px', lineHeight: 1.5 }}>
         Some links may earn us a commission.
       </div>
     </div>
