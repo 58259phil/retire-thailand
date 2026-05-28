@@ -34,11 +34,9 @@ export default function Footer() {
             ))}
           </div>
 
-          {/* Disclaimer */}
-          <div style={{ fontSize: '11px', color: '#A08060', textAlign: 'right', maxWidth: '340px', lineHeight: 1.6 }}>
-            <p>Cost data sourced from Numbeo, ExpatDen & Thailand Insider Guide 2025–2026.</p>
-            <p style={{ marginTop: '4px' }}>Not financial advice. Verify all figures with Centrelink and a licensed adviser.</p>
-            <p style={{ marginTop: '4px' }}>© {new Date().getFullYear()} Retire Thailand.</p>
+          {/* Copyright */}
+          <div style={{ fontSize: '11px', color: '#A08060', textAlign: 'right' }}>
+            © {new Date().getFullYear()} Retire Thailand.
           </div>
 
         </div>
