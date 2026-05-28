@@ -11,7 +11,7 @@ export default function Footer() {
             <div style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', color: '#F5EDD8', marginBottom: '4px' }}>
               Retire <span style={{ color: '#C9963A' }}>Thailand</span>
             </div>
-            <div style={{ fontSize: '12px', color: '#3A2810' }}>
+            <div style={{ fontSize: '12px', color: '#A08060' }}>
               Helping Australians retire smarter in the Land of Smiles.
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function Footer() {
             ].map(({ href, label }) => (
               <Link key={href} href={href} style={{
                 fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase',
-                color: '#3A2810', textDecoration: 'none',
+                color: '#A08060', textDecoration: 'none',
               }}>
                 {label}
               </Link>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           {/* Disclaimer */}
-          <div style={{ fontSize: '11px', color: '#3A2810', textAlign: 'right', maxWidth: '340px', lineHeight: 1.6 }}>
+          <div style={{ fontSize: '11px', color: '#A08060', textAlign: 'right', maxWidth: '340px', lineHeight: 1.6 }}>
             <p>Cost data sourced from Numbeo, ExpatDen & Thailand Insider Guide 2025–2026.</p>
             <p style={{ marginTop: '4px' }}>Not financial advice. Verify all figures with Centrelink and a licensed adviser.</p>
             <p style={{ marginTop: '4px' }}>© {new Date().getFullYear()} Retire Thailand.</p>
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
 
         {/* Footer legal nav */}
-        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(201,150,58,0.08)' }}>
+        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(201,150,58,0.15)' }}>
           {[
             { href: '/about', label: 'About' },
             { href: '/contact', label: 'Contact' },
@@ -52,9 +52,8 @@ export default function Footer() {
             { href: '/disclaimer', label: 'Disclaimer' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} style={{
-              fontSize: '11px', color: '#3A2810', textDecoration: 'none',
+              fontSize: '11px', color: '#A08060', textDecoration: 'none',
               letterSpacing: '0.06em',
-              transition: 'color 0.15s',
             }}>
               {label}
             </Link>
