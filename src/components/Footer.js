@@ -16,12 +16,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Nav links */}
+          {/* Main nav links */}
           <div style={{ display: 'flex', gap: '24px' }}>
             {[
               { href: '/cities', label: 'City Guides' },
               { href: '/blog', label: 'Blog' },
               { href: '/faq', label: 'FAQ' },
+              { href: '/resources', label: 'Resources' },
             ].map(({ href, label }) => (
               <Link key={href} href={href} style={{
                 fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase',
@@ -40,6 +41,26 @@ export default function Footer() {
           </div>
 
         </div>
+
+        {/* Footer legal nav */}
+        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(201,150,58,0.08)' }}>
+          {[
+            { href: '/about', label: 'About' },
+            { href: '/contact', label: 'Contact' },
+            { href: '/affiliate-disclosure', label: 'Affiliate Disclosure' },
+            { href: '/privacy-policy', label: 'Privacy Policy' },
+            { href: '/disclaimer', label: 'Disclaimer' },
+          ].map(({ href, label }) => (
+            <Link key={href} href={href} style={{
+              fontSize: '11px', color: '#3A2810', textDecoration: 'none',
+              letterSpacing: '0.06em',
+              transition: 'color 0.15s',
+            }}>
+              {label}
+            </Link>
+          ))}
+        </div>
+
       </div>
 
       {/* Gold bar bottom */}
