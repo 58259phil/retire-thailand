@@ -26,8 +26,9 @@ export default function About() {
 
         <div style={card}>
           <h2 style={h2}>Built from Experience</h2>
-          <p style={p}>Retire Thailand was built by Phil — an Australian from the Gold Coast who spent 8 years living in Hua Hin. After moving back to Australia, he noticed that most retirement-in-Thailand content online was either out of date, aimed at Americans, or written by people who had never actually lived there.</p>
-          <p style={{ ...p, margin: 0 }}>The site started with one simple idea: a free calculator that shows exactly how far the Australian Age Pension goes in real Thai cities, with real numbers. It's grown from there to cover everything Australians need to know about retiring in Thailand.</p>
+          <p style={p}>Retire Thailand was built by Phil — an Australian from the Gold Coast who spent decades living and working across Asia. After years of travelling Asia for work, Phil moved to Asia permanently in 1998, spending the next 20 years living and working in Singapore, Malaysia, Hong Kong and Thailand.</p>
+          <p style={p}>His time in Hua Hin gave him a deep understanding of what retirement in Thailand actually looks like for Australians — not the glossy version, but the real day-to-day experience of budgeting, visas, healthcare and building a life there.</p>
+          <p style={{ ...p, margin: 0 }}>After moving back to Australia, he noticed that most retirement-in-Thailand content online was either out of date, aimed at Americans, or written by people who had never actually lived there. Retire Thailand was built to fix that — accurate, Australian-focused, and written from real experience.</p>
         </div>
 
         <div style={card}>
