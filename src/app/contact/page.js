@@ -29,7 +29,7 @@ export default function Contact() {
           <h2 style={h2}>Email Us</h2>
           <p style={p}>The best way to reach us is by email. We aim to respond within 48 hours.</p>
           <a
-            href="mailto:hello@retirethailand.net"
+            href="mailto:mail.retirethailand@gmail.com"
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '10px',
               background: 'rgba(201,150,58,0.1)', border: '1px solid rgba(201,150,58,0.3)',
@@ -38,7 +38,7 @@ export default function Contact() {
             }}
           >
             <span>✉</span>
-            hello@retirethailand.net
+            mail.retirethailand@gmail.com
           </a>
         </div>
 

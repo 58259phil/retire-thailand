@@ -12,7 +12,7 @@ export default function Footer() {
               Retire <span style={{ color: '#C9963A' }}>Thailand</span>
             </div>
             <div style={{ fontSize: '12px', color: '#A08060' }}>
-              Helping Australians retire smarter in the Land of Smiles.
+              Retire smarter in the Land of Smiles.
             </div>
           </div>
 

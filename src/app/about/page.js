@@ -33,6 +33,7 @@ export default function About() {
         <div style={card}>
           <h2 style={h2}>What We Cover</h2>
           <p style={p}>Retire Thailand is built specifically for Australians. That means everything is framed around the Australian Age Pension, Australian superannuation, Medicare, the Australia-Thailand tax treaty, and the practicalities of moving from Australia to Thailand.</p>
+          <p style={{ ...p, margin: 0 }}>While built for Australians, the calculator also supports US, UK and Canadian pension amounts — so if you're from one of those countries and considering Thailand, the numbers work for you too.</p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginTop: '8px' }}>
             {[
               '🏦 Australian Age Pension portability',
