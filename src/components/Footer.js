@@ -16,16 +16,17 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Main nav links */}
-          <div style={{ display: 'flex', gap: '24px' }}>
+          {/* Legal nav links — replaces main nav */}
+          <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
             {[
-              { href: '/cities', label: 'City Guides' },
-              { href: '/blog', label: 'Blog' },
-              { href: '/faq', label: 'FAQ' },
-              { href: '/resources', label: 'Resources' },
+              { href: '/about', label: 'About' },
+              { href: '/contact', label: 'Contact' },
+              { href: '/affiliate-disclosure', label: 'Affiliate Disclosure' },
+              { href: '/privacy-policy', label: 'Privacy Policy' },
+              { href: '/disclaimer', label: 'Disclaimer' },
             ].map(({ href, label }) => (
               <Link key={href} href={href} style={{
-                fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase',
+                fontSize: '11px', letterSpacing: '0.06em',
                 color: '#A08060', textDecoration: 'none',
               }}>
                 {label}
@@ -40,24 +41,6 @@ export default function Footer() {
             <p style={{ marginTop: '4px' }}>© {new Date().getFullYear()} Retire Thailand.</p>
           </div>
 
-        </div>
-
-        {/* Footer legal nav */}
-        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(201,150,58,0.15)' }}>
-          {[
-            { href: '/about', label: 'About' },
-            { href: '/contact', label: 'Contact' },
-            { href: '/affiliate-disclosure', label: 'Affiliate Disclosure' },
-            { href: '/privacy-policy', label: 'Privacy Policy' },
-            { href: '/disclaimer', label: 'Disclaimer' },
-          ].map(({ href, label }) => (
-            <Link key={href} href={href} style={{
-              fontSize: '11px', color: '#A08060', textDecoration: 'none',
-              letterSpacing: '0.06em',
-            }}>
-              {label}
-            </Link>
-          ))}
         </div>
 
       </div>
