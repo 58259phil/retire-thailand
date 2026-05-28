@@ -142,12 +142,14 @@ export default function BlogPostPage({ params }) {
         {/* Dark header */}
         <div style={{ background: '#0F0A04', padding: '48px 40px', borderBottom: '1px solid rgba(201,150,58,0.15)' }}>
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <Link href="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', color: '#5A4030', textDecoration: 'none', marginBottom: '24px' }}>
+            <Link href="/blog" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', color: '#5A4030', textDecoration: 'none', marginBottom: '20px', width: 'fit-content' }}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5A4030" strokeWidth="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
               Back to all articles
             </Link>
-            <div style={{ display: 'inline-block', fontSize: '10px', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', padding: '3px 12px', background: 'rgba(201,150,58,0.15)', border: '1px solid rgba(201,150,58,0.3)', borderRadius: '2px', color: '#C9963A', marginBottom: '16px' }}>
-              {post.category}
+            <div style={{ display: 'block', marginBottom: '16px' }}>
+              <span style={{ display: 'inline-block', fontSize: '10px', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', padding: '3px 12px', background: 'rgba(201,150,58,0.15)', border: '1px solid rgba(201,150,58,0.3)', borderRadius: '2px', color: '#C9963A' }}>
+                {post.category}
+              </span>
             </div>
             <h1 style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: 'clamp(24px, 3.5vw, 40px)', fontWeight: 700, color: '#F5EDD8', lineHeight: 1.15, marginBottom: '14px' }}>
               {post.title}
