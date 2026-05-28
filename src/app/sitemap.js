@@ -76,6 +76,37 @@ export default function sitemap() {
       priority: 0.9,
     },
 
+    {
+      url: 'https://www.retirethailand.net/about',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: 'https://www.retirethailand.net/contact',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: 'https://www.retirethailand.net/affiliate-disclosure',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: 'https://www.retirethailand.net/privacy-policy',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: 'https://www.retirethailand.net/disclaimer',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+
     // ── Blog Posts ──
     {
       url: 'https://www.retirethailand.net/blog/retiring-in-thailand-from-australia',
