@@ -171,6 +171,22 @@ export default function BlogPostPage({ params }) {
 
             {/* RIGHT: Article content */}
             <div>
+
+              {/* Disclaimer — subtle */}
+              <div style={{
+                borderLeft: '2px solid rgba(201,150,58,0.3)',
+                paddingLeft: '12px',
+                marginBottom: '20px',
+              }}>
+                <p style={{ fontSize: '11px', color: '#5A4030', lineHeight: 1.7, margin: 0 }}>
+                  <span style={{ marginRight: '5px' }}>ℹ️</span>
+                  <strong style={{ color: '#7A6040', fontWeight: 500 }}>Keep in mind:</strong>{' '}
+                  Pension rates, visa requirements, exchange rates and healthcare costs can change regularly. This article was last reviewed in May 2026. Always verify current information with{' '}
+                  <a href="https://www.servicesaustralia.gov.au" target="_blank" rel="noopener noreferrer" style={{ color: '#7A6040', textDecoration: 'underline' }}>Services Australia</a>,{' '}
+                  Thai Immigration or a qualified professional before making financial or relocation decisions.
+                </p>
+              </div>
+
               <div style={card}>{renderContent(post.content)}</div>
 
               {/* Mobile-only inline affiliate banners (sidebar hidden on mobile) */}
