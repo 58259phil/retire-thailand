@@ -278,20 +278,26 @@ input[type="range"]::-webkit-slider-thumb:hover {
   .calc-city-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
-/* Currency rows — 3 per row on mobile */
+/* Currency rows — mobile: 1 row of 4 preset currencies only */
 @media (max-width: 640px) {
-  .currency-row {
+  .currency-row-1 {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    justify-items: center;
+    grid-template-columns: repeat(4, 1fr) !important;
   }
-  .currency-row button {
+  .currency-row-1 button {
     width: 100% !important;
     padding: 8px 4px !important;
+    border: 1px solid rgba(201,150,58,0.3) !important;
+    border-radius: 3px !important;
+    margin: 2px !important;
   }
+  /* Hide row 2 on mobile */
+  .currency-row-2 { display: none !important; }
   /* Hide flag on mobile, show 3-letter code */
   .currency-flag { display: none !important; }
   .currency-code-mobile { display: inline !important; }
+  /* Hide divider on mobile */
+  .currency-divider { display: none !important; }
 }
 
 /* General mobile padding fixes */

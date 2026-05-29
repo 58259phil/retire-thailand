@@ -682,13 +682,13 @@ export default function Calculator() {
                 margin: '0 auto',
               }}>
                 {/* Row 1 — pension preset currencies */}
-                <div className="currency-row" style={{ display: 'flex', justifyContent: 'center', marginBottom: '4px' }}>
+                <div className="currency-row currency-row-1" style={{ display: 'flex', justifyContent: 'center', marginBottom: '4px' }}>
                   {row1.map(c => <CurrencyItem key={c.code} c={c} />)}
                 </div>
                 {/* Subtle divider */}
-                <div style={{ height: '1px', background: 'rgba(201,150,58,0.1)', margin: '0 8px 4px' }} />
+                <div className="currency-divider" style={{ height: '1px', background: 'rgba(201,150,58,0.1)', margin: '0 8px 4px' }} />
                 {/* Row 2 — custom amount currencies */}
-                <div className="currency-row" style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="currency-row currency-row-2" style={{ display: 'flex', justifyContent: 'center' }}>
                   {row2.map(c => <CurrencyItem key={c.code} c={c} />)}
                 </div>
               </div>
