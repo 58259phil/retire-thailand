@@ -644,7 +644,14 @@ export default function Calculator() {
                   }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span style={{ fontSize: '15px', lineHeight: 1 }}>{c.flag}</span>
+                    {/* Flag — desktop only */}
+                    <span className="currency-flag" style={{ fontSize: '15px', lineHeight: 1 }}>{c.flag}</span>
+                    {/* 3-letter code — mobile only */}
+                    <span className="currency-code-mobile" style={{
+                      display: 'none',
+                      fontSize: '10px', fontWeight: 700, letterSpacing: '0.04em',
+                      color: isSelected ? '#C9963A' : '#5A4030',
+                    }}>{c.code}</span>
                     <span style={{
                       fontSize: '12px',
                       fontWeight: isSelected ? 700 : 400,
@@ -675,13 +682,13 @@ export default function Calculator() {
                 margin: '0 auto',
               }}>
                 {/* Row 1 — pension preset currencies */}
-                <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '4px' }}>
+                <div className="currency-row currency-row-1" style={{ display: 'flex', justifyContent: 'center', marginBottom: '4px' }}>
                   {row1.map(c => <CurrencyItem key={c.code} c={c} />)}
                 </div>
                 {/* Subtle divider */}
-                <div style={{ height: '1px', background: 'rgba(201,150,58,0.1)', margin: '0 8px 4px' }} />
+                <div className="currency-divider" style={{ height: '1px', background: 'rgba(201,150,58,0.1)', margin: '0 8px 4px' }} />
                 {/* Row 2 — custom amount currencies */}
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="currency-row currency-row-2" style={{ display: 'flex', justifyContent: 'center' }}>
                   {row2.map(c => <CurrencyItem key={c.code} c={c} />)}
                 </div>
               </div>
