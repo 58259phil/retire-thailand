@@ -644,7 +644,14 @@ export default function Calculator() {
                   }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span style={{ fontSize: '15px', lineHeight: 1 }}>{c.flag}</span>
+                    {/* Flag — desktop only */}
+                    <span className="currency-flag" style={{ fontSize: '15px', lineHeight: 1 }}>{c.flag}</span>
+                    {/* 3-letter code — mobile only */}
+                    <span className="currency-code-mobile" style={{
+                      display: 'none',
+                      fontSize: '10px', fontWeight: 700, letterSpacing: '0.04em',
+                      color: isSelected ? '#C9963A' : '#5A4030',
+                    }}>{c.code}</span>
                     <span style={{
                       fontSize: '12px',
                       fontWeight: isSelected ? 700 : 400,

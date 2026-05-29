@@ -289,6 +289,9 @@ input[type="range"]::-webkit-slider-thumb:hover {
     width: 100% !important;
     padding: 8px 4px !important;
   }
+  /* Hide flag on mobile, show 3-letter code */
+  .currency-flag { display: none !important; }
+  .currency-code-mobile { display: inline !important; }
 }
 
 /* General mobile padding fixes */
