@@ -861,6 +861,7 @@ export default function Calculator() {
               Actual costs vary. Australian Age Pension rates effective 20 March 2026 —
               verify at <a href="https://www.servicesaustralia.gov.au" target="_blank" rel="noopener noreferrer" style={{ color: '#C9963A' }}>servicesaustralia.gov.au</a>.
               US Social Security average based on SSA April 2026 data.
+              Note: From 20 September 2026 the Pension Supplement continues for 12 weeks overseas (up from 6 weeks), then stops. If moving permanently it stops immediately.
             </div>
 
           </div>

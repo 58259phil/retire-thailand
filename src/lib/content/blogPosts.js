@@ -50,7 +50,7 @@ Before you pack your bags, there are important rules to understand:
 
 **The 35-year rule:** To receive the full pension overseas, you generally need 35 or more years of Australian residency between ages 16 and 67. Fewer years means a proportionally reduced payment. If you spent time living overseas during your working life, count your total Australian years carefully.
 
-**What you lose overseas:** After 6 weeks abroad, you lose the energy supplement. The pension supplement drops to the basic rate. After 26 weeks, your payment may be recalculated based on your years of Australian residency.
+**What you lose overseas:** From 20 September 2026, after 12 weeks abroad the Pension Supplement stops entirely (previously 6 weeks). After 26 weeks, your payment may be recalculated based on your years of Australian residency. Important: if you move overseas permanently, the Pension Supplement stops immediately on departure.
 
 **Important:** Everyone's situation is different. Contact Centrelink International Services on 131 673 before you move to confirm your specific entitlements.
 
@@ -1190,7 +1190,7 @@ To qualify you need:
 The current maximum single Age Pension is **$1,200.90 per fortnight** (March 2026 to September 2026).
 
 When you move overseas permanently:
-- After 6 weeks abroad, the energy supplement stops and the pension supplement drops to the basic rate
+- From 20 September 2026, after 12 weeks abroad the Pension Supplement stops entirely. If you move overseas permanently, it stops immediately on departure.
 - Your overseas rate will be approximately **$540–$560 per week** for most long-term Australians
 - After 26 weeks, if you have fewer than 35 years of Australian residency between ages 16 and 67, your payment may be proportionally reduced
 
@@ -1210,7 +1210,7 @@ However, pension payments vary based on assets and income tests, and exchange ra
 
 ### Notifying Centrelink
 
-You must notify Centrelink when you leave Australia for more than 6 weeks, and definitely when you relocate permanently. Do this through myGov online or by calling Centrelink International Services. Failing to notify can result in overpayments you'd need to repay.
+You must notify Centrelink when you leave Australia for more than 12 weeks, and definitely when you relocate permanently. Do this through myGov online or by calling Centrelink International Services. Failing to notify can result in overpayments you'd need to repay.
 
 ## Step 2 — Choose Your Visa
 

@@ -24,7 +24,7 @@ const faqs = [
     questions: [
       {
         q: "Can I receive the Australian Age Pension while living in Thailand?",
-        a: "Yes. You must claim the pension while physically in Australia — you need to be present on the day you lodge your claim. Once granted, for most long-term Australians there is no mandatory waiting period. See our [full pension guide](/blog/australian-pension-thailand) before you can move overseas. Your pension is paid to you in Thailand indefinitely. After 6 weeks abroad your supplements reduce slightly, and after 26 weeks your rate may be recalculated based on your years of Australian residency. Always confirm your specific situation with Centrelink International Services on 131 673 before making plans.",
+        a: "Yes. You must claim the pension while physically in Australia — you need to be present on the day you lodge your claim. Once granted, for most long-term Australians there is no mandatory waiting period. See our [full pension guide](/blog/australian-pension-thailand) before you can move overseas. Your pension is paid to you in Thailand indefinitely. From 20 September 2026, after 12 weeks abroad the Pension Supplement stops entirely. After 26 weeks your rate may be recalculated based on your years of Australian residency. If moving permanently, the supplement stops immediately on departure. Always confirm your specific situation with Centrelink International Services on 131 673 before making plans.",
       },
       {
         q: "What is the current Australian Age Pension rate in 2026?",
@@ -48,7 +48,7 @@ const faqs = [
       },
       {
         q: "What do I lose when I take my pension overseas?",
-        a: "After 6 weeks outside Australia, you lose the energy supplement. The pension supplement drops to the basic rate only. You also lose access to the Pensioner Concession Card. Read our [full overseas pension guide](/blog/australian-pension-thailand) for details. benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
+        a: "From 20 September 2026, the Pension Supplement continues for up to 12 weeks overseas. After 12 weeks it stops entirely. If you move permanently it stops immediately. You also lose access to the Pensioner Concession Card. Read our [full overseas pension guide](/blog/australian-pension-thailand) for details. benefits, rent assistance, and other Australian government concessions. The core pension payment continues, but the total amount will be somewhat lower than what you'd receive living in Australia.",
       },
       {
         q: "Can Centrelink pay my pension directly into a Thai bank account?",
@@ -56,7 +56,7 @@ const faqs = [
       },
       {
         q: "Do I need to tell Centrelink if I move to Thailand permanently?",
-        a: "Yes — you must notify Centrelink. Our [complete moving checklist](/blog/preparing-to-move-thailand-checklist) covers exactly what to do before you leave. if you leave Australia for more than 6 weeks, and definitely if you are relocating permanently. Failing to notify them can result in overpayments which you would need to repay. You can notify them online through myGov or by calling Centrelink International Services.",
+        a: "Yes — you must notify Centrelink. Our [complete moving checklist](/blog/preparing-to-move-thailand-checklist) covers exactly what to do before you leave. if you leave Australia for more than 12 weeks, and definitely if you are relocating permanently. Failing to notify them can result in overpayments which you would need to repay. You can notify them online through myGov or by calling Centrelink International Services.",
       },
     ],
   },
