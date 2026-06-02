@@ -3,6 +3,7 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: '/_next/static/',
     },
     sitemap: 'https://www.retirethailand.net/sitemap.xml',
     host: 'https://www.retirethailand.net',
