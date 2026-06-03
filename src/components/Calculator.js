@@ -434,6 +434,12 @@ export default function Calculator() {
     } else {
       setUseCustomAmount(true);
     }
+    // Track currency selection in Google Analytics
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'currency_selected', {
+        currency_code: code,
+      });
+    }
   };
 
   // Get the THB rate for the selected currency
