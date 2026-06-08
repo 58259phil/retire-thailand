@@ -1,4 +1,5 @@
 import { Playfair_Display, DM_Sans } from 'next/font/google';
+import Script from 'next/script';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import './globals.css';
@@ -45,18 +46,21 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
         <meta name="agd-partner-manual-verification" />
+      </head>
+      <body className="font-body antialiased">
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1YQCN9EERL" />
-        <script dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1YQCN9EERL"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-1YQCN9EERL');
-          `
-        }} />
-      </head>
-      <body className="font-body antialiased">
+          `}
+        </Script>
         <Nav />
         <div className="pt-16">{children}</div>
         <Footer />
