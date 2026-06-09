@@ -240,6 +240,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: 'https://www.retirethailand.net/blog/health-insurance-thailand-retirees',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
 
     // ── Accommodation Blog Posts ──
     {
