@@ -2469,6 +2469,202 @@ Do a two-week visit before committing. It's a very different pace of life — an
 *All prices are approximate 2025–2026 figures. Actual costs vary by property and negotiation.*
     `,
   },
+  {
+    slug: "health-insurance-thailand-retirees",
+    title: "Health Insurance in Thailand for Retirees",
+    metaDescription: "Health insurance in Thailand for Australian retirees 2026. Under 60 and over 60 options, retirement visa requirements, costs and the best plans compared.",
+    date: "2026-06-09",
+    readTime: "11 min read",
+    category: "Healthcare",
+    excerpt: "Medicare stops working the moment you leave Australia. Here's everything you need to know about health insurance in Thailand — whether you're 55 or 75, and whether you're on the retirement visa or not.",
+    content: `
+## Why Health Insurance in Thailand Is Non-Negotiable
+
+When you move to Thailand, [Medicare effectively stops covering you](/blog/medicare-thailand-australians). Your Medicare card stays active — but it only works in Australia. In Thailand, if you need a hospital, you're paying out of pocket unless you have private insurance.
+
+This isn't a theoretical risk. A hospital admission for something as common as dengue fever, a broken bone, or a cardiac event at a good Thai private hospital can cost ฿100,000–฿500,000 ($4,500–$22,700 AUD) without insurance. A serious illness or major surgery can run into the millions of baht.
+
+The good news: Thai health insurance is dramatically cheaper than Australian private health insurance — even for retirees over 70.
+
+## Public vs Private Hospitals in Thailand
+
+Understanding the hospital system helps you understand what you're actually insuring against.
+
+**Private hospitals** — This is where most Australian expats go for treatment. Clean, modern facilities with English-speaking doctors and nurses. Think Bangkok Hospital, Bumrungrad, Samitivej, Ram Hospital. Consultation fees run ฿800–฿2,500 ($36–$113 AUD). Quality is genuinely good.
+
+**Public hospitals** — Much cheaper, but often crowded with long waits and less English spoken. Thailand's best public hospitals — like Srinagarind in Khon Kaen and Maharaj in Chiang Mai — are excellent, but most expats prefer private for day-to-day care.
+
+Your insurance needs to cover private hospital costs. That's the standard assumption for all plans in this guide.
+
+## What to Look For in a Thai Health Insurance Plan
+
+Before comparing plans, understand the key variables:
+
+**Inpatient vs outpatient cover**
+Inpatient means hospital admission — almost all plans include this. Outpatient means GP visits, specialist consultations, and diagnostic tests. Many cheaper plans exclude outpatient. For retirees who see doctors regularly, outpatient cover matters.
+
+**Pre-existing conditions**
+This is the most important factor for older retirees. Most Thai health insurance plans exclude conditions you had before the policy started. The older you are when you first take out a policy, the more exclusions you're likely to face.
+
+**Get insured before you leave Australia, while you're healthy.** Every condition diagnosed after you take out your policy is covered. Every condition diagnosed before is typically not. Locking in cover while healthy is one of the best financial decisions you can make.
+
+**Age limits**
+Many Thai plans won't accept new applicants over 70 or 75. Some cut off at 65 for new applications. If you're older, options narrow — but they don't disappear.
+
+**Coverage limits**
+The Thai retirement visa requires a minimum of **฿3,000,000 total coverage per year** (~$136,000 AUD). This replaced the old ฿40,000/฿400,000 outpatient/inpatient split in October 2021. Any plan you buy for visa purposes must explicitly meet this requirement.
+
+**Hospital network**
+Check that your insurer's network includes good hospitals in your chosen city. This matters more in smaller cities than in Bangkok or Chiang Mai.
+
+---
+
+## Under 60 — Your Health Insurance Options
+
+If you're [retiring to Thailand before 67](/blog/retiring-thailand-age-60) — before the Age Pension kicks in — your insurance situation is actually the most flexible. You're younger, likely healthier, and have the widest range of plans available to you.
+
+### Why Getting Covered Young Is Smart
+
+Every year you delay taking out health insurance is a year where a new condition could be diagnosed — and then excluded from any policy you take out later. A 58-year-old diagnosed with high blood pressure before taking out insurance will have hypertension and all related conditions excluded permanently. The same person who took out insurance at 55, before that diagnosis, would be covered for it.
+
+Getting covered early is one of the best financial decisions you can make before moving.
+
+### Under 60 — SafetyWing
+
+[SafetyWing](https://safetywing.com/?referenceID=26504193) is a global health and travel insurance provider built specifically for expats and long-term travellers. It's become one of the most popular options among Australians retiring early to Thailand — including those on the Digital Nomad Visa (DTV) who are spending extended periods in Thailand before turning 67.
+
+**Why it works well under 60:**
+- Genuinely affordable premiums for younger applicants
+- Designed for people living outside their home country
+- Covers emergency medical, hospitalisation and evacuation
+- Monthly subscription model — pay month by month without a long-term commitment
+- Straightforward claims process widely used by expats in Thailand
+
+SafetyWing is a practical starting point for under-60s who want solid coverage while getting established in Thailand.
+
+[Get a SafetyWing quote →](https://safetywing.com/?referenceID=26504193)
+
+### Under 60 — Pacific Cross
+
+Pacific Cross is one of the most respected expat health insurers in Southeast Asia, with excellent coverage of Thai private hospitals and a strong customer service reputation. Worth comparing alongside SafetyWing if you want more comprehensive outpatient cover.
+
+### Under 60 — AXA / Cigna International
+
+Major international insurers with comprehensive inpatient and outpatient plans. Generally more expensive than Pacific Cross or SafetyWing but with higher coverage limits and wider global networks — worth considering if you travel frequently beyond Thailand.
+
+---
+
+## Over 60 — Your Health Insurance Options
+
+For retirees over 60, health insurance becomes more expensive and more important simultaneously. Plans are available — but you need to compare carefully, and apply before conditions narrow your options further.
+
+### The Retirement Visa Requirement
+
+If you're on the [Thai retirement visa](/blog/thai-retirement-visa-australians), health insurance isn't optional — it's a visa condition for the Non-OA pathway. Your policy must cover at least **฿3,000,000 per year** in total medical expenses. Make sure any plan you choose explicitly meets this requirement — don't assume.
+
+### Over 60 — SafetyWing
+
+[SafetyWing](https://safetywing.com/?referenceID=26504193) remains a competitive option for retirees in their 60s and early 70s. Check their current plan structure to confirm it meets the Thai visa requirement for your specific age and plan level.
+
+[Get a SafetyWing quote →](https://safetywing.com/?referenceID=26504193)
+
+### Over 60 — Luma Health / Pacific Cross Thailand
+
+Thai-based insurers designed specifically for long-term expat residents, including plans structured to meet the retirement visa requirements. Generally better value for over-60s than international plans because premiums are calibrated for the Thai medical market.
+
+### Over 60 — BUPA Thailand / AXA Thailand
+
+Local Thai arms of major international insurers. Good hospital networks, English-language support, and plans explicitly designed to meet retirement visa minimums. Worth getting a quote alongside Pacific Cross to compare.
+
+### Rough Annual Premium Guide by Age
+
+| Age | Annual Premium (THB) | Annual Premium (AUD) |
+|---|---|---|
+| 55–60 | ฿18,000–฿30,000 | $820–$1,365 |
+| 60–65 | ฿25,000–฿45,000 | $1,140–$2,050 |
+| 65–70 | ฿40,000–฿70,000 | $1,820–$3,180 |
+| 70–75 | ฿60,000–฿100,000 | $2,730–$4,545 |
+| 75+ | ฿80,000–฿140,000 | $3,640–$6,365 |
+
+These are estimates. Your actual premium depends on your health history, chosen coverage level, and annual deductible (excess) amount.
+
+### Over 60 Tip — Increase Your Deductible
+
+Choosing a higher annual deductible can significantly reduce your premium. If you're healthy and have savings, a ฿30,000–฿50,000 annual deductible can cut your premium by 20–30%. You cover routine costs yourself; insurance covers the serious and expensive stuff.
+
+---
+
+## The Retirement Visa Insurance Requirement in Detail
+
+For the Non-OA retirement visa, health insurance is mandatory and must meet specific minimums:
+
+**Minimum coverage:** ฿3,000,000 total per policy year (~$136,000 AUD)
+
+**Policy source:** Thai or foreign insurer — but must meet Thai government standards
+
+**When you need it:** Before applying for the O-A visa from Australia. For the Non-O pathway applied inside Thailand, insurance is typically required at annual extension time.
+
+**Annual renewal:** Your policy must remain current and valid throughout your stay. Letting it lapse can jeopardise your visa renewal.
+
+See our [complete Thai retirement visa guide](/blog/thai-retirement-visa-australians) for full details on all visa requirements.
+
+---
+
+## What to Do Before You Leave Australia
+
+The [moving to Thailand checklist](/blog/preparing-to-move-thailand-checklist) covers this in full, but for insurance specifically:
+
+1. **Get a full health check** while Medicare still covers you — sort anything outstanding
+2. **See your dentist** — dental work is cheap in Thailand but good to start fresh
+3. **Get your prescriptions sorted** — bring 3–6 months supply and a full medication list from your GP
+4. **Take out health insurance before you go** — this is the single most important step. Pre-existing conditions declared at this point are known quantities; conditions diagnosed after you arrive become a problem
+5. **Compare at least three plans** — SafetyWing, Pacific Cross, and a Thai-based insurer. Premiums vary significantly for the same level of cover
+
+---
+
+## The Cost in Your Weekly Budget
+
+Use our [pension calculator](/) to see how health insurance fits into your overall weekly budget. As a guide, at a comfortable middle-ground coverage level:
+
+- **Under 60:** Around $30–$50 AUD/week
+- **60–65:** Around $50–$80 AUD/week
+- **65–70:** Around $80–$120 AUD/week
+- **70–75:** Around $120–$170 AUD/week
+
+These costs are already factored into the "comfortable" lifestyle estimates across all seven cities in the calculator.
+
+---
+
+## Frequently Asked Questions
+
+**Can I use my Australian private health insurance in Thailand?**
+Most Australian health funds don't provide overseas cover, or only cover emergency evacuation back to Australia. Check your policy — but for most retirees, the answer is no, and you need a separate Thai or international expat policy.
+
+**What happens when I visit Australia?**
+When you return to Australia, Medicare covers you normally. Most expat health insurance policies pause or exclude cover in your home country — check the terms of your specific plan.
+
+**Can I get insurance if I already have health conditions?**
+Yes — but pre-existing conditions will typically be excluded or attract a loading (higher premium). This is why getting insured early, before conditions develop, is so important. For specific conditions, get quotes from multiple insurers as exclusions and loadings vary.
+
+**Is SafetyWing accepted at Thai private hospitals?**
+[SafetyWing](https://safetywing.com/?referenceID=26504193) is widely used by expats in Thailand. Check their current network and direct billing arrangements for hospitals in your specific city before committing.
+
+**What if I can't get affordable insurance over 75?**
+Options do exist but become limited. Some retirees over 75 with significant savings choose self-insurance — maintaining a dedicated medical emergency fund rather than paying premiums. This is a personal decision that depends on your health, savings, and risk tolerance.
+
+---
+
+## The Bottom Line
+
+Health insurance is not optional for retirees in Thailand — it's essential both practically and (for the retirement visa) legally. The best approach: get covered early, get covered while healthy, and compare several plans rather than defaulting to the first one you find.
+
+[SafetyWing](https://safetywing.com/?referenceID=26504193) is a solid starting point for both under-60s and older retirees — get a quote as your baseline, then compare against Pacific Cross and a Thai-based insurer.
+
+For your complete financial picture in Thailand, use our [pension calculator](/) and read our [full guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia). For common visa and pension questions, see our [FAQ page](/faq).
+
+*This article is general information only and does not constitute financial or medical advice. Insurance products, premiums and visa requirements change regularly — always verify current details directly with insurers and the Thai Immigration Bureau.*
+    `
+  },
 ];
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
