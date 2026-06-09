@@ -18,7 +18,7 @@ Can you actually live in Thailand on the Australian Age Pension? It's the most c
 
 The current single Age Pension rate (March 2026) is **$1,200.90 per fortnight** — about **$600 per week**. When you move overseas, you lose the energy supplement and pension supplement drops to the basic rate, leaving you with roughly **$540–$560 per week**.
 
-At a typical exchange rate of around ฿22–23 to the Australian dollar, that's approximately **฿12,000–฿13,000 per week** or **฿52,000–฿56,000 per month** to live on. Use our [pension calculator](/) for the current live rate.
+At the current exchange rate of around ฿22 to the Australian dollar, that's approximately **฿12,000 per week** or **฿52,000 per month** to live on.
 
 In some Thai cities, that's very comfortable. In others, it's tight.
 
@@ -50,7 +50,7 @@ Before you pack your bags, there are important rules to understand:
 
 **The 35-year rule:** To receive the full pension overseas, you generally need 35 or more years of Australian residency between ages 16 and 67. Fewer years means a proportionally reduced payment. If you spent time living overseas during your working life, count your total Australian years carefully.
 
-**What you lose overseas:** From 20 September 2026, after 12 weeks abroad the Pension Supplement reduces to the basic rate (previously 6 weeks). The Energy Supplement stops entirely. After 26 weeks, your payment may be recalculated based on your years of Australian residency. Important: if you move overseas permanently, the Pension Supplement reduces to the basic rate immediately on departure.
+**What you lose overseas:** From 20 September 2026, after 12 weeks abroad the Pension Supplement stops entirely (previously 6 weeks). After 26 weeks, your payment may be recalculated based on your years of Australian residency. Important: if you move overseas permanently, the Pension Supplement stops immediately on departure.
 
 **Important:** Everyone's situation is different. Contact Centrelink International Services on 131 673 before you move to confirm your specific entitlements.
 
@@ -260,9 +260,9 @@ This guide is different. We focus on what a retired Australian actually needs �
 
 ## The Exchange Rate Factor
 
-At the time of writing (mid 2026), **1 Australian Dollar buys approximately ฿23 Thai Baht**. Exchange rates fluctuate — use our [pension calculator](/) for the current live figure.
+At the time of writing (early 2026), **1 Australian Dollar buys approximately ฿22 Thai Baht**. This is a reasonably favourable rate for Australians.
 
-This means your $600/week Australian pension converts to roughly **฿13,800/week** or **฿60,000/month**.
+This means your $600/week Australian pension converts to roughly **฿13,200/week** or **฿57,000/month**.
 
 ## Rent — The Biggest Variable
 
@@ -955,7 +955,7 @@ A return flight Brisbane–Bangkok typically costs $700–$1,500 AUD. Budget ฿
     content: `
 ## The Good News
 
-Thailand has surprisingly good internet infrastructure — particularly in cities. Fibre broadband is widely available in urban areas, 4G/5G mobile coverage is extensive, and costs are very reasonable by Australian standards.
+Thailand has surprisingly good internet infrastructure — particularly in cities. Fibre broadband is widely available in urban areas, 4G mobile coverage is extensive, and costs are very reasonable by Australian standards.
 
 ## Home Internet
 
@@ -965,7 +965,7 @@ Thailand has surprisingly good internet infrastructure — particularly in citie
 
 ## Mobile Data
 
-Thai mobile plans offer exceptional value. A SIM with generous data typically costs ฿300–฿600/month ($14–$27 AUD). The three main carriers — AIS, True Move and DTAC — all have good 4G/5G coverage in cities.
+Thai mobile plans offer exceptional value. A SIM with generous data typically costs ฿300–฿600/month ($14–$27 AUD). The three main carriers — AIS, True Move and DTAC — all have good 4G coverage in cities.
 
 ## Calling Australia
 
@@ -1053,11 +1053,11 @@ Super income streams are generally tax-free for Australians over 60. However, as
 
 ### Thailand's New Foreign Income Rules (from 2024)
 
-Thailand changed its tax rules on 1 January 2024. The key change: the previous exemption — which only taxed foreign income remitted in the same calendar year it was earned — was abolished. From 2024, foreign income remitted into Thailand is assessable for Thai income tax regardless of which year it was earned.
+Thailand changed its tax rules in 2024. The key change: foreign income brought into Thailand in the same calendar year it was earned is now assessable for Thai income tax.
 
 This affects retirees who transfer money from Australia to Thailand — including pension payments.
 
-In practice, enforcement is still developing and the rules contain exemptions, treaty protections, and grey areas. A draft amendment proposed in mid-2025 may reintroduce a grace period for income remitted within the year earned or the following year — but it is not yet enacted. It's no longer accurate to say Thailand is definitely tax-free for foreign income.
+In practice, enforcement is still developing and the rules contain exemptions and grey areas. However, it's no longer accurate to say Thailand is definitely tax-free for foreign income.
 
 ### Getting Thai Tax Advice
 
@@ -1169,7 +1169,7 @@ Thailand is the most popular retirement destination in Southeast Asia for Austra
 
 The cost of living is roughly 40–60% of what you'd spend in Brisbane or Melbourne. The weather is warm year-round. The food is extraordinary. Healthcare at private hospitals is genuinely good and far cheaper than Australia. And there's already a large, welcoming community of Australians who've made the move.
 
-At a typical exchange rate of around ฿22–23 per Australian dollar, the full Age Pension of approximately $1,200/fortnight converts to around **฿52,000–฿58,000 per month** — enough for a comfortable lifestyle in most Thai cities. Use our [pension calculator](/) for live figures.
+At the current exchange rate of around ฿22 per Australian dollar, the full Age Pension of approximately $1,200/fortnight converts to around **฿52,000 per month** — enough for a comfortable lifestyle in most Thai cities.
 
 This guide covers everything you need to know to make the move from Australia to Thailand — accurately and practically.
 
@@ -1190,7 +1190,7 @@ To qualify you need:
 The current maximum single Age Pension is **$1,200.90 per fortnight** (March 2026 to September 2026).
 
 When you move overseas permanently:
-- From 20 September 2026, after 12 weeks abroad the Pension Supplement reduces to the basic rate (the Energy Supplement stops entirely). If you move overseas permanently, the Pension Supplement reduces to the basic rate immediately on departure.
+- From 20 September 2026, after 12 weeks abroad the Pension Supplement stops entirely. If you move overseas permanently, it stops immediately on departure.
 - Your overseas rate will be approximately **$540–$560 per week** for most long-term Australians
 - After 26 weeks, if you have fewer than 35 years of Australian residency between ages 16 and 67, your payment may be proportionally reduced
 
@@ -1204,7 +1204,9 @@ Contact **Centrelink International Services on 131 673** to get your specific en
 
 ### Does the Pension Qualify for the Thai Visa Income Method?
 
-At current exchange rates, **the full Age Pension falls slightly short of the ฿65,000/month income requirement**. The overseas pension rate of approximately $540–$560/week converts to around ฿52,000–฿57,000/month — just below the ฿65,000 threshold. Some retirees combining pension with a super drawdown can bridge the gap, but the income method is not reliable for pension-only retirees. The **฿800,000 bank deposit method** is the more straightforward route for most Australians. Always verify your specific entitlement with Centrelink before relying on the income method.
+Good news for Australians: at current exchange rates, **the full Age Pension typically exceeds the ฿65,000/month income requirement for the Thai retirement visa**. This means many Australian retirees can qualify for the visa income route using their pension alone — without needing to lock up ฿800,000 in a Thai bank account.
+
+However, pension payments vary based on assets and income tests, and exchange rates fluctuate. Always verify your specific payment amount meets the threshold before relying on the income method.
 
 ### Notifying Centrelink
 
@@ -1329,7 +1331,7 @@ Most pensioners with modest assets have little or no Australian tax liability. S
 
 ### Thai Tax
 
-Thailand changed its tax rules on 1 January 2024. Foreign income remitted into Thailand is now potentially assessable for Thai income tax regardless of which year it was earned — the previous exemption (which only applied to income remitted in the same year it was earned) was abolished. This is a complex and evolving area — enforcement is still developing, treaty protections apply in many cases, and a draft amendment proposed in mid-2025 may reintroduce limited relief. It is not yet enacted.
+Thailand changed its tax rules in 2024. Foreign income brought into Thailand in the same calendar year it was earned is now potentially assessable for Thai income tax. This is a complex and evolving area — enforcement is still developing and there are exemptions and grey areas.
 
 Don't ignore it — get advice from a Thai tax accountant once you're settled. An annual tax return typically costs ฿3,000–฿8,000 ($135–$365 AUD).
 
