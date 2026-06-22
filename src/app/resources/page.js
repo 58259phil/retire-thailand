@@ -67,7 +67,7 @@ const services = [
       'Excellent reviews on TripAdvisor and Google',
       'Local knowledge — Peter and team can advise on driving in the area',
     ],
-    cost: 'From around ฿800/day for a compact sedan. Weekly and monthly discounts available.',
+    cost: 'From around ฿1000/day for a compact sedan. Weekly and monthly discounts available.',
     cta: 'Visit Easy Car Rental',
     sponsored: false,
   },
