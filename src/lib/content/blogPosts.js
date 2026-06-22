@@ -1009,6 +1009,8 @@ If you do ride — wear a helmet always, stick to quiet roads until you're confi
 
 Renting or buying a car gives you maximum comfort and safety. **Renting:** ฿8,000–฿15,000/month ($365–$680 AUD). Driving in Thailand is on the left (same as Australia).
 
+In Hua Hin, [Easy Car Rental](https://www.easycarrentalhuahin.com) is a well-reviewed local option — they deliver to your door, include proper insurance, and don't require large credit card deposits. Worth contacting if you're based in the Hua Hin area.
+
 ## The Practical Recommendation
 
 For most retirees in a city like Chiang Mai, Hua Hin or Pattaya:
@@ -1547,7 +1549,7 @@ The hills west of Hua Hin town are home to several golf courses and many of the 
 - 3 Bed House with Pool: ฿25,000–฿40,000/month
 - 4 Bed Villa: ฿40,000–฿65,000/month
 
-This area requires a car or motorbike — you're not walking to the shops from here.
+This area requires a car or motorbike — you're not walking to the shops from here. [Easy Car Rental](http://www.easycarrentalhuahin.com) is a reliable local option that delivers to your door with full insurance included.
 
 ### Pranburi (South of Hua Hin)
 About 25km south of Hua Hin, Pranburi is a quieter, more rural area with some beautiful beaches and a growing number of expats. Rents are noticeably cheaper than Hua Hin proper.

@@ -33,6 +33,7 @@ const services = [
     ],
     cost: 'Free to open. ~$8 fee per A$1000 transfer (vs $40-60 with banks).',
     cta: 'Open a Wise account',
+    sponsored: true,
   },
   {
     name: 'SafetyWing',
@@ -50,6 +51,25 @@ const services = [
     ],
     cost: 'From around US$50/month depending on age and cover level.',
     cta: 'Get a SafetyWing quote',
+    sponsored: true,
+  },
+  {
+    name: 'Easy Car Rental Hua Hin',
+    category: 'Car Hire — Hua Hin',
+    icon: '🚗',
+    url: 'http://www.easycarrentalhuahin.com',
+    tagline: 'Reliable car hire with delivery to your door',
+    description: 'Easy Car Rental is a locally owned car hire business in Hua Hin, established in 2014 and run by Peter Stevens. They deliver and collect vehicles directly to your accommodation — no airport queues or taxi rides to a depot. Well-maintained fleet including Toyota sedans and SUVs, with proper commercial insurance included.',
+    why: [
+      'Free delivery and pickup at your accommodation in Hua Hin',
+      'Full commercial insurance included — no large credit card deposits',
+      'Well-maintained Toyota fleet (Ativ, Vios, Fortuner)',
+      'Excellent reviews on TripAdvisor and Google',
+      'Local knowledge — Peter and team can advise on driving in the area',
+    ],
+    cost: 'From around ฿800/day for a compact sedan. Weekly and monthly discounts available.',
+    cta: 'Visit Easy Car Rental',
+    sponsored: false,
   },
 ];
 
@@ -118,9 +138,9 @@ export default function ResourcesPage() {
             borderLeft: '3px solid #C9963A',
           }}>
             <p style={{ fontSize: '14px', color: '#A08060', lineHeight: 1.7, margin: 0 }}>
-              These are the only services I currently recommend on Retire Thailand. I've kept the list short on purpose — you'll find dozens of "best of" lists with 20+ options elsewhere. The two services below are the ones I'd use myself and what I tell friends to use.
+              These are the services I currently recommend on Retire Thailand. I've kept the list short on purpose — you'll find dozens of "best of" lists with 20+ options elsewhere. The services below are the ones I'd use myself and what I tell friends to use.
               <br /><br />
-              <strong style={{ color: '#F5EDD8' }}>Disclosure:</strong> The links below are affiliate links — if you sign up I may earn a small commission at no extra cost to you. This helps keep the site free.
+              <strong style={{ color: '#F5EDD8' }}>Disclosure:</strong> Some links below are affiliate links — if you sign up I may earn a small commission at no extra cost to you. This helps keep the site free. Services marked as non-affiliate are included because I genuinely recommend them.
             </p>
           </div>
 
@@ -184,7 +204,7 @@ export default function ResourcesPage() {
               <a
                 href={s.url}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel={s.sponsored ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
                 style={{
                   display: 'inline-flex', alignItems: 'center', gap: '8px',
                   background: '#C9963A', color: '#0F0A04',
@@ -213,7 +233,7 @@ export default function ResourcesPage() {
             <div style={{ fontSize: '24px', marginBottom: '8px' }}>🔜</div>
             <p style={{ fontSize: '13px', color: '#7A6040', lineHeight: 1.6, margin: 0 }}>
               More recommendations coming as I review and personally vet additional services.
-              I'd rather recommend two services I trust than twenty I don't.
+              I'd rather recommend a few services I trust than twenty I don't.
             </p>
           </div>
 
