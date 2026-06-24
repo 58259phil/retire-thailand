@@ -253,7 +253,7 @@ function ResultsPanel({ city, results, exchangeRate, selectedCurrency, currencyR
             <div style={{ background: 'rgba(201,150,58,0.06)', borderRadius: '3px', padding: '8px 12px' }}>
               <div style={{ fontSize: '10px', color: '#5A4030', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>Income covers</div>
               <div style={{ fontSize: '13px', color: '#A08060', fontWeight: 500 }}>
-                {Math.min(100, Math.round((results.totalWeeklyAUD / results.pensionWeekly) * 100))}% of costs
+                {Math.round((results.pensionWeekly / results.totalWeeklyAUD) * 100)}% of costs
               </div>
             </div>
           </div>
