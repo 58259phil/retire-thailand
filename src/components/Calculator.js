@@ -104,7 +104,7 @@ function CityCard({ city, selected, onToggle }) {
 // ── Results Panel ─────────────────────────────────────────
 function ResultsPanel({ city, results, exchangeRate, selectedCurrency, currencyRate, index }) {
   const [open, setOpen] = useState(false);
-  const [view, setView] = useState('monthly');
+  const [view, setView] = useState('weekly');
 
   const emoji = cityEmojis[city.id] || '📍';
   const isTight = results.surplusWeekly < 0;
