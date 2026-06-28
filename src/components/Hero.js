@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Hero() {
   const scrollToCalculator = () => {
     document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' });
@@ -101,9 +103,14 @@ export default function Hero() {
             overflow: 'hidden',
             borderRadius: '4px',
           }}>
-            <img
+            <Image
               src="/temple.jpg"
               alt="Traditional Thai temple"
+              width={340}
+              height={460}
+              priority
+              quality={75}
+              sizes="(max-width: 768px) 0px, 340px"
               style={{
                 width: '100%',
                 height: '100%',

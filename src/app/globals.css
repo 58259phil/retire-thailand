@@ -365,3 +365,12 @@ article, details, [style*="backdropFilter"] {
 @media (max-width: 900px) {
   .city-guide-outer-grid { grid-template-columns: 1fr !important; }
 }
+/* ─── Add this to the BOTTOM of globals.css ─── */
+
+/* Skip background image on mobile — saves ~1-2MB download */
+@media (max-width: 768px) {
+  #calculator {
+    background-image: none !important;
+    background-color: #0F0A04 !important;
+  }
+}
