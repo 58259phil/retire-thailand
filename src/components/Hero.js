@@ -1,12 +1,7 @@
-'use client';
-
 import Image from 'next/image';
+import ScrollButton from './ScrollButton';
 
 export default function Hero() {
-  const scrollToCalculator = () => {
-    document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <>
       {/* Gold bar top */}
@@ -80,18 +75,8 @@ export default function Hero() {
               honest city-by-city cost breakdowns and everything you need to plan your move.
             </p>
 
-            {/* Button */}
-            <button
-              onClick={scrollToCalculator}
-              style={{
-                background: '#C9963A', color: '#0F0A04',
-                fontSize: '14px', fontWeight: 600, letterSpacing: '0.04em',
-                padding: '14px 28px', borderRadius: '3px',
-                border: 'none', cursor: 'pointer', fontFamily: 'inherit', lineHeight: 1,
-              }}
-            >
-              Calculate My Budget ↓
-            </button>
+            {/* Button — client component */}
+            <ScrollButton />
           </div>
 
           {/* Right — temple photo — hidden on mobile */}
