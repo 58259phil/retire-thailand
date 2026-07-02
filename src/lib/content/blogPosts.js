@@ -2665,6 +2665,242 @@ For your complete financial picture in Thailand, use our [pension calculator](/)
 *This article is general information only and does not constitute financial or medical advice. Insurance products, premiums and visa requirements change regularly — always verify current details directly with insurers and the Thai Immigration Bureau.*
     `
   },
+
+  // ─── TWO NEW BLOG POSTS FOR blogPosts.js ───
+// Paste both objects into the blogPosts array (before the closing ]; )
+// They follow your exact schema: slug, title, metaDescription, date, readTime, category, excerpt, content
+// ============================================================
+
+  {
+    slug: "can-australians-live-in-thailand",
+    title: "Can Australians Live in Thailand? Full Guide",
+    metaDescription: "Can Australians live in Thailand permanently? Visa options, pension portability, costs and the honest realities of making the move from Australia.",
+    date: "2026-07-02",
+    readTime: "11 min read",
+    category: "Planning",
+    excerpt: "Can an Australian actually live in Thailand long-term? The short answer is yes — thousands do it. Here's the honest, practical picture of what's involved, what's allowed, and what to watch out for.",
+    content: `
+## The Short Answer
+
+Yes — Australians can live in Thailand long-term, and thousands already do. Thailand is one of the most popular retirement destinations in the world for Australians, and the legal pathways to live there are well-established and understood.
+
+But "can you live there" and "should you" are different questions. This guide covers both — the legal reality of living in Thailand as an Australian, and the honest practicalities that determine whether it actually works for you.
+
+## Is It Legal for an Australian to Live in Thailand?
+
+Completely. Thailand offers several visa pathways that allow Australians to live there legally for extended periods or indefinitely (with annual renewals). What you cannot do is simply show up and stay — you need the right visa for your situation.
+
+The most common pathways for Australians are:
+
+**The Retirement Visa (age 50+)** — By far the most popular route for older Australians. Requires ฿800,000 in a Thai bank account or ฿65,000/month income. Renewable annually. See our [complete Thai retirement visa guide](/blog/thai-retirement-visa-australians) for the full requirements.
+
+**The Marriage Visa** — For Australians married to a Thai national. Lower financial requirements (฿400,000 in the bank or ฿40,000/month income).
+
+**The Thailand Elite Visa** — A paid membership visa giving 5–20 years of residency. Expensive (around $15,000–$30,000 USD) but requires no ongoing financial proof or 90-day reporting hassle.
+
+**The Destination Thailand Visa (DTV)** — A newer long-stay visa aimed at remote workers and those with ongoing ties to Thailand. Useful for younger Australians not yet at retirement visa age.
+
+## Do You Need to Be Retired?
+
+No — but your visa needs to match your situation. If you're under 50 and not married to a Thai national, the retirement visa isn't available to you yet. Options like the Elite Visa or DTV bridge that gap. If you're [retiring to Thailand before pension age](/blog/retiring-thailand-age-60), this matters — the Age Pension doesn't start until 67, and the retirement visa doesn't start until 50, so you need to plan around both thresholds.
+
+## Can You Work While Living in Thailand?
+
+This is where many Australians misunderstand the rules. A retirement visa does **not** permit you to work in Thailand — for a Thai employer or, technically, remotely for income. Thailand takes work permits seriously.
+
+In practice, retirees living off their pension, superannuation, and investments are doing exactly what the retirement visa is designed for — living off passive income from outside Thailand. That's completely fine. What's not permitted is taking a local job or running a Thai business without the appropriate work permit and visa class.
+
+## What About the Age Pension?
+
+Your Australian Age Pension is portable to Thailand — you can receive it while living there. But there are important rules:
+
+- You must be **67** to claim it, and physically in Australia on the day you lodge your claim
+- You need at least **10 years of Australian residency** (5 continuous)
+- To get the full rate overseas, you generally need **35 years of Australian residency** between ages 16 and 67
+- From 20 September 2026, after 12 weeks abroad the Pension Supplement reduces to the basic rate; if you move permanently it reduces immediately on departure
+
+The full picture is in our [guide to retiring on the Age Pension](/blog/australian-pension-thailand). The key point: yes, you can live in Thailand and receive your Australian pension there — it just requires understanding the portability rules and notifying Centrelink.
+
+## What Does It Actually Cost to Live in Thailand?
+
+This is usually the deciding factor. The cost of living in Thailand is roughly 40–60% of what you'd spend in Brisbane, Melbourne or Sydney. The single Age Pension overseas rate (approximately $550/week) converts to around ฿52,000/month — enough for a comfortable lifestyle in most Thai cities.
+
+Where you live makes an enormous difference:
+
+- **Khon Kaen or Chiang Rai** — the pension stretches furthest, with a genuine surplus each week
+- **Chiang Mai or Pattaya** — comfortable on the pension with careful budgeting
+- **Hua Hin** — achievable but tighter
+- **Bangkok or Phuket** — more comfortable with a super top-up
+
+Our [cost of living guide](/blog/cost-of-living-thailand-australians-2026) breaks down real 2026 budgets, and the [pension calculator](/) lets you model your own numbers across seven cities.
+
+## Where Do Australians Actually Live in Thailand?
+
+Australians tend to cluster in a handful of cities with established expat communities:
+
+**Hua Hin** — The traditional Australian favourite. A royal beach town 2.5 hours from Bangkok with a large, welcoming expat community. See our [Hua Hin areas guide](/blog/best-areas-to-stay-in-hua-hin-australian-retiree).
+
+**Chiang Mai** — The most popular expat city overall, with cool-season weather and the biggest foreign community in the country. See our [Chiang Mai areas guide](/blog/best-areas-to-stay-in-chiang-mai-australian-retiree).
+
+**Pattaya** — Often misjudged; areas like Jomtien are genuinely quiet and family-friendly. See our [Pattaya areas guide](/blog/best-areas-to-stay-in-pattaya-australian-retiree).
+
+**Khon Kaen** — Where the pension goes furthest. Authentic, affordable, excellent hospital. See our [Khon Kaen areas guide](/blog/best-areas-to-stay-in-khon-kaen-australian-retiree).
+
+## The Practical Realities Nobody Mentions
+
+Living in Thailand is not a permanent holiday. The Australians who thrive long-term are those who go in with realistic expectations:
+
+**Healthcare** — [Medicare stops working the moment you leave](/blog/medicare-thailand-australians). You need private health insurance, which is both a visa requirement and a practical necessity. The upside: Thai private hospitals are excellent and far cheaper than Australia.
+
+**Language** — You [don't need to speak Thai](/blog/learning-thai-language-retirees) to get by in expat areas, but learning some transforms your experience.
+
+**Heat** — Thailand is hot year-round. Australians from Queensland adapt quickly; those from cooler states find the first hot season genuinely challenging. See our [weather guide](/blog/weather-thailand-australians).
+
+**Loneliness** — Moving to a new country in your 60s can be isolating at first. Building a social life takes deliberate effort. See our [guide to making friends](/blog/making-friends-retiring-thailand).
+
+**Admin** — 90-day reporting, annual visa renewals, re-entry permits, maintaining your bank balance. None of it is hard, but it's ongoing.
+
+## The Try-Before-You-Commit Approach
+
+The smartest thing any Australian considering Thailand can do is treat the first few months as a trial rather than a permanent move. Rent short-term, explore different cities, and only commit to a long-term lease once you know where you actually want to be. Our guide on [where to stay before signing a lease](/blog/where-to-stay-in-thailand-before-signing-a-lease) walks through this.
+
+## So — Can You Do It?
+
+Yes. If you're over 50, have either ฿800,000 in savings or a pension/income around ฿65,000/month, can sort health insurance, and go in with realistic expectations — living in Thailand as an Australian is genuinely achievable and, for thousands of people, life-changing.
+
+The combination of the Age Pension and Thailand's low cost of living creates financial breathing room that simply doesn't exist in Australian cities. Add reasonable health, a willingness to adapt, and some effort to build a social life, and Thailand can be an extraordinary place to spend your retirement years.
+
+Start with our [complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia), model your budget with the [pension calculator](/), and check the [FAQ page](/faq) for common questions.
+
+*This guide is general information only and does not constitute financial, legal or migration advice. Visa rules, pension rates and residency requirements change regularly — always verify current details with the Thai Immigration Bureau and Centrelink International Services (131 673) before making decisions.*
+    `
+  },
+
+  {
+    slug: "renting-a-house-in-thailand-guide",
+    title: "Renting a House in Thailand — Full Guide",
+    metaDescription: "How to rent a house in Thailand as an Australian retiree. Costs, leases, what to check, houses vs condos and how to find the right place.",
+    date: "2026-07-02",
+    readTime: "9 min read",
+    category: "Practical Guides",
+    excerpt: "Dreaming of a house with a garden and a pool rather than a condo? Renting a house in Thailand is very achievable on a pension — here's the complete practical guide.",
+    content: `
+## The House Dream
+
+For a lot of Australians, the appeal of Thailand isn't a high-rise condo — it's a proper house. A garden. A private pool. Space to breathe. The kind of lifestyle that would cost millions in Australia.
+
+The good news: renting a house in Thailand is genuinely affordable, even on the Age Pension. A two-bedroom house with a private pool that would rent for $1,000+ a week in Australia can cost ฿25,000–฿35,000 per month (roughly $1,100–$1,550 AUD) in a Thai city like Hua Hin or Chiang Mai.
+
+This guide covers everything you need to know about renting a house specifically — which is a different experience from [renting a condo](/blog/renting-condo-thailand-guide).
+
+## Houses vs Condos — The Honest Trade-Offs
+
+Before you commit to a house, understand what you're gaining and giving up compared to a condo.
+
+**What a house gives you:**
+- Real space — indoor and outdoor
+- A private garden and often a private pool
+- More privacy — no shared walls or corridors
+- Room for visitors from Australia to stay
+- Freedom to have pets more easily
+- The genuine "living in Thailand" feeling rather than "staying in a building"
+
+**What a house costs you:**
+- You almost always need a car or motorbike — houses are rarely walkable to shops
+- Higher utility bills — especially if you run a pool and multiple aircon units
+- More maintenance responsibility — gardens, pools and pumps need upkeep
+- Less security than a managed condo building
+- Harder to lock up and leave when you visit Australia
+
+For Australians who travel back home regularly, a condo is easier. For those planting roots and wanting space, a house wins. Our [serviced apartments vs long-term rental guide](/blog/serviced-apartments-vs-renting-long-term-thailand) covers the flexibility question in more depth.
+
+## What Does a House Cost to Rent?
+
+Prices vary significantly by city and how far you are from the centre. Here's a realistic 2026 guide for a comfortable furnished house:
+
+**Khon Kaen** — 2 bed with pool: ฿16,000–฿22,000/month. The best value of any city.
+
+**Chiang Rai** — 2 bed with pool: ฿14,000–฿20,000/month. Thailand's cheapest.
+
+**Chiang Mai** — 2 bed with pool: ฿18,000–฿30,000/month (Hang Dong and Mae Rim areas).
+
+**Pattaya** — 2 bed with pool: ฿22,000–฿32,000/month (Jomtien, Na Jomtien).
+
+**Hua Hin** — 2 bed with pool: ฿25,000–฿35,000/month (Hin Lek Fai golf area, Pranburi).
+
+**Phuket** — 2 bed with pool: ฿30,000–฿45,000/month (Rawai, Kathu).
+
+**Bangkok** — Houses are rare and expensive in the city; most people rent condos. Suburban houses start around ฿30,000/month.
+
+Use our [pension calculator](/) to see how a house rental fits your weekly budget in each city.
+
+## Where to Find Houses for Rent
+
+Houses are advertised differently from condos — many never appear on the big property portals at all.
+
+**Local Facebook expat groups** — The single best source for house rentals. Groups like "Hua Hin Expats" and "Chiang Mai Expats" have landlords posting houses directly, often with no agent fee. Post what you're looking for: "Looking for a 2-bed house with pool near [area], budget ฿30,000/month" and you'll get responses.
+
+**Local agents** — For houses, a good local agent earns their fee. They know properties that never get advertised online and can handle the Thai-language negotiation. Agent fees are typically paid by the landlord, not you.
+
+**Driving around** — Genuinely effective in Thailand. Many houses have a simple "ให้เช่า" (for rent) sign with a phone number. If you've got a Thai friend or speak some Thai, this uncovers deals invisible to foreigners.
+
+**DDProperty and FazWaz** — The main portals do list some houses, particularly higher-end ones, but their house inventory is thinner than their condo listings.
+
+## The Lease — What to Know
+
+House leases in Thailand are usually 12 months, sometimes 6. Key points:
+
+**Deposit** — Standard is two months' rent, held as security. Get the condition of the property documented (photos) at move-in so you get your deposit back.
+
+**Furnished vs unfurnished** — Many Thai houses rent unfurnished or partly furnished. Confirm exactly what's included. "Furnished" can mean anything from fully kitted out to just a bed and a fridge.
+
+**Who maintains what** — This matters more with houses than condos. Clarify in writing who's responsible for pool maintenance, garden upkeep, aircon servicing, and repairs. Often the landlord covers major repairs and pool/garden service, but confirm it.
+
+**Pool and garden costs** — A pool typically costs ฿1,500–฿2,500/month to maintain (chemicals and cleaning). Some landlords include this; some don't. Gardens may need a gardener. Factor this in.
+
+## What to Check Before You Sign
+
+**Electricity rate** — Even more important with a house than a condo, because houses use more power. Confirm you're on the government rate (around ฿4/unit), not a marked-up rate. With a pool pump and multiple aircon units, electricity can run ฿3,000–฿8,000/month.
+
+**Water supply** — Check whether the house is on mains water or relies on a tank and pump. Ask about pressure and reliability.
+
+**Internet availability** — Confirm fibre is available at the address. In more rural areas this isn't guaranteed. See our [internet and connectivity guide](/blog/thailand-internet-connectivity-expats).
+
+**Flooding** — Critical for houses, especially in wet season (June–October). Ask neighbours and check the expat Facebook group: does this street or area flood? A house that floods is a serious problem.
+
+**The pool condition** — If there's a pool, check the pump and filter work properly. Ask when it was last serviced. A neglected pool is expensive to bring back.
+
+**Security** — Houses are less secure than managed condo buildings. Check for walls, gates, and whether the area has a security patrol (many gated Thai housing estates — "moo baan" — do).
+
+**Aircon units** — Count them and check their age. Old units are expensive to run. A house with five ancient aircon units can cost a fortune to keep cool.
+
+## The Gated Village (Moo Baan) Option
+
+Many Australians renting houses in Thailand choose a "moo baan" — a gated housing estate. These offer a middle ground between a standalone house and a condo: you get a private house with a garden (and sometimes a pool), but with the added security of gates, a guard, and often communal facilities. They're popular in Chiang Mai (Hang Dong), Hua Hin, and Pattaya.
+
+## Negotiating Your House Rental
+
+House rents are negotiable, especially for 12-month leases. Ask for 10–15% off the listed price for a year's commitment. In the low season (May–September), landlords are more flexible. Respectful, friendly negotiation is completely normal in Thailand — bring a Thai friend or use an agent if you're not confident.
+
+## Getting Around From a House
+
+Because houses are rarely walkable to shops, transport matters. Most Australians renting houses either rent or buy a car, or use a motorbike for local trips. In Hua Hin, [Easy Car Rental](https://www.easycarrentalhuahin.com) delivers to your door with insurance included — useful while you're getting set up. Our [getting around Thailand guide](/blog/getting-around-thailand-retirees) covers the honest safety conversation about motorbikes.
+
+## The Try-First Approach
+
+Don't rent a house sight-unseen from Australia, and don't sign a 12-month house lease in your first week. Rent short-term first, explore the area, and understand the neighbourhood before committing. Our guide on [where to stay before signing a lease](/blog/where-to-stay-in-thailand-before-signing-a-lease) explains the smart sequencing — and it matters even more with houses, where location, flooding and transport are harder to judge quickly.
+
+## The Bottom Line
+
+Renting a house in Thailand gives you a lifestyle that's simply unaffordable in Australia — space, a garden, a private pool, real privacy — often for less than the rent on a small Australian apartment. The trade-offs are the need for a car, higher utilities, and more maintenance responsibility.
+
+For pension-only retirees, the best house value is in Khon Kaen, Chiang Rai and inland Chiang Mai. For those with a super top-up, a pool villa in Hua Hin, Pattaya or Phuket becomes very achievable.
+
+Model your house-rental budget with our [pension calculator](/), and read our [complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia) for the full picture.
+
+*All prices are approximate 2025–2026 figures. Actual costs vary by property, location, condition and negotiation.*
+    `
+  },
 ];
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
