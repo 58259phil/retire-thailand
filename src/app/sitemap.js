@@ -308,5 +308,13 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: 'https://www.retirethailand.net/blog/can-australians-live-in-thailand',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://www.retirethailand.net/blog/renting-a-house-in-thailand-guide',
+      lastModified: new Date(),
+    },
   ];
 }
