@@ -13,7 +13,7 @@ export default function ScrollButton() {
         border: 'none', cursor: 'pointer', fontFamily: 'inherit', lineHeight: 1,
       }}
     >
-      Calculate My Budget ↓
+      How Far Does My Pension Go? ↓
     </button>
   );
 }

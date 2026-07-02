@@ -1,21 +1,17 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
 
 export default function Nav() {
-  const [open, setOpen] = useState(false);
-  const router = useRouter();
-  const pathname = usePathname();
+  const linkStyle = {
+    fontSize: '12px', letterSpacing: '0.12em',
+    textTransform: 'uppercase', color: '#A08060', textDecoration: 'none',
+  };
 
-  const handleCalculator = () => {
-    setOpen(false);
-    if (pathname === '/') {
-      document.getElementById('calculator')?.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      router.push('/#calculator');
-    }
+  const mobileLinkStyle = {
+    fontSize: '11px', letterSpacing: '0.1em',
+    textTransform: 'uppercase', color: '#A08060', textDecoration: 'none',
+    padding: '4px 2px',
   };
 
   return (
@@ -29,7 +25,7 @@ export default function Nav() {
         maxWidth: '1200px', margin: '0 auto',
         padding: '0 20px', height: '64px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-      }}>
+      }} className="nav-top-row">
 
         {/* Logo */}
         <Link href="/" style={{ textDecoration: 'none' }}>
@@ -43,56 +39,26 @@ export default function Nav() {
 
         {/* Desktop links */}
         <div className="hidden md:flex" style={{ gap: '32px', alignItems: 'center' }}>
-          <button onClick={handleCalculator} style={{
-            background: 'none', border: 'none', cursor: 'pointer',
-            fontSize: '12px', letterSpacing: '0.12em',
-            textTransform: 'uppercase', color: '#A08060',
-            fontFamily: 'inherit', padding: 0,
-          }}>
-            Calculator
-          </button>
-          <Link href="/cities" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>City Guides</Link>
-          <Link href="/blog" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>Blog</Link>
-          <Link href="/resources" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>Resources</Link>
-          <Link href="/faq" style={{ fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#A08060', textDecoration: 'none' }}>FAQ</Link>
+          <Link href="/#calculator" style={linkStyle}>Calculator</Link>
+          <Link href="/cities" style={linkStyle}>City Guides</Link>
+          <Link href="/blog" style={linkStyle}>Blog</Link>
+          <Link href="/resources" style={linkStyle}>Resources</Link>
+          <Link href="/faq" style={linkStyle}>FAQ</Link>
         </div>
-
-        {/* Mobile hamburger */}
-        <button
-          className="md:hidden"
-          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '8px', color: '#F5EDD8' }}
-          onClick={() => setOpen(!open)}
-        >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            {open
-              ? <path d="M18 6L6 18M6 6l12 12"/>
-              : <path d="M4 6h16M4 12h16M4 18h16"/>
-            }
-          </svg>
-        </button>
       </div>
 
-      {/* Mobile menu */}
-      {open && (
-        <div style={{
-          background: 'rgba(15,10,4,0.99)',
-          borderTop: '1px solid rgba(201,150,58,0.1)',
-          padding: '16px 20px',
-          display: 'flex', flexDirection: 'column', gap: '16px',
-        }}>
-          <button onClick={handleCalculator} style={{
-            background: 'none', border: 'none', cursor: 'pointer',
-            color: '#A08060', textDecoration: 'none', fontSize: '14px',
-            textAlign: 'left', fontFamily: 'inherit', padding: 0,
-          }}>
-            Calculator
-          </button>
-          <Link href="/cities" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>City Guides</Link>
-          <Link href="/blog" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>Blog</Link>
-          <Link href="/resources" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>Resources</Link>
-          <Link href="/faq" onClick={() => setOpen(false)} style={{ color: '#A08060', textDecoration: 'none', fontSize: '14px' }}>FAQ</Link>
-        </div>
-      )}
+      {/* Mobile visible nav row */}
+      <div className="md:hidden" style={{
+        display: 'flex', alignItems: 'center', justifyContent: 'space-around',
+        padding: '0 12px 10px',
+        borderTop: '1px solid rgba(201,150,58,0.08)',
+        paddingTop: '10px',
+      }}>
+        <Link href="/cities" style={mobileLinkStyle}>Cities</Link>
+        <Link href="/blog" style={mobileLinkStyle}>Blog</Link>
+        <Link href="/resources" style={mobileLinkStyle}>Resources</Link>
+        <Link href="/faq" style={mobileLinkStyle}>FAQ</Link>
+      </div>
     </nav>
   );
 }

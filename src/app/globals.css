@@ -374,3 +374,12 @@ article, details, [style*="backdropFilter"] {
     background-color: #0F0A04 !important;
   }
 }
+
+/* ─── Add to the BOTTOM of globals.css ─── */
+
+/* Mobile nav is now two rows (~100px tall) — push page content down so it isn't hidden behind the fixed nav */
+@media (max-width: 767px) {
+  .pt-16 {
+    padding-top: 102px !important;
+  }
+}
