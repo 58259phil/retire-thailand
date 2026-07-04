@@ -20,6 +20,8 @@ The current single Age Pension rate (March 2026) is **$1,200.90 per fortnight** 
 
 At a typical exchange rate of around ฿22–23 to the Australian dollar, that's approximately **฿12,000–฿13,000 per week** or **฿52,000–฿56,000 per month** to live on. Use our [pension calculator](/) for the current live rate.
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Moving money to Thailand? Wise uses the real exchange rate — most banks don't.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See how Wise works →</span></div></div></a>
+
 In some Thai cities, that's very comfortable. In others, it's tight.
 
 ## Which Cities Work on the Pension?
@@ -68,6 +70,8 @@ During the period before you leave, use the time to research cities, visit Thail
 ## What About Superannuation?
 
 Your super can provide a valuable top-up. Even a modest super balance of $100,000–$200,000 drawn down slowly over 10–15 years adds $130–$260 per week to your income, making places like Hua Hin or Chiang Mai very comfortable.
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Setting up Wise takes 20 minutes and saves $600–900/year on your pension transfers.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Open a free Wise account →</span></div></div></a>
 
 ## The Bottom Line
 
@@ -176,6 +180,8 @@ For an Australian aged 60–70, expect to pay:
 - **Basic plan meeting visa requirements:** ฿20,000–฿50,000/year ($910–$2,270 AUD)
 - **More comprehensive cover:** ฿50,000–฿100,000/year ($2,270–$4,545 AUD)
 
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Every year you wait, a new diagnosis can become a permanently excluded pre-existing condition. Get covered while you're healthy.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Check prices for your age →</span></div></div></a>
+
 **Important tip:** Buy insurance before leaving Australia — before any new health conditions are diagnosed. Pre-existing conditions are typically excluded from new Thai policies, so locking in cover while healthy gets you the best protection. [SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is one option popular with expats.
 
 ## Financial Requirements in Detail
@@ -236,6 +242,10 @@ None of this is alarming for retirees following the rules properly. It's mainly 
 
 **Waiting too long to open a Thai bank account.** Banks are becoming more selective. Get your account open in the first week after arrival while you have all your documents fresh.
 
+The Thai retirement visa makes Thailand
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
+
 ## The Bottom Line
 
 The [Thai retirement visa](/blog/thai-retirement-visa-australians) makes Thailand a much simpler choice than Bali for Australians — see our [Thailand vs Bali comparison](/blog/thailand-vs-bali-retire-australians) and our [guide to Thailand's weather](/blog/weather-thailand-australians) is very manageable for Australians — thousands do it every year. The key is preparation: gather your documents before you leave Australia, get health insurance sorted early, open your Thai bank account quickly after arrival, and always get a re-entry permit before travelling.
@@ -263,6 +273,8 @@ This guide is different. We focus on what a retired Australian actually needs �
 At the time of writing (mid 2026), **1 Australian Dollar buys approximately ฿23 Thai Baht**. Exchange rates fluctuate — use our [pension calculator](/) for the current live figure.
 
 This means your $600/week Australian pension converts to roughly **฿13,800/week** or **฿60,000/month**.
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Moving money to Thailand? Wise uses the real exchange rate — most banks don't.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See how Wise works →</span></div></div></a>
 
 ## Rent — The Biggest Variable
 
@@ -306,6 +318,8 @@ For an Australian aged 65–70 on a retirement visa:
 - **Basic plan:** ฿40,000–฿60,000/year
 - **Comprehensive plan:** ฿80,000–฿120,000/year
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Your bank takes 2–4% on every pension transfer. That's roughly $900/year gone in hidden fees.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Compare Wise rates →</span></div></div></a>
+
 ## The Complete Monthly Budget
 
 | Category | Budget | Comfortable | Western |
@@ -338,6 +352,8 @@ When Centrelink pays your pension into a Thai bank account, they use the officia
 
 On a $1,200 fortnightly pension, a 3% exchange rate margin costs you roughly **$36 per fortnight** — or about **$936 per year**. That's nearly an extra month's worth of groceries gone in hidden fees.
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Moving money to Thailand? Wise uses the real exchange rate — most banks don't.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See how Wise works →</span></div></div></a>
+
 ## Your Options for Receiving Your Pension in Thailand
 
 ### Option 1 — Direct to Thai Bank Account
@@ -358,6 +374,8 @@ Similar to Wise but good for larger one-off transfers like moving your super.
 
 ## Which is Best?
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Your bank takes 2–4% on every pension transfer. That's roughly $900/year gone in hidden fees.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Compare Wise rates →</span></div></div></a>
+
 **[Wise](https://wise.prf.hn/click/camref:1011l5FiPJ) is the best option** for regular small-to-medium transfers. The exchange rate is consistently close to the mid-market rate and the app makes it easy to set up recurring transfers.
 
 ## Setting Up Wise for Your Pension
@@ -366,6 +384,8 @@ Similar to Wise but good for larger one-off transfers like moving your super.
 2. Verify your identity (Australian passport or driver's licence)
 3. Set up a recurring transfer — match it to your Centrelink payment schedule
 4. Enter your Thai bank account details
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Setting up Wise takes 20 minutes and saves $600–900/year on your pension transfers.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Open a free Wise account →</span></div></div></a>
 
 ## The Bottom Line
 
@@ -411,13 +431,19 @@ You can access your superannuation from age 60 in Australia once you've met a "c
 
 ## Healthcare Before You Have a Pension
 
-Once you leave Australia permanently, you lose access to Medicare for most purposes. For a healthy 60-year-old, Thai expat health insurance costs roughly $2,000–$3,500 AUD per year. Get cover before you leave — it's much harder to get comprehensive cover once conditions are on your medical record.
+Once you leave Australia permanently, you lose access to Medicare for most purposes. For a healthy 60-year-old, Thai expat health insurance costs roughly $2,000–$3,500 AUD per year. Get cover before you leave  
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Every year you wait, a new diagnosis can become a permanently excluded pre-existing condition. Get covered while you're healthy.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Check prices for your age →</span></div></div></a>
+
+it's much harder to get comprehensive cover once conditions are on your medical record.
 
 ## Claiming the Pension at 67
 
 When you turn 67, you will need to return to Australia to claim the pension — you must be physically present on the day you lodge your claim. Plan a trip home around your 67th birthday to get this sorted. Once granted, you can return to Thailand and the pension will be paid to you there.
 
 Your eligibility will depend on your total years of Australian residency between ages 16 and 67. Make sure you have at least 10 years total (with 5 continuous) — most Australians easily meet this. If your total Australian years are fewer than 35, your overseas pension rate will be proportionally reduced.
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
 
 ## The Bottom Line
 
@@ -441,6 +467,8 @@ When you move to Thailand permanently, you effectively lose access to Medicare f
 
 You don't lose your Medicare number — it stays active. But using it requires being in Australia. If you're living in Thailand, Medicare isn't going to help you when you need a doctor or hospital.
 
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Medicare stops the moment you leave Australia. Health insurance in Thailand isn't optional — it's a visa requirement.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See what SafetyWing covers →</span></div></div></a>
+
 ## What Medicare Does and Doesn't Cover Overseas
 
 **What Medicare covers in Thailand:** Almost nothing. Medicare is designed for medical services in Australia.
@@ -455,7 +483,11 @@ The PBS — which subsidises your prescription medications in Australia — also
 
 ## What You Need Instead
 
-Every Australian moving to Thailand needs private health insurance. The Thai retirement visa actually requires it — so it's not optional anyway.
+Every Australian moving to Thailand needs private health insurance. 
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Every year you wait, a new diagnosis can become a permanently excluded pre-existing condition. Get covered while you're healthy.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Check prices for your age →</span></div></div></a>
+
+The Thai retirement visa actually requires it — so it's not optional anyway.
 
 ## The Silver Lining
 
@@ -467,6 +499,9 @@ Thai healthcare is genuinely good — particularly in Bangkok, Chiang Mai, Hua H
 - See your dentist — dental work is cheap in Thailand but good to start fresh
 - Get your prescriptions sorted and ask your GP for a full medication list
 - Get health insurance before you go — pre-existing conditions get tricky if you wait
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
+
     `
   },
   {
@@ -509,6 +544,8 @@ With $300,000+ in super at age 67, drawing down $500/week on top of your pension
 To receive the full pension rate overseas, you need 35 or more years of Australian residency between ages 16 and 67. If you spent time living overseas during your working life, your AWLR (Australian Working Life Residency) may be less than 35 years, which proportionally reduces your overseas rate.
 
 For example, if you have 28 years of Australian residency, your overseas pension would be roughly 28/35ths of the full rate — around $440/week instead of $550/week. Super becomes even more important in this scenario to bridge the gap.
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Setting up Wise takes 20 minutes and saves $600–900/year on your pension transfers.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Open a free Wise account →</span></div></div></a>
 
 ## The Simple Rule of Thumb
 
@@ -607,6 +644,9 @@ The 800,000 THB generally needs to have been sitting in your Thai account for at
 ## Receiving Your Australian Pension
 
 Once your account is open, a better approach than direct payment is to have Centrelink pay into your Australian account, then transfer to Thailand using [Wise](https://wise.prf.hn/click/camref:1011l5FiPJ) every fortnight. This saves you $600–$900 AUD per year in exchange rate margins.
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Setting up Wise takes 20 minutes and saves $600–900/year on your pension transfers.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Open a free Wise account →</span></div></div></a>
+
     `
   },
   {
@@ -1061,6 +1101,8 @@ This affects retirees who transfer money from Australia to Thailand — includin
 
 In practice, enforcement is still developing and the rules contain exemptions, treaty protections, and grey areas. A draft amendment proposed in mid-2025 may reintroduce a grace period for income remitted within the year earned or the following year — but it is not yet enacted. It's no longer accurate to say Thailand is definitely tax-free for foreign income.
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Your bank takes 2–4% on every pension transfer. That's roughly $900/year gone in hidden fees.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Compare Wise rates →</span></div></div></a>
+
 ### Getting Thai Tax Advice
 
 A Thai accountant familiar with expat tax issues can file a Thai return for ฿3,000–฿8,000 ($135–$365 AUD). Look for recommendations in expat Facebook groups for your chosen city.
@@ -1071,6 +1113,8 @@ A Thai accountant familiar with expat tax issues can file a Thai return for ฿3
 2. Understand your super situation if you have a significant balance
 3. Keep records of when you transferred money to Thailand and where it came from
 4. Don't ignore Thai tax — the 2024 rule change means this needs attention
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Setting up Wise takes 20 minutes and saves $600–900/year on your pension transfers.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Open a free Wise account →</span></div></div></a>
 
 ## The Bottom Line
 
@@ -1098,6 +1142,9 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 - Set up online banking access and confirm it works from overseas
 - Consider opening a Wise multi-currency account before you go
 - Speak with a financial adviser about your super drawdown strategy
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Medicare stops the moment you leave Australia. Health insurance in Thailand isn't optional — it's a visa requirement.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See what SafetyWing covers →</span></div></div></a>
+
 - Speak with an accountant about your Australian tax residency status after moving
 
 ### Legal and Documents
@@ -1148,6 +1195,8 @@ For most Australian retirees in Thailand on the pension with modest super, the t
 - Get a Thai driving licence if you plan to drive
 - Set up home internet (AIS, True or 3BB)
 - Establish your regular routines
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
 
 ## The Bottom Line
 
@@ -1203,6 +1252,8 @@ To receive the full overseas rate, you need 35 or more years of Australian resid
 For example, if you have 28 years of Australian residency, your overseas rate would be approximately 28/35ths of the full rate — around $432/week rather than $550/week. Superannuation becomes important as a top-up in this scenario.
 
 Contact **Centrelink International Services on 131 673** to get your specific entitlement confirmed before you make plans.
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Medicare stops the moment you leave Australia. Health insurance in Thailand isn't optional — it's a visa requirement.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">See what SafetyWing covers →</span></div></div></a>
 
 ### Does the Pension Qualify for the Thai Visa Income Method?
 
@@ -1263,6 +1314,8 @@ The cheapest way to receive your pension in Thailand is:
 2. Transfer to Thailand every fortnight using [Wise](https://wise.prf.hn/click/camref:1011l5FiPJ)
 
 Wise charges approximately 0.4–0.6% with near mid-market exchange rates. Compared to your Australian bank's 2–4% margin, this saves roughly **$600–$900 AUD per year** on a full pension — over a 10-year retirement, that's $6,000–$9,000 staying in your pocket.
+
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Your bank takes 2–4% on every pension transfer. That's roughly $900/year gone in hidden fees.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Compare Wise rates →</span></div></div></a>
 
 ### How Much Super Do You Need?
 
@@ -1396,6 +1449,8 @@ The keys to making it work:
 Use our [pension calculator](/) to see exactly how your numbers stack up in each Thai city, and browse our [city guides](/cities) for detailed information on where to live.
 
 For specific pension and visa questions, see our [FAQ page](/faq) — or contact Centrelink International Services on 131 673 for your personal entitlement.
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
 
 *Disclaimer: This guide is general information only and does not constitute financial, legal or tax advice. Pension rates, visa requirements and tax rules change regularly. Always verify current information with the relevant authorities before making decisions.*
     `
@@ -2732,6 +2787,8 @@ Where you live makes an enormous difference:
 - **Hua Hin** — achievable but tighter
 - **Bangkok or Phuket** — more comfortable with a super top-up
 
+<a href="https://wise.prf.hn/click/camref:1011l5FiPJ" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/wise-logo.png" alt="Wise" style="height:20px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">Your bank takes 2–4% on every pension transfer. That's roughly $900/year gone in hidden fees.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Compare Wise rates →</span></div></div></a>
+
 Our [cost of living guide](/blog/cost-of-living-thailand-australians-2026) breaks down real 2026 budgets, and the [pension calculator](/) lets you model your own numbers across seven cities.
 
 ## Where Do Australians Actually Live in Thailand?
@@ -2771,6 +2828,8 @@ Yes. If you're over 50, have either ฿800,000 in savings or a pension/income ar
 The combination of the Age Pension and Thailand's low cost of living creates financial breathing room that simply doesn't exist in Australian cities. Add reasonable health, a willingness to adapt, and some effort to build a social life, and Thailand can be an extraordinary place to spend your retirement years.
 
 Start with our [complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia), model your budget with the [pension calculator](/), and check the [FAQ page](/faq) for common questions.
+
+<a href="https://safetywing.com/?referenceID=26504193" target="_blank" rel="noopener noreferrer sponsored" style="display:block;background:rgba(201,150,58,0.08);border:1px solid rgba(201,150,58,0.3);border-left:3px solid #C9963A;border-radius:4px;padding:18px 20px;text-decoration:none;margin:28px 0;"><div style="display:flex;align-items:flex-start;gap:14px;"><img src="/safetywing-logo.png" alt="SafetyWing" style="height:26px;width:auto;flex-shrink:0;margin-top:2px;" /><div><div style="font-size:14px;color:#A08060;line-height:1.6;margin-bottom:10px;">A quote takes two minutes. SafetyWing is monthly with no lock-in — cancel anytime.</div><span style="display:inline-block;background:#C9963A;color:#0F0A04;font-size:12px;font-weight:600;padding:8px 18px;border-radius:3px;">Get a SafetyWing quote →</span></div></div></a>
 
 *This guide is general information only and does not constitute financial, legal or migration advice. Visa rules, pension rates and residency requirements change regularly — always verify current details with the Thai Immigration Bureau and Centrelink International Services (131 673) before making decisions.*
     `
