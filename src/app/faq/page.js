@@ -162,6 +162,28 @@ const faqs = [
   },
 ];
 
+// Generate FAQPage JSON-LD schema from the faqs data
+function generateFAQSchema() {
+  const allQuestions = faqs.flatMap(section =>
+    section.questions.map(item => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a
+          .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')  // strip markdown links, keep text
+          .replace(/\s+/g, ' ')                       // normalise whitespace
+          .trim(),
+      },
+    }))
+  );
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: allQuestions,
+  };
+}
 
 const card = { background: 'rgba(20,13,4,0.82)', border: '1px solid rgba(201,150,58,0.25)', borderRadius: '4px', backdropFilter: 'blur(6px)' };
 
@@ -181,12 +203,20 @@ const DiamondDivider = () => (
 );
 
 export default function FAQPage() {
+  const faqSchema = generateFAQSchema();
+
   return (
     <main style={{
       position: 'relative', minHeight: '100vh',
       backgroundImage: 'url(/temple.jpg)',
       backgroundSize: '120%', backgroundPosition: 'center 20%', backgroundAttachment: 'scroll',
     }}>
+      {/* FAQPage JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)', zIndex: 0 }} />
 
       <div style={{ position: 'relative', zIndex: 1 }}>

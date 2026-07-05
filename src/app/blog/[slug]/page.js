@@ -39,6 +39,40 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// Generate Article JSON-LD structured data
+function generateArticleSchema(post) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.metaDescription,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Person',
+      name: 'Phil Bates',
+      url: 'https://www.retirethailand.net/about',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Retire Thailand',
+      url: 'https://www.retirethailand.net',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.retirethailand.net/icon.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.retirethailand.net/blog/${post.slug}`,
+    },
+    image: 'https://www.retirethailand.net/temple.jpg',
+    articleSection: post.category,
+    wordCount: post.content.split(/\s+/).length,
+    inLanguage: 'en-AU',
+  };
+}
+
 function renderContent(content) {
   const lines = content.trim().split('\n');
   const elements = [];
@@ -125,6 +159,7 @@ export default function BlogPostPage({ params }) {
   const post = getBlogPost(params.slug);
   if (!post) notFound();
   const otherPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3);
+  const articleSchema = generateArticleSchema(post);
 
   return (
     <main style={{
@@ -132,6 +167,12 @@ export default function BlogPostPage({ params }) {
       backgroundImage: 'url(/temple.jpg)',
       backgroundSize: '120%', backgroundPosition: 'center 20%', backgroundAttachment: 'scroll',
     }}>
+      {/* Article JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(10,6,2,0.58) 0%, rgba(15,10,4,0.52) 50%, rgba(10,6,2,0.58) 100%)', zIndex: 0 }} />
 
       <div style={{ position: 'relative', zIndex: 1 }}>
