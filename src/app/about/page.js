@@ -2,8 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About | Retire Thailand',
-  description: 'About Retire Thailand — built by an Australian who spent 8 years living in Hua Hin.',
+  description: 'About Retire Thailand — built by an Australian who spent 20 years across Asia including 8 years living in Hua Hin. Real experience, honest advice.',
   alternates: { canonical: 'https://www.retirethailand.net/about' },
+  openGraph: {
+  title: 'About | Retire Thailand',
+  url: 'https://www.retirethailand.net/about',
+},
 };
 
 export default function About() {

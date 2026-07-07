@@ -2,8 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Affiliate Disclosure | Retire Thailand',
-  description: 'Retire Thailand affiliate disclosure — how we earn from recommendations.',
+  description: 'Retire Thailand affiliate disclosure — some links earn us a small commission at no extra cost to you. Here is exactly how we earn from recommendations.',
   alternates: { canonical: 'https://www.retirethailand.net/affiliate-disclosure' },
+  openGraph: {
+  title: 'Affiliate Disclosure | Retire Thailand',
+  url: 'https://www.retirethailand.net/affiliate-disclosure',
+},
 };
 
 export default function AffiliateDisclosure() {

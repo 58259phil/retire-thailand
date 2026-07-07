@@ -2,8 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Contact | Retire Thailand',
-  description: 'Get in touch with Retire Thailand — questions about retiring in Thailand on the Australian pension.',
+  description: 'Get in touch with Retire Thailand — questions about retiring in Thailand, the pension calculator, or partnership enquiries. We reply to every email.',
   alternates: { canonical: 'https://www.retirethailand.net/contact' },
+  openGraph: {
+  title: 'Contact | Retire Thailand',
+  url: 'https://www.retirethailand.net/contact',
+},
 };
 
 export default function Contact() {

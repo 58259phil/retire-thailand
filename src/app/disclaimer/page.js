@@ -2,8 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Disclaimer | Retire Thailand',
-  description: 'Retire Thailand disclaimer — this site does not provide financial or legal advice.',
+  description: 'Retire Thailand disclaimer — this site provides general information only and does not constitute financial, legal or migration advice for retirees.',
   alternates: { canonical: 'https://www.retirethailand.net/disclaimer' },
+  openGraph: {
+  title: 'Disclaimer | Retire Thailand',
+  url: 'https://www.retirethailand.net/disclaimer',
+},
 };
 
 export default function Disclaimer() {

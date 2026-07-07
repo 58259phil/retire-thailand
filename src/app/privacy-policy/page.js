@@ -2,8 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Privacy Policy | Retire Thailand',
-  description: 'Retire Thailand privacy policy — how we collect and use your data.',
+  description: 'Retire Thailand privacy policy — how we collect, use and protect your personal data. No data is sold to third parties. Updated 2026.',
   alternates: { canonical: 'https://www.retirethailand.net/privacy-policy' },
+  openGraph: {
+    title: 'Privacy Policy | Retire Thailand',
+    url: 'https://www.retirethailand.net/privacy-policy',
+  },
 };
 
 export default function PrivacyPolicy() {
