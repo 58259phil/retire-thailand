@@ -6,7 +6,11 @@ export const metadata = {
   alternates: { canonical: 'https://www.retirethailand.net/affiliate-disclosure' },
   openGraph: {
   title: 'Affiliate Disclosure | Retire Thailand',
+  description: 'Retire Thailand affiliate disclosure — some links earn us a small commission at no extra cost to you. Here is exactly how we earn from recommendations.',
   url: 'https://www.retirethailand.net/affiliate-disclosure',
+  siteName: 'Retire Thailand',
+  type: 'website',
+  images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
 },
 };
 

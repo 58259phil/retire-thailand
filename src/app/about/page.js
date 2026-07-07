@@ -6,7 +6,11 @@ export const metadata = {
   alternates: { canonical: 'https://www.retirethailand.net/about' },
   openGraph: {
   title: 'About | Retire Thailand',
+  description: 'About Retire Thailand — built by an Australian who spent 20 years across Asia including 8 years living in Hua Hin. Real experience, honest advice.',
   url: 'https://www.retirethailand.net/about',
+  siteName: 'Retire Thailand',
+  type: 'website',
+  images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
 },
 };
 

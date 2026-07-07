@@ -6,7 +6,11 @@ export const metadata = {
   alternates: { canonical: 'https://www.retirethailand.net/contact' },
   openGraph: {
   title: 'Contact | Retire Thailand',
+  description: 'Get in touch with Retire Thailand — questions about retiring in Thailand, the pension calculator, or partnership enquiries. We reply to every email.',
   url: 'https://www.retirethailand.net/contact',
+  siteName: 'Retire Thailand',
+  type: 'website',
+  images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
 },
 };
 

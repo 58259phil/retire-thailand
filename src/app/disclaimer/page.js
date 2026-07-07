@@ -6,7 +6,11 @@ export const metadata = {
   alternates: { canonical: 'https://www.retirethailand.net/disclaimer' },
   openGraph: {
   title: 'Disclaimer | Retire Thailand',
+  description: 'Retire Thailand disclaimer — this site provides general information only and does not constitute financial, legal or migration advice for retirees.',
   url: 'https://www.retirethailand.net/disclaimer',
+  siteName: 'Retire Thailand',
+  type: 'website',
+  images: [{ url: '/temple.jpg', width: 1200, height: 630, alt: 'Retire Thailand' }],
 },
 };
 
