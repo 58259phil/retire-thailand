@@ -83,7 +83,9 @@ function renderContent(content) {
     if (line.startsWith('## ')) {
       elements.push(<h2 key={i} style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '22px', fontWeight: 700, color: '#F5EDD8', marginTop: '32px', marginBottom: '12px' }}>{line.replace('## ', '')}</h2>);
     } else if (line.startsWith('### ')) {
-      elements.push(<h3 key={i} style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', fontWeight: 700, color: '#C9963A', marginTop: '24px', marginBottom: '10px' }}>{line.replace('### ', '')}</h3>);
+    const h3Text = line.replace('### ', '');
+    const h3Html = h3Text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:#C9963A;text-decoration:underline;">$1</a>');
+    elements.push(<h3 key={i} style={{ fontFamily: 'var(--font-display), Georgia, serif', fontSize: '18px', fontWeight: 700, color: '#C9963A', marginTop: '24px', marginBottom: '10px' }} dangerouslySetInnerHTML={{ __html: h3Html }} />);
     } else if (line.startsWith('**') && line.endsWith('**') && !line.includes(' ')) {
       elements.push(<p key={i} style={{ fontWeight: 700, color: '#F5EDD8', marginTop: '16px', marginBottom: '4px' }}>{line.replace(/\*\*/g, '')}</p>);
     } else if (line.startsWith('| ')) {
