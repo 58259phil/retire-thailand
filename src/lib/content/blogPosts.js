@@ -2189,6 +2189,7 @@ The strategy for pension-budget living in Bangkok: find a good condo near a rail
 ## The Main Areas for Retirees
 
 ### Sukhumvit (Lower) — On Nut, Phra Khanong, Bearing
+[View on map](https://www.google.com/maps/@13.6980,100.6130,13z)
 Lower Sukhumvit (Soi 50+, accessed from On Nut and Phra Khanong BTS stations) is where many budget-conscious expats live in Bangkok. You're still on the BTS, still have access to everything, but paying significantly less than Thonglor or Ekkamai.
 
 **Who it suits:** Retirees who want Bangkok's convenience at a more manageable price. On Nut has good supermarkets, markets and restaurants.
@@ -2199,6 +2200,7 @@ Lower Sukhumvit (Soi 50+, accessed from On Nut and Phra Khanong BTS stations) is
 - 2 Bedroom Condo: ฿20,000–฿30,000/month
 
 ### Silom / Sathorn
+[View on map](https://www.google.com/maps/@13.7230,100.5290,14z)
 Bangkok's business district, but also home to a strong expat community. Lumphini Park is here — Bangkok's best green space. Good hospital access. Slightly cheaper than central Sukhumvit.
 
 **Who it suits:** Retirees who want a more urban, sophisticated neighbourhood. Good access to BTS and MRT.
@@ -2208,6 +2210,7 @@ Bangkok's business district, but also home to a strong expat community. Lumphini
 - 2 Bedroom Condo: ฿25,000–฿40,000/month
 
 ### Ari / Saphan Kwai (North Bangkok)
+[View on map](https://www.google.com/maps/@13.7930,100.5440,14z)
 Ari is one of Bangkok's most liveable neighbourhoods — tree-lined streets, local cafes, good food, less frenetic than central Sukhumvit. Popular with Thai professionals and a growing number of expats.
 
 **Who it suits:** Retirees who want a quieter, more authentic Bangkok neighbourhood without the tourist density of Sukhumvit.
@@ -2217,6 +2220,7 @@ Ari is one of Bangkok's most liveable neighbourhoods — tree-lined streets, loc
 - 2 Bedroom Condo: ฿20,000–฿32,000/month
 
 ### Thonglor / Ekkamai
+[View on map](https://www.google.com/maps/@13.7280,100.5850,14z)
 These are Bangkok's trendiest, most expensive neighbourhoods — the equivalent of Sydney's Surry Hills or Melbourne's Fitzroy. Beautiful area but not where pension-budget retirees should start.
 
 **Rental costs:**
@@ -2272,6 +2276,7 @@ A car or motorbike is essential in Phuket. The island has no rail system and pub
 ## The Main Areas of Phuket
 
 ### Patong — Avoid for Long-Term Living
+[View on map](https://www.google.com/maps/@7.8965,98.2950,14z)
 Patong is Phuket's main tourist beach and party district. It's what most people picture when they think Phuket. High rents, constant noise, tourist crowds — not where long-term retirees want to be.
 
 **Rental costs:** ฿20,000–฿40,000+ for a 1-bedroom.
@@ -2279,6 +2284,7 @@ Patong is Phuket's main tourist beach and party district. It's what most people 
 **Honest assessment:** Great for a holiday. Not a sensible choice for retirement living.
 
 ### Rawai / Naiharn (South Phuket)
+[View on map](https://www.google.com/maps/@7.7790,98.3160,13z)
 Rawai and Naiharn in the south of Phuket are where the serious long-term expat community lives. Areas like Rawai, Kathu, or Nai Harn offer much better deals than tourist hotspots like Patong. Rawai has a local fishing village feel, a good expat community, and access to several beautiful quieter beaches like Naiharn Beach and Yanui Beach.
 
 **Who it suits:** Retirees who want genuine Phuket lifestyle without the Patong chaos. Popular with Australian expats.
@@ -2289,6 +2295,7 @@ Rawai and Naiharn in the south of Phuket are where the serious long-term expat c
 - 2 Bed House with Pool: ฿30,000–฿45,000/month
 
 ### Kathu (Central Phuket)
+[View on map](https://www.google.com/maps/@7.9180,98.3330,14z)
 Kathu is an inland area in the centre of the island — less glamorous than coastal areas but significantly cheaper. Good access to Phuket Town and the west coast beaches. Several golf courses nearby.
 
 **Who it suits:** Golfers. Budget-conscious retirees who don't need to be right on the beach.
@@ -2299,6 +2306,7 @@ Kathu is an inland area in the centre of the island — less glamorous than coas
 - Townhouse: ฿12,000–฿18,000/month
 
 ### Phuket Town
+[View on map](https://www.google.com/maps/@7.8840,98.3880,14z)
 The island's capital is often overlooked by expats but is actually a wonderful place to live — full of Sino-Portuguese architecture, good local food markets, and a growing cafe and restaurant scene. Significantly cheaper than beach areas.
 
 **Who it suits:** Retirees who appreciate culture, local food and lower costs over beach proximity.
@@ -2308,6 +2316,7 @@ The island's capital is often overlooked by expats but is actually a wonderful p
 - 2 Bedroom Condo: ฿14,000–฿22,000/month
 
 ### Cherng Talay / Laguna (North Phuket)
+[View on map](https://www.google.com/maps/@7.9930,98.2980,13z)
 The north of Phuket around Bangtao Beach and the Laguna resort complex is where many upmarket expats live. Beautiful area, quieter than Patong, but expensive.
 
 **Rental costs:**
@@ -2448,6 +2457,7 @@ The expat community is small but established. Those who choose Chiang Rai tend t
 ## The Main Areas of Chiang Rai
 
 ### City Centre
+[View on map](https://www.google.com/maps/@19.9105,99.8400,14z)
 Chiang Rai's city centre is compact and walkable — much more manageable than Chiang Mai or Bangkok. The Night Bazaar, Clock Tower, and main markets are all central. Most of the affordable condos and apartments are here.
 
 **Who it suits:** Those who want everything within walking distance. The most practical base for those without a car.
@@ -2458,6 +2468,7 @@ Chiang Rai's city centre is compact and walkable — much more manageable than C
 - 2 Bedroom Condo: ฿10,000–฿15,000/month
 
 ### Robwieng / Mae Fah Luang University Area
+[View on map](https://www.google.com/maps/@20.0450,99.8940,14z)
 The area around Mae Fah Luang University (one of Thailand's best) is modern and well-maintained with good facilities. Slightly outside the city centre.
 
 **Who it suits:** Those who like being near a university town atmosphere with cafes and bookshops.
@@ -2467,6 +2478,7 @@ The area around Mae Fah Luang University (one of Thailand's best) is modern and 
 - Townhouse: ฿7,000–฿10,000/month
 
 ### Outer Chiang Rai / Rural Areas
+[View on map](https://www.google.com/maps/@19.9100,99.8300,11z)
 The real appeal of Chiang Rai for many retirees is the countryside. Houses with large gardens and mountain views can be found in the surrounding rural areas at very low prices. But you'll need a car and some Thai language skills for daily life.
 
 **Rental costs:**
