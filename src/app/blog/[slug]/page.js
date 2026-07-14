@@ -123,7 +123,7 @@ function renderContent(content) {
           {items.map((item, j) => (
             <li key={j} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#7A6040', marginBottom: '6px', fontSize: '15px', lineHeight: 1.7 }}>
               <span style={{ color: '#C9963A', flexShrink: 0, marginTop: '2px' }}>•</span>
-              <span dangerouslySetInnerHTML={{ __html: item.replace(/\*\*(.*?)\*\*/g, '<strong style="color:#F5EDD8">$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#C9963A;text-decoration:underline;">$1</a>') }} />
+              <span dangerouslySetInnerHTML={{ __html: item.replace(/\*\*(.*?)\*\*/g, '<strong style="color:#F5EDD8">$1</strong>').replace(/\[([^\]]+)\]\((http[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:#C9963A;text-decoration:underline;">$1</a>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#C9963A;text-decoration:underline;">$1</a>') }} />
             </li>
           ))}
         </ul>
