@@ -131,8 +131,9 @@ function renderContent(content) {
       continue;
     } else {
       const html = line
-        .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#F5EDD8">$1</strong>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#C9963A;text-decoration:underline;font-weight:600;">$1</a>');
+      .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#F5EDD8">$1</strong>')
+      .replace(/\[([^\]]+)\]\((http[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:#C9963A;text-decoration:underline;font-weight:600;">$1</a>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#C9963A;text-decoration:underline;font-weight:600;">$1</a>');
       elements.push(<p key={i} style={{ fontSize: '15px', lineHeight: 1.8, color: '#7A6040', marginBottom: '16px' }} dangerouslySetInnerHTML={{ __html: html }} />);
     }
     i++;
