@@ -1971,6 +1971,7 @@ There's one important thing to know before choosing where to live: Chiang Mai ha
 ## The Main Areas of Chiang Mai
 
 ### Nimmanhaemin (Nimman)
+[View on map](https://www.google.com/maps/@18.7986,98.9673,15z)
 Nimman is Chiang Mai's trendiest neighbourhood — a dense grid of cafes, restaurants, coworking spaces, and boutique shops centred around Nimman Road and the MAYA shopping mall. It's the most popular area for digital nomads and younger expats.
 
 **Who it suits:** People who want to walk to everything, enjoy café culture, and don't mind a busier urban environment.
@@ -1983,6 +1984,7 @@ Nimman is Chiang Mai's trendiest neighbourhood — a dense grid of cafes, restau
 **Watch out for:** Nimman is the most expensive area in Chiang Mai. Demand is highest here, so prices are firmer and there's less room for negotiation. Traffic around MAYA mall can be congested.
 
 ### The Old City (Moat Area)
+[View on map](https://www.google.com/maps/@18.7877,98.9867,15z)
 The historic heart of Chiang Mai, surrounded by a square moat and ancient city walls. Filled with temples, guesthouses and a mix of backpackers and long-term expats. The Old City has a more cultural feel than Nimman and rents are slightly cheaper.
 
 **Who it suits:** People who want to be immersed in Thai culture and history. Those who prefer a quieter, more atmospheric neighbourhood over a trendy one.
@@ -1995,6 +1997,7 @@ The historic heart of Chiang Mai, surrounded by a square moat and ancient city w
 **Watch out for:** Tourist traffic, especially on weekends. Limited parking if you have a car.
 
 ### Santitham / Chang Phueak (North of Old City)
+[View on map](https://www.google.com/maps/@18.8050,98.9820,15z)
 This is the area where savvy long-term expats move once they know the city. Santitham and Chang Phueak (meaning White Elephant) are residential neighbourhoods just north of the Old City — more Thai, less touristy, and noticeably cheaper.
 
 **Insider tip:** For better value in Chiang Mai, explore areas like Santitham and Chang Phueak rather than staying in Nimman.
@@ -2007,6 +2010,7 @@ This is the area where savvy long-term expats move once they know the city. Sant
 - Townhouse: ฿8,000–฿13,000/month
 
 ### Hang Dong / San Phak Wan (South of City)
+[View on map](https://www.google.com/maps/@18.7200,98.9450,13z)
 The area south of Chiang Mai along the Hang Dong Road corridor is where many longer-term expat families and retirees end up. Houses with private pools are available from ฿15,000–฿30,000/month, with luxury villas up to ฿100,000. It's also home to several international schools and Kad Farang shopping centre with Western food options.
 
 **Who it suits:** People who want a house rather than a condo. Couples wanting more space. Anyone who prefers a quieter, greener environment. Requires a car or motorbike.
@@ -2017,6 +2021,7 @@ The area south of Chiang Mai along the Hang Dong Road corridor is where many lon
 - 2 Bed House with Pool: ฿18,000–฿30,000/month
 
 ### Mae Rim (North of City)
+[View on map](https://www.google.com/maps/@18.9160,98.9440,13z)
 Mae Rim is a rural area north of Chiang Mai with stunning mountain scenery, elephant sanctuaries, and a slower pace of life. Very few expats live here full-time — it's more of a weekend destination — but some do choose it for the peace and space.
 
 **Who it suits:** People who want maximum peace and nature. Must be comfortable driving 20-30 minutes to access Chiang Mai's services.
@@ -2070,6 +2075,7 @@ Pattaya has some genuine advantages. Read our [full Pattaya city guide](/cities/
 ## The Main Areas of Pattaya
 
 ### Central Pattaya / Walking Street
+[View on map](https://www.google.com/maps/@12.9280,100.8760,15z)
 The heart of Pattaya's tourist and nightlife district. Beach Road and Walking Street are what most people picture when they think of Pattaya.
 
 **Who it suits:** People who want to be in the middle of the action and don't mind noise and crowds. Short-term visitors, not long-term retirees.
@@ -2081,6 +2087,7 @@ The heart of Pattaya's tourist and nightlife district. Beach Road and Walking St
 **Honest assessment:** Most Australian retirees don't end up here for the long term. Too noisy, too touristy, too much traffic.
 
 ### Jomtien Beach
+[View on map](https://www.google.com/maps/@12.8890,100.8740,14z)
 Jomtien is about 3-4km south of Central Pattaya and is where a large proportion of long-term expat retirees choose to live. It has a long, quieter beach, a good night market, plenty of restaurants and bars pitched at retirees rather than tourists, and much less of the chaos of Central Pattaya.
 
 Jomtien and nearby areas offer a quieter lifestyle while still being close to the city's amenities. Condos typically range from ฿10,000 to ฿20,000 per month, with good value available slightly away from the beachfront.
@@ -2094,6 +2101,7 @@ Jomtien and nearby areas offer a quieter lifestyle while still being close to th
 - Townhouse: ฿13,000–฿18,000/month
 
 ### Pratumnak Hill
+[View on map](https://www.google.com/maps/@12.9110,100.8600,15z)
 Pratumnak (also called Pratumnak Hill or Cozy Beach area) is a residential hill between Central Pattaya and Jomtien, known for being quieter and more upmarket. It has several nice small beaches, fewer bars and clubs, and a more relaxed vibe.
 
 **Who it suits:** Retirees who want a quieter, more residential area. Good mix of condos and houses. Popular with European expats, good Australian contingent.
@@ -2104,6 +2112,7 @@ Pratumnak (also called Pratumnak Hill or Cozy Beach area) is a residential hill 
 - 2 Bed House with Pool: ฿25,000–฿38,000/month
 
 ### Na Jomtien / Sattahip (South Pattaya)
+[View on map](https://www.google.com/maps/@12.8200,100.9050,12z)
 Further south of Jomtien, Na Jomtien is a quieter, more rural coastal strip with some beautiful beaches and a growing number of expats. Sattahip beyond it is even quieter — essentially a small fishing town with a naval base.
 
 Real estate prices in Pattaya vary widely. Look to Naklua or Pratumnak for a more relaxed vibe. Na Jomtien offers similar relaxation at lower prices.
@@ -2115,6 +2124,7 @@ Real estate prices in Pattaya vary widely. Look to Naklua or Pratumnak for a mor
 - 2 Bed House with Pool: ฿18,000–฿28,000/month
 
 ### Wongamat Beach (North Pattaya)
+[View on map](https://www.google.com/maps/@12.9670,100.8880,15z)
 Wongamat is the upmarket northern end of Pattaya — quieter than Central, with a cleaner beach and more luxury developments.
 
 **Who it suits:** Those wanting upmarket condo living in a quieter setting. More expensive than other areas.
@@ -2354,6 +2364,7 @@ Khon Kaen, a growing northeastern university city, delivers some of the lowest r
 The expat community is smaller than Chiang Mai or Pattaya — but those who are there tend to be committed long-termers rather than revolving-door nomads.
 
 ## The Lake Area — Where Most Expats Live
+[View on map](https://www.google.com/maps/@16.4180,102.8390,15z)
 
 Khon Kaen is organised around Bueng Kaen Nakhon — a large lake in the southern part of the city. The lake area is where the majority of expats and middle-class Thais choose to live. It's easy to see why: the lakeside is beautiful, there's a park running along the waterfront, and the area is within 10 minutes of the city centre, hospitals and shopping.
 
@@ -2369,6 +2380,7 @@ The area near the lake in the south of the city is especially lovely — less th
 - 2 Bed House with Pool: ฿16,000–฿22,000/month
 
 ## City Centre / University Area
+[View on map](https://www.google.com/maps/@16.4420,102.8290,13z)
 The central area around Khon Kaen University and the main commercial streets is slightly more convenient for shopping and dining but has less of the lake's charm.
 
 **Rental costs:**
@@ -2376,6 +2388,7 @@ The central area around Khon Kaen University and the main commercial streets is 
 - 1 Bedroom Condo: ฿7,500–฿11,000/month
 
 ## Outer Residential Areas
+[View on map](https://www.google.com/maps/@16.4320,102.8350,12z)
 Khon Kaen has extensive Thai housing estates (moo baan) in the outer areas — quieter, cheaper, and more authentically local.
 
 **Rental costs:**
