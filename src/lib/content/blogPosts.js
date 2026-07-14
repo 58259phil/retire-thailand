@@ -1542,7 +1542,7 @@ The heart of the city, within walking distance of the famous night market, the b
 **Watch out for:** Weekend traffic from Bangkok visitors can be heavy. The beach near the town centre gets crowded on public holidays.
 
 ### North Hua Hin (Soi 70 to the Airport)
-[View on map](https://www.google.com/maps/@12.5950,99.9480,14z)
+[View on map](https://www.google.com/maps/@12.6023503,99.9564114,14z)
 
 Head north from Soi 70 and Hua Hin becomes noticeably quieter and more residential. The northern stretch of Hua Hin Beach here is fronted by old wooden mansions on big blocks, and you're near the Queen's Park and the naval base. Further up towards the airport and Bo Fai, it's a mix of local Thai neighbourhoods, newer housing developments and everyday amenities without the tourist polish.
 This is the side of town people choose when they want to be near Hua Hin without being in it. You're 10–20 minutes from the night market and BluPort, but your daily life happens at local markets and Thai restaurants at local prices. The area keeps improving as the town grows northward towards Cha-Am.
