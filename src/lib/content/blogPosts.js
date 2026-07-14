@@ -1541,6 +1541,20 @@ The heart of the city, within walking distance of the famous night market, the b
 
 **Watch out for:** Weekend traffic from Bangkok visitors can be heavy. The beach near the town centre gets crowded on public holidays.
 
+### North Hua Hin (Soi 70 to the Airport)
+[View on map](https://www.google.com/maps/@12.5950,99.9480,14z)
+
+Head north from Soi 70 and Hua Hin becomes noticeably quieter and more residential. The northern stretch of Hua Hin Beach here is fronted by old wooden mansions on big blocks, and you're near the Queen's Park and the naval base. Further up towards the airport and Bo Fai, it's a mix of local Thai neighbourhoods, newer housing developments and everyday amenities without the tourist polish.
+This is the side of town people choose when they want to be near Hua Hin without being in it. You're 10–20 minutes from the night market and BluPort, but your daily life happens at local markets and Thai restaurants at local prices. The area keeps improving as the town grows northward towards Cha-Am.
+
+**Who it suits:** Retirees who want quieter surroundings and better value while staying close to town. People happy to live more like a local, with the expat scene a short drive away rather than on their doorstep.
+**Rental costs:**
+- 1 Bedroom Condo: ฿8,000–฿14,000/month
+- 2 Bedroom Condo: ฿13,000–฿20,000/month
+- 2 Bed House: ฿12,000–฿22,000/month
+
+**Watch out for:** You'll want a car or motorbike — this isn't a walkable area for daily errands. The beach along the northern stretch is quieter but has fewer facilities than the main beach. Check any property near the railway line for train noise, and anything near the airport flight path (though flights are currently limited).
+
 ### South Hua Hin (Khao Takiab area)
 [View on map] (https://www.google.com/maps/@12.526408,99.9673555,15z)
 About 5km south of the town centre, this area is quieter and has some beautiful stretches of beach. Khao Takiab (Chopstick Mountain) is a landmark with a large Buddha statue and a colony of monkeys. The beach here is less crowded than town.
