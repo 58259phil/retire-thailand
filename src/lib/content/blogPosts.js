@@ -1530,7 +1530,7 @@ I lived here for eight years from 2006 to 2014. What I found is that Hua Hin isn
 ## The Main Areas of Hua Hin
 
 ### Hua Hin Town Centre
-[View on map] (https://www.google.com/maps/@12.5709399,99.9605182,17z)
+[View on map](https://www.google.com/maps/@12.5709399,99.9605182,17z)
 The heart of the city, within walking distance of the famous night market, the beach, restaurants, bars and most day-to-day services. This is where a lot of new expats start because everything is close.
 
 **Who it suits:** People who want to walk everywhere and don't want a car or motorbike.
@@ -1556,7 +1556,7 @@ This is the side of town people choose when they want to be near Hua Hin without
 **Watch out for:** You'll want a car or motorbike — this isn't a walkable area for daily errands. The beach along the northern stretch is quieter but has fewer facilities than the main beach. Check any property near the railway line for train noise, and anything near the airport flight path (though flights are currently limited).
 
 ### South Hua Hin (Khao Takiab area)
-[View on map] (https://www.google.com/maps/@12.526408,99.9673555,15z)
+[View on map](https://www.google.com/maps/@12.526408,99.9673555,15z)
 About 5km south of the town centre, this area is quieter and has some beautiful stretches of beach. Khao Takiab (Chopstick Mountain) is a landmark with a large Buddha statue and a colony of monkeys. The beach here is less crowded than town.
 
 **Who it suits:** People who prefer a quieter beach lifestyle and don't mind being a short drive from shops and restaurants.
@@ -1566,7 +1566,7 @@ About 5km south of the town centre, this area is quieter and has some beautiful 
 - 2 Bed House with Pool: ฿25,000–฿35,000/month
 
 ### Hin Lek Fai / Golf Course Area
-[View on map] (https://www.google.com/maps/@12.5906653,99.8937531,14z)
+[View on map](https://www.google.com/maps/@12.5906653,99.8937531,14z)
 The hills west of Hua Hin town are home to several golf courses and many of the larger houses and villas. This is where Australians who want a proper garden, a pool, and more space tend to end up.
 
 **Who it suits:** Couples who want a house rather than a condo. Golfers. Anyone wanting more space and privacy.
@@ -1578,7 +1578,7 @@ The hills west of Hua Hin town are home to several golf courses and many of the 
 This area requires a car or motorbike — you're not walking to the shops from here. [Easy Car Rental](http://www.easycarrentalhuahin.com) is a reliable local option that delivers to your door with full insurance included.
 
 ### Pranburi (South of Hua Hin)
-[View on map] (https://www.google.com/maps/@12.3872935,99.9445054,14z)
+[View on map](https://www.google.com/maps/@12.3872935,99.9445054,14z)
 About 25km south of Hua Hin, Pranburi is a quieter, more rural area with some beautiful beaches and a growing number of expats. Rents are noticeably cheaper than Hua Hin proper.
 
 **Who it suits:** People who want peace, space and lower costs. Those happy with a 30-minute drive to Hua Hin's services.
@@ -1587,7 +1587,7 @@ About 25km south of Hua Hin, Pranburi is a quieter, more rural area with some be
 - 2 Bed House with Pool: ฿18,000–฿28,000/month
 
 ### Khao Kalok / Sam Roi Yot
-[View on map] (https://www.google.com/maps/@12.2667,99.9500,13z)
+[View on map](https://www.google.com/maps/@12.2667,99.9500,13z)
 Further south again — a very quiet, almost rural stretch of coast with stunning beach scenery. Very limited services nearby. Not for everyone, but those who choose it tend to love it.
 
 **Who it suits:** People who truly want to get away from it all. Expect to drive for shopping and dining.
