@@ -316,5 +316,9 @@ export default function sitemap() {
       url: 'https://www.retirethailand.net/blog/renting-a-house-in-thailand-guide',
       lastModified: new Date(),
     },
+    {
+      url: 'https://www.retirethailand.net/blog/shipping-furniture-thailand-retirement-visa-duty',
+      lastModified: new Date(),
+    },
   ];
 }
