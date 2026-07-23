@@ -2957,8 +2957,8 @@ Model your house-rental budget with our [pension calculator](/), and read our [c
 
 {
     slug: "shipping-furniture-thailand-retirement-visa-duty",
-    title: "Shipping Furniture to Thailand on a Retirement Visa — The Duty Trap",
-    metaDescription: "Can Australian retirees ship household goods duty-free to Thailand? The retirement visa exclusion most guides miss, what gets taxed and whether shipping is worth it.",
+    title: "Shipping Furniture to Thailand: The Duty Trap | Retire Thailand",
+    metaDescription: "Australian retirees on the retirement visa don't get duty-free shipping. What gets taxed, what slips through, and whether shipping is worth it at all.",
     date: "2026-07-15",
     readTime: "10 min read",
     category: "Planning",
