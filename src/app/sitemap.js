@@ -320,5 +320,9 @@ export default function sitemap() {
       url: 'https://www.retirethailand.net/blog/shipping-furniture-thailand-retirement-visa-duty',
       lastModified: new Date(),
     },
+    {
+      url: 'https://www.retirethailand.net/blog/hua-hin-vs-phuket-retirement',
+      lastModified: new Date(),
+    },
   ];
 }
