@@ -1176,13 +1176,13 @@ Use our [pension calculator](/) to confirm your financial numbers are solid befo
     content: `
 ## Why Australians Are Choosing Thailand
 
-Thailand is the most popular retirement destination in Southeast Asia for Australians. This is [the complete guide to retiring in Thailand from Australia](/blog/retiring-in-thailand-from-australia) — the most comprehensive starting point for Australians planning the move. — and it's not hard to understand why.
+Thailand is the most popular retirement destination in Southeast Asia for Australians — and it's not hard to understand why.
 
 The cost of living is roughly 40–60% of what you'd spend in Brisbane or Melbourne. The weather is warm year-round. The food is extraordinary. Healthcare at private hospitals is genuinely good and far cheaper than Australia. And there's already a large, welcoming community of Australians who've made the move.
 
 At a typical exchange rate of around ฿22–23 per Australian dollar, the full Age Pension of approximately $1,200/fortnight converts to around **฿52,000–฿58,000 per month** — enough for a comfortable lifestyle in most Thai cities. Use our [pension calculator](/) for live figures.
 
-This guide covers everything you need to know to make the move from Australia to Thailand — accurately and practically.
+This guide covers everything you need to know to make the move from Australia to Thailand — accurately and practically. If you're still at the weighing-it-up stage and want the bigger picture first, start with [Can Australians live in Thailand?](/blog/can-australians-live-in-thailand), then come back here for the step-by-step.
 
 ## Step 1 — Sort Out Your Australian Age Pension
 
@@ -1273,6 +1273,10 @@ The cheapest way to receive your pension in Thailand is:
 
 Wise charges approximately 0.4–0.6% with near mid-market exchange rates. Compared to your Australian bank's 2–4% margin, this saves roughly **$600–$900 AUD per year** on a full pension — over a 10-year retirement, that's $6,000–$9,000 staying in your pocket.
 
+### What About Your Furniture?
+
+One more money decision before you leave: whether to ship your household goods. For most retirees the answer is no — the duty-free exemption most moving guides mention doesn't reliably apply to retirement visa holders, and duty is charged on the freight cost as well as the goods. Read [the shipping duty trap](/blog/shipping-furniture-thailand-retirement-visa-duty) before booking a container.
+
 ### How Much Super Do You Need?
 
 The pension alone covers a comfortable lifestyle in cheaper cities like Khon Kaen, and works in Chiang Mai and Pattaya with careful budgeting. For more expensive cities like Hua Hin or Bangkok, a super top-up makes a significant difference.
@@ -1312,11 +1316,15 @@ World-class hospitals, food, culture and infrastructure. Most expensive Thai cit
 Stunning beaches, direct flights from Australia. Most expensive beach option. Comfortable lifestyle costs around **฿65,000/month ($2,955 AUD)**. Needs pension plus super.
 [Read the full Phuket guide →](/cities/phuket)
 
+Weighing up the two beach options? Read [Hua Hin vs Phuket for retirement](/blog/hua-hin-vs-phuket-retirement) for the full head-to-head.
+
 ### Chiang Rai — Best Budget Option
 Quiet northern city, stunning scenery, cheapest major city in Thailand. Comfortable lifestyle costs around **฿32,000/month ($1,455 AUD)**. Exceptional pension surplus.
 [Read the full Chiang Rai guide →](/cities/chiang-rai)
 
 Use our [pension calculator](/) to compare your specific numbers across all cities.
+
+Whichever city you choose, don't sign a 12-month lease sight unseen. A serviced apartment for the first month or two lets you test neighbourhoods before committing — see [serviced apartments vs renting long-term](/blog/serviced-apartments-vs-renting-long-term-thailand) for how most retirees sequence it.
 
 ## Step 5 — Sort Your Health Insurance
 
@@ -1326,7 +1334,7 @@ For the O-A visa, your policy must have minimum coverage of **฿3,000,000 per y
 
 **Critical tip:** Get insured before you leave Australia — before any new health conditions are diagnosed. Pre-existing conditions are typically excluded from new policies. Locking in cover while healthy gives you the best protection.
 
-[SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is one option popular with expats. Compare several plans and make sure your chosen policy explicitly meets the Thai government's current requirements.
+[SafetyWing](https://safetywing.com/?referenceID=26504193&utm_source=26504193&utm_medium=Ambassador) is one option popular with expats. Compare several plans and make sure your chosen policy explicitly meets the Thai government's current requirements. For costs by age bracket, the visa requirements in detail, and options both under and over 60, read our [full health insurance guide](/blog/health-insurance-thailand-retirees).
 
 ## Step 6 — Understand the Tax Situation
 
