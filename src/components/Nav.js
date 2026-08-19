@@ -21,6 +21,19 @@ export default function Nav() {
       borderBottom: '1px solid rgba(201,150,58,0.15)',
       backdropFilter: 'blur(12px)',
     }}>
+      <style>{`
+        .nav-desktop-links { display: flex; align-items: center; gap: 32px; }
+        .nav-mobile-row { display: none; }
+        @media (max-width: 767px) {
+          .nav-desktop-links { display: none; }
+          .nav-mobile-row {
+            display: flex; align-items: center; justify-content: space-around;
+            padding: 10px 12px 10px;
+            border-top: 1px solid rgba(201,150,58,0.08);
+          }
+        }
+      `}</style>
+
       <div style={{
         maxWidth: '1200px', margin: '0 auto',
         padding: '0 20px', height: '64px',
@@ -38,7 +51,7 @@ export default function Nav() {
         </Link>
 
         {/* Desktop links */}
-        <div className="hidden md:flex" style={{ gap: '32px', alignItems: 'center' }}>
+        <div className="nav-desktop-links">
           <Link href="/#calculator" style={linkStyle}>Calculator</Link>
           <Link href="/cities" style={linkStyle}>City Guides</Link>
           <Link href="/blog" style={linkStyle}>Blog</Link>
@@ -48,12 +61,7 @@ export default function Nav() {
       </div>
 
       {/* Mobile visible nav row */}
-      <div className="md:hidden" style={{
-        display: 'flex', alignItems: 'center', justifyContent: 'space-around',
-        padding: '0 12px 10px',
-        borderTop: '1px solid rgba(201,150,58,0.08)',
-        paddingTop: '10px',
-      }}>
+      <div className="nav-mobile-row">
         <Link href="/cities" style={mobileLinkStyle}>Cities</Link>
         <Link href="/blog" style={mobileLinkStyle}>Blog</Link>
         <Link href="/resources" style={mobileLinkStyle}>Resources</Link>
